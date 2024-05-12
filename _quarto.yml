@@ -6,6 +6,12 @@ website:
   page-navigation: true
   reader-mode: true
   open-graph: true
+  cookie-consent:
+    type: express
+    style: headline
+    palette: dark
+    language: "fr"
+  back-to-top-navigation: true
   favicon: "images/site icone.png"
   search:
     location: navbar
