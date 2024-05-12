@@ -2,9 +2,8 @@ project:
   type: website
 
 website:
-  title: "POO en Python by MCL"
+  title: "POO en Python"
   page-navigation: true
-  reader-mode: true
   open-graph: true
   cookie-consent:
     type: express
@@ -19,13 +18,33 @@ website:
     type: textbox
   navbar:
     left:
-      - href: index.qmd
+      - href: acceuil.qmd
         text: "🏠Acceuil"
       - href: cours.qmd
         text: "📝Cours"
       - href: about.qmd
         text: "🙋🏻‍♀️À Propos"
-
+  sidebar:
+    background: "#F5F5F5"
+    style: docked
+    search: true
+    logo: "images/python logo.png"
+    tools:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/menyssacherifaluron/
+      - icon: github
+        menu:
+          - text: Code Source
+            href: https://github.com/universdesdonnees/poo_en_python
+          - text: Signaler Un Bug
+            href: https://github.com/universdesdonnees/poo_en_python/issues
+    contents:
+      - href: acceuil.qmd
+        text: "🏠Acceuil"
+      - href: cours.qmd
+        text: "📝Cours"
+      - href: about.qmd
+        text: "🙋🏻‍♀️À Propos"
   page-footer:
     background: light
     left: "CC BY-NC 4.0 DEED
@@ -34,18 +53,17 @@ Attribution - Pas d’Utilisation Commerciale 4.0 International
 
 format:
   html:
-    code-tools: true
     highlight-style: oblivion
     email-obfuscation: javascript
     link-external-newwindow: true
     link-external-icon: true
     link-external-filter: ^(?:http:|https:)\/\/(?:lse-dsi\.github\.io\/|localhost)
-
     theme:
       light: 
         - lux
-        - css/custom.scss 
-
+        - css/custom.scss
+    code-fold: false
+    code-overflow: wrap
     css: 
       - css/custom_style.css
       - css/syllabus.css

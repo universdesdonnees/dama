@@ -1,11 +1,14 @@
-## 🙋🏻‍♀️ Qui suis-je ?
-
+---
+title: 🙋🏻‍♀️ Qui suis-je ?
+---
 Salut, 👋 moi, c'est **Ményssa Cherifa-Luron (MCL)**, Data scientist et Formatrice freelance.
 
 <div style="display: flex; align-items: center;">
   <img src="images/Linkedin MCL.png" alt="Ma photo" style="width: 100px; margin-right: 20px;">
   <p>Je suis passionnée par la transformation des données ennuyeuses en histoires captivantes – un peu comme un chef qui transforme des pois chiches en steak !</p>
 </div>
+
+<br>
 
 ## 👩‍💻 Mon parcours
 - Doctorat en Data Science

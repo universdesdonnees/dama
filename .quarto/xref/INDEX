@@ -13,5 +13,14 @@
   },
   "README.MD": {
     "README.html": "595ccae7"
+  },
+  "acceuil.qmd": {
+    "acceuil.html": "9b420873"
+  },
+  "cours/cours.qmd": {
+    "cours.html": "e285590a"
+  },
+  "cours/module1.qmd": {
+    "module1.html": "1150f45d"
   }
 }
