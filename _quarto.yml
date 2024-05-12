@@ -21,7 +21,9 @@ website:
 
   page-footer:
     background: light
-    left: "Copyright © 2024 Ményssa Cherifa-Luron. Tous droits réservés" 
+    left: "CC BY-NC 4.0 DEED
+Attribution - Pas d’Utilisation Commerciale 4.0 International
+ © 2024 Ményssa Cherifa-Luron." 
 
 format:
   html:
