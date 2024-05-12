@@ -11,6 +11,7 @@ website:
     style: headline
     palette: dark
     language: "fr"
+  google-analytics: "G-QTG3TJ9SJQ"
   back-to-top-navigation: true
   favicon: "images/site icone.png"
   search:
