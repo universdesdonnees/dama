@@ -1,26 +1,26 @@
 {
   "about.qmd": {
-    "about.html": "0d91b28b"
-  },
-  "index.qmd": {
-    "index.html": "09513d59"
-  },
-  "cours.qmd": {
-    "cours.html": "10503a9e"
-  },
-  "LICENSE-CC-BY-NC-ND-4.0.md": {
-    "LICENSE-CC-BY-NC-ND-4.0.html": "6f667d11"
-  },
-  "README.MD": {
-    "README.html": "595ccae7"
+    "about.html": "98d9c6ab"
   },
   "acceuil.qmd": {
-    "acceuil.html": "9b420873"
+    "acceuil.html": "ccc5e227"
   },
   "cours/cours.qmd": {
-    "cours.html": "e285590a"
+    "cours.html": "96a73f4d"
   },
   "cours/module1.qmd": {
-    "module1.html": "1150f45d"
+    "module1.html": "bd981f56"
+  },
+  "cours.qmd": {
+    "cours.html": "623314df"
+  },
+  "LICENSE-CC-BY-NC-ND-4.0.md": {
+    "LICENSE-CC-BY-NC-ND-4.0.html": "d54beabc"
+  },
+  "README.MD": {
+    "README.html": "8e72c0da"
+  },
+  "index.qmd": {
+    "index.html": "ece0dde1"
   }
 }

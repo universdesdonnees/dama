@@ -12,15 +12,15 @@ website:
     language: "fr"
   google-analytics: "G-QTG3TJ9SJQ"
   back-to-top-navigation: true
-  favicon: "images/site icone.png"
+  favicon: "images/python logo.png"
   search:
     location: navbar
     type: textbox
   navbar:
     left:
-      - href: acceuil.qmd
+      - href: index.qmd
         text: "🏠Acceuil"
-      - href: cours.qmd
+      - href: cours/module1.qmd
         text: "📝Cours"
       - href: about.qmd
         text: "🙋🏻‍♀️À Propos"
@@ -39,9 +39,9 @@ website:
           - text: Signaler Un Bug
             href: https://github.com/universdesdonnees/poo_en_python/issues
     contents:
-      - href: acceuil.qmd
+      - href: index.qmd
         text: "🏠Acceuil"
-      - href: cours.qmd
+      - href: cours/module1.qmd
         text: "📝Cours"
       - href: about.qmd
         text: "🙋🏻‍♀️À Propos"

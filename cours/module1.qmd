@@ -1,5 +1,10 @@
-## 1. Introduction  
+---
+title: "🗓️ Module 1"
+subtitle: "Contexte et notions élémentaires"
+format: html
+---
 
+## 1. Introduction  
 La Programmation Orientée Objet (POO), c'est la base de la base, le flow de la programmation !
 
 En POO, **une classe c'est comme un moule à objets**, une représentation qui définit les caractéristiques et les comportements des entités du même type.
@@ -9,7 +14,7 @@ Et un **objet** ? **C'est une instance unique créée à partir de ce moule**, c
 Tout comme un rappeur a ses propres caractéristiques (son flow, son style, ses punchlines...), **un objet a ses propres attributs (des variables) et méthodes (des fonctions).**
 
 <div style="text-align: center;">
-  <img src="images/car_class.png" alt="OOP car class" style="width: 400px;">
+  <img src="../images/car_class.png" alt="OOP car class" style="width: 400px;">
   <p><em> Fig 1. Imagine une voiture en tant que classe, avec des attributs principaux tels que le modèle, le prix, la couleur et l'année de construction. Tu peux créer autant d’objets que tu le souhaites à partir de la classe.</em></p>
 </div>
 
