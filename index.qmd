@@ -1,0 +1,71 @@
+---
+format:
+  html:
+    include-before-body: helpers/remove-nav.html
+    include-after-body: helpers/remove-title.html
+---
+
+## 🙋🏻‍♀️ Qui suis-je ?
+
+Salut, 👋 moi, c'est **Ményssa Cherifa-Luron (MCL)**, Data scientist et Formatrice freelance.
+
+<div style="display: flex; align-items: center;">
+  <img src="images/Linkedin MCL.png" alt="Ma photo" style="width: 100px; margin-right: 20px;">
+  <p>Je suis passionnée par la transformation des données ennuyeuses en histoires captivantes – un peu comme un chef qui transforme des pois chiches en steak !</p>
+</div>
+
+-----------------
+
+<a href="about.qmd">
+    <button class="button-61">En savoir plus ! 🚀</button>
+</a>
+
+-----------------
+
+## ⚡TL;DR 
+Objectif du cours : Te faire découvrir les concepts clés de la programmation orientée objet (POO) avec Python, de manière ludique et pratique, en utilisant des exemples concrets tirés de la vie de tous les jours.
+
+**Une série de carrousels sera disponible prochainement sur LinkedIn** : 
+
+```{=html}
+<iframe width="100%" height="800" src="pdf/Carroussel_poo1.pdf"></iframe>
+```
+
+**Ne loupe rien et viens me suivre sur LinkedIn** :
+
+-----------------
+
+<a href="https://www.linkedin.com/in/menyssacherifaluron/">
+    <button class="button-61">Me suivre ! 🚀</button>
+</a>
+
+-----------------
+
+
+## 📑 Résumé du Cours
+
+Que tu sois débutant, intermédiaire ou avancé, ce cours te permettra de progresser en POO Python à ton rythme, avec des exemples concrets et des exercices adaptés. 
+
+Tu verras comment les concepts de POO s'appliquent aussi bien à la vie de tous les jours qu'à la data science.
+
+Alors prépare-toi  devenir un pro de la POO, que ce soit pour gérer ton crew de rap, analyser des donnés ou développer tes propres applications en data science.
+
+## 🔧 Méthode 
+
+Apprentissage par la pratique, à travers des exercices amusants basés sur des situations réelles.
+
+## 🎯 Objectifs 
+
+- Tu découvriras les principes fondamentaux de la POO : `classes`, `objets`, `attributs`, `méthodes` 
+- Tu apprendras à distinguer les notions d'**encapsulation**, d'**héritage** et de **polymorphisme**
+- Tu t'exerceras  créer tes propres classes inspirées d'exemples du quotidien : musique, smartphone, voiture,...
+- Tu sauras **instancier** des objets et interagir avec eux  
+- Tu comprendras comment la POO peut t'aider à **structurer tes projets de data science**
+
+-----------------
+
+<a href="cours.qmd">
+    <button class="button-61">Commencer le cours ! 🚀</button>
+</a>
+
+-----------------

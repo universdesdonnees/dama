@@ -1,0 +1,592 @@
+*"Yo les codeurs, prêts à devenir des OOP stars ? 🎤"*
+
+## 1. Introduction  
+
+La Programmation Orientée Objet (POO), c'est la base de la base, le flow de la programmation !
+
+En POO, **une classe c'est comme un moule à objets**, une représentation qui définit les caractéristiques et les comportements des entités du même type.
+
+Et un **objet** ? **C'est une instance unique créée à partir de ce moule**, comme un rappeur qui sort du lot !
+
+Tout comme un rappeur a ses propres caractéristiques (son flow, son style, ses punchlines...), **un objet a ses propres attributs (des variables) et méthodes (des fonctions).**
+
+<div style="text-align: center;">
+  <img src="images/car_class.png" alt="OOP car class" style="width: 400px;">
+  <p><em> Fig 1. Imagine une voiture en tant que classe, avec des attributs principaux tels que le modèle, le prix, la couleur et l'année de construction. Tu peux créer autant d’objets que tu le souhaites à partir de la classe.</em></p>
+</div>
+
+En Python, tout est objet, même les classes ! C'est dire si ça a de la classe.
+
+Pour accéder aux attributs d'un objet, on utilise la notation **"dot"**, comme quand on dit *"tel rappeur.son flow"*, tu vois le style ?
+
+Et pour créer une instance à partir d'une classe, c'est comme si tu lançais un nouveau rappeur dans le game ! Tu utilises le constructeur de la classe.
+
+Bref, la POO c'est le swag de la programmation ! Ça structure ton code comme un bon album, avec chaque classe qui joue son rôle.
+
+Alors, t'es chaud pour devenir une OOP star ?
+On va coder ça comme jamais ! 
+
+## 2 - La POO pour les MC's : Les avantages du flow
+
+Les avantages de ce style de programmation, c'est comme les atouts d'un bon rappeur :
+
+> **Un flow réutilisable et partageable 🎤**
+Avec la POO, ton code est comme un bon couplet : 
+Tu peux le réutiliser et le partager sans tout réécrire à chaque fois !
+
+> **Une sécurité renforcée 🔒**
+La POO, c'est comme un bon contrat de label : 
+Tu protèges tes données sensibles pour éviter les leaks !
+
+> **Un debugging facilité 🐛**
+Avec la POO, quand y'a un bug, c'est comme chercher la fausse note : 
+Tu sais direct dans quelle mesure chercher !
+
+> **Une flexibilité de ouf 🚀**
+La POO, c'est comme un featuring qui déchire : 
+Tu peux réutiliser les talents de plusieurs classes sans réinventer la roue !
+
+**Les mots clés de la POO**, c'est comme le flow, les punchlines, les phases et les mesures pour un rappeur : 
+**Classe, Objet, Méthodes et Attributs, c'est les bases pour rapper de la bonne POO !**
+
+Et les **4 concepts fondamentaux**, c'est comme les 4 éléments du hip-hop :
+
+1. **Héritage**
+
+2. **Encapsulation**
+
+3. **Polymorphisme** 
+
+4. **Abstraction**
+
+C'est ce qui fait toute la richesse de la POO !
+
+::: {.callout-important collapse=false}
+## À Retenir
+
+En somme, la POO, c'est plus modulaire qu'un beat et plus réutilisable qu'un sample. Elle permet :
+<ul>
+    <li>Modularité et réutilisabilité du code</li>
+     <li>Facilité de maintenance et d'évolution du code</li>
+     <li>Représentation naturelle des concepts du monde réel</li>
+</ul>
+:::
+
+## 3. Classe = Moule à objets
+
+**Une classe, c'est comme un moule à gâteau en forme de rappeur** :
+
+Elle définit les caractéristiques et les comportements - comme un rappeur a son style, son flow, ses punchlines.
+
+Concrètement, une classe c'est un *blueprint*, un modèle qui va servir à créer des objets.
+
+C'est un peu comme un label de musique qui a son identité et qui va signer des artistes qui correspondent à son style.
+
+**Quand tu crées un objet à partir de cette classe, on dit que tu crées une instance**. 
+
+> Une instance est un exemplaire unique de cette classe !
+
+Un peu comme un rappeur signé sur le label, qui a son style propre tout en s'inscrivant dans l'identité du label.
+
+Et le gros avantage, c'est que **tu peux créer autant d'instances que tu veux à partir de la même classe** !
+
+C'est comme si ton label pouvait signer des dizaines de rappeurs qui ont chacun leur personnalité mais qui représentent tous l'esprit du label.
+
+Bref, les classes c'est la base de la POO et c'est ce qui va te permettre de structurer ton code de façon claire et réutilisable.
+
+```{python}
+# Définition basique de la classe Rappeur
+class Rappeur: 
+    pass
+
+# Définition de l'instance unique menyssa
+menyssa = Rappeur()  
+
+# menyssa est bien un objet Rappeur
+type(menyssa) 
+```
+
+::: {.callout-caution}
+### Le terme `__main__` 
+
+Le terme `__main__` dans Python a une signification spéciale. Il fait référence au nom de l'espace de noms (ou du "scope") dans lequel le script courant est exécuté. 
+
+C'est une manière pour Python de savoir si le fichier actuel est exécuté comme script principal ou s'il est importé à partir d'un autre fichier.*
+
+:::
+
+## 4. Constructeur : `__init__` et  `self`, les kickstarts de l'instanciation
+Le constructeur `__init__` est **appelé automatiquement quand tu crées une nouvelle instance de ta classe.**
+
+Son rôle ? 
+
+**Initialiser les attributs de ton objet**, comme un Directeur Artistique (DA) qui définirait le style et l'image de son artiste.
+
+Et `self` dans tout ça ? **C'est le rappeur lui-même !** 
+
+Dans une méthode, `self` fait référence à l'instance courante de la classe. **C'est grâce à lui que tu peux accéder aux attributs et méthodes de ton objet.**
+
+Quand tu appelles une méthode sur une instance, Python passe automatiquement cette instance en premier argument. 
+C'est pour ça que tu retrouves `self` partout !
+
+::: {.callout-important collapse=false}
+## À Retenir
+
+<code>__init__ et self</code>, permettent de construire et de faire vivre tes objets, comme un DA et son rappeur qui créent ensemble un personnage unique. :
+<ul>
+  <li><code>__init__</code> est le constructeur qui initialise les attributs</li>
+  <li><code>self</code> représente l'instance courante dans les méthodes</li>
+  <li> Ensemble, ils donnent vie à tes objets et leur permettent d'interagir avec le monde !</li>
+</ul>
+:::
+
+## 5. Attributs : les caractères qui font un bon rappeur
+
+Les attributs en POO, c'est comme les caractéristiques qui définissent un bon rappeur. 
+
+Par exemple pour chaque rappeur on peut lui attribué les caractéristiques suivantes : 
+
+1. **Le flow (self.flow)** : c'est son débit, sa manière de rapper. Ça peut être smooth, agressif, technique... C'est ce qui fait son style unique.
+
+2. **Le nombre d'albums (self.nb_albums)** : ça montre son expérience, comme le nombre de projets sur GitHub pour un dev. Plus t'en as, plus t'es respecté !
+
+3. **Les featuring (self.featurings)** : c'est les collab avec d'autres artistes. Comme quand tu fais du pair programming ou que tu participes à un projet open source.
+
+Voici comment déclarer ces attributs dans notre classe "Rappeur" 
+
+```{python}
+# Définition de la classe Rappeur 
+class Rappeur:
+    # Constructeur de la classe avec les attributs
+    def __init__(self, nom, flow, nb_albums, featurings):
+        self.nom = nom              # Nom du rappeur
+        self.flow = flow            # Style de flow musical du rappeur
+        self.nb_albums = nb_albums  # Nombre total d'albums produits
+        self.featurings = featurings  # Liste des artistes avec lesquels il a collaboré
+
+# Création des instances de la classe Rappeur pour Booba, Vald et Niska.
+# Chaque instance est créée avec des détails spécifiques au rappeur.
+booba = Rappeur(nom="Booba", 
+                flow="Agressif et technique",                
+                nb_albums=10,
+                featurings=["Kaaris", "Damso", "Gato"])
+
+vald = Rappeur(nom="Vald",
+               flow="Sombre et introspectif",
+               nb_albums=6,
+               featurings=["Suikon Blaz AD", "Damso"])
+
+niska = Rappeur(nom="Niska", 
+                flow="Mélodique et festif", 
+                nb_albums=4, 
+                featurings=["Booba", "SCH", "Hamza"])
+
+# Ici, on affiche le nombre d'albums produits par Niska et le style de Booba.
+print(f"Niska a produit {niska.nb_albums} albums et \n"
+      f"le flow de Booba est : {booba.flow}")
+
+# Ici, on affiche le flow de vald et son nombre d'album.
+print(f"\nVald a produit {vald.nb_albums} albums et son flow est {vald.flow.lower()}")
+```
+
+## 6. Méthodes : les skills qui font un bon MC
+
+Les méthodes, c'est ce qui permet à tes objets d'agir, d'interagir et de se démarquer. 
+
+Une méthode peut être :
+
+- Un flow "getter" pour récupérer des infos (`get_punchline()`)
+- Un flow "setter" pour modifier l'état (`set_style(new_style)`) 
+- Un flow "calculateur" pour traiter des données (`calculer_nb_albums()`)
+- Ou même un flow "abstract" pour définir un comportement général (`rapper()`)
+
+Les méthodes, c'est aussi ce qui permet à tes objets de communiquer entre eux. 
+Un peu comme des featuring entre rappeurs !
+
+```{python}
+# Importation du module random
+import random
+
+# Définition de la classe Rappeur
+class Rappeur:
+    # Constructeur de la classe avec les attributs nécessaires pour définir un rappeur
+    def __init__(self, nom, flow, nb_albums, featurings, punchlines):
+        self.nom = nom              
+        self.flow = flow            
+        self.nb_albums = nb_albums  
+        self.featurings = featurings  
+        self.punchlines = punchlines  # Liste des punchlines célèbres du rappeur
+    
+    # Méthode pour afficher une punchline au hasard
+    def balancer_punchline(self):
+        # Utilisation de random.choice pour sélectionner et afficher une punchline aléatoire de la liste
+        print(f"{self.nom} balance : {random.choice(self.punchlines)}")
+
+# Création d'une instance Booba
+booba = Rappeur(nom="Booba", 
+                flow="Agressif et technique",                
+                nb_albums=10,
+                featurings=["Kaaris", "Damso", "Gato"],
+                punchlines=["92i", "Pitbull", "Kalash"])
+
+# Appel de la méthode balancer_punchline pour afficher une punchline de Booba tirée au hasard
+booba.balancer_punchline()
+```
+
+Maintenant allons un peu plus long et imaginons un clash entre rappeurs (*hihihi!*)
+
+```{python}
+import random  # Importation nécessaire pour utiliser random.choice
+
+class Rappeur:
+    def __init__(self, nom, flow, nb_albums, featurings, punchlines):
+        self.nom = nom  
+        self.flow = flow  
+        self.nb_albums = nb_albums  
+        self.featurings = featurings  
+        self.punchlines = punchlines  
+
+
+    def balancer_punchline(self):
+        print(f"{self.nom} balance : {random.choice(self.punchlines)}")
+
+    # Méthode permettant à un rappeur de clasher un autre rappeur 
+    # en utilisant la première punchline de sa liste
+    def clasher(self, autre_rappeur):
+        print(f"{self.nom} clash {autre_rappeur.nom} : {self.punchlines[0]}")
+        
+    # Méthode permettant à un rappeur de répondre à un 
+    # clash avec une punchline spécifique
+    def repondre(self, autre_rappeur, punchline):
+        print(f"{self.nom} répond à {autre_rappeur.nom} : {punchline}")
+
+# Création des instances pour Booba et Kaaris
+booba = Rappeur(nom="Booba", 
+                flow="Agressif et technique",                
+                nb_albums=10,
+                featurings=["Kaaris", "Damso", "Gato"],
+                punchlines=["T'es qu'un fils de...", "J'vais t'faire une Kalash en live"])        
+
+kaaris = Rappeur(nom="Kaaris",
+                 flow="Aggressif et sombre",
+                 nb_albums=8,
+                 featurings=["Gazo", "Kalash Criminel", "Hamza"],
+                 punchlines=["J'vais t'faire danser la Zumba", "T'es même pas un vrai MC"])
+
+# Simulation d'un clash entre Booba et Kaaris
+booba.clasher(kaaris)
+kaaris.repondre(booba, "T'es qu'un tocard !")
+booba.repondre(kaaris, "TG ! J'suis le DUC !")
+```
+
+La puissance des attributs et des méthodes résident dans l'intéraction de tes objets de manière intuitive et ***stylée.***
+
+::: {.callout-important collapse=false}
+## À Retenir
+
+les attributs et méthodes c'est ce qui donne vie à tes objets et leur permet de briller sur la scène de ton programme !
+
+Alors pour créer des méthodes qui claquent, suis ces tips :
+<ul>
+  <li>Donne-leur un nom explicite qui décrit bien leur rôle</li>
+  <li>Utilise le `self` pour accéder aux attributs et autres méthodes de l'objet</li>
+  <li>Sépare bien les responsabilités : une méthode = une tâche précise</li>
+  <li>Documente-les avec des docstrings pour expliquer ce qu'elles font</li>
+  <li>La PEP 8 est ton ami !</li>
+</ul>
+:::
+
+::: {.callout-tip}
+### Focus : PEP8 et Annotation de type 
+
+Voici la même classe avec le **code PEP 8 friendly** et  les annotations de type
+```{python}
+from typing import List # annoter les attributs featurings et punchlines.
+import random
+class Rappeur:
+    """Classe définissant un rappeur caractérisé par son nom, style de flow, nombre 
+    d'albums, collaborations et punchlines.
+    """
+    def __init__(self, nom: str, flow: str, nb_albums: int, featurings: List[str], 
+                 punchlines: List[str]):
+        self.nom: str = nom
+        self.flow: str = flow
+        self.nb_albums: int = nb_albums
+        self.featurings: List[str] = featurings
+        self.punchlines: List[str] = punchlines
+
+    def balancer_punchline(self) -> None:
+        """Affiche une punchline aléatoire du rappeur."""
+        punchline: str = random.choice(self.punchlines)
+        print(f"{self.nom} balance : {punchline}")
+
+    def clasher(self, autre_rappeur: 'Rappeur') -> None:
+        """Permet au rappeur de clasher un autre rappeur en utilisant la première 
+        punchline de sa liste.
+        """
+        print(f"{self.nom} clash {autre_rappeur.nom} : {self.punchlines[0]}")
+        
+    def repondre(self, autre_rappeur: 'Rappeur', punchline: str) -> None:
+        """Permet au rappeur de répondre à un clash avec une punchline spécifique."""
+        print(f"{self.nom} répond à {autre_rappeur.nom} : {punchline}")
+
+# Création d'instances pour Booba et Kaaris avec typage explicite
+booba = Rappeur(
+    nom="Booba", 
+    flow="Agressif et technique",                
+    nb_albums=10,
+    featurings=["Kaaris", "Damso", "Gato"],
+    punchlines=["T'es qu'un fils de...", "J'vais t'faire une Kalash en live"]
+)        
+
+kaaris = Rappeur(
+    nom="Kaaris",
+    flow="Aggressif et sombre",
+    nb_albums=8,
+    featurings=["Gazo", "Kalash Criminel", "Hamza"],
+    punchlines=["J'vais t'faire danser la Zumba", "T'es même pas un vrai MC"]
+)
+
+# Simulation d'un clash et réponses entre Booba et Kaaris
+booba.clasher(kaaris)
+kaaris.repondre(booba, "T'es qu'un tocard !")
+booba.repondre(kaaris, "TG ! J'suis le DUC !")
+```
+:::
+
+## 7. Modifier les attributs d'un Rappeur
+
+C'est essentiel pour gérer les interactions entre objets, contrôler l'accès aux données et rendre le code plus lisible, comme un rappeur qui adapte son flow à différents beats pour créer des sons uniques et puissants. 🎤💪
+
+Comme vu précédemment, pour chaque instance de `Rappeur`, tu peux accéder à ses attributs directement 
+
+```{python}
+print(booba.nom)  
+print(booba.flow) 
+```
+Pour modifier les attributs, tu assignes simplement une nouvelle valeur. 
+
+Par exemple, si tu veux changer le flow de Booba 
+
+```{python}
+booba.flow = "Lyrique et complexe"
+print(booba.flow)
+```
+
+Si tu veux changer une punchline spécifique ou en ajouter une nouvelle 
+```{python}
+booba.punchlines[0] = "Nouvelle punchline plus forte"
+booba.punchlines.append("Tout le monde sait que j'suis le meilleur")  
+```
+
+Il est souvent *plus* judicieux de contrôler la modification des attributs via des méthodes au lieu de les modifier directement. Cela offre une meilleure **encapsulation** (notion que nous verrons après). 
+
+Tu pourrais ajouter une méthode comme `changer_flow()` directement dans ta classe Rappeur
+
+```{python}
+from typing import List
+import random
+
+class Rappeur:
+    """Classe définissant un rappeur caractérisé par son nom, style de flow, nombre 
+    d'albums, collaborations et punchlines.
+    """
+    def __init__(self, nom: str, flow: str, nb_albums: int, featurings: List[str], 
+                 punchlines: List[str]):
+        self.nom: str = nom
+        self.flow: str = flow
+        self.nb_albums: int = nb_albums
+        self.featurings: List[str] = featurings
+        self.punchlines: List[str] = punchlines
+
+    def balancer_punchline(self) -> None:
+        """Affiche une punchline aléatoire du rappeur."""
+        punchline: str = random.choice(self.punchlines)
+        print(f"{self.nom} balance : {punchline}")
+
+    def clasher(self, autre_rappeur: 'Rappeur') -> None:
+        """Permet au rappeur de clasher un autre rappeur en utilisant la première 
+        punchline de sa liste.
+        """
+        print(f"{self.nom} clash {autre_rappeur.nom} : {self.punchlines[0]}")
+        
+    def repondre(self, autre_rappeur: 'Rappeur', punchline: str) -> None:
+        """Permet au rappeur de répondre à un clash avec une punchline spécifique."""
+        print(f"{self.nom} répond à {autre_rappeur.nom} : {punchline}")
+
+    def changer_flow(self, nouveau_flow: str) -> None:
+        """Change le flow du rappeur."""
+        self.flow = nouveau_flow
+
+# Création de l'instance de Booba
+booba = Rappeur(
+    nom="Booba", 
+    flow="Agressif et technique",                
+    nb_albums=10,
+    featurings=["Kaaris", "Damso", "Gato"],
+    punchlines=["T'es qu'un fils de...", "J'vais t'faire une Kalash en live"]
+)
+
+# Affichage du flow avant la modification
+print("Flow avant : ", booba.flow)
+
+# Modification du flow
+booba.changer_flow("Poétique et introspectif")
+
+# Affichage du flow après la modification
+print("Flow après : ", booba.flow)
+```
+
+::: {.callout-caution}
+### Toute variable n'est pas un attribut
+
+L'attribut nouveau_flow n'était pas nécessaire dans le constructeur de la classe. Pour changer le flow, il est plus approprié d'utiliser une méthode dédiée. 
+
+Explication : Le constructeur d'une classe est généralement utilisé pour initialiser les attributs qui définissent l'état de base d'une instance. nouveau_flow est plus une action ponctuelle qu'un attribut d'état permanent de l'objet. Avoir un attribut initial pour flow est logique car il décrit une propriété de l'instance de Rappeur. En revanche, nouveau_flow ressemble plus à une valeur temporaire utilisée pour modifier flow.*
+:::
+
+En suivant ces étapes, tu peux efficacement gérer et mettre à jour les attributs de tes instances de `Rappeur`, ce qui te permet de maintenir ton code organisé et tes données à jour.
+
+Voilà les gars, vous savez maintenant comment gérer les attributs de vos rappeurs comme des pros ! 
+
+Maintenant TIME TO PRACTICE ! 💪
+
+## Exercices 
+
+Je t'ai concocté une série d'exercices passionnants 🌟 qui te permettront non seulement de créer de nouvelles classes, mais aussi de (re)découvrir des notions essentielles de la programmation Python 🐍. 
+
+Ces exercices sont spécialement conçus pour booster ta compréhension des principes de la programmation orientée objet 🔄, tout en te donnant l'occasion de manipuler des attributs, de gérer des méthodes, et d'explorer des interactions complexes entre objets. 
+
+Bonne courage et surtout, prends du plaisir en codant ! 🚀✨
+
+### 1 - Facile : Création de la classe `Rappeur`
+#### Énoncé
+Crée une classe `Rappeur` avec les attributs suivants :
+* `nom` : le nom du rappeur.
+* `flow` : une description du style de flow du rappeur.
+* `albums` : une liste des noms d'albums du rappeur.
+
+La classe doit aussi inclure une méthode `introduction()` qui affiche une phrase décrivant le rappeur et une méthode `sortir_album()` qui prend le nom d'un nouvel album et l'ajoute à la liste des albums.
+
+::: {.callout-tip}
+## Conseil
+Pour la méthode sortir_album(), assure-toi de vérifier que l'album n'est pas déjà dans la liste avant de l'ajouter. Cela évitera les doublons dans la discographie du rappeur.
+:::
+
+### 2 - Facile : La Bibliothèque 
+#### Énoncé
+Crée une classe `Livre` avec les attributs suivants :
+* `titre` : le titre du livre.
+* `auteur` : l'auteur du livre.
+
+La classe doit inclure des méthodes pour :
+* Définir un premier livre numérique et afficher ses informations.
+* Mettre à jour le titre et l'auteur d'un livre.
+* Afficher les détails d'un livre.
+
+::: {.callout-tip}
+## Conseil
+Lorsque tu modifies les attributs d'un livre, pense à utiliser des méthodes de getter et de setter. Cela te permet de contrôler comment les attributs sont mis à jour et de valider les données si nécessaire.
+:::
+
+### 3 - Facile : Compte bancaire
+#### Énoncé
+Crée une classe `Account` avec les attributs suivants :
+* `solde` : le solde initial du compte.
+
+La classe doit inclure des méthodes pour :
+* Déposer des fonds sur le compte.
+* Retirer des fonds du compte.
+* Appliquer un taux d'intérêt au solde du compte.
+
+::: {.callout-tip}
+## Conseil
+Teste scrupuleusement les méthodes de dépôt et de retrait pour gérer correctement les scénarios où le compte pourrait devenir négatif. Ajoute des conditions pour empêcher le retrait de fonds supérieurs au solde disponible.
+:::
+
+### 4 - Intermédiaire : Conseiller financier 
+#### Énoncé
+Crée une classe `CompteBancaire` avec les attributs suivants :
+* `identifiant` : l'identifiant du compte.
+* `nom_proprietaire` : le nom du propriétaire du compte.
+* `solde` : le solde initial du compte.
+
+La classe doit inclure des méthodes pour :
+* Gérer les dépôts et les retraits, en appliquant des agios en cas de découvert.
+* Afficher tous les détails du compte.
+
+::: {.callout-tip}
+## Conseil
+ Pour gérer les découverts, envisage d'ajouter un attribut qui définit un découvert maximum autorisé. Cela rendra la gestion du compte plus flexible et réaliste.
+:::
+
+### 5 - Intermédiaire : Gestion des Featurings
+#### Énoncé
+Améliore la classe `Rappeur` pour inclure un attribut `collaborations`, qui est une liste de tuples. Chaque tuple contient le nom d'un autre rappeur et le titre de la chanson sur laquelle ils ont collaboré.
+
+La classe doit inclure des méthodes pour :
+* Ajouter une collaboration à la liste des collaborations.
+* Afficher toutes les collaborations du rappeur.
+
+::: {.callout-tip}
+## Conseil
+Quand tu ajoutes des collaborations, assure-toi de vérifier si la collaboration existe déjà pour éviter les entrées en double. Cela peut être fait en vérifiant si le tuple (rappeur, titre de la chanson) est déjà dans la liste des collaborations.
+:::
+
+### 6 - Difficile : Tournoi de Bataille
+#### Énoncé
+Crée une classe `Carte` avec les attributs suivants :
+* `valeur` : la valeur de la carte.
+* `nom` : le nom de la carte.
+
+Crée une classe `Paquet` avec les attributs suivants :
+* `cartes` : la liste des cartes du paquet.
+
+La classe `Paquet` doit inclure des méthodes pour :
+* Mélanger le paquet de cartes.
+* Distribuer les cartes équitablement entre les joueurs.
+
+Crée une classe `Joueur` avec les attributs suivants :
+* `main` : la main du joueur.
+
+La classe `Joueur` doit inclure des méthodes pour :
+* Préparer la main du joueur pour la bataille.
+
+Crée une classe `Tournoi` avec les attributs suivants :
+* `joueurs` : la liste des joueurs participants.
+
+La classe `Tournoi` doit inclure des méthodes pour :
+* Dérouler la bataille entre les joueurs.
+* Déclarer le gagnant du tournoi.
+
+::: {.callout-tip}
+## Conseil
+Pour la distribution des cartes, assure-toi que le mélange soit complet avant de distribuer les cartes afin d'assurer l'équité du jeu. Utilise des méthodes robustes pour gérer les égalités et les cas spéciaux où plusieurs tours de cartes sont nécessaires.
+:::
+
+### 7 - Difficile : Battle de Rap
+#### Énoncé
+Crée une classe `Battle` avec les attributs suivants :
+* `rappeur1` : le premier rappeur participant.
+* `rappeur2` : le deuxième rappeur participant.
+
+La classe `Battle` doit inclure des méthodes pour :
+* Faire s'affronter les deux rappeurs en affichant leurs punchlines et déterminer le gagnant.
+* Afficher le gagnant de la bataille et sa punchline gagnante.
+
+**Bonus** : Implémente une méthode `juger_punchline(punchline)` dans la classe `Rappeur` qui attribue un score à une punchline basé sur des critères comme la rime, le nombre de syllabes, ou d'autres aspects stylistiques que tu juges importants.
+
+::: {.callout-tip}
+## Conseil
+Dans la méthode `juger_punchline(punchline)`, considère d'utiliser des techniques d'analyse de texte pour évaluer les punchlines, comme compter les syllabes ou utiliser des expressions régulières pour identifier les rimes et autres figures de style.
+:::
+
+## Correction 
+
+La correction sera disponible prochainement ;)
+
+N'hésite pas à prendre rdv si tu es bloqué : 
+
+<a href="https://cal.com/menyssa.cherifa-luron/1h">
+    <button class="button-61">Prendre RDV ! 🚀</button>
+</a>

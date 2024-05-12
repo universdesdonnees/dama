@@ -1,0 +1,39 @@
+## 🙋🏻‍♀️ Qui suis-je ?
+
+Salut, 👋 moi, c'est **Ményssa Cherifa-Luron (MCL)**, Data scientist et Formatrice freelance.
+
+<div style="display: flex; align-items: center;">
+  <img src="images/Linkedin MCL.png" alt="Ma photo" style="width: 100px; margin-right: 20px;">
+  <p>Je suis passionnée par la transformation des données ennuyeuses en histoires captivantes – un peu comme un chef qui transforme des pois chiches en steak !</p>
+</div>
+
+## 👩‍💻 Mon parcours
+- Doctorat en Data Science
+- 8 ans d'XP (Start-up, ONG, Grand Groupe) en Stats/ML/DL 
+- Formatrice 5 🌟 à l'[IA School](https://www.intelligence-artificielle-school.com/?gad_source=1&gclid=CjwKCAiA_aGuBhACEiwAly57Mb4r76ce4ltU5l6_uI_juVjOtmW4LvzS2X8xjInfn5bxq5NJFDpH6BoC4MoQAvD_BwE) et à L'[Université Paris Cité](https://u-paris.fr/)
+- Autrice sur des sujets comme R, SQL, et Python ➡️ [Mes livres](https://www.amazon.fr/s?i=stripbooks&rh=p_27%3AMenyssa+Cherifa-Luron&s=relevancerank&text=Menyssa+Cherifa-Luron&linkCode=ll2&tag=mcherifa21-21&linkId=bd1b178e56ff3df3999515f7d7414119&language=fr_FR&ref_=as_li_ss_tl)
+- LinkedIn `Top Data Science Voice`
+- Créatrice et autrice de la newsletter ['Smart'](https://www.linkedin.com/newsletters/7100158974640967680/), offrant des récits qui éclairent et inspirent.
+
+## 👩‍🏫 Mes autres cours 
+
+À l'IA School, j'ai créé et enseigné les cours suivants :
+
+- [R - Introduction](https://universdesdonnees.github.io/R-Introduction/cours/Cours.html)
+
+- [R - Shiny](https://universdesdonnees.github.io/R-Shiny/cours/cours.html)
+
+- [Python - Introduction](https://github.com/universdesdonnees/Python-Introduction)
+
+## 💬 Me contacter
+
+| 📩 Email | 👩‍💻 GitHub | 💼 LinkedIn |
+|----------|------------|-------------|
+| [cmenyssa@live.fr](mailto:cmenyssa@live.fr) | [@universdesdonnees](https://github.com/universdesdonnees) | [@Ményssa Cherifa-Luron](https://www.linkedin.com/in/menyssacherifaluron/) |
+
+
+<a href="cours.qmd">
+    <button class="button-61">Retourner au cours ! 🚀</button>
+</a>
+
+-----------------
