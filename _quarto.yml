@@ -58,6 +58,7 @@ Attribution - Pas d’Utilisation Commerciale 4.0 International
 
 format:
   html:
+    page-layout: full
     highlight-style: oblivion
     theme:
       light: 
