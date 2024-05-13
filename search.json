@@ -4,7 +4,49 @@
     "href": "README.html",
     "title": "POO en Python",
     "section": "",
-    "text": "https://creativecommons.org/licenses/by-nc/4.0/deed.fr\n\n\n\n Back to top"
+    "text": "Bienvenue sur mon site dédié à la programmation orientée objet (POO).Ce site vise à fournir des ressources complètes pour maîtriser les concepts et la mise en œuvre de la POO dans différents langages de programmation."
+  },
+  {
+    "objectID": "README.html#parcourir-les-leçons-site",
+    "href": "README.html#parcourir-les-leçons-site",
+    "title": "POO en Python",
+    "section": "👉 Parcourir les Leçons : Site 👈",
+    "text": "👉 Parcourir les Leçons : Site 👈\n\n✨Introduction à la POO :\n\n\n\nQu’est-ce que la POO ?\nAvantages de la POO\nPrincipaux concepts (classes, objets, héritage, etc.) :\n\n\n✨Implémentation : Python\n✨Conception orientée objet\n\n\nPrincipes de conception (SOLID, etc.)\nModélisation UML\nPatrons de conception\n\n\n✨Bonnes pratiques et cas d’utilisation :\n\n\n\nProgrammation orientée objet dans les projets\n\nDéveloppement de logiciels d’entreprise\n\nExemples de code et exercices"
+  },
+  {
+    "objectID": "README.html#pré-requis",
+    "href": "README.html#pré-requis",
+    "title": "POO en Python",
+    "section": "Pré-requis",
+    "text": "Pré-requis\n\nConnaissances requises\n\nConcepts de base de la programmation (variables, structures de contrôle, etc.)\nConnaissance d’au moins un langage de programmation\n\n\n\nOutils recommandés\n\nUn environnement de développement intégré (IDE) adapté au(x) langage(s) étudié(s)\nAccès à Internet pour les ressources en ligne"
+  },
+  {
+    "objectID": "README.html#ressources-complémentaires",
+    "href": "README.html#ressources-complémentaires",
+    "title": "POO en Python",
+    "section": "Ressources complémentaires",
+    "text": "Ressources complémentaires\nDes exercices pratiques, des exemples de code et d’autres ressources complémentaires seront fournis pour chaque leçon afin de renforcer l’apprentissage."
+  },
+  {
+    "objectID": "README.html#comment-utiliser-ce-site",
+    "href": "README.html#comment-utiliser-ce-site",
+    "title": "POO en Python",
+    "section": "Comment utiliser ce site",
+    "text": "Comment utiliser ce site\n\nParcourez les différentes sections pour découvrir les concepts de la POO.\nConsultez les ressources fournies (tutoriels, exemples de code, exercices).\nN’hésitez pas à poser des questions ou à partager vos commentaires."
+  },
+  {
+    "objectID": "README.html#contact",
+    "href": "README.html#contact",
+    "title": "POO en Python",
+    "section": "Contact",
+    "text": "Contact\nPour toute question ou suggestion, vous pouvez me contacter via :\n\nLinkedIn\nMail"
+  },
+  {
+    "objectID": "README.html#licence",
+    "href": "README.html#licence",
+    "title": "POO en Python",
+    "section": "Licence",
+    "text": "Licence\nLa licence CC BY-NC 4.0 vous permet de :\nPartager : Copier, distribuer et communiquer le matériel par tous moyens et sous tous formats. Adapter : Remixer, transformer et créer à partir du matériel. Cependant, vous devez respecter les conditions suivantes :\nAttribution : Vous devez créditer l’Œuvre d’origine, intégrer un lien vers la licence et indiquer si des modifications ont été effectuées. Ces informations doivent être fournies par tous les moyens raisonnables, sans suggérer que l’auteur original vous soutient ou soutient la façon dont vous avez utilisé son Œuvre. Pas d’Utilisation Commerciale : Vous n’êtes pas autorisé à faire un usage commercial de cette Œuvre, en tout ou partie. Pas de restrictions complémentaires : Vous n’êtes pas autorisé à appliquer des conditions légales ou des mesures techniques qui restreindraient légalement autrui à utiliser l’Œuvre dans les conditions décrites par la licence. Aucune garantie n’est donnée avec cette licence. Il se peut qu’elle ne vous donne pas toutes les permissions nécessaires pour votre utilisation, par exemple pour les droits moraux, le droit des données personnelles ou le droit à l’image.\nPour plus d’informations et pour consulter le texte complet de la licence, veuillez vous référer à l’URL suivante : https://creativecommons.org/licenses/by-nc/4.0/deed.fr https://creativecommons.org/licenses/by-nc/4.0/deed.fr"
   },
   {
     "objectID": "index.html",
@@ -50,15 +92,308 @@
     "crumbs": [
       "🏠Acceuil",
       "Modules",
-      "📝 Module 2"
+      "POO 2.📝 Module 2"
     ]
   },
   {
-    "objectID": "cours/index.html",
-    "href": "cours/index.html",
-    "title": "Organisation du cours",
+    "objectID": "cours/module0.html",
+    "href": "cours/module0.html",
+    "title": "Introduction à Python",
     "section": "",
-    "text": "📢 Les modules\n\n\n\n\n\n\nPour le moment 3 modules sont prévus pour ce cours.\nLes corrections se feront au fur et à mesure\nLa prise de RDV est possible sur la page A propos\n\n\n\n\n\n💻 Modules\n\nModule 1\n✅ Cours\n✅ Exercices\n⛔ Corrections\n\n\nModule 2\n⛔ Cours\n⛔ Exercices\n⛔ Corrections\n\n\nModule 3\n⛔ Cours\n⛔ Exercices\n⛔ Corrections\n\n\n\n\n\n Back to top"
+    "text": "Si tu as déjà des notions avancées en prog Python, passe directement au module suivant",
+    "crumbs": [
+      "🏠Acceuil",
+      "Modules",
+      "Introduction à Python - Rappels essentiels"
+    ]
+  },
+  {
+    "objectID": "cours/module0.html#les-variables",
+    "href": "cours/module0.html#les-variables",
+    "title": "Introduction à Python",
+    "section": "2.1. Les variables",
+    "text": "2.1. Les variables\nLes variables, c’est un peu comme des boîtes dans lesquelles tu peux ranger des trucs : des nombres, du texte, etc.\nPar exemple, si tu écris x = 10, tu crées une variable “x” qui contient la valeur 10. Easy !\nLe truc cool avec Python, c’est qu’il devine tout seul le type de données que tu mets dans la variable.\nC’est ce qu’on appelle le typage dynamique. Pratique, non ?\nQuelques règles de base à retenir sur les variables :\n\nPour donner une valeur à une variable, on utilise le signe égal (=). C’est l’affectation.\nTu peux écraser la valeur d’une variable en lui réaffectant une nouvelle valeur.\nAttention à la casse ! “maVariable” et “mavariable”, pour Python c’est pas pareil.\nTu peux afficher plusieurs variables d’un coup avec print() en les séparant par des virgules.\nTu peux affecter plusieurs valeurs à plusieurs variables sur une seule ligne. Stylé !\n\nPour les noms de variables, tu as le choix entre :\n\nla casse camel : monNomDeVariable\nla casse Pascal : MonNomDeVariable\nla casse serpent : mon_nom_de_variable\n\nÉvite juste de commencer les noms par des chiffres, d’utiliser des caractères spéciaux et de mélanger chiffres et lettres n’importe comment.\n\n# Affectation simple \nMa_variable =  10\nprint(Ma_variable)\n\n# Affectation de plusieurs valeurs\nx, y, z = \"Chocolat\", \"Vanille\", \"Fraise\"\n\nprint(x)\nprint(y)\nprint(z)\n\n# Affectation de la même valeur\nx = y = z = \"Chocolat\"\n\nprint(x)\nprint(y)\nprint(z)\n\n10\nChocolat\nVanille\nFraise\nChocolat\nChocolat\nChocolat\n\n\n\n2.1.1. Types de variables\nEn Python, chaque variable a un type bien précis. C’est un peu comme les groupes sanguin : A, B, AB ou O. Sauf qu’ici, on a :\n\nLes entiers (int) : pour les nombres sans virgule. Exemples : 5, -3, 0.\nLes nombres complexes (complex) : pour les maths de l’espace ! Exemple : 3 + 4j.\nLes flottants (float) : pour les nombres à virgule. Exemples : 3.14, -0.001.\nLes chaînes de caractères (str) : pour le texte, entouré de guillemets. Exemple : “Hello World!”\nLes booléens (bool) : pour les valeurs “vrai” (True) ou “faux” (False). Souvent le résultat de comparaisons.\n\nPourquoi c’est important de connaître le type d’une variable ? Parce que tu ne peux pas additionner des pommes et des poires ! Enfin si, mais ça donne une compote bizarre… 🍎+🍐=🤢\nPlus sérieusement, chaque type a ses propres opérations possibles. Tu peux multiplier deux int, concaténer deux str, mais pas l’inverse.\nAllez, un petit défi : devine le type des variables suivantes (réponse en commentaire) :\n\na = 42\nb = “42”\nc = 42.0\nd = True\ne = 2 + 3j\n\n\n# Afficher le type d'une variable\nbonjour = \"Hello\"\ntype(bonjour) \n\n# Définition de plusieurs variables \nnom = \"Alice\"\nage = 25       \ntaille = 1.70  \nestVrai = True \nestFaux = False \nprint(\"la variable nom est de type :\", type(nom))\nprint(\"la variable age est de type :\",type(age))\nprint(\"la variable taille est de type :\",type(taille))\nprint(\"la variable estVrai est de type :\",type(estVrai))\nprint(\"la variable estFaux est de type :\",type(estFaux))\n\nla variable nom est de type : &lt;class 'str'&gt;\nla variable age est de type : &lt;class 'int'&gt;\nla variable taille est de type : &lt;class 'float'&gt;\nla variable estVrai est de type : &lt;class 'bool'&gt;\nla variable estFaux est de type : &lt;class 'bool'&gt;\n\n\n\n\n2.1.2. Conversion de types\nLe casting, c’est un peu comme dans un film : tu prends un acteur (une valeur) et tu lui fais jouer un autre rôle (un autre type). 🎥\nEn Python, tu peux facilement convertir entre les types de base comme :\n\nLes entiers (int)\nLes chaînes de caractères (str)\nLes booléens (bool)\nLes flottants (float)\n\nVoici quelques exemples de casting en action :\n🎬 int ➡ str\n🎬 str ➡ int\n🎬 float ➡ int\n🎬 int ➡ bool\nMais attention aux pièges !\nToutes les conversions ne sont pas possibles, comme transformer un texte en nombre :\nprix = \"dix\" prix_int = int(prix)  # Erreur : ValueError\n\nConversion en Entier (int)\n\n\n# Depuis une chaîne de caractères :\nchaine = \"123\"\nnombre = int(chaine)  # Convertit la chaîne \"123\" en entier 123\n\n## Depuis un booléen :\nvrai = True\nentier = int(vrai)  # Convertit True en 1\n\n## Depuis un float :\nflottant = 9.99\nentier = int(flottant)  # Convertit 9.99 en 9 (troncature, pas d'arrondi)\n\n\nConversion en Chaîne de Caractères (str)\n\n\n## Depuis un entier ou un float :\nnombre = 123\nchaine = str(nombre)  # Convertit l'entier 123 en chaîne \"123\"\n\n## Depuis un booléen :\nfaux = False\nchaine = str(faux)  # Convertit False en \"False\"\n\n\nConversion en Booléen (bool)\n\n\n## Depuis une chaîne de caractères** :\nchaine = \"\"\nbooleen = bool(chaine)  # Convertit une chaîne vide en False\nchaine2 = \"Python\"\nbooleen2 = bool(chaine2)  # Convertit \"Python\" en True\n\n## Depuis un nombre : \nnombre = 0\nbooleen = bool(nombre)  # Convertit 0 en False\nnombre2 = 123\nbooleen2 = bool(nombre2)  # Convertit 123 en True\n\n\nConversion en Float (float)\n\n\n## Depuis une chaîne de caractères:\nchaine = \"123.45\"\nflottant = float(chaine)  # Convertit la chaîne \"123.45\" en float 123.45\n\n## Depuis un entier :\nentier = 100\nflottant = float(entier)  # Convertit l'entier 100 en float 100.0\n\n## Depuis un booléen:\nvrai = True\nflottant = float(vrai)  # Convertit True en 1.0\n\n\n\n2.1.3. Opérations arithmétiques\nEn Python, tu peux faire des maths comme un pro avec ces 4 opérateurs :\n\nL’addition (+) : pour ajouter des nombres Exemple : 3 + 2 = 5\nLa soustraction (-) : pour soustraire des nombres Exemple : 5 - 2 = 3\nLa multiplication (*) : pour multiplier des nombres Exemple : 3 * 2 = 6\nLa division (/) : pour diviser des nombres Exemple : 6 / 2 = 3\n\nFacile, non ? Mais attends, y’a encore plus fort ! Python gère aussi :\n\nLes puissances (**) : pour les exposants Exemple : 2 ** 3 = 8 (2 puissance 3)\nLes divisions entières (//) : pour obtenir un résultat entier Exemple : 7 // 2 = 3\nLes modulos (%) : pour obtenir le reste d’une division Exemple : 7 % 2 = 1 (car 7 divisé par 2 donne 3 reste 1)\n\n\nsomme = 10 + 5       # Résultat: 15\ndifference = 10 - 5  # Résultat: 5\nproduit = 10 * 5     # Résultat: 50\nquotient = 10 / 5    # Résultat: 2.0\n\nModulo (%) retourne le reste de la division Puissance (**) élève un nombre à une certaine puissance.\n\nreste = 10 % 3       # Résultat: 1\npuissance = 2 ** 3   # Résultat: 8\npuissance_bis = 2 ^ 3\n\n\n\n\n\n\n\nOpérations sur les str\n\n\n\nGrâce à ces 2 opérateurs magiques :\n\nLa concaténation (+) : pour combiner des chaînes Exemple : “Hello” + ” World!” = “Hello World!”\nLa répétition (*) : pour répéter une chaîne un certain nombre de fois Exemple : “Ha” * 3 = “HaHaHa”\n\nC’est aussi simple que ça ! Mais attention, y’a quelques règles à respecter :\n⚠️ Tu ne peux pas concaténer des types différents (string + int par exemple). Faudra d’abord les convertir.\n⚠️ La répétition ne marche qu’avec des entiers positifs. Pas de “Ha” * -3 ou “LOL” * 2.5 !\n\n\n\n\n2.1.4. Opérateurs d’affectation composés\nLes opérateurs d’affectation composés sont des raccourcis qui combinent une opération arithmétique ou binaire avec une affectation.\nEn gros, ils permettent d’effectuer une opération sur une variable et de lui réaffecter le résultat en une seule étape.\n\n# Initialisation de x\nx = 5\nprint(x)\n# Ajouter et assigner\nx += 2  # x est maintenant 7\nprint(x)\n\n# Soustraire et assigner\nx -= 3  # x est maintenant 4\nprint(x)\n\n# Multiplier et assigner\nx *= 4  # x est maintenant 16\nprint(x)\n# Diviser et assigner\nx /= 2  # x est maintenant 8\nprint(x)\n# Division entière et assigner\nx //= 3  # x est maintenant 2\nprint(x)\n# Modulo et assigner\nx %= 3  # x est maintenant 2\nprint(x)\n# Exponentielle et assigner\nx **= 2  # x est maintenant 4\nprint(x)\n\n5\n7\n4\n16\n8.0\n2.0\n2.0\n4.0\n\n\n\n\n\n\n\n\nÀ Retenir\n\n\n\n\nUne variable est un espace de stockage nommé utilisé pour contenir des données qui peuvent être modifiées pendant l’exécution d’un programme.\nLes types : Entier, Flottant, Chaîne de caractères, Booléen, etc.\nLes opérations sur les nombres (Entier, Flottant,Booléen) peuvent être : + (addition), - (soustraction), * (multiplication), / (division), % (modulo).\nLes opérateurs pour chaînes de caractères sont :\n\n+ pour la concaténation : ‘Hello’ + ’ World’ donne ‘Hello World’.\n* pour la répétition : ‘Hello’ * 3 donne ‘HelloHelloHello’.\n\nLes opérateurs composés (+=, -=, *=, /=, %=) servent à simplifier l’écriture des opérations en combinant un opérateur et une affectation.",
+    "crumbs": [
+      "🏠Acceuil",
+      "Modules",
+      "Introduction à Python - Rappels essentiels"
+    ]
+  },
+  {
+    "objectID": "cours/module0.html#commentaires-et-affichage",
+    "href": "cours/module0.html#commentaires-et-affichage",
+    "title": "Introduction à Python",
+    "section": "2.2. Commentaires et affichage",
+    "text": "2.2. Commentaires et affichage",
+    "crumbs": [
+      "🏠Acceuil",
+      "Modules",
+      "Introduction à Python - Rappels essentiels"
+    ]
+  },
+  {
+    "objectID": "cours/module0.html#structures-de-contrôle",
+    "href": "cours/module0.html#structures-de-contrôle",
+    "title": "Introduction à Python",
+    "section": "2.3. Structures de contrôle",
+    "text": "2.3. Structures de contrôle\n\n2.3.1 Les opérateurs\n\n\n2.3.2 Les conditions\n\n\n2.3.3 Les boucles",
+    "crumbs": [
+      "🏠Acceuil",
+      "Modules",
+      "Introduction à Python - Rappels essentiels"
+    ]
+  },
+  {
+    "objectID": "cours/module0.html#exercices-1",
+    "href": "cours/module0.html#exercices-1",
+    "title": "Introduction à Python",
+    "section": "Exercices 1",
+    "text": "Exercices 1",
+    "crumbs": [
+      "🏠Acceuil",
+      "Modules",
+      "Introduction à Python - Rappels essentiels"
+    ]
+  },
+  {
+    "objectID": "cours/module0.html#projet-1-juste-prix",
+    "href": "cours/module0.html#projet-1-juste-prix",
+    "title": "Introduction à Python",
+    "section": "Projet 1 : Juste prix",
+    "text": "Projet 1 : Juste prix",
+    "crumbs": [
+      "🏠Acceuil",
+      "Modules",
+      "Introduction à Python - Rappels essentiels"
+    ]
+  },
+  {
+    "objectID": "cours/module0.html#projet-2-casino",
+    "href": "cours/module0.html#projet-2-casino",
+    "title": "Introduction à Python",
+    "section": "Projet 2 : Casino",
+    "text": "Projet 2 : Casino",
+    "crumbs": [
+      "🏠Acceuil",
+      "Modules",
+      "Introduction à Python - Rappels essentiels"
+    ]
+  },
+  {
+    "objectID": "cours/module0.html#types-de-données",
+    "href": "cours/module0.html#types-de-données",
+    "title": "Introduction à Python",
+    "section": "2.4. Types de Données",
+    "text": "2.4. Types de Données\n\n2.4.1 Les chaines de caractères\n\n\n2.4.2 Les listes\n\n\n2.4.3 Les tuples\n\n\n2.4.4 Les ensembles\n\n\n2.4.5 Les dictionnaires",
+    "crumbs": [
+      "🏠Acceuil",
+      "Modules",
+      "Introduction à Python - Rappels essentiels"
+    ]
+  },
+  {
+    "objectID": "cours/module0.html#exercices",
+    "href": "cours/module0.html#exercices",
+    "title": "Introduction à Python",
+    "section": "Exercices",
+    "text": "Exercices",
+    "crumbs": [
+      "🏠Acceuil",
+      "Modules",
+      "Introduction à Python - Rappels essentiels"
+    ]
+  },
+  {
+    "objectID": "cours/module0.html#projet-3-pendu",
+    "href": "cours/module0.html#projet-3-pendu",
+    "title": "Introduction à Python",
+    "section": "Projet 3 : Pendu",
+    "text": "Projet 3 : Pendu",
+    "crumbs": [
+      "🏠Acceuil",
+      "Modules",
+      "Introduction à Python - Rappels essentiels"
+    ]
+  },
+  {
+    "objectID": "cours/module0.html#fonctions-définition-et-appel",
+    "href": "cours/module0.html#fonctions-définition-et-appel",
+    "title": "Introduction à Python",
+    "section": "2.5. Fonctions : définition et appel",
+    "text": "2.5. Fonctions : définition et appel\n\n2.5.1 Les paramètres et arguments\n\n\n2.5.2 Les types de fonctions\n\n\n2.5.3 La portée des variables\n\n\n2.5.4 Nombre variable d’arguments\n\n\n2.5.5 Les fonctions anonymes : lambda\n\n\n2.5.6 Les fonctions et la récursivité\n\n\n2.5.7 Générateurs et décorateurs",
+    "crumbs": [
+      "🏠Acceuil",
+      "Modules",
+      "Introduction à Python - Rappels essentiels"
+    ]
+  },
+  {
+    "objectID": "cours/module0.html#exercices-3",
+    "href": "cours/module0.html#exercices-3",
+    "title": "Introduction à Python",
+    "section": "Exercices 3",
+    "text": "Exercices 3",
+    "crumbs": [
+      "🏠Acceuil",
+      "Modules",
+      "Introduction à Python - Rappels essentiels"
+    ]
+  },
+  {
+    "objectID": "cours/module0.html#gestion-des-exceptions",
+    "href": "cours/module0.html#gestion-des-exceptions",
+    "title": "Introduction à Python",
+    "section": "3. Gestion des exceptions",
+    "text": "3. Gestion des exceptions\n\n3.1 Définition\n\n\n3.2 Traitement des exceptions\n\n3.2.1 Try-Except\n\n\n3.2.2 Finally\n\n\n3.2.3 Else\n\n\n\n3.3 Assertions\n\n\n3.4 Raise",
+    "crumbs": [
+      "🏠Acceuil",
+      "Modules",
+      "Introduction à Python - Rappels essentiels"
+    ]
+  },
+  {
+    "objectID": "cours/module0.html#projet-2-bis-casino-avec-exceptions",
+    "href": "cours/module0.html#projet-2-bis-casino-avec-exceptions",
+    "title": "Introduction à Python",
+    "section": "Projet 2 bis : Casino avec exceptions",
+    "text": "Projet 2 bis : Casino avec exceptions",
+    "crumbs": [
+      "🏠Acceuil",
+      "Modules",
+      "Introduction à Python - Rappels essentiels"
+    ]
+  },
+  {
+    "objectID": "cours/module0.html#exercices-4",
+    "href": "cours/module0.html#exercices-4",
+    "title": "Introduction à Python",
+    "section": "Exercices 4",
+    "text": "Exercices 4",
+    "crumbs": [
+      "🏠Acceuil",
+      "Modules",
+      "Introduction à Python - Rappels essentiels"
+    ]
+  },
+  {
+    "objectID": "cours/module0.html#lecture-et-écriture-de-fichiers",
+    "href": "cours/module0.html#lecture-et-écriture-de-fichiers",
+    "title": "Introduction à Python",
+    "section": "4. Lecture et écriture de fichiers",
+    "text": "4. Lecture et écriture de fichiers\n\n4.1 Gestion simple des fichiers\n\n\n4.2 Travailler avec différents formats de fichier",
+    "crumbs": [
+      "🏠Acceuil",
+      "Modules",
+      "Introduction à Python - Rappels essentiels"
+    ]
+  },
+  {
+    "objectID": "cours/module0.html#exercices-5",
+    "href": "cours/module0.html#exercices-5",
+    "title": "Introduction à Python",
+    "section": "Exercices 5",
+    "text": "Exercices 5",
+    "crumbs": [
+      "🏠Acceuil",
+      "Modules",
+      "Introduction à Python - Rappels essentiels"
+    ]
+  },
+  {
+    "objectID": "cours/module0.html#projet-4-trieur-de-fichier",
+    "href": "cours/module0.html#projet-4-trieur-de-fichier",
+    "title": "Introduction à Python",
+    "section": "Projet 4 : Trieur de fichier",
+    "text": "Projet 4 : Trieur de fichier",
+    "crumbs": [
+      "🏠Acceuil",
+      "Modules",
+      "Introduction à Python - Rappels essentiels"
+    ]
+  },
+  {
+    "objectID": "cours/module0.html#modules-et-packages",
+    "href": "cours/module0.html#modules-et-packages",
+    "title": "Introduction à Python",
+    "section": "5. Modules et Packages",
+    "text": "5. Modules et Packages",
+    "crumbs": [
+      "🏠Acceuil",
+      "Modules",
+      "Introduction à Python - Rappels essentiels"
+    ]
+  },
+  {
+    "objectID": "cours/module0.html#exercices-6",
+    "href": "cours/module0.html#exercices-6",
+    "title": "Introduction à Python",
+    "section": "Exercices 6",
+    "text": "Exercices 6",
+    "crumbs": [
+      "🏠Acceuil",
+      "Modules",
+      "Introduction à Python - Rappels essentiels"
+    ]
+  },
+  {
+    "objectID": "cours/module0.html#bonnes-pratiques-en-programmation",
+    "href": "cours/module0.html#bonnes-pratiques-en-programmation",
+    "title": "Introduction à Python",
+    "section": "6. Bonnes Pratiques en Programmation",
+    "text": "6. Bonnes Pratiques en Programmation",
+    "crumbs": [
+      "🏠Acceuil",
+      "Modules",
+      "Introduction à Python - Rappels essentiels"
+    ]
+  },
+  {
+    "objectID": "cours/module0.html#projet-5-gestionnaire-de-tâches",
+    "href": "cours/module0.html#projet-5-gestionnaire-de-tâches",
+    "title": "Introduction à Python",
+    "section": "Projet 5 : Gestionnaire de tâches",
+    "text": "Projet 5 : Gestionnaire de tâches",
+    "crumbs": [
+      "🏠Acceuil",
+      "Modules",
+      "Introduction à Python - Rappels essentiels"
+    ]
+  },
+  {
+    "objectID": "cours/module0.html#certification-avec-datacamp---bonus",
+    "href": "cours/module0.html#certification-avec-datacamp---bonus",
+    "title": "Introduction à Python",
+    "section": "7. Certification avec DataCamp - bonus",
+    "text": "7. Certification avec DataCamp - bonus",
+    "crumbs": [
+      "🏠Acceuil",
+      "Modules",
+      "Introduction à Python - Rappels essentiels"
+    ]
+  },
+  {
+    "objectID": "cours/module0.html#références",
+    "href": "cours/module0.html#références",
+    "title": "Introduction à Python",
+    "section": "8. Références",
+    "text": "8. Références\n\n\n\n\n\n\nÀ Retenir\n\n\n\n\n\n\n\n\n\n\n\n\nLe terme __main__\n\n\n\n\n\n\n\n\n\n\n\n\nFocus : PEP8 et Annotation de type\n\n\n\n\n\n\nMaintenant TIME TO PRACTICE ! 💪",
+    "crumbs": [
+      "🏠Acceuil",
+      "Modules",
+      "Introduction à Python - Rappels essentiels"
+    ]
+  },
+  {
+    "objectID": "cours/module0.html#exercices-2",
+    "href": "cours/module0.html#exercices-2",
+    "title": "Introduction à Python",
+    "section": "Exercices",
+    "text": "Exercices\nJe t’ai concocté une série d’exercices passionnants 🌟 qui te permettront non seulement de créer de nouvelles classes, mais aussi de (re)découvrir des notions essentielles de la programmation Python 🐍.\nCes exercices sont spécialement conçus pour booster ta compréhension des principes de la programmation orientée objet 🔄, tout en te donnant l’occasion de manipuler des attributs, de gérer des méthodes, et d’explorer des interactions complexes entre objets.\nBonne courage et surtout, prends du plaisir en codant ! 🚀✨\n\n1 - Facile : Création de la classe Rappeur\n\nÉnoncé\nCrée une classe Rappeur avec les attributs suivants :\n\nnom : le nom du rappeur.\nflow : une description du style de flow du rappeur.\nalbums : une liste des noms d’albums du rappeur.\n\nLa classe doit aussi inclure une méthode introduction() qui affiche une phrase décrivant le rappeur et une méthode sortir_album() qui prend le nom d’un nouvel album et l’ajoute à la liste des albums.\n\n\n\n\n\n\nConseil\n\n\n\nPour la méthode sortir_album(), assure-toi de vérifier que l’album n’est pas déjà dans la liste avant de l’ajouter. Cela évitera les doublons dans la discographie du rappeur.",
+    "crumbs": [
+      "🏠Acceuil",
+      "Modules",
+      "Introduction à Python - Rappels essentiels"
+    ]
   },
   {
     "objectID": "about.html",
@@ -89,6 +424,13 @@
     "text": "💬 Me contacter\n\n\n\n📩 Email\n👩‍💻 GitHub\n💼 LinkedIn\n\n\n\n\ncmenyssa@live.fr\n@universdesdonnees\n@Ményssa Cherifa-Luron\n\n\n\n\n  \n     Prendre RDV ! 🚀"
   },
   {
+    "objectID": "cours/index.html",
+    "href": "cours/index.html",
+    "title": "Organisation du cours",
+    "section": "",
+    "text": "📢 Les modules\n\n\n\n\n\n\nPour le moment 3 modules sont prévus pour ce cours.\nLes corrections se feront au fur et à mesure\nLa prise de RDV est possible sur la page A propos\n\n\n\n\n\n💻 Modules\n\nModule 0\nIntroduction à Python - Rappels essentiels\n⛔ Cours\n⛔ Exercices\n⛔ Corrections\n\n\n  \n    Commencer le cours ! 🚀\n  \n\n\n\n\nModule 1\nPOO 1. Contexte et notions élémentaires\n✅ Cours\n✅ Exercices\n⛔ Corrections\n\n\n  \n    Commencer le cours ! 🚀\n  \n\n\n\n\nModule 2\nPOO 2.\n⛔ Cours\n⛔ Exercices\n⛔ Corrections\n\n\n  \n    Commencer le cours ! 🚀\n  \n\n\n\n\nModule 3\nPOO 3.\n⛔ Cours\n⛔ Exercices\n⛔ Corrections\n\n\n  \n    Commencer le cours ! 🚀\n  \n\n\n\n\n\n\n\n Back to top"
+  },
+  {
     "objectID": "cours/module1.html",
     "href": "cours/module1.html",
     "title": "Contexte et notions élémentaires",
@@ -97,7 +439,7 @@
     "crumbs": [
       "🏠Acceuil",
       "Modules",
-      "1. Contexte et notions élémentaires"
+      "POO 1. Contexte et notions élémentaires"
     ]
   },
   {
@@ -109,7 +451,7 @@
     "crumbs": [
       "🏠Acceuil",
       "Modules",
-      "1. Contexte et notions élémentaires"
+      "POO 1. Contexte et notions élémentaires"
     ]
   },
   {
@@ -121,7 +463,7 @@
     "crumbs": [
       "🏠Acceuil",
       "Modules",
-      "1. Contexte et notions élémentaires"
+      "POO 1. Contexte et notions élémentaires"
     ]
   },
   {
@@ -133,7 +475,7 @@
     "crumbs": [
       "🏠Acceuil",
       "Modules",
-      "1. Contexte et notions élémentaires"
+      "POO 1. Contexte et notions élémentaires"
     ]
   },
   {
@@ -145,7 +487,7 @@
     "crumbs": [
       "🏠Acceuil",
       "Modules",
-      "1. Contexte et notions élémentaires"
+      "POO 1. Contexte et notions élémentaires"
     ]
   },
   {
@@ -157,7 +499,7 @@
     "crumbs": [
       "🏠Acceuil",
       "Modules",
-      "1. Contexte et notions élémentaires"
+      "POO 1. Contexte et notions élémentaires"
     ]
   },
   {
@@ -165,11 +507,11 @@
     "href": "cours/module1.html#méthodes-les-skills-qui-font-un-bon-mc",
     "title": "Contexte et notions élémentaires",
     "section": "6. Méthodes : les skills qui font un bon MC",
-    "text": "6. Méthodes : les skills qui font un bon MC\nLes méthodes, c’est ce qui permet à tes objets d’agir, d’interagir et de se démarquer.\nUne méthode peut être :\n\nUn flow “getter” pour récupérer des infos (get_punchline())\nUn flow “setter” pour modifier l’état (set_style(new_style))\nUn flow “calculateur” pour traiter des données (calculer_nb_albums())\nOu même un flow “abstract” pour définir un comportement général (rapper())\n\nLes méthodes, c’est aussi ce qui permet à tes objets de communiquer entre eux. Un peu comme des featuring entre rappeurs !\n\n# Importation du module random\nimport random\n\n# Définition de la classe Rappeur\nclass Rappeur:\n    # Constructeur de la classe avec les attributs nécessaires pour définir un rappeur\n    def __init__(self, nom, flow, nb_albums, featurings, punchlines):\n        self.nom = nom              \n        self.flow = flow            \n        self.nb_albums = nb_albums  \n        self.featurings = featurings  \n        self.punchlines = punchlines  # Liste des punchlines célèbres du rappeur\n    \n    # Méthode pour afficher une punchline au hasard\n    def balancer_punchline(self):\n        # Utilisation de random.choice pour sélectionner et afficher une punchline aléatoire de la liste\n        print(f\"{self.nom} balance : {random.choice(self.punchlines)}\")\n\n# Création d'une instance Booba\nbooba = Rappeur(nom=\"Booba\", \n                flow=\"Agressif et technique\",                \n                nb_albums=10,\n                featurings=[\"Kaaris\", \"Damso\", \"Gato\"],\n                punchlines=[\"92i\", \"Pitbull\", \"Kalash\"])\n\n# Appel de la méthode balancer_punchline pour afficher une punchline de Booba tirée au hasard\nbooba.balancer_punchline()\n\nBooba balance : Pitbull\n\n\nMaintenant allons un peu plus long et imaginons un clash entre rappeurs (hihihi!)\n\nimport random  # Importation nécessaire pour utiliser random.choice\n\nclass Rappeur:\n    def __init__(self, nom, flow, nb_albums, featurings, punchlines):\n        self.nom = nom  \n        self.flow = flow  \n        self.nb_albums = nb_albums  \n        self.featurings = featurings  \n        self.punchlines = punchlines  \n\n\n    def balancer_punchline(self):\n        print(f\"{self.nom} balance : {random.choice(self.punchlines)}\")\n\n    # Méthode permettant à un rappeur de clasher un autre rappeur \n    # en utilisant la première punchline de sa liste\n    def clasher(self, autre_rappeur):\n        print(f\"{self.nom} clash {autre_rappeur.nom} : {self.punchlines[0]}\")\n        \n    # Méthode permettant à un rappeur de répondre à un \n    # clash avec une punchline spécifique\n    def repondre(self, autre_rappeur, punchline):\n        print(f\"{self.nom} répond à {autre_rappeur.nom} : {punchline}\")\n\n# Création des instances pour Booba et Kaaris\nbooba = Rappeur(nom=\"Booba\", \n                flow=\"Agressif et technique\",                \n                nb_albums=10,\n                featurings=[\"Kaaris\", \"Damso\", \"Gato\"],\n                punchlines=[\"T'es qu'un fils de...\", \"J'vais t'faire une Kalash en live\"])        \n\nkaaris = Rappeur(nom=\"Kaaris\",\n                 flow=\"Aggressif et sombre\",\n                 nb_albums=8,\n                 featurings=[\"Gazo\", \"Kalash Criminel\", \"Hamza\"],\n                 punchlines=[\"J'vais t'faire danser la Zumba\", \"T'es même pas un vrai MC\"])\n\n# Simulation d'un clash entre Booba et Kaaris\nbooba.clasher(kaaris)\nkaaris.repondre(booba, \"T'es qu'un tocard !\")\nbooba.repondre(kaaris, \"TG ! J'suis le DUC !\")\n\nBooba clash Kaaris : T'es qu'un fils de...\nKaaris répond à Booba : T'es qu'un tocard !\nBooba répond à Kaaris : TG ! J'suis le DUC !\n\n\nLa puissance des attributs et des méthodes résident dans l’intéraction de tes objets de manière intuitive et stylée.\n\n\n\n\n\n\nÀ Retenir\n\n\n\n\n\nles attributs et méthodes c’est ce qui donne vie à tes objets et leur permet de briller sur la scène de ton programme !\nAlors pour créer des méthodes qui claquent, suis ces tips :\n\n\nDonne-leur un nom explicite qui décrit bien leur rôle\n\n\nUtilise le self pour accéder aux attributs et autres méthodes de l’objet\n\n\nSépare bien les responsabilités : une méthode = une tâche précise\n\n\nDocumente-les avec des docstrings pour expliquer ce qu’elles font\n\n\nLa PEP 8 est ton ami !\n\n\n\n\n\n\n\n\n\n\n\nFocus : PEP8 et Annotation de type\n\n\n\nVoici la même classe avec le code PEP 8 friendly et les annotations de type\n\nfrom typing import List # annoter les attributs featurings et punchlines.\nimport random\nclass Rappeur:\n    \"\"\"Classe définissant un rappeur caractérisé par son nom, style de flow, nombre \n    d'albums, collaborations et punchlines.\n    \"\"\"\n    def __init__(self, nom: str, flow: str, nb_albums: int, featurings: List[str], \n                 punchlines: List[str]):\n        self.nom: str = nom\n        self.flow: str = flow\n        self.nb_albums: int = nb_albums\n        self.featurings: List[str] = featurings\n        self.punchlines: List[str] = punchlines\n\n    def balancer_punchline(self) -&gt; None:\n        \"\"\"Affiche une punchline aléatoire du rappeur.\"\"\"\n        punchline: str = random.choice(self.punchlines)\n        print(f\"{self.nom} balance : {punchline}\")\n\n    def clasher(self, autre_rappeur: 'Rappeur') -&gt; None:\n        \"\"\"Permet au rappeur de clasher un autre rappeur en utilisant la première \n        punchline de sa liste.\n        \"\"\"\n        print(f\"{self.nom} clash {autre_rappeur.nom} : {self.punchlines[0]}\")\n        \n    def repondre(self, autre_rappeur: 'Rappeur', punchline: str) -&gt; None:\n        \"\"\"Permet au rappeur de répondre à un clash avec une punchline spécifique.\"\"\"\n        print(f\"{self.nom} répond à {autre_rappeur.nom} : {punchline}\")\n\n# Création d'instances pour Booba et Kaaris avec typage explicite\nbooba = Rappeur(\n    nom=\"Booba\", \n    flow=\"Agressif et technique\",                \n    nb_albums=10,\n    featurings=[\"Kaaris\", \"Damso\", \"Gato\"],\n    punchlines=[\"T'es qu'un fils de...\", \"J'vais t'faire une Kalash en live\"]\n)        \n\nkaaris = Rappeur(\n    nom=\"Kaaris\",\n    flow=\"Aggressif et sombre\",\n    nb_albums=8,\n    featurings=[\"Gazo\", \"Kalash Criminel\", \"Hamza\"],\n    punchlines=[\"J'vais t'faire danser la Zumba\", \"T'es même pas un vrai MC\"]\n)\n\n# Simulation d'un clash et réponses entre Booba et Kaaris\nbooba.clasher(kaaris)\nkaaris.repondre(booba, \"T'es qu'un tocard !\")\nbooba.repondre(kaaris, \"TG ! J'suis le DUC !\")\n\nBooba clash Kaaris : T'es qu'un fils de...\nKaaris répond à Booba : T'es qu'un tocard !\nBooba répond à Kaaris : TG ! J'suis le DUC !",
+    "text": "6. Méthodes : les skills qui font un bon MC\nLes méthodes, c’est ce qui permet à tes objets d’agir, d’interagir et de se démarquer.\nUne méthode peut être :\n\nUn flow “getter” pour récupérer des infos (get_punchline())\nUn flow “setter” pour modifier l’état (set_style(new_style))\nUn flow “calculateur” pour traiter des données (calculer_nb_albums())\nOu même un flow “abstract” pour définir un comportement général (rapper())\n\nLes méthodes, c’est aussi ce qui permet à tes objets de communiquer entre eux. Un peu comme des featuring entre rappeurs !\n\n# Importation du module random\nimport random\n\n# Définition de la classe Rappeur\nclass Rappeur:\n    # Constructeur de la classe avec les attributs nécessaires pour définir un rappeur\n    def __init__(self, nom, flow, nb_albums, featurings, punchlines):\n        self.nom = nom              \n        self.flow = flow            \n        self.nb_albums = nb_albums  \n        self.featurings = featurings  \n        self.punchlines = punchlines  # Liste des punchlines célèbres du rappeur\n    \n    # Méthode pour afficher une punchline au hasard\n    def balancer_punchline(self):\n        # Utilisation de random.choice pour sélectionner et afficher une punchline aléatoire de la liste\n        print(f\"{self.nom} balance : {random.choice(self.punchlines)}\")\n\n# Création d'une instance Booba\nbooba = Rappeur(nom=\"Booba\", \n                flow=\"Agressif et technique\",                \n                nb_albums=10,\n                featurings=[\"Kaaris\", \"Damso\", \"Gato\"],\n                punchlines=[\"92i\", \"Pitbull\", \"Kalash\"])\n\n# Appel de la méthode balancer_punchline pour afficher une punchline de Booba tirée au hasard\nbooba.balancer_punchline()\n\nBooba balance : 92i\n\n\nMaintenant allons un peu plus long et imaginons un clash entre rappeurs (hihihi!)\n\nimport random  # Importation nécessaire pour utiliser random.choice\n\nclass Rappeur:\n    def __init__(self, nom, flow, nb_albums, featurings, punchlines):\n        self.nom = nom  \n        self.flow = flow  \n        self.nb_albums = nb_albums  \n        self.featurings = featurings  \n        self.punchlines = punchlines  \n\n\n    def balancer_punchline(self):\n        print(f\"{self.nom} balance : {random.choice(self.punchlines)}\")\n\n    # Méthode permettant à un rappeur de clasher un autre rappeur \n    # en utilisant la première punchline de sa liste\n    def clasher(self, autre_rappeur):\n        print(f\"{self.nom} clash {autre_rappeur.nom} : {self.punchlines[0]}\")\n        \n    # Méthode permettant à un rappeur de répondre à un \n    # clash avec une punchline spécifique\n    def repondre(self, autre_rappeur, punchline):\n        print(f\"{self.nom} répond à {autre_rappeur.nom} : {punchline}\")\n\n# Création des instances pour Booba et Kaaris\nbooba = Rappeur(nom=\"Booba\", \n                flow=\"Agressif et technique\",                \n                nb_albums=10,\n                featurings=[\"Kaaris\", \"Damso\", \"Gato\"],\n                punchlines=[\"T'es qu'un fils de...\", \"J'vais t'faire une Kalash en live\"])        \n\nkaaris = Rappeur(nom=\"Kaaris\",\n                 flow=\"Aggressif et sombre\",\n                 nb_albums=8,\n                 featurings=[\"Gazo\", \"Kalash Criminel\", \"Hamza\"],\n                 punchlines=[\"J'vais t'faire danser la Zumba\", \"T'es même pas un vrai MC\"])\n\n# Simulation d'un clash entre Booba et Kaaris\nbooba.clasher(kaaris)\nkaaris.repondre(booba, \"T'es qu'un tocard !\")\nbooba.repondre(kaaris, \"TG ! J'suis le DUC !\")\n\nBooba clash Kaaris : T'es qu'un fils de...\nKaaris répond à Booba : T'es qu'un tocard !\nBooba répond à Kaaris : TG ! J'suis le DUC !\n\n\nLa puissance des attributs et des méthodes résident dans l’intéraction de tes objets de manière intuitive et stylée.\n\n\n\n\n\n\nÀ Retenir\n\n\n\n\n\nles attributs et méthodes c’est ce qui donne vie à tes objets et leur permet de briller sur la scène de ton programme !\nAlors pour créer des méthodes qui claquent, suis ces tips :\n\n\nDonne-leur un nom explicite qui décrit bien leur rôle\n\n\nUtilise le self pour accéder aux attributs et autres méthodes de l’objet\n\n\nSépare bien les responsabilités : une méthode = une tâche précise\n\n\nDocumente-les avec des docstrings pour expliquer ce qu’elles font\n\n\nLa PEP 8 est ton ami !\n\n\n\n\n\n\n\n\n\n\n\nFocus : PEP8 et Annotation de type\n\n\n\nVoici la même classe avec le code PEP 8 friendly et les annotations de type\n\nfrom typing import List # annoter les attributs featurings et punchlines.\nimport random\nclass Rappeur:\n    \"\"\"Classe définissant un rappeur caractérisé par son nom, style de flow, nombre \n    d'albums, collaborations et punchlines.\n    \"\"\"\n    def __init__(self, nom: str, flow: str, nb_albums: int, featurings: List[str], \n                 punchlines: List[str]):\n        self.nom: str = nom\n        self.flow: str = flow\n        self.nb_albums: int = nb_albums\n        self.featurings: List[str] = featurings\n        self.punchlines: List[str] = punchlines\n\n    def balancer_punchline(self) -&gt; None:\n        \"\"\"Affiche une punchline aléatoire du rappeur.\"\"\"\n        punchline: str = random.choice(self.punchlines)\n        print(f\"{self.nom} balance : {punchline}\")\n\n    def clasher(self, autre_rappeur: 'Rappeur') -&gt; None:\n        \"\"\"Permet au rappeur de clasher un autre rappeur en utilisant la première \n        punchline de sa liste.\n        \"\"\"\n        print(f\"{self.nom} clash {autre_rappeur.nom} : {self.punchlines[0]}\")\n        \n    def repondre(self, autre_rappeur: 'Rappeur', punchline: str) -&gt; None:\n        \"\"\"Permet au rappeur de répondre à un clash avec une punchline spécifique.\"\"\"\n        print(f\"{self.nom} répond à {autre_rappeur.nom} : {punchline}\")\n\n# Création d'instances pour Booba et Kaaris avec typage explicite\nbooba = Rappeur(\n    nom=\"Booba\", \n    flow=\"Agressif et technique\",                \n    nb_albums=10,\n    featurings=[\"Kaaris\", \"Damso\", \"Gato\"],\n    punchlines=[\"T'es qu'un fils de...\", \"J'vais t'faire une Kalash en live\"]\n)        \n\nkaaris = Rappeur(\n    nom=\"Kaaris\",\n    flow=\"Aggressif et sombre\",\n    nb_albums=8,\n    featurings=[\"Gazo\", \"Kalash Criminel\", \"Hamza\"],\n    punchlines=[\"J'vais t'faire danser la Zumba\", \"T'es même pas un vrai MC\"]\n)\n\n# Simulation d'un clash et réponses entre Booba et Kaaris\nbooba.clasher(kaaris)\nkaaris.repondre(booba, \"T'es qu'un tocard !\")\nbooba.repondre(kaaris, \"TG ! J'suis le DUC !\")\n\nBooba clash Kaaris : T'es qu'un fils de...\nKaaris répond à Booba : T'es qu'un tocard !\nBooba répond à Kaaris : TG ! J'suis le DUC !",
     "crumbs": [
       "🏠Acceuil",
       "Modules",
-      "1. Contexte et notions élémentaires"
+      "POO 1. Contexte et notions élémentaires"
     ]
   },
   {
@@ -181,7 +523,7 @@
     "crumbs": [
       "🏠Acceuil",
       "Modules",
-      "1. Contexte et notions élémentaires"
+      "POO 1. Contexte et notions élémentaires"
     ]
   },
   {
@@ -193,7 +535,7 @@
     "crumbs": [
       "🏠Acceuil",
       "Modules",
-      "1. Contexte et notions élémentaires"
+      "POO 1. Contexte et notions élémentaires"
     ]
   },
   {
@@ -205,7 +547,7 @@
     "crumbs": [
       "🏠Acceuil",
       "Modules",
-      "1. Contexte et notions élémentaires"
+      "POO 1. Contexte et notions élémentaires"
     ]
   },
   {
@@ -217,7 +559,7 @@
     "crumbs": [
       "🏠Acceuil",
       "Modules",
-      "📝 Module 3"
+      "POO 3.📝 Module 3"
     ]
   },
   {
