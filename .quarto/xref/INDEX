@@ -1,35 +1,26 @@
 {
   "about.qmd": {
-    "about.html": "98d9c6ab"
-  },
-  "acceuil.qmd": {
-    "acceuil.html": "ccc5e227"
-  },
-  "cours/cours.qmd": {
-    "cours.html": "96a73f4d"
-  },
-  "cours/module1.qmd": {
-    "module1.html": "bd981f56"
-  },
-  "cours.qmd": {
-    "cours.html": "623314df"
-  },
-  "LICENSE-CC-BY-NC-ND-4.0.md": {
-    "LICENSE-CC-BY-NC-ND-4.0.html": "d54beabc"
-  },
-  "README.MD": {
-    "README.html": "8e72c0da"
-  },
-  "index.qmd": {
-    "index.html": "ece0dde1"
+    "about.html": "f7eb9988"
   },
   "cours/index.qmd": {
-    "index.html": "df9384dd"
+    "index.html": "059e5011"
+  },
+  "cours/module1.qmd": {
+    "module1.html": "a472ba82"
   },
   "cours/module2.qmd": {
-    "module2.html": "d9cfe373"
+    "module2.html": "1077f4ff"
   },
   "cours/module3.qmd": {
-    "module3.html": "8357e726"
+    "module3.html": "4676ad0d"
+  },
+  "index.qmd": {
+    "index.html": "b1d9c40a"
+  },
+  "LICENSE-CC-BY-NC-ND-4.0.md": {
+    "LICENSE-CC-BY-NC-ND-4.0.html": "8842cbb9"
+  },
+  "README.MD": {
+    "README.html": "6497c76c"
   }
 }

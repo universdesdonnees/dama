@@ -1,7 +1,6 @@
 ---
 title: "🗓️ Module 1"
 subtitle: "Contexte et notions élémentaires"
-format: html
 ---
 
 ## 1. Introduction  
@@ -537,7 +536,7 @@ La classe doit inclure des méthodes pour :
 
 ::: {.callout-tip}
 ## Conseil
- Pour gérer les découverts, envisage d'ajouter un attribut qui définit un découvert maximum autorisé. Cela rendra la gestion du compte plus flexible et réaliste.
+Pour gérer les découverts, envisage d'ajouter un attribut qui définit un découvert maximum autorisé. Cela rendra la gestion du compte plus flexible et réaliste.
 :::
 
 ### 5 - Intermédiaire : Gestion des Featurings

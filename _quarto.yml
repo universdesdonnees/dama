@@ -1,6 +1,9 @@
 project:
   type: website
 
+execute:
+  debug: true
+
 website:
   title: "POO en Python"
   page-navigation: true
@@ -39,8 +42,6 @@ website:
     search: true
     logo: "images/python logo.png"
     contents:
-      - href: cours/index.qmd
-        text: "Organisation"
       - section: "Modules"
         contents:
             - href: cours/module1.qmd

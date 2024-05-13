@@ -1,5 +1,5 @@
 ---
-title: "🗓️ Module 2"
+title: "🗓️ Module 3"
 subtitle: " "
 format: html
 ---
