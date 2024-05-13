@@ -98,7 +98,6 @@ cookieconsent.run({
 
 
 <link rel="stylesheet" href="css/custom_style.css">
-<link rel="stylesheet" href="css/syllabus.css">
 <meta property="og:title" content="POO en Python - 🙋🏻‍♀️ Qui suis-je ?">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="POO en Python">
@@ -292,12 +291,7 @@ Je suis passionnée par la transformation des données ennuyeuses en histoires c
 </thead>
 <tbody>
 <tr class="odd">
-<td><script type="text/javascript">
-<!--
-h='&#108;&#x69;&#118;&#x65;&#46;&#102;&#114;';a='&#64;';n='&#x63;&#x6d;&#x65;&#110;&#x79;&#x73;&#x73;&#x61;';e=n+a+h;
-document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
-// -->
-</script><noscript>cmenyssa at live dot fr</noscript></td>
+<td><a href="mailto:cmenyssa@live.fr">cmenyssa@live.fr</a></td>
 <td><a href="https://github.com/universdesdonnees"><span class="citation" data-cites="universdesdonnees">@universdesdonnees</span></a></td>
 <td><a href="https://www.linkedin.com/in/menyssacherifaluron/"><span class="citation" data-cites="Ményssa">@Ményssa</span> Cherifa-Luron</a></td>
 </tr>
@@ -393,26 +387,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("^(?:http:|https:)\/\/(?:lse-dsi\.github\.io\/|localhost)");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // target, if specified
-          link.setAttribute("target", "_blank");
-          if (link.getAttribute("rel") === null) {
-            link.setAttribute("rel", "noopener");
-          }
-          // default icon
-          link.classList.add("external");
-      }
-    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
