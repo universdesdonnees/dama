@@ -1,3 +1,15 @@
 
 $blue:    #F8CB42 !default;
 /*-- scss:rules --*/
+
+// The left hand sidebar
+$grid-sidebar-width: 250px !default;
+
+// The main body
+$grid-body-width: 850px !default;
+
+// The right hand margin bar
+$grid-margin-width: 400px !default;
+
+// The gutter that appears between the above columns
+$grid-column-gutter-width: 1.5rem !default;
