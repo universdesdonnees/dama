@@ -1,0 +1,450 @@
+---
+title: "Introduction à Python"
+subtitle: "Un peu de révisions ne fait pas de mal"
+---
+
+Si tu as déjà des notions avancées en prog Python, passe directement au module suivant 
+
+```{=html}
+<div style="text-align: center">
+  <a href="module1.qmd">
+    <button class="button-61"> Go Module 1 ! 🚀</button>
+  </a>
+</div>
+```
+
+# 1. Introduction  
+
+Alors comme ça, tu veux en savoir plus sur les origines de ce langage mythique ? Accroche-toi, je te raconte ! 
+
+<div style="text-align: center;">
+  <img src="../images/logo_python.png" alt="logo python" style="width: 400px;">
+  <p><em> Fig 1. Logo python</em></p>
+</div>
+
+Python, c'est l'œuvre d'un certain Guido van Rossum, qui l'a créé en 1989. 
+
+Et devine quoi ? Le nom "Python" n'a rien à voir avec les serpents ! C'est en fait un clin d'œil à la série loufoque "Monty Python's Flying Circus". Comme quoi, l'humour et la programmation font bon ménage ! 😄
+
+
+Mais Python, c'est bien plus qu'une private joke. Ce langage a de sacrés atouts :
+
+✅ Multi-plateforme : il s'adapte à tous les environnements, tel un caméléon  
+
+✅ Gratuit et libre : accessible à tous les padawans de la data
+
+✅ Haut niveau et interprété : parfait pour progresser rapidement
+
+✅ Orienté objet : pour modéliser le monde réel de façon intuitive 
+
+✅ Simple et lisible : le code Python se lit presque comme de l'anglais
+
+Déjà, si tu veux coder comme un pro, jette un œil au guide de style Python de Google. C'est un peu la bible des bonnes pratiques, largement suivie dans l'industrie.
+
+Ensuite, parlons environnement de dev. Tu vas sûrement bosser sur Jupyter ou Google Colab pour tes notebooks. C'est top, mais attention : si tu bosses sur plusieurs projets, tu vas vite te retrouver avec un joyeux bordel de versions de modules Python ! 
+
+La solution ? Les environnements virtuels ! C'est un peu comme avoir un appart' dédié pour chaque projet, avec ses propres meubles (modules) et sa déco (config). Bref, ça t'évitera bien des maux de tête. 
+
+Si tu veux en savoir plus sur les options de setup Python (local vs cloud), jette un oeil à cet [article](https://aman.ai/primers/python-setup/)
+
+C'est une mine d'or ! 
+
+Enfin, le truc CRUCIAL à retenir : en Python, l'indentation c'est pas juste pour faire joli. C'est VITAL pour que ton code marche ! Alors on prend direct le pli d'utiliser 4 espaces (pas de tabs, hein ! ).
+
+Bref, Python a tout pour plaire, c'est le couteau suisse du développeur !
+
+Alors, partant·e pour plonger dans cet univers merveilleux ? 
+
+On va apprendre, coder et s'amuser ! 
+
+::: {.callout-tip}
+# Site officiel
+En savoir plus ? Rends toi sur le [site officiel](https://docs.python.org/3/)
+:::
+
+# 2. Les Fondamentaux de Python 
+
+## 2.1. Les variables
+
+Les variables, c'est un peu comme des boîtes dans lesquelles tu peux ranger des trucs : des nombres, du texte, etc. 
+
+Par exemple, si tu écris `x = 10`, tu crées une variable "x" qui contient la valeur 10. Easy ! 
+
+Le truc cool avec Python, c'est qu'il devine tout seul le type de données que tu mets dans la variable. 
+
+C'est ce qu'on appelle le typage dynamique. Pratique, non ? 
+
+Quelques règles de base à retenir sur les variables :
+
+- Pour donner une valeur à une variable, on utilise le signe égal `(=)`. C'est l'affectation.
+
+- Tu peux écraser la valeur d'une variable en lui réaffectant une nouvelle valeur. 
+
+- Attention à la casse ! "maVariable" et "mavariable", pour Python c'est pas pareil. 
+
+- Tu peux afficher plusieurs variables d'un coup avec print() en les séparant par des virgules.
+
+- Tu peux affecter plusieurs valeurs à plusieurs variables sur une seule ligne. Stylé ! 
+
+Pour les noms de variables, tu as le choix entre :
+
+- la casse camel : monNomDeVariable
+
+- la casse Pascal : MonNomDeVariable  
+
+- la casse serpent : mon_nom_de_variable
+
+Évite juste de commencer les noms par des chiffres, d'utiliser des caractères spéciaux et de mélanger chiffres et lettres n'importe comment.
+```{python}
+# Affectation simple 
+Ma_variable =  10
+print(Ma_variable)
+
+# Affectation de plusieurs valeurs
+x, y, z = "Chocolat", "Vanille", "Fraise"
+
+print(x)
+print(y)
+print(z)
+
+# Affectation de la même valeur
+x = y = z = "Chocolat"
+
+print(x)
+print(y)
+print(z)
+```
+
+### 2.1.1. Types de variables
+
+En Python, chaque variable a un type bien précis. C'est un peu comme les groupes sanguin : A, B, AB ou O. Sauf qu'ici, on a :
+
+- Les entiers (int) : pour les nombres sans virgule. Exemples : 5, -3, 0.
+
+- Les nombres complexes (complex) : pour les maths de l'espace ! Exemple : 3 + 4j.
+
+- Les flottants (float) : pour les nombres à virgule. Exemples : 3.14, -0.001.
+
+- Les chaînes de caractères (str) : pour le texte, entouré de guillemets. Exemple : "Hello World!"
+
+- Les booléens (bool) : pour les valeurs "vrai" (True) ou "faux" (False). Souvent le résultat de comparaisons.
+
+Pourquoi c'est important de connaître le type d'une variable ? Parce que tu ne peux pas additionner des pommes et des poires ! Enfin si, mais ça donne une compote bizarre... 🍎+🍐=🤢
+
+Plus sérieusement, chaque type a ses propres opérations possibles. Tu peux multiplier deux int, concaténer deux str, mais pas l'inverse.
+
+Allez, un petit défi : devine le type des variables suivantes (réponse en commentaire) :
+
+- a = 42
+
+- b = "42"
+
+- c = 42.0
+
+- d = True
+
+- e = 2 + 3j
+```{python}
+# Afficher le type d'une variable
+bonjour = "Hello"
+type(bonjour) 
+
+# Définition de plusieurs variables 
+nom = "Alice"
+age = 25       
+taille = 1.70  
+estVrai = True 
+estFaux = False 
+print("la variable nom est de type :", type(nom))
+print("la variable age est de type :",type(age))
+print("la variable taille est de type :",type(taille))
+print("la variable estVrai est de type :",type(estVrai))
+print("la variable estFaux est de type :",type(estFaux))
+```
+
+### 2.1.2. Conversion de types
+
+Le casting, c'est un peu comme dans un film : tu prends un acteur (une valeur) et tu lui fais jouer un autre rôle (un autre type). 🎥
+
+En Python, tu peux facilement convertir entre les types de base comme :
+
+- Les entiers (int)
+- Les chaînes de caractères (str) 
+- Les booléens (bool)
+- Les flottants (float)
+
+Voici quelques exemples de casting en action :
+
+🎬 int ➡ str
+
+🎬 str ➡ int
+
+🎬 float ➡ int
+
+🎬 int ➡ bool
+
+Mais attention aux pièges ! 
+
+Toutes les conversions ne sont pas possibles, comme transformer un texte en nombre :
+
+`prix = "dix"
+prix_int = int(prix)  # Erreur : ValueError`
+
+- Conversion en Entier (`int`) 
+
+```{python}
+# Depuis une chaîne de caractères :
+chaine = "123"
+nombre = int(chaine)  # Convertit la chaîne "123" en entier 123
+
+## Depuis un booléen :
+vrai = True
+entier = int(vrai)  # Convertit True en 1
+
+## Depuis un float :
+flottant = 9.99
+entier = int(flottant)  # Convertit 9.99 en 9 (troncature, pas d'arrondi)
+```
+
+- Conversion en Chaîne de Caractères (`str`)
+
+```{python}
+## Depuis un entier ou un float :
+nombre = 123
+chaine = str(nombre)  # Convertit l'entier 123 en chaîne "123"
+
+## Depuis un booléen :
+faux = False
+chaine = str(faux)  # Convertit False en "False"
+```
+
+- Conversion en Booléen (`bool`)
+
+```{python}
+## Depuis une chaîne de caractères** :
+chaine = ""
+booleen = bool(chaine)  # Convertit une chaîne vide en False
+chaine2 = "Python"
+booleen2 = bool(chaine2)  # Convertit "Python" en True
+
+## Depuis un nombre : 
+nombre = 0
+booleen = bool(nombre)  # Convertit 0 en False
+nombre2 = 123
+booleen2 = bool(nombre2)  # Convertit 123 en True
+```
+
+- Conversion en Float (`float`)
+
+```{python}
+## Depuis une chaîne de caractères:
+chaine = "123.45"
+flottant = float(chaine)  # Convertit la chaîne "123.45" en float 123.45
+
+## Depuis un entier :
+entier = 100
+flottant = float(entier)  # Convertit l'entier 100 en float 100.0
+
+## Depuis un booléen:
+vrai = True
+flottant = float(vrai)  # Convertit True en 1.0
+```
+
+### 2.1.3. Opérations arithmétiques
+
+En Python, tu peux faire des maths comme un pro avec ces 4 opérateurs :
+
+- L'addition (+) : pour ajouter des nombres
+Exemple : `3 + 2 = 5`
+
+- La soustraction (-) : pour soustraire des nombres 
+Exemple : `5 - 2 = 3`
+
+- La multiplication (*) : pour multiplier des nombres
+Exemple : `3 * 2 = 6` 
+
+- La division (/) : pour diviser des nombres
+Exemple : `6 / 2 = 3`
+
+Facile, non ? Mais attends, y'a encore plus fort ! Python gère aussi :
+
+- Les puissances (**) : pour les exposants
+Exemple : `2 ** 3 = 8` (2 puissance 3)
+
+- Les divisions entières (//) : pour obtenir un résultat entier 
+Exemple : `7 // 2 = 3`
+
+- Les modulos (%) : pour obtenir le reste d'une division
+Exemple : `7 % 2 = 1` (car 7 divisé par 2 donne 3 reste 1)
+
+```{python}
+somme = 10 + 5       # Résultat: 15
+difference = 10 - 5  # Résultat: 5
+produit = 10 * 5     # Résultat: 50
+quotient = 10 / 5    # Résultat: 2.0
+```
+
+Modulo (%) retourne le reste de la division 
+Puissance (**) élève un nombre à une certaine puissance.
+
+```{python}
+reste = 10 % 3       # Résultat: 1
+puissance = 2 ** 3   # Résultat: 8
+puissance_bis = 2 ^ 3
+```
+
+::: {.callout-tip}
+## Opérations sur les str
+Grâce à ces 2 opérateurs magiques :
+
+- La concaténation (`+`) : pour combiner des chaînes
+Exemple : "Hello" + " World!" = "Hello World!"
+
+- La répétition (`*`) : pour répéter une chaîne un certain nombre de fois
+Exemple : "Ha" `*` 3 = "HaHaHa"
+
+C'est aussi simple que ça ! Mais attention, y'a quelques règles à respecter :
+
+⚠️ Tu ne peux pas concaténer des types différents (string + int par exemple). Faudra d'abord les convertir.
+
+⚠️ La répétition ne marche qu'avec des entiers positifs. Pas de "Ha" * -3 ou "LOL" * 2.5 !
+:::
+
+### 2.1.4. Opérateurs d'affectation composés 
+
+Les opérateurs d'affectation composés sont des raccourcis qui combinent une opération arithmétique ou binaire avec une affectation.
+
+En gros, ils permettent d'effectuer une opération sur une variable et de lui réaffecter le résultat en une seule étape.
+
+```{python}
+# Initialisation de x
+x = 5
+print(x)
+# Ajouter et assigner
+x += 2  # x est maintenant 7
+print(x)
+
+# Soustraire et assigner
+x -= 3  # x est maintenant 4
+print(x)
+
+# Multiplier et assigner
+x *= 4  # x est maintenant 16
+print(x)
+# Diviser et assigner
+x /= 2  # x est maintenant 8
+print(x)
+# Division entière et assigner
+x //= 3  # x est maintenant 2
+print(x)
+# Modulo et assigner
+x %= 3  # x est maintenant 2
+print(x)
+# Exponentielle et assigner
+x **= 2  # x est maintenant 4
+print(x)
+```
+
+::: {.callout-important}
+## À Retenir
+
+- Une variable est un espace de stockage nommé utilisé pour contenir des données qui peuvent être modifiées pendant l'exécution d'un programme.
+
+- Les types : Entier, Flottant, Chaîne de caractères, Booléen, etc.
+
+- Les opérations sur les nombres (Entier, Flottant,Booléen) peuvent être : `+` (addition), `-` (soustraction), `*` (multiplication), `/` (division), `%` (modulo).
+
+- Les opérateurs pour chaînes de caractères sont :    
+    - `+` pour la concaténation : 'Hello' + ' World' donne 'Hello World'.
+    
+    - `*` pour la répétition : 'Hello' * 3 donne 'HelloHelloHello'.
+
+- Les opérateurs composés (`+=`, `-=`, `*=`, `/=`, `%=`) servent à simplifier l'écriture des opérations en combinant un opérateur et une affectation.
+
+:::
+
+## 2.2. Commentaires et affichage
+## 2.3. Structures de contrôle
+### 2.3.1 Les opérateurs
+### 2.3.2 Les conditions
+### 2.3.3 Les boucles
+## Exercices 1
+## Projet 1 : Juste prix
+## Projet 2 : Casino
+## 2.4. Types de Données
+### 2.4.1 Les chaines de caractères
+### 2.4.2 Les listes
+### 2.4.3 Les tuples
+### 2.4.4 Les ensembles
+### 2.4.5 Les dictionnaires
+## Exercices 
+## Projet 3 : Pendu
+## 2.5. Fonctions : définition et appel
+### 2.5.1 Les paramètres et arguments
+### 2.5.2 Les types de fonctions
+### 2.5.3 La portée des variables
+### 2.5.4 Nombre variable d'arguments
+### 2.5.5 Les fonctions anonymes : lambda
+### 2.5.6 Les fonctions et la récursivité
+### 2.5.7 Générateurs et décorateurs
+## Exercices 3
+## 3. Gestion des exceptions
+### 3.1 Définition
+### 3.2 Traitement des exceptions
+#### 3.2.1 Try-Except
+#### 3.2.2 Finally
+#### 3.2.3 Else
+### 3.3 Assertions
+### 3.4 Raise
+## Projet 2 bis : Casino avec exceptions
+## Exercices 4
+## 4. Lecture et écriture de fichiers
+### 4.1 Gestion simple des fichiers
+### 4.2 Travailler avec différents formats de fichier
+## Exercices 5
+## Projet 4 : Trieur de fichier
+## 5. Modules et Packages
+## Exercices 6
+## 6. Bonnes Pratiques en Programmation
+## Projet 5 : Gestionnaire de tâches
+## 7. Certification avec DataCamp - bonus
+## 8. Références
+
+::: {.callout-important}
+## À Retenir
+:::
+::: {.callout-caution}
+### Le terme `__main__` 
+:::
+
+::: {.callout-tip}
+### Focus : PEP8 et Annotation de type 
+:::
+
+
+Maintenant TIME TO PRACTICE ! 💪
+
+## Exercices 
+
+Je t'ai concocté une série d'exercices passionnants 🌟 qui te permettront non seulement de créer de nouvelles classes, mais aussi de (re)découvrir des notions essentielles de la programmation Python 🐍. 
+
+Ces exercices sont spécialement conçus pour booster ta compréhension des principes de la programmation orientée objet 🔄, tout en te donnant l'occasion de manipuler des attributs, de gérer des méthodes, et d'explorer des interactions complexes entre objets. 
+
+Bonne courage et surtout, prends du plaisir en codant ! 🚀✨
+
+### 1 - Facile : Création de la classe `Rappeur`
+#### Énoncé
+Crée une classe `Rappeur` avec les attributs suivants :
+
+* `nom` : le nom du rappeur.
+
+* `flow` : une description du style de flow du rappeur.
+
+* `albums` : une liste des noms d'albums du rappeur.
+
+La classe doit aussi inclure une méthode `introduction()` qui affiche une phrase décrivant le rappeur et une méthode `sortir_album()` qui prend le nom d'un nouvel album et l'ajoute à la liste des albums.
+
+::: {.callout-tip}
+## Conseil
+Pour la méthode sortir_album(), assure-toi de vérifier que l'album n'est pas déjà dans la liste avant de l'ajouter. Cela évitera les doublons dans la discographie du rappeur.
+:::
