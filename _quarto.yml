@@ -13,22 +13,14 @@ website:
   google-analytics: "G-QTG3TJ9SJQ"
   back-to-top-navigation: true
   favicon: "images/python logo.png"
-  search:
-    location: navbar
-    type: textbox
   navbar:
     left:
       - href: index.qmd
         text: "🏠Acceuil"
-      - href: cours/module1.qmd
+      - href: cours/index.qmd
         text: "📝Cours"
       - href: about.qmd
         text: "🙋🏻‍♀️À Propos"
-  sidebar:
-    background: "#F5F5F5"
-    style: docked
-    search: true
-    logo: "images/python logo.png"
     tools:
       - icon: linkedin
         href: https://www.linkedin.com/in/menyssacherifaluron/
@@ -38,13 +30,25 @@ website:
             href: https://github.com/universdesdonnees/poo_en_python
           - text: Signaler Un Bug
             href: https://github.com/universdesdonnees/poo_en_python/issues
+  search: 
+    location: navbar
+    type: textbox
+  sidebar:
+    background: "#F5F5F5"
+    style: docked
+    search: true
+    logo: "images/python logo.png"
     contents:
-      - href: index.qmd
-        text: "🏠Acceuil"
-      - href: cours/module1.qmd
-        text: "📝Cours"
-      - href: about.qmd
-        text: "🙋🏻‍♀️À Propos"
+      - href: cours/index.qmd
+        text: "Organisation"
+      - section: "Modules"
+        contents:
+            - href: cours/module1.qmd
+              text: "📝 Module 1"
+            - href: cours/module2.qmd
+              text: "📝 Module 2"
+            - href: cours/module3.qmd
+              text: "📝 Module 3"
   page-footer:
     background: light
     left: "CC BY-NC 4.0 DEED

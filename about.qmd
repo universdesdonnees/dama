@@ -34,9 +34,11 @@ Salut, 👋 moi, c'est **Ményssa Cherifa-Luron (MCL)**, Data scientist et Forma
 |----------|------------|-------------|
 | [cmenyssa@live.fr](mailto:cmenyssa@live.fr) | [@universdesdonnees](https://github.com/universdesdonnees) | [@Ményssa Cherifa-Luron](https://www.linkedin.com/in/menyssacherifaluron/) |
 
-
-<a href="cours.qmd">
-    <button class="button-61">Retourner au cours ! 🚀</button>
-</a>
-
+```{=html}
+<div style="text-align: center">
+  <a href="https://cal.com/menyssa.cherifa-luron/1h">
+    <button class="button-61"> Prendre RDV ! 🚀</button>
+  </a>
+</div>
+```
 -----------------

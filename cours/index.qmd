@@ -1,40 +1,42 @@
 ---
-title: "MY_COURSE_CODE - MY_COURSE_NAME"
-subtitle: "Academic Year: 2022/23"
+title: "Organisation du cours"
 format: html
 ---
 
 ::: {.callout-important collapse=false}
-## 📢 Organisation en plusieurs modules
-
+## 📢 Les modules
+- Pour le moment 3 modules sont prévus pour ce cours.
+- Les corrections se feront au fur et à mesure
+- La prise de RDV est possible sur la page `A propos`
 :::
-# 💻 Class Groups
+# 💻 Modules
 
 ::: {style="display:inline-block;width: 28.5%;border-style: dotted;border-width: 1px;border-color: &quot;#fefefe&quot;; margin:1%;padding:1.5%;background-color:#fafafa"}
-**Group 01**
+**Module 1**
 
-- 📆 Mondays
-- ⌚ 09:00 - 10:30
-- 📍 
-- 🧑‍🏫 _TA_NAME_
-:::
+✅ Cours 
 
-::: {style="display:inline-block;width: 28.5%;border-style: dotted;border-width: 1px;border-color: &quot;#fefefe&quot;; margin:1%;padding:1.5%;background-color:#fafafa"}
-**Group 02**
+✅ Exercices
 
-            
-- 📆 Mondays
-- ⌚ 10:30 - 12:00
-- 📍 
-- 🧑‍🏫 _TA_NAME_
-            
+⛔ Corrections
 :::
 
 ::: {style="display:inline-block;width: 28.5%;border-style: dotted;border-width: 1px;border-color: &quot;#fefefe&quot;; margin:1%;padding:1.5%;background-color:#fafafa"}
-**Group 03**
+**Module 2**
 
-- 📆 Fridays
-- ⌚ 16:00 - 17:30
-- 📍 
-- 🧑‍🏫 _TA_NAME_
+⛔ Cours 
+
+⛔ Exercices 
+
+⛔ Corrections      
+:::
+
+::: {style="display:inline-block;width: 28.5%;border-style: dotted;border-width: 1px;border-color: &quot;#fefefe&quot;; margin:1%;padding:1.5%;background-color:#fafafa"}
+**Module 3**
+
+⛔ Cours 
+
+⛔ Exercices 
+
+⛔ Corrections
 :::

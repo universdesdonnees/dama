@@ -22,5 +22,14 @@
   },
   "index.qmd": {
     "index.html": "ece0dde1"
+  },
+  "cours/index.qmd": {
+    "index.html": "df9384dd"
+  },
+  "cours/module2.qmd": {
+    "module2.html": "d9cfe373"
+  },
+  "cours/module3.qmd": {
+    "module3.html": "8357e726"
   }
 }

@@ -36,7 +36,7 @@ Objectif du cours : Te faire découvrir les concepts clés de la programmation o
 ```
 -----------------
 
-## 📑 Résumé du Cours
+## 🛎️ Au menu
 
 Que tu sois débutant, intermédiaire ou avancé, ce cours te permettra de progresser en POO Python à ton rythme, avec des exemples concrets et des exercices adaptés. 
 
@@ -51,6 +51,7 @@ Apprentissage par la pratique, à travers des exercices amusants basés sur des 
 ## 🎯 Objectifs 
 
 - Tu découvriras les principes fondamentaux de la POO : `classes`, `objets`, `attributs`, `méthodes` 
+- Tu apprendras à distinguer les notions d'**encapsulation**, d'**héritage** et de **polymorphisme**, l'**abstraction** et bien plus encore ...
 - Tu apprendras à distinguer les notions d'**encapsulation**, d'**héritage** et de **polymorphisme**
 - Tu t'exerceras  créer tes propres classes inspirées d'exemples du quotidien : musique, smartphone, voiture,...
 - Tu sauras **instancier** des objets et interagir avec eux  
@@ -59,7 +60,7 @@ Apprentissage par la pratique, à travers des exercices amusants basés sur des 
 -----------------
 ```{=html}
 <div style="text-align: center">
-  <a href="cours.qmd">
+  <a href="cours/module1.qmd">
     <button class="button-61">Commencer le cours ! 🚀</button>
   </a>
 </div>

@@ -465,8 +465,11 @@ Bonne courage et surtout, prends du plaisir en codant ! 🚀✨
 ### 1 - Facile : Création de la classe `Rappeur`
 #### Énoncé
 Crée une classe `Rappeur` avec les attributs suivants :
+
 * `nom` : le nom du rappeur.
+
 * `flow` : une description du style de flow du rappeur.
+
 * `albums` : une liste des noms d'albums du rappeur.
 
 La classe doit aussi inclure une méthode `introduction()` qui affiche une phrase décrivant le rappeur et une méthode `sortir_album()` qui prend le nom d'un nouvel album et l'ajoute à la liste des albums.
@@ -479,12 +482,17 @@ Pour la méthode sortir_album(), assure-toi de vérifier que l'album n'est pas d
 ### 2 - Facile : La Bibliothèque 
 #### Énoncé
 Crée une classe `Livre` avec les attributs suivants :
+
 * `titre` : le titre du livre.
+
 * `auteur` : l'auteur du livre.
 
 La classe doit inclure des méthodes pour :
+
 * Définir un premier livre numérique et afficher ses informations.
+
 * Mettre à jour le titre et l'auteur d'un livre.
+
 * Afficher les détails d'un livre.
 
 ::: {.callout-tip}
@@ -495,11 +503,15 @@ Lorsque tu modifies les attributs d'un livre, pense à utiliser des méthodes de
 ### 3 - Facile : Compte bancaire
 #### Énoncé
 Crée une classe `Account` avec les attributs suivants :
+
 * `solde` : le solde initial du compte.
 
 La classe doit inclure des méthodes pour :
+
 * Déposer des fonds sur le compte.
+
 * Retirer des fonds du compte.
+
 * Appliquer un taux d'intérêt au solde du compte.
 
 ::: {.callout-tip}
@@ -510,12 +522,17 @@ Teste scrupuleusement les méthodes de dépôt et de retrait pour gérer correct
 ### 4 - Intermédiaire : Conseiller financier 
 #### Énoncé
 Crée une classe `CompteBancaire` avec les attributs suivants :
+
 * `identifiant` : l'identifiant du compte.
+
 * `nom_proprietaire` : le nom du propriétaire du compte.
+
 * `solde` : le solde initial du compte.
 
 La classe doit inclure des méthodes pour :
+
 * Gérer les dépôts et les retraits, en appliquant des agios en cas de découvert.
+
 * Afficher tous les détails du compte.
 
 ::: {.callout-tip}
@@ -528,7 +545,9 @@ La classe doit inclure des méthodes pour :
 Améliore la classe `Rappeur` pour inclure un attribut `collaborations`, qui est une liste de tuples. Chaque tuple contient le nom d'un autre rappeur et le titre de la chanson sur laquelle ils ont collaboré.
 
 La classe doit inclure des méthodes pour :
+
 * Ajouter une collaboration à la liste des collaborations.
+
 * Afficher toutes les collaborations du rappeur.
 
 ::: {.callout-tip}
@@ -539,27 +558,37 @@ Quand tu ajoutes des collaborations, assure-toi de vérifier si la collaboration
 ### 6 - Difficile : Tournoi de Bataille
 #### Énoncé
 Crée une classe `Carte` avec les attributs suivants :
+
 * `valeur` : la valeur de la carte.
+
 * `nom` : le nom de la carte.
 
 Crée une classe `Paquet` avec les attributs suivants :
+
 * `cartes` : la liste des cartes du paquet.
 
 La classe `Paquet` doit inclure des méthodes pour :
+
 * Mélanger le paquet de cartes.
+
 * Distribuer les cartes équitablement entre les joueurs.
 
 Crée une classe `Joueur` avec les attributs suivants :
+
 * `main` : la main du joueur.
 
 La classe `Joueur` doit inclure des méthodes pour :
+
 * Préparer la main du joueur pour la bataille.
 
 Crée une classe `Tournoi` avec les attributs suivants :
+
 * `joueurs` : la liste des joueurs participants.
 
 La classe `Tournoi` doit inclure des méthodes pour :
+
 * Dérouler la bataille entre les joueurs.
+
 * Déclarer le gagnant du tournoi.
 
 ::: {.callout-tip}
