@@ -51,9 +51,8 @@ Des exercices pratiques, des exemples de code et d'autres ressources complément
 
 Pour toute question ou suggestion, vous pouvez me contacter via :
 
-- [Email](mailto:votre@email.com)
-- [LinkedIn](https://www.linkedin.com/in/votreprofile)
-- [Twitter](https://twitter.com/votrecompte)
+- [LinkedIn](https://www.linkedin.com/in/menyssacherifa/) 
+- [Mail](cmenyssa@live.fr)
 
 ## Licence
 
