@@ -17,6 +17,7 @@ website:
   back-to-top-navigation: true
   favicon: "images/python logo.png"
   navbar:
+    background: primary
     left:
       - href: index.qmd
         text: "🏠Acceuil"
@@ -40,16 +41,26 @@ website:
     background: "#F5F5F5"
     style: docked
     search: true
+    alignment: "center"
     logo: "images/python logo.png"
+    tools:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/menyssacherifaluron/
+      - icon: github
+        href: https://github.com/universdesdonnees/poo_en_python
     contents:
       - section: "Modules"
         contents:
+            - text: "---"
             - href: cours/module0.qmd
-              text: "0. Introduction à Python"
+              text: "Introduction à Python - Rappels essentiels"
+            - text: "---"
             - href: cours/module1.qmd
               text: "POO 1. Contexte et notions élémentaires"
+            - text: "---"
             - href: cours/module2.qmd
               text: "POO 2.📝 Module 2"
+            - text: "---"
             - href: cours/module3.qmd
               text: "POO 3.📝 Module 3"
               
