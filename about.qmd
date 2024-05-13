@@ -1,5 +1,8 @@
 ---
 title: 🙋🏻‍♀️ Qui suis-je ?
+sidebar: false
+page-layout: full
+toc: false
 ---
 Salut, 👋 moi, c'est **Ményssa Cherifa-Luron (MCL)**, Data scientist et Formatrice freelance.
 

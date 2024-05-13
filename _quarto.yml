@@ -29,9 +29,9 @@ website:
         href: https://www.linkedin.com/in/menyssacherifaluron/
       - icon: github
         menu:
-          - text: Code Source
+          - text: Code source
             href: https://github.com/universdesdonnees/poo_en_python
-          - text: Signaler Un Bug
+          - text: Signaler un bug
             href: https://github.com/universdesdonnees/poo_en_python/issues
   search: 
     location: navbar
@@ -45,17 +45,15 @@ website:
       - section: "Modules"
         contents:
             - href: cours/module1.qmd
-              text: "📝 Module 1"
+              text: "1. Contexte et notions élémentaires"
             - href: cours/module2.qmd
               text: "📝 Module 2"
             - href: cours/module3.qmd
               text: "📝 Module 3"
+              
   page-footer:
-    background: light
-    left: "CC BY-NC 4.0 DEED
-Attribution - Pas d’Utilisation Commerciale 4.0 International
- © 2024 Ményssa Cherifa-Luron." 
-
+    left: 'Créé © 2024 par [Ményssa Cherifa-Luron](https://www.linkedin.com/in/menyssacherifaluron/), mise en page Quarto adaptée de [Jon Cardoso-Silva''s Quarto template for university courses](https://github.com/jonjoncardoso/quarto-template-for-university-courses)<br> Tout le contenu est sous licence (CC) (BY) (NC) [Licence Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)'
+    right: 'Fait avec 🐍 et [Quarto](https://quarto.org/)<br> [Voir sur </> GitHub](https://github.com/nickhand/ds105)'
 format:
   html:
     page-layout: full

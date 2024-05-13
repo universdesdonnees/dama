@@ -1,6 +1,6 @@
 ---
-title: "🗓️ Module 1"
-subtitle: "Contexte et notions élémentaires"
+title: "Contexte et notions élémentaires"
+subtitle: "Gentle introduction à la POO en Python"
 ---
 
 ## 1. Introduction  

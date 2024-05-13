@@ -1,6 +1,8 @@
 ---
 title: "Organisation du cours"
 format: html
+page-layout: full
+toc: false
 ---
 
 ::: {.callout-important collapse=false}
