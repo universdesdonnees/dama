@@ -64,7 +64,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../cours/module1.html" rel="next">
 <link href="../images/python logo.png" rel="icon" type="image/png">
 <script src="../site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
@@ -194,7 +193,7 @@ cookieconsent.run({
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../cours/module0.html">Modules</a></li><li class="breadcrumb-item"><a href="../cours/module0.html">0. Introduction à Python</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Modules</li><li class="breadcrumb-item"><a href="../cours/module0.html">Introduction à Python - Rappels essentiels</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -207,10 +206,14 @@ cookieconsent.run({
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header">
       <a href="../index.html" class="sidebar-logo-link">
       <img src="../images/python logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
+      <div class="sidebar-tools-main">
+    <a href="https://www.linkedin.com/in/menyssacherifaluron/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
+    <a href="https://github.com/universdesdonnees/poo_en_python" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+</div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
@@ -228,24 +231,28 @@ cookieconsent.run({
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="px-0"><hr class="sidebar-divider hi "></li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../cours/module0.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">0. Introduction à Python</span></a>
+ <span class="menu-text">Introduction à Python - Rappels essentiels</span></a>
   </div>
 </li>
+          <li class="px-0"><hr class="sidebar-divider hi "></li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../cours/module1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">POO 1. Contexte et notions élémentaires</span></a>
   </div>
 </li>
+          <li class="px-0"><hr class="sidebar-divider hi "></li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../cours/module2.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">POO 2.📝 Module 2</span></a>
   </div>
 </li>
+          <li class="px-0"><hr class="sidebar-divider hi "></li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../cours/module3.html" class="sidebar-item-text sidebar-link">
@@ -338,7 +345,7 @@ cookieconsent.run({
 <!-- main -->
 <main class="content column-body" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../cours/module0.html">Modules</a></li><li class="breadcrumb-item"><a href="../cours/module0.html">0. Introduction à Python</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Modules</li><li class="breadcrumb-item"><a href="../cours/module0.html">Introduction à Python - Rappels essentiels</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Introduction à Python</h1>
 <p class="subtitle lead">Un peu de révisions ne fait pas de mal</p>
@@ -427,7 +434,7 @@ Site officiel
 <li><p>la casse serpent : mon_nom_de_variable</p></li>
 </ul>
 <p>Évite juste de commencer les noms par des chiffres, d’utiliser des caractères spéciaux et de mélanger chiffres et lettres n’importe comment.</p>
-<div id="f0b07bc8" class="cell" data-execution_count="1">
+<div id="bd637c2d" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Affectation simple </span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>Ma_variable <span class="op">=</span>  <span class="dv">10</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(Ma_variable)</span>
@@ -475,7 +482,7 @@ Chocolat</code></pre>
 <li><p>d = True</p></li>
 <li><p>e = 2 + 3j</p></li>
 </ul>
-<div id="d269f28c" class="cell" data-execution_count="2">
+<div id="f2c49fdf" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Afficher le type d'une variable</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>bonjour <span class="op">=</span> <span class="st">"Hello"</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="bu">type</span>(bonjour) </span>
@@ -521,7 +528,7 @@ la variable estFaux est de type : &lt;class 'bool'&gt;</code></pre>
 <ul>
 <li>Conversion en Entier (<code>int</code>)</li>
 </ul>
-<div id="7b7b1f9c" class="cell" data-execution_count="3">
+<div id="7ad460cf" class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Depuis une chaîne de caractères :</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>chaine <span class="op">=</span> <span class="st">"123"</span></span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>nombre <span class="op">=</span> <span class="bu">int</span>(chaine)  <span class="co"># Convertit la chaîne "123" en entier 123</span></span>
@@ -537,7 +544,7 @@ la variable estFaux est de type : &lt;class 'bool'&gt;</code></pre>
 <ul>
 <li>Conversion en Chaîne de Caractères (<code>str</code>)</li>
 </ul>
-<div id="11b49cc7" class="cell" data-execution_count="4">
+<div id="7ebe00ef" class="cell" data-execution_count="4">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Depuis un entier ou un float :</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>nombre <span class="op">=</span> <span class="dv">123</span></span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>chaine <span class="op">=</span> <span class="bu">str</span>(nombre)  <span class="co"># Convertit l'entier 123 en chaîne "123"</span></span>
@@ -549,7 +556,7 @@ la variable estFaux est de type : &lt;class 'bool'&gt;</code></pre>
 <ul>
 <li>Conversion en Booléen (<code>bool</code>)</li>
 </ul>
-<div id="3ab4a270" class="cell" data-execution_count="5">
+<div id="782b76b9" class="cell" data-execution_count="5">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Depuis une chaîne de caractères** :</span></span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>chaine <span class="op">=</span> <span class="st">""</span></span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>booleen <span class="op">=</span> <span class="bu">bool</span>(chaine)  <span class="co"># Convertit une chaîne vide en False</span></span>
@@ -565,7 +572,7 @@ la variable estFaux est de type : &lt;class 'bool'&gt;</code></pre>
 <ul>
 <li>Conversion en Float (<code>float</code>)</li>
 </ul>
-<div id="4b154414" class="cell" data-execution_count="6">
+<div id="6161ba36" class="cell" data-execution_count="6">
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Depuis une chaîne de caractères:</span></span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>chaine <span class="op">=</span> <span class="st">"123.45"</span></span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>flottant <span class="op">=</span> <span class="bu">float</span>(chaine)  <span class="co"># Convertit la chaîne "123.45" en float 123.45</span></span>
@@ -594,14 +601,14 @@ la variable estFaux est de type : &lt;class 'bool'&gt;</code></pre>
 <li><p>Les divisions entières (//) : pour obtenir un résultat entier Exemple : <code>7 // 2 = 3</code></p></li>
 <li><p>Les modulos (%) : pour obtenir le reste d’une division Exemple : <code>7 % 2 = 1</code> (car 7 divisé par 2 donne 3 reste 1)</p></li>
 </ul>
-<div id="1d268abb" class="cell" data-execution_count="7">
+<div id="23fa8467" class="cell" data-execution_count="7">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>somme <span class="op">=</span> <span class="dv">10</span> <span class="op">+</span> <span class="dv">5</span>       <span class="co"># Résultat: 15</span></span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>difference <span class="op">=</span> <span class="dv">10</span> <span class="op">-</span> <span class="dv">5</span>  <span class="co"># Résultat: 5</span></span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>produit <span class="op">=</span> <span class="dv">10</span> <span class="op">*</span> <span class="dv">5</span>     <span class="co"># Résultat: 50</span></span>
 <span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>quotient <span class="op">=</span> <span class="dv">10</span> <span class="op">/</span> <span class="dv">5</span>    <span class="co"># Résultat: 2.0</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Modulo (%) retourne le reste de la division Puissance (**) élève un nombre à une certaine puissance.</p>
-<div id="1bfb6185" class="cell" data-execution_count="8">
+<div id="26354de2" class="cell" data-execution_count="8">
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>reste <span class="op">=</span> <span class="dv">10</span> <span class="op">%</span> <span class="dv">3</span>       <span class="co"># Résultat: 1</span></span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>puissance <span class="op">=</span> <span class="dv">2</span> <span class="op">**</span> <span class="dv">3</span>   <span class="co"># Résultat: 8</span></span>
 <span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>puissance_bis <span class="op">=</span> <span class="dv">2</span> <span class="op">^</span> <span class="dv">3</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -631,7 +638,7 @@ Opérations sur les str
 <h3 class="anchored" data-anchor-id="opérateurs-daffectation-composés">2.1.4. Opérateurs d’affectation composés</h3>
 <p>Les opérateurs d’affectation composés sont des raccourcis qui combinent une opération arithmétique ou binaire avec une affectation.</p>
 <p>En gros, ils permettent d’effectuer une opération sur une variable et de lui réaffecter le résultat en une seule étape.</p>
-<div id="2b14701e" class="cell" data-execution_count="9">
+<div id="7a9c488b" class="cell" data-execution_count="9">
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialisation de x</span></span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="dv">5</span></span>
 <span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(x)</span>
@@ -1296,15 +1303,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation column-body">
-  <div class="nav-page nav-page-previous">
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../cours/module1.html" class="pagination-link" aria-label="POO 1. Contexte et notions élémentaires">
-        <span class="nav-page-text">POO 1. Contexte et notions élémentaires</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

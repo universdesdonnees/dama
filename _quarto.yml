@@ -66,7 +66,7 @@ website:
               
   page-footer:
     left: 'Créé © 2024 par [Ményssa Cherifa-Luron](https://www.linkedin.com/in/menyssacherifaluron/), mise en page Quarto adaptée de [Jon Cardoso-Silva''s Quarto template for university courses](https://github.com/jonjoncardoso/quarto-template-for-university-courses)<br> Tout le contenu est sous licence (CC) (BY) (NC) [Licence Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)'
-    right: 'Fait avec 🐍 et [Quarto](https://quarto.org/)<br> [Voir sur </> GitHub](https://github.com/nickhand/ds105)'
+    right: 'Fait avec 🐍 et [Quarto](https://quarto.org/)<br> [Voir sur </> GitHub](https://github.com/universdesdonnees/poo_en_python)'
 format:
   html:
     page-layout: full
