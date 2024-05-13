@@ -6,11 +6,7 @@
 $white:    #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
-$gray-300: #ddd !default;
-$gray-400: #ced4da !default;
 $gray-500: #adb5bd !default;
-$gray-600: #868e96 !default;
-$gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
@@ -20,53 +16,19 @@ $black:    #000 !default;
 
 // Viridis colors
 // viridisLite::viridis(6, option = "viridis", begin = 0, end = 1)
-//$blue:   #0D0887 !default;  // Plasma[1]
-$blue:    #F8CB42 !default;
-$indigo: #5601A4 !default;  // Plasma[2]
-$purple: #900DA4 !default;  // Plasma[3]
+$blue:   #0D0887 !default;  // Plasma[1]
 $pink:   #BF3984 !default;  // Plasma[4]
-$red:    #E16462 !default;  // Plasma[5]
 $orange: #FFBD59 !default;  // Plasma[6]
-$yellow: #FCCE25 !default;  // Plasma[7]
+$yellow: #F8CB42 !default;  // Plasma[7]
 $green:  #7AD151 !default;  // Viridis[5]
-$teal:   #2A788E !default;  // Viridis[3]
-$cyan:   #22A884 !default;  // Viridis[4]
+
 
 // Sky colors (tailwind)
-$sky-50: #f0f9ff !default; 
-$sky-100: #e0f2fe !default; 
-$sky-200: #bae6fd !default; 
-$sky-300: #7dd3fc !default; 
-$sky-400: #38bdf8 !default; 
-$sky-500: #0ea5e9 !default; 
-$sky-600: #0284c7 !default; 
-$sky-700: #0369a1 !default; 
-$sky-800: #075985 !default; 
-$sky-900: #0c4a6e !default;
 
 // Green colors (tailwind)
-$green-50: #f0f9ff !default; 
-$green-100: #dcfce7 !default; 
-$green-200: #bbf7d0 !default; 
-$green-300: #86efac !default; 
-$green-400: #4ade80 !default; 
-$green-500: #22c55e !default; 
-$green-600: #16a34a !default; 
-$green-700: #15803d !default; 
-$green-800: #166534 !default; 
-$green-900: #14532d !default;
 
 // Orange colors (tailwind)
-$orange-50: #fff7ed !default; 
-$orange-100: #fef3c7 !default; 
-$orange-200: #fde68a !default; 
-$orange-300: #fcd34d !default; 
-$orange-400: #fbbf24 !default; 
 $orange-500: #f59e0b !default; 
-$orange-600: #d97706 !default; 
-$orange-700: #b45309 !default; 
-$orange-800: #92400e !default; 
-$orange-900: #78350f !default;
 
 $primary:       $black !default;
 $secondary:     $gray-500 !default;

@@ -364,6 +364,34 @@ print(x)
 :::
 
 ## 2.2. Commentaires et affichage
+Voici une adaptation de la cellule en gardant le rôle de DataCopy :
+
+<a id="22-commentaires-et-affichage"></a>
+<h3 style="text-align: left; background-color: #e0e0e0; font-family:Times New Roman; color: black; padding: 14px; line-height: 1; border-radius:10px">2.2 Commentaires et affichage</h3>
+
+Les **commentaires** sont utilisés pour expliquer le code. 
+
+Imagine-les comme des post-it collés sur ton script 📝 Ils t'aident à garder le cap quand tu relis ton code 3 mois plus tard !
+
+Quelques tips de pro pour tes commentaires :
+
+- Sois bref mais explicite  
+- Indique l'objectif du bloc de code
+- Explique les paramètres et valeurs retournées des fonctions
+- Note les points d'amélioration possibles 
+
+Avec des bons commentaires, ton code devient une carte au trésor facile à suivre ! 
+
+Ils commencent par un `#` et s'étendent jusqu'à la fin de la ligne.
+
+::: {.callout-important}
+## À Retenir
+> Les commentaires sont ignorés lors de l'exécution du code.
+:::
+
+En résumé, les commentaires sont des outils essentiels pour rendre ton code plus compréhensible et maintenable sur le long terme. Prends le temps de les rédiger avec soin, tes collègues (et ton toi du futur) te remercieront ! 
+
+
 ## 2.3. Structures de contrôle
 ### 2.3.1 Les opérateurs
 ### 2.3.2 Les conditions

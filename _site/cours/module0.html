@@ -144,6 +144,9 @@ cookieconsent.run({
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/python logo.png" alt="" class="navbar-logo">
+    </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">POO en Python</span>
     </a>
@@ -156,7 +159,7 @@ cookieconsent.run({
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link active" href="../index.html" aria-current="page"> 
-<span class="menu-text">🏠Acceuil</span></a>
+<span class="menu-text">🏠Accueil</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../cours/index.html"> 
@@ -196,9 +199,6 @@ cookieconsent.run({
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Modules</li><li class="breadcrumb-item"><a href="../cours/module0.html">Introduction à Python - Rappels essentiels</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
     </div>
   </nav>
 </header>
@@ -215,11 +215,6 @@ cookieconsent.run({
     <a href="https://github.com/universdesdonnees/poo_en_python" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
 </div>
       </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
@@ -434,7 +429,7 @@ Site officiel
 <li><p>la casse serpent : mon_nom_de_variable</p></li>
 </ul>
 <p>Évite juste de commencer les noms par des chiffres, d’utiliser des caractères spéciaux et de mélanger chiffres et lettres n’importe comment.</p>
-<div id="bd637c2d" class="cell" data-execution_count="1">
+<div id="b9309718" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Affectation simple </span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>Ma_variable <span class="op">=</span>  <span class="dv">10</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(Ma_variable)</span>
@@ -482,7 +477,7 @@ Chocolat</code></pre>
 <li><p>d = True</p></li>
 <li><p>e = 2 + 3j</p></li>
 </ul>
-<div id="f2c49fdf" class="cell" data-execution_count="2">
+<div id="9a0eabdb" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Afficher le type d'une variable</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>bonjour <span class="op">=</span> <span class="st">"Hello"</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="bu">type</span>(bonjour) </span>
@@ -528,7 +523,7 @@ la variable estFaux est de type : &lt;class 'bool'&gt;</code></pre>
 <ul>
 <li>Conversion en Entier (<code>int</code>)</li>
 </ul>
-<div id="7ad460cf" class="cell" data-execution_count="3">
+<div id="40133cd0" class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Depuis une chaîne de caractères :</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>chaine <span class="op">=</span> <span class="st">"123"</span></span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>nombre <span class="op">=</span> <span class="bu">int</span>(chaine)  <span class="co"># Convertit la chaîne "123" en entier 123</span></span>
@@ -544,7 +539,7 @@ la variable estFaux est de type : &lt;class 'bool'&gt;</code></pre>
 <ul>
 <li>Conversion en Chaîne de Caractères (<code>str</code>)</li>
 </ul>
-<div id="7ebe00ef" class="cell" data-execution_count="4">
+<div id="99c0e4dd" class="cell" data-execution_count="4">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Depuis un entier ou un float :</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>nombre <span class="op">=</span> <span class="dv">123</span></span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>chaine <span class="op">=</span> <span class="bu">str</span>(nombre)  <span class="co"># Convertit l'entier 123 en chaîne "123"</span></span>
@@ -556,7 +551,7 @@ la variable estFaux est de type : &lt;class 'bool'&gt;</code></pre>
 <ul>
 <li>Conversion en Booléen (<code>bool</code>)</li>
 </ul>
-<div id="782b76b9" class="cell" data-execution_count="5">
+<div id="ed53ad38" class="cell" data-execution_count="5">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Depuis une chaîne de caractères** :</span></span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>chaine <span class="op">=</span> <span class="st">""</span></span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>booleen <span class="op">=</span> <span class="bu">bool</span>(chaine)  <span class="co"># Convertit une chaîne vide en False</span></span>
@@ -572,7 +567,7 @@ la variable estFaux est de type : &lt;class 'bool'&gt;</code></pre>
 <ul>
 <li>Conversion en Float (<code>float</code>)</li>
 </ul>
-<div id="6161ba36" class="cell" data-execution_count="6">
+<div id="38fad36a" class="cell" data-execution_count="6">
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Depuis une chaîne de caractères:</span></span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>chaine <span class="op">=</span> <span class="st">"123.45"</span></span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>flottant <span class="op">=</span> <span class="bu">float</span>(chaine)  <span class="co"># Convertit la chaîne "123.45" en float 123.45</span></span>
@@ -601,14 +596,14 @@ la variable estFaux est de type : &lt;class 'bool'&gt;</code></pre>
 <li><p>Les divisions entières (//) : pour obtenir un résultat entier Exemple : <code>7 // 2 = 3</code></p></li>
 <li><p>Les modulos (%) : pour obtenir le reste d’une division Exemple : <code>7 % 2 = 1</code> (car 7 divisé par 2 donne 3 reste 1)</p></li>
 </ul>
-<div id="23fa8467" class="cell" data-execution_count="7">
+<div id="89d64a40" class="cell" data-execution_count="7">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>somme <span class="op">=</span> <span class="dv">10</span> <span class="op">+</span> <span class="dv">5</span>       <span class="co"># Résultat: 15</span></span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>difference <span class="op">=</span> <span class="dv">10</span> <span class="op">-</span> <span class="dv">5</span>  <span class="co"># Résultat: 5</span></span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>produit <span class="op">=</span> <span class="dv">10</span> <span class="op">*</span> <span class="dv">5</span>     <span class="co"># Résultat: 50</span></span>
 <span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>quotient <span class="op">=</span> <span class="dv">10</span> <span class="op">/</span> <span class="dv">5</span>    <span class="co"># Résultat: 2.0</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Modulo (%) retourne le reste de la division Puissance (**) élève un nombre à une certaine puissance.</p>
-<div id="26354de2" class="cell" data-execution_count="8">
+<div id="1aaf06e0" class="cell" data-execution_count="8">
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>reste <span class="op">=</span> <span class="dv">10</span> <span class="op">%</span> <span class="dv">3</span>       <span class="co"># Résultat: 1</span></span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>puissance <span class="op">=</span> <span class="dv">2</span> <span class="op">**</span> <span class="dv">3</span>   <span class="co"># Résultat: 8</span></span>
 <span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>puissance_bis <span class="op">=</span> <span class="dv">2</span> <span class="op">^</span> <span class="dv">3</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -638,7 +633,7 @@ Opérations sur les str
 <h3 class="anchored" data-anchor-id="opérateurs-daffectation-composés">2.1.4. Opérateurs d’affectation composés</h3>
 <p>Les opérateurs d’affectation composés sont des raccourcis qui combinent une opération arithmétique ou binaire avec une affectation.</p>
 <p>En gros, ils permettent d’effectuer une opération sur une variable et de lui réaffecter le résultat en une seule étape.</p>
-<div id="7a9c488b" class="cell" data-execution_count="9">
+<div id="921437a0" class="cell" data-execution_count="9">
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialisation de x</span></span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="dv">5</span></span>
 <span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(x)</span>
@@ -703,6 +698,39 @@ Opérations sur les str
 </section>
 <section id="commentaires-et-affichage" class="level2">
 <h2 class="anchored" data-anchor-id="commentaires-et-affichage">2.2. Commentaires et affichage</h2>
+<p>Voici une adaptation de la cellule en gardant le rôle de DataCopy :</p>
+<a id="22-commentaires-et-affichage"></a>
+<h3 style="text-align: left; background-color: #e0e0e0; font-family:Times New Roman; color: black; padding: 14px; line-height: 1; border-radius:10px" class="anchored">
+2.2 Commentaires et affichage
+</h3>
+<p>Les <strong>commentaires</strong> sont utilisés pour expliquer le code.</p>
+<p>Imagine-les comme des post-it collés sur ton script 📝 Ils t’aident à garder le cap quand tu relis ton code 3 mois plus tard !</p>
+<p>Quelques tips de pro pour tes commentaires :</p>
+<ul>
+<li>Sois bref mais explicite<br>
+</li>
+<li>Indique l’objectif du bloc de code</li>
+<li>Explique les paramètres et valeurs retournées des fonctions</li>
+<li>Note les points d’amélioration possibles</li>
+</ul>
+<p>Avec des bons commentaires, ton code devient une carte au trésor facile à suivre !</p>
+<p>Ils commencent par un <code>#</code> et s’étendent jusqu’à la fin de la ligne.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+À Retenir
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<blockquote class="blockquote">
+<p>Les commentaires sont ignorés lors de l’exécution du code.</p>
+</blockquote>
+</div>
+</div>
+<p>En résumé, les commentaires sont des outils essentiels pour rendre ton code plus compréhensible et maintenable sur le long terme. Prends le temps de les rédiger avec soin, tes collègues (et ton toi du futur) te remercieront !</p>
 </section>
 <section id="structures-de-contrôle" class="level2">
 <h2 class="anchored" data-anchor-id="structures-de-contrôle">2.3. Structures de contrôle</h2>
@@ -1313,7 +1341,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 <div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
-<p>Fait avec 🐍 et <a href="https://quarto.org/">Quarto</a><br> <a href="https://github.com/nickhand/ds105">Voir sur &lt;/&gt; GitHub</a></p>
+<p>Fait avec 🐍 et <a href="https://quarto.org/">Quarto</a><br> <a href="https://github.com/universdesdonnees/poo_en_python">Voir sur &lt;/&gt; GitHub</a></p>
 </div>
   </div>
 </footer>

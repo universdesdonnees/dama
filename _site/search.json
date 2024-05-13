@@ -90,7 +90,7 @@
     "section": "",
     "text": "Bientôt\n\n\n\n Back to top",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "POO 2.📝 Module 2"
     ]
@@ -102,7 +102,7 @@
     "section": "",
     "text": "Si tu as déjà des notions avancées en prog Python, passe directement au module suivant",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "Introduction à Python - Rappels essentiels"
     ]
@@ -114,7 +114,7 @@
     "section": "2.1. Les variables",
     "text": "2.1. Les variables\nLes variables, c’est un peu comme des boîtes dans lesquelles tu peux ranger des trucs : des nombres, du texte, etc.\nPar exemple, si tu écris x = 10, tu crées une variable “x” qui contient la valeur 10. Easy !\nLe truc cool avec Python, c’est qu’il devine tout seul le type de données que tu mets dans la variable.\nC’est ce qu’on appelle le typage dynamique. Pratique, non ?\nQuelques règles de base à retenir sur les variables :\n\nPour donner une valeur à une variable, on utilise le signe égal (=). C’est l’affectation.\nTu peux écraser la valeur d’une variable en lui réaffectant une nouvelle valeur.\nAttention à la casse ! “maVariable” et “mavariable”, pour Python c’est pas pareil.\nTu peux afficher plusieurs variables d’un coup avec print() en les séparant par des virgules.\nTu peux affecter plusieurs valeurs à plusieurs variables sur une seule ligne. Stylé !\n\nPour les noms de variables, tu as le choix entre :\n\nla casse camel : monNomDeVariable\nla casse Pascal : MonNomDeVariable\nla casse serpent : mon_nom_de_variable\n\nÉvite juste de commencer les noms par des chiffres, d’utiliser des caractères spéciaux et de mélanger chiffres et lettres n’importe comment.\n\n# Affectation simple \nMa_variable =  10\nprint(Ma_variable)\n\n# Affectation de plusieurs valeurs\nx, y, z = \"Chocolat\", \"Vanille\", \"Fraise\"\n\nprint(x)\nprint(y)\nprint(z)\n\n# Affectation de la même valeur\nx = y = z = \"Chocolat\"\n\nprint(x)\nprint(y)\nprint(z)\n\n10\nChocolat\nVanille\nFraise\nChocolat\nChocolat\nChocolat\n\n\n\n2.1.1. Types de variables\nEn Python, chaque variable a un type bien précis. C’est un peu comme les groupes sanguin : A, B, AB ou O. Sauf qu’ici, on a :\n\nLes entiers (int) : pour les nombres sans virgule. Exemples : 5, -3, 0.\nLes nombres complexes (complex) : pour les maths de l’espace ! Exemple : 3 + 4j.\nLes flottants (float) : pour les nombres à virgule. Exemples : 3.14, -0.001.\nLes chaînes de caractères (str) : pour le texte, entouré de guillemets. Exemple : “Hello World!”\nLes booléens (bool) : pour les valeurs “vrai” (True) ou “faux” (False). Souvent le résultat de comparaisons.\n\nPourquoi c’est important de connaître le type d’une variable ? Parce que tu ne peux pas additionner des pommes et des poires ! Enfin si, mais ça donne une compote bizarre… 🍎+🍐=🤢\nPlus sérieusement, chaque type a ses propres opérations possibles. Tu peux multiplier deux int, concaténer deux str, mais pas l’inverse.\nAllez, un petit défi : devine le type des variables suivantes (réponse en commentaire) :\n\na = 42\nb = “42”\nc = 42.0\nd = True\ne = 2 + 3j\n\n\n# Afficher le type d'une variable\nbonjour = \"Hello\"\ntype(bonjour) \n\n# Définition de plusieurs variables \nnom = \"Alice\"\nage = 25       \ntaille = 1.70  \nestVrai = True \nestFaux = False \nprint(\"la variable nom est de type :\", type(nom))\nprint(\"la variable age est de type :\",type(age))\nprint(\"la variable taille est de type :\",type(taille))\nprint(\"la variable estVrai est de type :\",type(estVrai))\nprint(\"la variable estFaux est de type :\",type(estFaux))\n\nla variable nom est de type : &lt;class 'str'&gt;\nla variable age est de type : &lt;class 'int'&gt;\nla variable taille est de type : &lt;class 'float'&gt;\nla variable estVrai est de type : &lt;class 'bool'&gt;\nla variable estFaux est de type : &lt;class 'bool'&gt;\n\n\n\n\n2.1.2. Conversion de types\nLe casting, c’est un peu comme dans un film : tu prends un acteur (une valeur) et tu lui fais jouer un autre rôle (un autre type). 🎥\nEn Python, tu peux facilement convertir entre les types de base comme :\n\nLes entiers (int)\nLes chaînes de caractères (str)\nLes booléens (bool)\nLes flottants (float)\n\nVoici quelques exemples de casting en action :\n🎬 int ➡ str\n🎬 str ➡ int\n🎬 float ➡ int\n🎬 int ➡ bool\nMais attention aux pièges !\nToutes les conversions ne sont pas possibles, comme transformer un texte en nombre :\nprix = \"dix\" prix_int = int(prix)  # Erreur : ValueError\n\nConversion en Entier (int)\n\n\n# Depuis une chaîne de caractères :\nchaine = \"123\"\nnombre = int(chaine)  # Convertit la chaîne \"123\" en entier 123\n\n## Depuis un booléen :\nvrai = True\nentier = int(vrai)  # Convertit True en 1\n\n## Depuis un float :\nflottant = 9.99\nentier = int(flottant)  # Convertit 9.99 en 9 (troncature, pas d'arrondi)\n\n\nConversion en Chaîne de Caractères (str)\n\n\n## Depuis un entier ou un float :\nnombre = 123\nchaine = str(nombre)  # Convertit l'entier 123 en chaîne \"123\"\n\n## Depuis un booléen :\nfaux = False\nchaine = str(faux)  # Convertit False en \"False\"\n\n\nConversion en Booléen (bool)\n\n\n## Depuis une chaîne de caractères** :\nchaine = \"\"\nbooleen = bool(chaine)  # Convertit une chaîne vide en False\nchaine2 = \"Python\"\nbooleen2 = bool(chaine2)  # Convertit \"Python\" en True\n\n## Depuis un nombre : \nnombre = 0\nbooleen = bool(nombre)  # Convertit 0 en False\nnombre2 = 123\nbooleen2 = bool(nombre2)  # Convertit 123 en True\n\n\nConversion en Float (float)\n\n\n## Depuis une chaîne de caractères:\nchaine = \"123.45\"\nflottant = float(chaine)  # Convertit la chaîne \"123.45\" en float 123.45\n\n## Depuis un entier :\nentier = 100\nflottant = float(entier)  # Convertit l'entier 100 en float 100.0\n\n## Depuis un booléen:\nvrai = True\nflottant = float(vrai)  # Convertit True en 1.0\n\n\n\n2.1.3. Opérations arithmétiques\nEn Python, tu peux faire des maths comme un pro avec ces 4 opérateurs :\n\nL’addition (+) : pour ajouter des nombres Exemple : 3 + 2 = 5\nLa soustraction (-) : pour soustraire des nombres Exemple : 5 - 2 = 3\nLa multiplication (*) : pour multiplier des nombres Exemple : 3 * 2 = 6\nLa division (/) : pour diviser des nombres Exemple : 6 / 2 = 3\n\nFacile, non ? Mais attends, y’a encore plus fort ! Python gère aussi :\n\nLes puissances (**) : pour les exposants Exemple : 2 ** 3 = 8 (2 puissance 3)\nLes divisions entières (//) : pour obtenir un résultat entier Exemple : 7 // 2 = 3\nLes modulos (%) : pour obtenir le reste d’une division Exemple : 7 % 2 = 1 (car 7 divisé par 2 donne 3 reste 1)\n\n\nsomme = 10 + 5       # Résultat: 15\ndifference = 10 - 5  # Résultat: 5\nproduit = 10 * 5     # Résultat: 50\nquotient = 10 / 5    # Résultat: 2.0\n\nModulo (%) retourne le reste de la division Puissance (**) élève un nombre à une certaine puissance.\n\nreste = 10 % 3       # Résultat: 1\npuissance = 2 ** 3   # Résultat: 8\npuissance_bis = 2 ^ 3\n\n\n\n\n\n\n\nOpérations sur les str\n\n\n\nGrâce à ces 2 opérateurs magiques :\n\nLa concaténation (+) : pour combiner des chaînes Exemple : “Hello” + ” World!” = “Hello World!”\nLa répétition (*) : pour répéter une chaîne un certain nombre de fois Exemple : “Ha” * 3 = “HaHaHa”\n\nC’est aussi simple que ça ! Mais attention, y’a quelques règles à respecter :\n⚠️ Tu ne peux pas concaténer des types différents (string + int par exemple). Faudra d’abord les convertir.\n⚠️ La répétition ne marche qu’avec des entiers positifs. Pas de “Ha” * -3 ou “LOL” * 2.5 !\n\n\n\n\n2.1.4. Opérateurs d’affectation composés\nLes opérateurs d’affectation composés sont des raccourcis qui combinent une opération arithmétique ou binaire avec une affectation.\nEn gros, ils permettent d’effectuer une opération sur une variable et de lui réaffecter le résultat en une seule étape.\n\n# Initialisation de x\nx = 5\nprint(x)\n# Ajouter et assigner\nx += 2  # x est maintenant 7\nprint(x)\n\n# Soustraire et assigner\nx -= 3  # x est maintenant 4\nprint(x)\n\n# Multiplier et assigner\nx *= 4  # x est maintenant 16\nprint(x)\n# Diviser et assigner\nx /= 2  # x est maintenant 8\nprint(x)\n# Division entière et assigner\nx //= 3  # x est maintenant 2\nprint(x)\n# Modulo et assigner\nx %= 3  # x est maintenant 2\nprint(x)\n# Exponentielle et assigner\nx **= 2  # x est maintenant 4\nprint(x)\n\n5\n7\n4\n16\n8.0\n2.0\n2.0\n4.0\n\n\n\n\n\n\n\n\nÀ Retenir\n\n\n\n\nUne variable est un espace de stockage nommé utilisé pour contenir des données qui peuvent être modifiées pendant l’exécution d’un programme.\nLes types : Entier, Flottant, Chaîne de caractères, Booléen, etc.\nLes opérations sur les nombres (Entier, Flottant,Booléen) peuvent être : + (addition), - (soustraction), * (multiplication), / (division), % (modulo).\nLes opérateurs pour chaînes de caractères sont :\n\n+ pour la concaténation : ‘Hello’ + ’ World’ donne ‘Hello World’.\n* pour la répétition : ‘Hello’ * 3 donne ‘HelloHelloHello’.\n\nLes opérateurs composés (+=, -=, *=, /=, %=) servent à simplifier l’écriture des opérations en combinant un opérateur et une affectation.",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "Introduction à Python - Rappels essentiels"
     ]
@@ -124,9 +124,9 @@
     "href": "cours/module0.html#commentaires-et-affichage",
     "title": "Introduction à Python",
     "section": "2.2. Commentaires et affichage",
-    "text": "2.2. Commentaires et affichage",
+    "text": "2.2. Commentaires et affichage\nVoici une adaptation de la cellule en gardant le rôle de DataCopy :\n\n\n2.2 Commentaires et affichage\n\nLes commentaires sont utilisés pour expliquer le code.\nImagine-les comme des post-it collés sur ton script 📝 Ils t’aident à garder le cap quand tu relis ton code 3 mois plus tard !\nQuelques tips de pro pour tes commentaires :\n\nSois bref mais explicite\n\nIndique l’objectif du bloc de code\nExplique les paramètres et valeurs retournées des fonctions\nNote les points d’amélioration possibles\n\nAvec des bons commentaires, ton code devient une carte au trésor facile à suivre !\nIls commencent par un # et s’étendent jusqu’à la fin de la ligne.\n\n\n\n\n\n\nÀ Retenir\n\n\n\n\nLes commentaires sont ignorés lors de l’exécution du code.\n\n\n\nEn résumé, les commentaires sont des outils essentiels pour rendre ton code plus compréhensible et maintenable sur le long terme. Prends le temps de les rédiger avec soin, tes collègues (et ton toi du futur) te remercieront !",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "Introduction à Python - Rappels essentiels"
     ]
@@ -138,7 +138,7 @@
     "section": "2.3. Structures de contrôle",
     "text": "2.3. Structures de contrôle\n\n2.3.1 Les opérateurs\n\n\n2.3.2 Les conditions\n\n\n2.3.3 Les boucles",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "Introduction à Python - Rappels essentiels"
     ]
@@ -150,7 +150,7 @@
     "section": "Exercices 1",
     "text": "Exercices 1",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "Introduction à Python - Rappels essentiels"
     ]
@@ -162,7 +162,7 @@
     "section": "Projet 1 : Juste prix",
     "text": "Projet 1 : Juste prix",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "Introduction à Python - Rappels essentiels"
     ]
@@ -174,7 +174,7 @@
     "section": "Projet 2 : Casino",
     "text": "Projet 2 : Casino",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "Introduction à Python - Rappels essentiels"
     ]
@@ -186,7 +186,7 @@
     "section": "2.4. Types de Données",
     "text": "2.4. Types de Données\n\n2.4.1 Les chaines de caractères\n\n\n2.4.2 Les listes\n\n\n2.4.3 Les tuples\n\n\n2.4.4 Les ensembles\n\n\n2.4.5 Les dictionnaires",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "Introduction à Python - Rappels essentiels"
     ]
@@ -198,7 +198,7 @@
     "section": "Exercices",
     "text": "Exercices",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "Introduction à Python - Rappels essentiels"
     ]
@@ -210,7 +210,7 @@
     "section": "Projet 3 : Pendu",
     "text": "Projet 3 : Pendu",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "Introduction à Python - Rappels essentiels"
     ]
@@ -222,7 +222,7 @@
     "section": "2.5. Fonctions : définition et appel",
     "text": "2.5. Fonctions : définition et appel\n\n2.5.1 Les paramètres et arguments\n\n\n2.5.2 Les types de fonctions\n\n\n2.5.3 La portée des variables\n\n\n2.5.4 Nombre variable d’arguments\n\n\n2.5.5 Les fonctions anonymes : lambda\n\n\n2.5.6 Les fonctions et la récursivité\n\n\n2.5.7 Générateurs et décorateurs",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "Introduction à Python - Rappels essentiels"
     ]
@@ -234,7 +234,7 @@
     "section": "Exercices 3",
     "text": "Exercices 3",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "Introduction à Python - Rappels essentiels"
     ]
@@ -246,7 +246,7 @@
     "section": "3. Gestion des exceptions",
     "text": "3. Gestion des exceptions\n\n3.1 Définition\n\n\n3.2 Traitement des exceptions\n\n3.2.1 Try-Except\n\n\n3.2.2 Finally\n\n\n3.2.3 Else\n\n\n\n3.3 Assertions\n\n\n3.4 Raise",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "Introduction à Python - Rappels essentiels"
     ]
@@ -258,7 +258,7 @@
     "section": "Projet 2 bis : Casino avec exceptions",
     "text": "Projet 2 bis : Casino avec exceptions",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "Introduction à Python - Rappels essentiels"
     ]
@@ -270,7 +270,7 @@
     "section": "Exercices 4",
     "text": "Exercices 4",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "Introduction à Python - Rappels essentiels"
     ]
@@ -282,7 +282,7 @@
     "section": "4. Lecture et écriture de fichiers",
     "text": "4. Lecture et écriture de fichiers\n\n4.1 Gestion simple des fichiers\n\n\n4.2 Travailler avec différents formats de fichier",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "Introduction à Python - Rappels essentiels"
     ]
@@ -294,7 +294,7 @@
     "section": "Exercices 5",
     "text": "Exercices 5",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "Introduction à Python - Rappels essentiels"
     ]
@@ -306,7 +306,7 @@
     "section": "Projet 4 : Trieur de fichier",
     "text": "Projet 4 : Trieur de fichier",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "Introduction à Python - Rappels essentiels"
     ]
@@ -318,7 +318,7 @@
     "section": "5. Modules et Packages",
     "text": "5. Modules et Packages",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "Introduction à Python - Rappels essentiels"
     ]
@@ -330,7 +330,7 @@
     "section": "Exercices 6",
     "text": "Exercices 6",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "Introduction à Python - Rappels essentiels"
     ]
@@ -342,7 +342,7 @@
     "section": "6. Bonnes Pratiques en Programmation",
     "text": "6. Bonnes Pratiques en Programmation",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "Introduction à Python - Rappels essentiels"
     ]
@@ -354,7 +354,7 @@
     "section": "Projet 5 : Gestionnaire de tâches",
     "text": "Projet 5 : Gestionnaire de tâches",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "Introduction à Python - Rappels essentiels"
     ]
@@ -366,7 +366,7 @@
     "section": "7. Certification avec DataCamp - bonus",
     "text": "7. Certification avec DataCamp - bonus",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "Introduction à Python - Rappels essentiels"
     ]
@@ -378,7 +378,7 @@
     "section": "8. Références",
     "text": "8. Références\n\n\n\n\n\n\nÀ Retenir\n\n\n\n\n\n\n\n\n\n\n\n\nLe terme __main__\n\n\n\n\n\n\n\n\n\n\n\n\nFocus : PEP8 et Annotation de type\n\n\n\n\n\n\nMaintenant TIME TO PRACTICE ! 💪",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "Introduction à Python - Rappels essentiels"
     ]
@@ -390,7 +390,7 @@
     "section": "Exercices",
     "text": "Exercices\nJe t’ai concocté une série d’exercices passionnants 🌟 qui te permettront non seulement de créer de nouvelles classes, mais aussi de (re)découvrir des notions essentielles de la programmation Python 🐍.\nCes exercices sont spécialement conçus pour booster ta compréhension des principes de la programmation orientée objet 🔄, tout en te donnant l’occasion de manipuler des attributs, de gérer des méthodes, et d’explorer des interactions complexes entre objets.\nBonne courage et surtout, prends du plaisir en codant ! 🚀✨\n\n1 - Facile : Création de la classe Rappeur\n\nÉnoncé\nCrée une classe Rappeur avec les attributs suivants :\n\nnom : le nom du rappeur.\nflow : une description du style de flow du rappeur.\nalbums : une liste des noms d’albums du rappeur.\n\nLa classe doit aussi inclure une méthode introduction() qui affiche une phrase décrivant le rappeur et une méthode sortir_album() qui prend le nom d’un nouvel album et l’ajoute à la liste des albums.\n\n\n\n\n\n\nConseil\n\n\n\nPour la méthode sortir_album(), assure-toi de vérifier que l’album n’est pas déjà dans la liste avant de l’ajouter. Cela évitera les doublons dans la discographie du rappeur.",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "Introduction à Python - Rappels essentiels"
     ]
@@ -437,7 +437,7 @@
     "section": "",
     "text": "La Programmation Orientée Objet (POO), c’est la base de la base, le flow de la programmation !\nEn POO, une classe c’est comme un moule à objets, une représentation qui définit les caractéristiques et les comportements des entités du même type.\nEt un objet ? C’est une instance unique créée à partir de ce moule, comme un rappeur qui sort du lot !\nTout comme un rappeur a ses propres caractéristiques (son flow, son style, ses punchlines…), un objet a ses propres attributs (des variables) et méthodes (des fonctions).\n\n\n\n Fig 1. Imagine une voiture en tant que classe, avec des attributs principaux tels que le modèle, le prix, la couleur et l’année de construction. Tu peux créer autant d’objets que tu le souhaites à partir de la classe.\n\n\nEn Python, tout est objet, même les classes ! C’est dire si ça a de la classe.\nPour accéder aux attributs d’un objet, on utilise la notation “dot”, comme quand on dit “tel rappeur.son flow”, tu vois le style ?\nEt pour créer une instance à partir d’une classe, c’est comme si tu lançais un nouveau rappeur dans le game ! Tu utilises le constructeur de la classe.\nBref, la POO c’est le swag de la programmation ! Ça structure ton code comme un bon album, avec chaque classe qui joue son rôle.\nAlors, t’es chaud pour devenir une OOP star ? On va coder ça comme jamais !",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "POO 1. Contexte et notions élémentaires"
     ]
@@ -449,7 +449,7 @@
     "section": "",
     "text": "La Programmation Orientée Objet (POO), c’est la base de la base, le flow de la programmation !\nEn POO, une classe c’est comme un moule à objets, une représentation qui définit les caractéristiques et les comportements des entités du même type.\nEt un objet ? C’est une instance unique créée à partir de ce moule, comme un rappeur qui sort du lot !\nTout comme un rappeur a ses propres caractéristiques (son flow, son style, ses punchlines…), un objet a ses propres attributs (des variables) et méthodes (des fonctions).\n\n\n\n Fig 1. Imagine une voiture en tant que classe, avec des attributs principaux tels que le modèle, le prix, la couleur et l’année de construction. Tu peux créer autant d’objets que tu le souhaites à partir de la classe.\n\n\nEn Python, tout est objet, même les classes ! C’est dire si ça a de la classe.\nPour accéder aux attributs d’un objet, on utilise la notation “dot”, comme quand on dit “tel rappeur.son flow”, tu vois le style ?\nEt pour créer une instance à partir d’une classe, c’est comme si tu lançais un nouveau rappeur dans le game ! Tu utilises le constructeur de la classe.\nBref, la POO c’est le swag de la programmation ! Ça structure ton code comme un bon album, avec chaque classe qui joue son rôle.\nAlors, t’es chaud pour devenir une OOP star ? On va coder ça comme jamais !",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "POO 1. Contexte et notions élémentaires"
     ]
@@ -461,7 +461,7 @@
     "section": "2 - La POO pour les MC’s : Les avantages du flow",
     "text": "2 - La POO pour les MC’s : Les avantages du flow\nLes avantages de ce style de programmation, c’est comme les atouts d’un bon rappeur :\n\nUn flow réutilisable et partageable 🎤 Avec la POO, ton code est comme un bon couplet : Tu peux le réutiliser et le partager sans tout réécrire à chaque fois !\n\n\nUne sécurité renforcée 🔒 La POO, c’est comme un bon contrat de label : Tu protèges tes données sensibles pour éviter les leaks !\n\n\nUn debugging facilité 🐛 Avec la POO, quand y’a un bug, c’est comme chercher la fausse note : Tu sais direct dans quelle mesure chercher !\n\n\nUne flexibilité de ouf 🚀 La POO, c’est comme un featuring qui déchire : Tu peux réutiliser les talents de plusieurs classes sans réinventer la roue !\n\nLes mots clés de la POO, c’est comme le flow, les punchlines, les phases et les mesures pour un rappeur : Classe, Objet, Méthodes et Attributs, c’est les bases pour rapper de la bonne POO !\nEt les 4 concepts fondamentaux, c’est comme les 4 éléments du hip-hop :\n\nHéritage\nEncapsulation\nPolymorphisme\nAbstraction\n\nC’est ce qui fait toute la richesse de la POO !\n\n\n\n\n\n\nÀ Retenir\n\n\n\n\n\nEn somme, la POO, c’est plus modulaire qu’un beat et plus réutilisable qu’un sample. Elle permet :\n\n\nModularité et réutilisabilité du code\n\n\nFacilité de maintenance et d’évolution du code\n\n\nReprésentation naturelle des concepts du monde réel",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "POO 1. Contexte et notions élémentaires"
     ]
@@ -473,7 +473,7 @@
     "section": "3. Classe = Moule à objets",
     "text": "3. Classe = Moule à objets\nUne classe, c’est comme un moule à gâteau en forme de rappeur :\nElle définit les caractéristiques et les comportements - comme un rappeur a son style, son flow, ses punchlines.\nConcrètement, une classe c’est un blueprint, un modèle qui va servir à créer des objets.\nC’est un peu comme un label de musique qui a son identité et qui va signer des artistes qui correspondent à son style.\nQuand tu crées un objet à partir de cette classe, on dit que tu crées une instance.\n\nUne instance est un exemplaire unique de cette classe !\n\nUn peu comme un rappeur signé sur le label, qui a son style propre tout en s’inscrivant dans l’identité du label.\nEt le gros avantage, c’est que tu peux créer autant d’instances que tu veux à partir de la même classe !\nC’est comme si ton label pouvait signer des dizaines de rappeurs qui ont chacun leur personnalité mais qui représentent tous l’esprit du label.\nBref, les classes c’est la base de la POO et c’est ce qui va te permettre de structurer ton code de façon claire et réutilisable.\n\n# Définition basique de la classe Rappeur\nclass Rappeur: \n    pass\n\n# Définition de l'instance unique menyssa\nmenyssa = Rappeur()  \n\n# menyssa est bien un objet Rappeur\ntype(menyssa) \n\n__main__.Rappeur\n\n\n\n\n\n\n\n\nLe terme __main__\n\n\n\nLe terme __main__ dans Python a une signification spéciale. Il fait référence au nom de l’espace de noms (ou du “scope”) dans lequel le script courant est exécuté.\nC’est une manière pour Python de savoir si le fichier actuel est exécuté comme script principal ou s’il est importé à partir d’un autre fichier.*",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "POO 1. Contexte et notions élémentaires"
     ]
@@ -485,7 +485,7 @@
     "section": "4. Constructeur : __init__ et self, les kickstarts de l’instanciation",
     "text": "4. Constructeur : __init__ et self, les kickstarts de l’instanciation\nLe constructeur __init__ est appelé automatiquement quand tu crées une nouvelle instance de ta classe.\nSon rôle ?\nInitialiser les attributs de ton objet, comme un Directeur Artistique (DA) qui définirait le style et l’image de son artiste.\nEt self dans tout ça ? C’est le rappeur lui-même !\nDans une méthode, self fait référence à l’instance courante de la classe. C’est grâce à lui que tu peux accéder aux attributs et méthodes de ton objet.\nQuand tu appelles une méthode sur une instance, Python passe automatiquement cette instance en premier argument. C’est pour ça que tu retrouves self partout !\n\n\n\n\n\n\nÀ Retenir\n\n\n\n\n\ninit et self, permettent de construire et de faire vivre tes objets, comme un DA et son rappeur qui créent ensemble un personnage unique. :\n\n\ninit est le constructeur qui initialise les attributs\n\n\nself représente l’instance courante dans les méthodes\n\n\nEnsemble, ils donnent vie à tes objets et leur permettent d’interagir avec le monde !",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "POO 1. Contexte et notions élémentaires"
     ]
@@ -497,7 +497,7 @@
     "section": "5. Attributs : les caractères qui font un bon rappeur",
     "text": "5. Attributs : les caractères qui font un bon rappeur\nLes attributs en POO, c’est comme les caractéristiques qui définissent un bon rappeur.\nPar exemple pour chaque rappeur on peut lui attribué les caractéristiques suivantes :\n\nLe flow (self.flow) : c’est son débit, sa manière de rapper. Ça peut être smooth, agressif, technique… C’est ce qui fait son style unique.\nLe nombre d’albums (self.nb_albums) : ça montre son expérience, comme le nombre de projets sur GitHub pour un dev. Plus t’en as, plus t’es respecté !\nLes featuring (self.featurings) : c’est les collab avec d’autres artistes. Comme quand tu fais du pair programming ou que tu participes à un projet open source.\n\nVoici comment déclarer ces attributs dans notre classe “Rappeur”\n\n# Définition de la classe Rappeur \nclass Rappeur:\n    # Constructeur de la classe avec les attributs\n    def __init__(self, nom, flow, nb_albums, featurings):\n        self.nom = nom              # Nom du rappeur\n        self.flow = flow            # Style de flow musical du rappeur\n        self.nb_albums = nb_albums  # Nombre total d'albums produits\n        self.featurings = featurings  # Liste des artistes avec lesquels il a collaboré\n\n# Création des instances de la classe Rappeur pour Booba, Vald et Niska.\n# Chaque instance est créée avec des détails spécifiques au rappeur.\nbooba = Rappeur(nom=\"Booba\", \n                flow=\"Agressif et technique\",                \n                nb_albums=10,\n                featurings=[\"Kaaris\", \"Damso\", \"Gato\"])\n\nvald = Rappeur(nom=\"Vald\",\n               flow=\"Sombre et introspectif\",\n               nb_albums=6,\n               featurings=[\"Suikon Blaz AD\", \"Damso\"])\n\nniska = Rappeur(nom=\"Niska\", \n                flow=\"Mélodique et festif\", \n                nb_albums=4, \n                featurings=[\"Booba\", \"SCH\", \"Hamza\"])\n\n# Ici, on affiche le nombre d'albums produits par Niska et le style de Booba.\nprint(f\"Niska a produit {niska.nb_albums} albums et \\n\"\n      f\"le flow de Booba est : {booba.flow}\")\n\n# Ici, on affiche le flow de vald et son nombre d'album.\nprint(f\"\\nVald a produit {vald.nb_albums} albums et son flow est {vald.flow.lower()}\")\n\nNiska a produit 4 albums et \nle flow de Booba est : Agressif et technique\n\nVald a produit 6 albums et son flow est sombre et introspectif",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "POO 1. Contexte et notions élémentaires"
     ]
@@ -509,7 +509,7 @@
     "section": "6. Méthodes : les skills qui font un bon MC",
     "text": "6. Méthodes : les skills qui font un bon MC\nLes méthodes, c’est ce qui permet à tes objets d’agir, d’interagir et de se démarquer.\nUne méthode peut être :\n\nUn flow “getter” pour récupérer des infos (get_punchline())\nUn flow “setter” pour modifier l’état (set_style(new_style))\nUn flow “calculateur” pour traiter des données (calculer_nb_albums())\nOu même un flow “abstract” pour définir un comportement général (rapper())\n\nLes méthodes, c’est aussi ce qui permet à tes objets de communiquer entre eux. Un peu comme des featuring entre rappeurs !\n\n# Importation du module random\nimport random\n\n# Définition de la classe Rappeur\nclass Rappeur:\n    # Constructeur de la classe avec les attributs nécessaires pour définir un rappeur\n    def __init__(self, nom, flow, nb_albums, featurings, punchlines):\n        self.nom = nom              \n        self.flow = flow            \n        self.nb_albums = nb_albums  \n        self.featurings = featurings  \n        self.punchlines = punchlines  # Liste des punchlines célèbres du rappeur\n    \n    # Méthode pour afficher une punchline au hasard\n    def balancer_punchline(self):\n        # Utilisation de random.choice pour sélectionner et afficher une punchline aléatoire de la liste\n        print(f\"{self.nom} balance : {random.choice(self.punchlines)}\")\n\n# Création d'une instance Booba\nbooba = Rappeur(nom=\"Booba\", \n                flow=\"Agressif et technique\",                \n                nb_albums=10,\n                featurings=[\"Kaaris\", \"Damso\", \"Gato\"],\n                punchlines=[\"92i\", \"Pitbull\", \"Kalash\"])\n\n# Appel de la méthode balancer_punchline pour afficher une punchline de Booba tirée au hasard\nbooba.balancer_punchline()\n\nBooba balance : 92i\n\n\nMaintenant allons un peu plus long et imaginons un clash entre rappeurs (hihihi!)\n\nimport random  # Importation nécessaire pour utiliser random.choice\n\nclass Rappeur:\n    def __init__(self, nom, flow, nb_albums, featurings, punchlines):\n        self.nom = nom  \n        self.flow = flow  \n        self.nb_albums = nb_albums  \n        self.featurings = featurings  \n        self.punchlines = punchlines  \n\n\n    def balancer_punchline(self):\n        print(f\"{self.nom} balance : {random.choice(self.punchlines)}\")\n\n    # Méthode permettant à un rappeur de clasher un autre rappeur \n    # en utilisant la première punchline de sa liste\n    def clasher(self, autre_rappeur):\n        print(f\"{self.nom} clash {autre_rappeur.nom} : {self.punchlines[0]}\")\n        \n    # Méthode permettant à un rappeur de répondre à un \n    # clash avec une punchline spécifique\n    def repondre(self, autre_rappeur, punchline):\n        print(f\"{self.nom} répond à {autre_rappeur.nom} : {punchline}\")\n\n# Création des instances pour Booba et Kaaris\nbooba = Rappeur(nom=\"Booba\", \n                flow=\"Agressif et technique\",                \n                nb_albums=10,\n                featurings=[\"Kaaris\", \"Damso\", \"Gato\"],\n                punchlines=[\"T'es qu'un fils de...\", \"J'vais t'faire une Kalash en live\"])        \n\nkaaris = Rappeur(nom=\"Kaaris\",\n                 flow=\"Aggressif et sombre\",\n                 nb_albums=8,\n                 featurings=[\"Gazo\", \"Kalash Criminel\", \"Hamza\"],\n                 punchlines=[\"J'vais t'faire danser la Zumba\", \"T'es même pas un vrai MC\"])\n\n# Simulation d'un clash entre Booba et Kaaris\nbooba.clasher(kaaris)\nkaaris.repondre(booba, \"T'es qu'un tocard !\")\nbooba.repondre(kaaris, \"TG ! J'suis le DUC !\")\n\nBooba clash Kaaris : T'es qu'un fils de...\nKaaris répond à Booba : T'es qu'un tocard !\nBooba répond à Kaaris : TG ! J'suis le DUC !\n\n\nLa puissance des attributs et des méthodes résident dans l’intéraction de tes objets de manière intuitive et stylée.\n\n\n\n\n\n\nÀ Retenir\n\n\n\n\n\nles attributs et méthodes c’est ce qui donne vie à tes objets et leur permet de briller sur la scène de ton programme !\nAlors pour créer des méthodes qui claquent, suis ces tips :\n\n\nDonne-leur un nom explicite qui décrit bien leur rôle\n\n\nUtilise le self pour accéder aux attributs et autres méthodes de l’objet\n\n\nSépare bien les responsabilités : une méthode = une tâche précise\n\n\nDocumente-les avec des docstrings pour expliquer ce qu’elles font\n\n\nLa PEP 8 est ton ami !\n\n\n\n\n\n\n\n\n\n\n\nFocus : PEP8 et Annotation de type\n\n\n\nVoici la même classe avec le code PEP 8 friendly et les annotations de type\n\nfrom typing import List # annoter les attributs featurings et punchlines.\nimport random\nclass Rappeur:\n    \"\"\"Classe définissant un rappeur caractérisé par son nom, style de flow, nombre \n    d'albums, collaborations et punchlines.\n    \"\"\"\n    def __init__(self, nom: str, flow: str, nb_albums: int, featurings: List[str], \n                 punchlines: List[str]):\n        self.nom: str = nom\n        self.flow: str = flow\n        self.nb_albums: int = nb_albums\n        self.featurings: List[str] = featurings\n        self.punchlines: List[str] = punchlines\n\n    def balancer_punchline(self) -&gt; None:\n        \"\"\"Affiche une punchline aléatoire du rappeur.\"\"\"\n        punchline: str = random.choice(self.punchlines)\n        print(f\"{self.nom} balance : {punchline}\")\n\n    def clasher(self, autre_rappeur: 'Rappeur') -&gt; None:\n        \"\"\"Permet au rappeur de clasher un autre rappeur en utilisant la première \n        punchline de sa liste.\n        \"\"\"\n        print(f\"{self.nom} clash {autre_rappeur.nom} : {self.punchlines[0]}\")\n        \n    def repondre(self, autre_rappeur: 'Rappeur', punchline: str) -&gt; None:\n        \"\"\"Permet au rappeur de répondre à un clash avec une punchline spécifique.\"\"\"\n        print(f\"{self.nom} répond à {autre_rappeur.nom} : {punchline}\")\n\n# Création d'instances pour Booba et Kaaris avec typage explicite\nbooba = Rappeur(\n    nom=\"Booba\", \n    flow=\"Agressif et technique\",                \n    nb_albums=10,\n    featurings=[\"Kaaris\", \"Damso\", \"Gato\"],\n    punchlines=[\"T'es qu'un fils de...\", \"J'vais t'faire une Kalash en live\"]\n)        \n\nkaaris = Rappeur(\n    nom=\"Kaaris\",\n    flow=\"Aggressif et sombre\",\n    nb_albums=8,\n    featurings=[\"Gazo\", \"Kalash Criminel\", \"Hamza\"],\n    punchlines=[\"J'vais t'faire danser la Zumba\", \"T'es même pas un vrai MC\"]\n)\n\n# Simulation d'un clash et réponses entre Booba et Kaaris\nbooba.clasher(kaaris)\nkaaris.repondre(booba, \"T'es qu'un tocard !\")\nbooba.repondre(kaaris, \"TG ! J'suis le DUC !\")\n\nBooba clash Kaaris : T'es qu'un fils de...\nKaaris répond à Booba : T'es qu'un tocard !\nBooba répond à Kaaris : TG ! J'suis le DUC !",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "POO 1. Contexte et notions élémentaires"
     ]
@@ -521,7 +521,7 @@
     "section": "7. Modifier les attributs d’un Rappeur",
     "text": "7. Modifier les attributs d’un Rappeur\nC’est essentiel pour gérer les interactions entre objets, contrôler l’accès aux données et rendre le code plus lisible, comme un rappeur qui adapte son flow à différents beats pour créer des sons uniques et puissants. 🎤💪\nComme vu précédemment, pour chaque instance de Rappeur, tu peux accéder à ses attributs directement\n\nprint(booba.nom)  \nprint(booba.flow) \n\nBooba\nAgressif et technique\n\n\nPour modifier les attributs, tu assignes simplement une nouvelle valeur.\nPar exemple, si tu veux changer le flow de Booba\n\nbooba.flow = \"Lyrique et complexe\"\nprint(booba.flow)\n\nLyrique et complexe\n\n\nSi tu veux changer une punchline spécifique ou en ajouter une nouvelle\n\nbooba.punchlines[0] = \"Nouvelle punchline plus forte\"\nbooba.punchlines.append(\"Tout le monde sait que j'suis le meilleur\")  \n\nIl est souvent plus judicieux de contrôler la modification des attributs via des méthodes au lieu de les modifier directement. Cela offre une meilleure encapsulation (notion que nous verrons après).\nTu pourrais ajouter une méthode comme changer_flow() directement dans ta classe Rappeur\n\nfrom typing import List\nimport random\n\nclass Rappeur:\n    \"\"\"Classe définissant un rappeur caractérisé par son nom, style de flow, nombre \n    d'albums, collaborations et punchlines.\n    \"\"\"\n    def __init__(self, nom: str, flow: str, nb_albums: int, featurings: List[str], \n                 punchlines: List[str]):\n        self.nom: str = nom\n        self.flow: str = flow\n        self.nb_albums: int = nb_albums\n        self.featurings: List[str] = featurings\n        self.punchlines: List[str] = punchlines\n\n    def balancer_punchline(self) -&gt; None:\n        \"\"\"Affiche une punchline aléatoire du rappeur.\"\"\"\n        punchline: str = random.choice(self.punchlines)\n        print(f\"{self.nom} balance : {punchline}\")\n\n    def clasher(self, autre_rappeur: 'Rappeur') -&gt; None:\n        \"\"\"Permet au rappeur de clasher un autre rappeur en utilisant la première \n        punchline de sa liste.\n        \"\"\"\n        print(f\"{self.nom} clash {autre_rappeur.nom} : {self.punchlines[0]}\")\n        \n    def repondre(self, autre_rappeur: 'Rappeur', punchline: str) -&gt; None:\n        \"\"\"Permet au rappeur de répondre à un clash avec une punchline spécifique.\"\"\"\n        print(f\"{self.nom} répond à {autre_rappeur.nom} : {punchline}\")\n\n    def changer_flow(self, nouveau_flow: str) -&gt; None:\n        \"\"\"Change le flow du rappeur.\"\"\"\n        self.flow = nouveau_flow\n\n# Création de l'instance de Booba\nbooba = Rappeur(\n    nom=\"Booba\", \n    flow=\"Agressif et technique\",                \n    nb_albums=10,\n    featurings=[\"Kaaris\", \"Damso\", \"Gato\"],\n    punchlines=[\"T'es qu'un fils de...\", \"J'vais t'faire une Kalash en live\"]\n)\n\n# Affichage du flow avant la modification\nprint(\"Flow avant : \", booba.flow)\n\n# Modification du flow\nbooba.changer_flow(\"Poétique et introspectif\")\n\n# Affichage du flow après la modification\nprint(\"Flow après : \", booba.flow)\n\nFlow avant :  Agressif et technique\nFlow après :  Poétique et introspectif\n\n\n\n\n\n\n\n\nToute variable n’est pas un attribut\n\n\n\nL’attribut nouveau_flow n’était pas nécessaire dans le constructeur de la classe. Pour changer le flow, il est plus approprié d’utiliser une méthode dédiée.\nExplication : Le constructeur d’une classe est généralement utilisé pour initialiser les attributs qui définissent l’état de base d’une instance. nouveau_flow est plus une action ponctuelle qu’un attribut d’état permanent de l’objet. Avoir un attribut initial pour flow est logique car il décrit une propriété de l’instance de Rappeur. En revanche, nouveau_flow ressemble plus à une valeur temporaire utilisée pour modifier flow.*\n\n\nEn suivant ces étapes, tu peux efficacement gérer et mettre à jour les attributs de tes instances de Rappeur, ce qui te permet de maintenir ton code organisé et tes données à jour.\nVoilà les gars, vous savez maintenant comment gérer les attributs de vos rappeurs comme des pros !\nMaintenant TIME TO PRACTICE ! 💪",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "POO 1. Contexte et notions élémentaires"
     ]
@@ -533,7 +533,7 @@
     "section": "Exercices",
     "text": "Exercices\nJe t’ai concocté une série d’exercices passionnants 🌟 qui te permettront non seulement de créer de nouvelles classes, mais aussi de (re)découvrir des notions essentielles de la programmation Python 🐍.\nCes exercices sont spécialement conçus pour booster ta compréhension des principes de la programmation orientée objet 🔄, tout en te donnant l’occasion de manipuler des attributs, de gérer des méthodes, et d’explorer des interactions complexes entre objets.\nBonne courage et surtout, prends du plaisir en codant ! 🚀✨\n\n1 - Facile : Création de la classe Rappeur\n\nÉnoncé\nCrée une classe Rappeur avec les attributs suivants :\n\nnom : le nom du rappeur.\nflow : une description du style de flow du rappeur.\nalbums : une liste des noms d’albums du rappeur.\n\nLa classe doit aussi inclure une méthode introduction() qui affiche une phrase décrivant le rappeur et une méthode sortir_album() qui prend le nom d’un nouvel album et l’ajoute à la liste des albums.\n\n\n\n\n\n\nConseil\n\n\n\nPour la méthode sortir_album(), assure-toi de vérifier que l’album n’est pas déjà dans la liste avant de l’ajouter. Cela évitera les doublons dans la discographie du rappeur.\n\n\n\n\n\n2 - Facile : La Bibliothèque\n\nÉnoncé\nCrée une classe Livre avec les attributs suivants :\n\ntitre : le titre du livre.\nauteur : l’auteur du livre.\n\nLa classe doit inclure des méthodes pour :\n\nDéfinir un premier livre numérique et afficher ses informations.\nMettre à jour le titre et l’auteur d’un livre.\nAfficher les détails d’un livre.\n\n\n\n\n\n\n\nConseil\n\n\n\nLorsque tu modifies les attributs d’un livre, pense à utiliser des méthodes de getter et de setter. Cela te permet de contrôler comment les attributs sont mis à jour et de valider les données si nécessaire.\n\n\n\n\n\n3 - Facile : Compte bancaire\n\nÉnoncé\nCrée une classe Account avec les attributs suivants :\n\nsolde : le solde initial du compte.\n\nLa classe doit inclure des méthodes pour :\n\nDéposer des fonds sur le compte.\nRetirer des fonds du compte.\nAppliquer un taux d’intérêt au solde du compte.\n\n\n\n\n\n\n\nConseil\n\n\n\nTeste scrupuleusement les méthodes de dépôt et de retrait pour gérer correctement les scénarios où le compte pourrait devenir négatif. Ajoute des conditions pour empêcher le retrait de fonds supérieurs au solde disponible.\n\n\n\n\n\n4 - Intermédiaire : Conseiller financier\n\nÉnoncé\nCrée une classe CompteBancaire avec les attributs suivants :\n\nidentifiant : l’identifiant du compte.\nnom_proprietaire : le nom du propriétaire du compte.\nsolde : le solde initial du compte.\n\nLa classe doit inclure des méthodes pour :\n\nGérer les dépôts et les retraits, en appliquant des agios en cas de découvert.\nAfficher tous les détails du compte.\n\n\n\n\n\n\n\nConseil\n\n\n\nPour gérer les découverts, envisage d’ajouter un attribut qui définit un découvert maximum autorisé. Cela rendra la gestion du compte plus flexible et réaliste.\n\n\n\n\n\n5 - Intermédiaire : Gestion des Featurings\n\nÉnoncé\nAméliore la classe Rappeur pour inclure un attribut collaborations, qui est une liste de tuples. Chaque tuple contient le nom d’un autre rappeur et le titre de la chanson sur laquelle ils ont collaboré.\nLa classe doit inclure des méthodes pour :\n\nAjouter une collaboration à la liste des collaborations.\nAfficher toutes les collaborations du rappeur.\n\n\n\n\n\n\n\nConseil\n\n\n\nQuand tu ajoutes des collaborations, assure-toi de vérifier si la collaboration existe déjà pour éviter les entrées en double. Cela peut être fait en vérifiant si le tuple (rappeur, titre de la chanson) est déjà dans la liste des collaborations.\n\n\n\n\n\n6 - Difficile : Tournoi de Bataille\n\nÉnoncé\nCrée une classe Carte avec les attributs suivants :\n\nvaleur : la valeur de la carte.\nnom : le nom de la carte.\n\nCrée une classe Paquet avec les attributs suivants :\n\ncartes : la liste des cartes du paquet.\n\nLa classe Paquet doit inclure des méthodes pour :\n\nMélanger le paquet de cartes.\nDistribuer les cartes équitablement entre les joueurs.\n\nCrée une classe Joueur avec les attributs suivants :\n\nmain : la main du joueur.\n\nLa classe Joueur doit inclure des méthodes pour :\n\nPréparer la main du joueur pour la bataille.\n\nCrée une classe Tournoi avec les attributs suivants :\n\njoueurs : la liste des joueurs participants.\n\nLa classe Tournoi doit inclure des méthodes pour :\n\nDérouler la bataille entre les joueurs.\nDéclarer le gagnant du tournoi.\n\n\n\n\n\n\n\nConseil\n\n\n\nPour la distribution des cartes, assure-toi que le mélange soit complet avant de distribuer les cartes afin d’assurer l’équité du jeu. Utilise des méthodes robustes pour gérer les égalités et les cas spéciaux où plusieurs tours de cartes sont nécessaires.\n\n\n\n\n\n7 - Difficile : Battle de Rap\n\nÉnoncé\nCrée une classe Battle avec les attributs suivants : * rappeur1 : le premier rappeur participant. * rappeur2 : le deuxième rappeur participant.\nLa classe Battle doit inclure des méthodes pour : * Faire s’affronter les deux rappeurs en affichant leurs punchlines et déterminer le gagnant. * Afficher le gagnant de la bataille et sa punchline gagnante.\nBonus : Implémente une méthode juger_punchline(punchline) dans la classe Rappeur qui attribue un score à une punchline basé sur des critères comme la rime, le nombre de syllabes, ou d’autres aspects stylistiques que tu juges importants.\n\n\n\n\n\n\nConseil\n\n\n\nDans la méthode juger_punchline(punchline), considère d’utiliser des techniques d’analyse de texte pour évaluer les punchlines, comme compter les syllabes ou utiliser des expressions régulières pour identifier les rimes et autres figures de style.",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "POO 1. Contexte et notions élémentaires"
     ]
@@ -545,7 +545,7 @@
     "section": "Correction",
     "text": "Correction\nLa correction sera disponible prochainement ;)\nN’hésite pas à prendre rdv si tu es bloqué :\n\n  \n     Prendre RDV ! 🚀",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "POO 1. Contexte et notions élémentaires"
     ]
@@ -557,7 +557,7 @@
     "section": "",
     "text": "Bientôt\n\n\n\n Back to top",
     "crumbs": [
-      "🏠Acceuil",
+      "🏠Accueil",
       "Modules",
       "POO 3.📝 Module 3"
     ]
@@ -575,5 +575,12 @@
     "title": "Attribution-NonCommercial-NoDerivatives 4.0 International",
     "section": "",
     "text": "By exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License (“Public License”). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.\n\n\n\nAdapted Material means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image.\nCopyright and Similar Rights means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public License, the rights specified in Section 2(b)(1)-(2) are not Copyright and Similar Rights.\nEffective Technological Measures means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar international agreements.\nExceptions and Limitations means fair use, fair dealing, and/or any other exception or limitation to Copyright and Similar Rights that applies to Your use of the Licensed Material.\nLicensed Material means the artistic or literary work, database, or other material to which the Licensor applied this Public License.\nLicensed Rights means the rights granted to You subject to the terms and conditions of this Public License, which are limited to all Copyright and Similar Rights that apply to Your use of the Licensed Material and that the Licensor has authority to license.\nLicensor means the individual(s) or entity(ies) granting rights under this Public License.\nNonCommercial means not primarily intended for or directed towards commercial advantage or monetary compensation. For purposes of this Public License, the exchange of the Licensed Material for other material subject to Copyright and Similar Rights by digital file-sharing or similar means is NonCommercial provided there is no payment of monetary compensation in connection with the exchange.\nShare means to provide material to the public by any means or process that requires permission under the Licensed Rights, such as reproduction, public display, public performance, distribution, dissemination, communication, or importation, and to make material available to the public including in ways that members of the public may access the material from a place and at a time individually chosen by them.\nSui Generis Database Rights means rights other than copyright resulting from Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, as amended and/or succeeded, as well as other essentially equivalent rights anywhere in the world.\nYou means the individual or entity exercising the Licensed Rights under this Public License. Your has a corresponding meaning.\n\n\n\n\n\nLicense grant.\n\nSubject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to:\nA. reproduce and Share the Licensed Material, in whole or in part, for NonCommercial purposes only; and\nB. produce and reproduce, but not Share, Adapted Material for NonCommercial purposes only.\nExceptions and Limitations. For the avoidance of doubt, where Exceptions and Limitations apply to Your use, this Public License does not apply, and You do not need to comply with its terms and conditions.\nTerm. The term of this Public License is specified in Section 6(a).\nMedia and formats; technical modifications allowed. The Licensor authorizes You to exercise the Licensed Rights in all media and formats whether now known or hereafter created, and to make technical modifications necessary to do so. The Licensor waives and/or agrees not to assert any right or authority to forbid You from making technical modifications necessary to exercise the Licensed Rights, including technical modifications necessary to circumvent Effective Technological Measures. For purposes of this Public License, simply making modifications authorized by this Section 2(a)(4) never produces Adapted Material.\nDownstream recipients.\nA. Offer from the Licensor – Licensed Material. Every recipient of the Licensed Material automatically receives an offer from the Licensor to exercise the Licensed Rights under the terms and conditions of this Public License.\nB. No downstream restrictions. You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.\nNo endorsement. Nothing in this Public License constitutes or may be construed as permission to assert or imply that You are, or that Your use of the Licensed Material is, connected with, or sponsored, endorsed, or granted official status by, the Licensor or others designated to receive attribution as provided in Section 3(a)(1)(A)(i).\n\nOther rights.\n\nMoral rights, such as the right of integrity, are not licensed under this Public License, nor are publicity, privacy, and/or other similar personality rights; however, to the extent possible, the Licensor waives and/or agrees not to assert any such rights held by the Licensor to the limited extent necessary to allow You to exercise the Licensed Rights, but not otherwise.\nPatent and trademark rights are not licensed under this Public License.\nTo the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme. In all other cases the Licensor expressly reserves any right to collect such royalties, including when the Licensed Material is used other than for NonCommercial purposes.\n\n\n\n\n\nYour exercise of the Licensed Rights is expressly made subject to the following conditions.\n\nAttribution.\n\nIf You Share the Licensed Material, You must:\nA. retain the following if it is supplied by the Licensor with the Licensed Material:\n\nidentification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);\na copyright notice;\na notice that refers to this Public License;\na notice that refers to the disclaimer of warranties;\na URI or hyperlink to the Licensed Material to the extent reasonably practicable;\n\nB. indicate if You modified the Licensed Material and retain an indication of any previous modifications; and\nC. indicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.\nFor the avoidance of doubt, You do not have permission under this Public License to Share Adapted Material.\nYou may satisfy the conditions in Section 3(a)(1) in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.\nIf requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.\n\n\n\n\n\nWhere the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:\n\nfor the avoidance of doubt, Section 2(a)(1) grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database for NonCommercial purposes only and provided You do not Share Adapted Material;\nif You include all or a substantial portion of the database contents in a database in which You have Sui Generis Database Rights, then the database in which You have Sui Generis Database Rights (but not its individual contents) is Adapted Material; and\nYou must comply with the conditions in Section 3(a) if You Share all or a substantial portion of the contents of the database.\n\nFor the avoidance of doubt, this Section 4 supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.\n\n\n\n\nUnless otherwise separately undertaken by the Licensor, to the extent possible, the Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable. Where disclaimers of warranties are not allowed in full or in part, this disclaimer may not apply to You.\nTo the extent possible, in no event will the Licensor be liable to You on any legal theory (including, without limitation, negligence) or otherwise for any direct, special, indirect, incidental, consequential, punitive, exemplary, or other losses, costs, expenses, or damages arising out of this Public License or use of the Licensed Material, even if the Licensor has been advised of the possibility of such losses, costs, expenses, or damages. Where a limitation of liability is not allowed in full or in part, this limitation may not apply to You.\nThe disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.\n\n\n\n\n\nThis Public License applies for the term of the Copyright and Similar Rights licensed here. However, if You fail to comply with this Public License, then Your rights under this Public License terminate automatically.\nWhere Your right to use the Licensed Material has terminated under Section 6(a), it reinstates:\n\nautomatically as of the date the violation is cured, provided it is cured within 30 days of Your discovery of the violation; or\nupon express reinstatement by the Licensor.\n\nFor the avoidance of doubt, this Section 6(b) does not affect any right the Licensor may have to seek remedies for Your violations of this Public License.\nFor the avoidance of doubt, the Licensor may also offer the Licensed Material under separate terms or conditions or stop distributing the Licensed Material at any time; however, doing so will not terminate this Public License.\nSections 1, 5, 6, 7, and 8 survive termination of this Public License.\n\n\n\n\n\nThe Licensor shall not be bound by any additional or different terms or conditions communicated by You unless expressly agreed.\nAny arrangements, understandings, or agreements regarding the Licensed Material not stated herein are separate from and independent of the terms and conditions of this Public License.\n\n\n\n\n\nFor the avoidance of doubt, this Public License does not, and shall not be interpreted to, reduce, limit, restrict, or impose conditions on any use of the Licensed Material that could lawfully be made without permission under this Public License.\nTo the extent possible, if any provision of this Public License is deemed unenforceable, it shall be automatically reformed to the minimum extent necessary to make it enforceable. If the provision cannot be reformed, it shall be severed from this Public License without affecting the enforceability of the remaining terms and conditions.\nNo term or condition of this Public License will be waived and no failure to comply consented to unless expressly agreed to by the Licensor.\nNothing in this Public License constitutes or may be interpreted as a limitation upon, or waiver of, any privileges and immunities that apply to the Licensor or You, including from the legal processes of any jurisdiction or authority.\n\n\nCreative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the “Licensor.” Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at creativecommons.org/policies, Creative Commons does not authorize the use of the trademark “Creative Commons” or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.\nCreative Commons may be contacted at creativecommons.org."
+  },
+  {
+    "objectID": "cours_index.html",
+    "href": "cours_index.html",
+    "title": "Organisation du cours",
+    "section": "",
+    "text": "📢 Les modules\n\n\n\n\n\n\nPour le moment 3 modules sont prévus pour ce cours.\nLes corrections se feront au fur et à mesure\nLa prise de RDV est possible sur la page A propos\n\n\n\n\n\n💻 Modules\n\nModule 0\nIntroduction à Python - Rappels essentiels\n⛔ Cours\n⛔ Exercices\n⛔ Corrections\n\n\n  \n    Commencer le cours ! 🚀\n  \n\n\n\n\nModule 1\nPOO 1. Contexte et notions élémentaires\n✅ Cours\n✅ Exercices\n⛔ Corrections\n\n\n  \n    Commencer le cours ! 🚀\n  \n\n\n\n\nModule 2\nPOO 2.\n⛔ Cours\n⛔ Exercices\n⛔ Corrections\n\n\n  \n    Commencer le cours ! 🚀\n  \n\n\n\n\nModule 3\nPOO 3.\n⛔ Cours\n⛔ Exercices\n⛔ Corrections\n\n\n  \n    Commencer le cours ! 🚀\n  \n\n\n\n\n\n\n\n Back to top"
   }
 ]

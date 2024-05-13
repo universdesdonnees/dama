@@ -17,7 +17,9 @@ website:
   back-to-top-navigation: true
   favicon: "images/python logo.png"
   navbar:
+    logo: "images/python logo.png"
     background: primary
+    foreground: light
     left:
       - href: index.qmd
         text: "🏠Accueil"
@@ -40,7 +42,6 @@ website:
   sidebar:
     background: "#F5F5F5"
     style: docked
-    search: true
     alignment: "center"
     logo: "images/python logo.png"
     tools:

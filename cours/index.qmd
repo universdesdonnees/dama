@@ -3,6 +3,7 @@ title: "Organisation du cours"
 format: html
 page-layout: full
 toc: false
+sidebar: false
 ---
 
 ::: {.callout-important collapse=false}

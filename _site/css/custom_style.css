@@ -1,21 +1,3 @@
-
-.navbar-dark .navbar-brand {
-  color: #ffffff;
-}
-
-div.csl-entry {
-  margin-top: 1rem;
-}
-
-div.csl-entry a::before {
-  content: "\a";
-  white-space: pre;
-}
-
-div.csl-entry a {
-  color: var(--bs-indigo);
-}
-
 /* CSS */
 .button-61 {
     align-items: center;
@@ -64,7 +46,7 @@ div.csl-entry a {
   }
   
   .button-61:not(:disabled) {
-    background-color: var(--bs-blue);
+    background-color: var(--bs-yellow);
   }
   
   .button-61:focus {
@@ -73,7 +55,7 @@ div.csl-entry a {
   
   .button-61:active {
     box-shadow: rgba(0, 0, 0, .2) 0 5px 5px -3px, rgba(0, 0, 0, .14) 0 8px 10px 1px, rgba(0, 0, 0, .12) 0 3px 14px 2px;
-    background: var(--bs-blue);
+    background: var(--bs-yellow);
   }
 
 
