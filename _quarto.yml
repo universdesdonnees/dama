@@ -20,7 +20,7 @@ website:
     background: primary
     foreground: light
     left:
-      - href: index_test.qmd
+      - href: index.qmd
         text: "🏠Accueil"
       - href: cours/index.qmd
         text: "📝Cours"
