@@ -2,7 +2,9 @@
 title: "POO en Python"
 subtitle: "Découvre les concepts clés de la programmation orientée objet (POO) avec Python, de manière ludique et pratique"
 details: |
-  Fait avec 🐍 et [Quarto](https://quarto.org/)<br> [Voir sur </> GitHub](https://github.com/universdesdonnees/poo_en_python)<br>Par Ményssa Cherifa-Luron, PhD
+  Fait avec {{< fa brands python >}} et [Quarto](https://quarto.org/)<br> [Voir sur {{< fa brands github >}} GitHub](https://github.com/universdesdonnees/poo_en_python)<br>Par Ményssa Cherifa-Luron, PhD
+
+
 sidebar: false
 toc: false
 page-layout: full
