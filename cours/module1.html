@@ -155,7 +155,7 @@ cookieconsent.run({
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link active" href="../index.html" aria-current="page"> 
 <span class="menu-text">🏠Accueil</span></a>
@@ -265,14 +265,14 @@ cookieconsent.run({
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">1. Introduction</a></li>
-  <li><a href="#la-poo-pour-les-mcs-les-avantages-du-flow" id="toc-la-poo-pour-les-mcs-les-avantages-du-flow" class="nav-link" data-scroll-target="#la-poo-pour-les-mcs-les-avantages-du-flow">2 - La POO pour les MC’s : Les avantages du flow</a></li>
-  <li><a href="#classe-moule-à-objets" id="toc-classe-moule-à-objets" class="nav-link" data-scroll-target="#classe-moule-à-objets">3. Classe = Moule à objets</a></li>
-  <li><a href="#constructeur-__init__-et-self-les-kickstarts-de-linstanciation" id="toc-constructeur-__init__-et-self-les-kickstarts-de-linstanciation" class="nav-link" data-scroll-target="#constructeur-__init__-et-self-les-kickstarts-de-linstanciation">4. Constructeur : <code>__init__</code> et <code>self</code>, les kickstarts de l’instanciation</a></li>
-  <li><a href="#attributs-les-caractères-qui-font-un-bon-rappeur" id="toc-attributs-les-caractères-qui-font-un-bon-rappeur" class="nav-link" data-scroll-target="#attributs-les-caractères-qui-font-un-bon-rappeur">5. Attributs : les caractères qui font un bon rappeur</a></li>
-  <li><a href="#méthodes-les-skills-qui-font-un-bon-mc" id="toc-méthodes-les-skills-qui-font-un-bon-mc" class="nav-link" data-scroll-target="#méthodes-les-skills-qui-font-un-bon-mc">6. Méthodes : les skills qui font un bon MC</a></li>
-  <li><a href="#modifier-les-attributs-dun-rappeur" id="toc-modifier-les-attributs-dun-rappeur" class="nav-link" data-scroll-target="#modifier-les-attributs-dun-rappeur">7. Modifier les attributs d’un Rappeur</a></li>
-  <li><a href="#exercices" id="toc-exercices" class="nav-link" data-scroll-target="#exercices">Exercices</a>
+  <li><a href="#la-programmation-orientée-objet" id="toc-la-programmation-orientée-objet" class="nav-link active" data-scroll-target="#la-programmation-orientée-objet">1. La Programmation orientée objet</a></li>
+  <li><a href="#avantages" id="toc-avantages" class="nav-link" data-scroll-target="#avantages">2. Avantages</a></li>
+  <li><a href="#classe" id="toc-classe" class="nav-link" data-scroll-target="#classe">3. Classe</a></li>
+  <li><a href="#constructeur-__init__-et-self" id="toc-constructeur-__init__-et-self" class="nav-link" data-scroll-target="#constructeur-__init__-et-self">4. Constructeur : <code>__init__</code> et <code>self</code></a></li>
+  <li><a href="#attributs" id="toc-attributs" class="nav-link" data-scroll-target="#attributs">5. Attributs</a></li>
+  <li><a href="#méthodes" id="toc-méthodes" class="nav-link" data-scroll-target="#méthodes">6. Méthodes</a></li>
+  <li><a href="#modifier-les-attributs" id="toc-modifier-les-attributs" class="nav-link" data-scroll-target="#modifier-les-attributs">7. Modifier les attributs</a></li>
+  <li><a href="#exercices" id="toc-exercices" class="nav-link" data-scroll-target="#exercices">8. Exercices</a>
   <ul class="collapse">
   <li><a href="#facile-création-de-la-classe-rappeur" id="toc-facile-création-de-la-classe-rappeur" class="nav-link" data-scroll-target="#facile-création-de-la-classe-rappeur">1 - Facile : Création de la classe <code>Rappeur</code></a></li>
   <li><a href="#facile-la-bibliothèque" id="toc-facile-la-bibliothèque" class="nav-link" data-scroll-target="#facile-la-bibliothèque">2 - Facile : La Bibliothèque</a></li>
@@ -282,7 +282,7 @@ cookieconsent.run({
   <li><a href="#difficile-tournoi-de-bataille" id="toc-difficile-tournoi-de-bataille" class="nav-link" data-scroll-target="#difficile-tournoi-de-bataille">6 - Difficile : Tournoi de Bataille</a></li>
   <li><a href="#difficile-battle-de-rap" id="toc-difficile-battle-de-rap" class="nav-link" data-scroll-target="#difficile-battle-de-rap">7 - Difficile : Battle de Rap</a></li>
   </ul></li>
-  <li><a href="#correction" id="toc-correction" class="nav-link" data-scroll-target="#correction">Correction</a></li>
+  <li><a href="#correction" id="toc-correction" class="nav-link" data-scroll-target="#correction">9. Correction</a></li>
   </ul>
 </nav>
     </div>
@@ -309,8 +309,8 @@ cookieconsent.run({
 </header>
 
 
-<section id="introduction" class="level2">
-<h2 class="anchored" data-anchor-id="introduction">1. Introduction</h2>
+<section id="la-programmation-orientée-objet" class="level2">
+<h2 class="anchored" data-anchor-id="la-programmation-orientée-objet">1. La Programmation orientée objet</h2>
 <p>La Programmation Orientée Objet (POO), c’est la base de la base, le flow de la programmation !</p>
 <p>En POO, <strong>une classe c’est comme un moule à objets</strong>, une représentation qui définit les caractéristiques et les comportements des entités du même type.</p>
 <p>Et un <strong>objet</strong> ? <strong>C’est une instance unique créée à partir de ce moule</strong>, comme un rappeur qui sort du lot !</p>
@@ -327,8 +327,8 @@ cookieconsent.run({
 <p>Bref, la POO c’est le swag de la programmation ! Ça structure ton code comme un bon album, avec chaque classe qui joue son rôle.</p>
 <p>Alors, t’es chaud pour devenir une OOP star ? On va coder ça comme jamais !</p>
 </section>
-<section id="la-poo-pour-les-mcs-les-avantages-du-flow" class="level2">
-<h2 class="anchored" data-anchor-id="la-poo-pour-les-mcs-les-avantages-du-flow">2 - La POO pour les MC’s : Les avantages du flow</h2>
+<section id="avantages" class="level2">
+<h2 class="anchored" data-anchor-id="avantages">2. Avantages</h2>
 <p>Les avantages de ce style de programmation, c’est comme les atouts d’un bon rappeur :</p>
 <blockquote class="blockquote">
 <p><strong>Un flow réutilisable et partageable 🎤</strong> Avec la POO, ton code est comme un bon couplet : Tu peux le réutiliser et le partager sans tout réécrire à chaque fois !</p>
@@ -379,8 +379,8 @@ Représentation naturelle des concepts du monde réel
 </div>
 </div>
 </section>
-<section id="classe-moule-à-objets" class="level2">
-<h2 class="anchored" data-anchor-id="classe-moule-à-objets">3. Classe = Moule à objets</h2>
+<section id="classe" class="level2">
+<h2 class="anchored" data-anchor-id="classe">3. Classe</h2>
 <p><strong>Une classe, c’est comme un moule à gâteau en forme de rappeur</strong> :</p>
 <p>Elle définit les caractéristiques et les comportements - comme un rappeur a son style, son flow, ses punchlines.</p>
 <p>Concrètement, une classe c’est un <em>blueprint</em>, un modèle qui va servir à créer des objets.</p>
@@ -393,7 +393,7 @@ Représentation naturelle des concepts du monde réel
 <p>Et le gros avantage, c’est que <strong>tu peux créer autant d’instances que tu veux à partir de la même classe</strong> !</p>
 <p>C’est comme si ton label pouvait signer des dizaines de rappeurs qui ont chacun leur personnalité mais qui représentent tous l’esprit du label.</p>
 <p>Bref, les classes c’est la base de la POO et c’est ce qui va te permettre de structurer ton code de façon claire et réutilisable.</p>
-<div id="20a493ea" class="cell" data-execution_count="1">
+<div id="1fd11352" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Définition basique de la classe Rappeur</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Rappeur: </span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">pass</span></span>
@@ -422,8 +422,8 @@ Le terme <code>__main__</code>
 </div>
 </div>
 </section>
-<section id="constructeur-__init__-et-self-les-kickstarts-de-linstanciation" class="level2">
-<h2 class="anchored" data-anchor-id="constructeur-__init__-et-self-les-kickstarts-de-linstanciation">4. Constructeur : <code>__init__</code> et <code>self</code>, les kickstarts de l’instanciation</h2>
+<section id="constructeur-__init__-et-self" class="level2">
+<h2 class="anchored" data-anchor-id="constructeur-__init__-et-self">4. Constructeur : <code>__init__</code> et <code>self</code></h2>
 <p>Le constructeur <code>__init__</code> est <strong>appelé automatiquement quand tu crées une nouvelle instance de ta classe.</strong></p>
 <p>Son rôle ?</p>
 <p><strong>Initialiser les attributs de ton objet</strong>, comme un Directeur Artistique (DA) qui définirait le style et l’image de son artiste.</p>
@@ -458,9 +458,9 @@ Ensemble, ils donnent vie à tes objets et leur permettent d’interagir avec le
 </div>
 </div>
 </section>
-<section id="attributs-les-caractères-qui-font-un-bon-rappeur" class="level2">
-<h2 class="anchored" data-anchor-id="attributs-les-caractères-qui-font-un-bon-rappeur">5. Attributs : les caractères qui font un bon rappeur</h2>
-<p>Les attributs en POO, c’est comme les caractéristiques qui définissent un bon rappeur.</p>
+<section id="attributs" class="level2">
+<h2 class="anchored" data-anchor-id="attributs">5. Attributs</h2>
+<p>Les attributs en POO, c’est comme les <strong>caractéristiques qui définissent un bon rappeur.</strong></p>
 <p>Par exemple pour chaque rappeur on peut lui attribué les caractéristiques suivantes :</p>
 <ol type="1">
 <li><p><strong>Le flow (self.flow)</strong> : c’est son débit, sa manière de rapper. Ça peut être smooth, agressif, technique… C’est ce qui fait son style unique.</p></li>
@@ -468,7 +468,7 @@ Ensemble, ils donnent vie à tes objets et leur permettent d’interagir avec le
 <li><p><strong>Les featuring (self.featurings)</strong> : c’est les collab avec d’autres artistes. Comme quand tu fais du pair programming ou que tu participes à un projet open source.</p></li>
 </ol>
 <p>Voici comment déclarer ces attributs dans notre classe “Rappeur”</p>
-<div id="08047c1e" class="cell" data-execution_count="2">
+<div id="aa5344b5" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Définition de la classe Rappeur </span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Rappeur:</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Constructeur de la classe avec les attributs</span></span>
@@ -509,9 +509,9 @@ Vald a produit 6 albums et son flow est sombre et introspectif</code></pre>
 </div>
 </div>
 </section>
-<section id="méthodes-les-skills-qui-font-un-bon-mc" class="level2">
-<h2 class="anchored" data-anchor-id="méthodes-les-skills-qui-font-un-bon-mc">6. Méthodes : les skills qui font un bon MC</h2>
-<p>Les méthodes, c’est ce qui permet à tes objets d’agir, d’interagir et de se démarquer.</p>
+<section id="méthodes" class="level2">
+<h2 class="anchored" data-anchor-id="méthodes">6. Méthodes</h2>
+<p>Les méthodes, c’est ce qui <strong>permet à tes objets d’agir, d’interagir et de se démarquer.</strong></p>
 <p>Une méthode peut être :</p>
 <ul>
 <li>Un flow “getter” pour récupérer des infos (<code>get_punchline()</code>)</li>
@@ -519,8 +519,8 @@ Vald a produit 6 albums et son flow est sombre et introspectif</code></pre>
 <li>Un flow “calculateur” pour traiter des données (<code>calculer_nb_albums()</code>)</li>
 <li>Ou même un flow “abstract” pour définir un comportement général (<code>rapper()</code>)</li>
 </ul>
-<p>Les méthodes, c’est aussi ce qui permet à tes objets de communiquer entre eux. Un peu comme des featuring entre rappeurs !</p>
-<div id="0e9b525f" class="cell" data-execution_count="3">
+<p>Les méthodes, c’est aussi ce qui permet à tes <strong>objets de communiquer entre eux.</strong> Un peu comme des featuring entre rappeurs !</p>
+<div id="5bac8ce1" class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Importation du module random</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -553,7 +553,7 @@ Vald a produit 6 albums et son flow est sombre et introspectif</code></pre>
 </div>
 </div>
 <p>Maintenant allons un peu plus long et imaginons un clash entre rappeurs (<em>hihihi!</em>)</p>
-<div id="380a008a" class="cell" data-execution_count="4">
+<div id="97cbce86" class="cell" data-execution_count="4">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random  <span class="co"># Importation nécessaire pour utiliser random.choice</span></span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Rappeur:</span>
@@ -647,7 +647,7 @@ Focus : PEP8 et Annotation de type
 </div>
 <div class="callout-body-container callout-body">
 <p>Voici la même classe avec le <strong>code PEP 8 friendly</strong> et les annotations de type</p>
-<div id="e1d895e0" class="cell" data-execution_count="5">
+<div id="cf8b5a7f" class="cell" data-execution_count="5">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> typing <span class="im">import</span> List <span class="co"># annoter les attributs featurings et punchlines.</span></span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Rappeur:</span>
@@ -707,11 +707,11 @@ Booba répond à Kaaris : TG ! J'suis le DUC !</code></pre>
 </div>
 </div>
 </section>
-<section id="modifier-les-attributs-dun-rappeur" class="level2">
-<h2 class="anchored" data-anchor-id="modifier-les-attributs-dun-rappeur">7. Modifier les attributs d’un Rappeur</h2>
-<p>C’est essentiel pour gérer les interactions entre objets, contrôler l’accès aux données et rendre le code plus lisible, comme un rappeur qui adapte son flow à différents beats pour créer des sons uniques et puissants. 🎤💪</p>
+<section id="modifier-les-attributs" class="level2">
+<h2 class="anchored" data-anchor-id="modifier-les-attributs">7. Modifier les attributs</h2>
+<p>C’est essentiel pour gérer les interactions entre objets,<strong>contrôler l’accès aux données et rendre le code plus lisible</strong>, comme un rappeur qui adapte son flow à différents beats pour créer des sons uniques et puissants. 🎤💪</p>
 <p>Comme vu précédemment, pour chaque instance de <code>Rappeur</code>, tu peux accéder à ses attributs directement</p>
-<div id="908b8cad" class="cell" data-execution_count="6">
+<div id="f37126b2" class="cell" data-execution_count="6">
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(booba.nom)  </span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(booba.flow) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -721,7 +721,7 @@ Agressif et technique</code></pre>
 </div>
 <p>Pour modifier les attributs, tu assignes simplement une nouvelle valeur.</p>
 <p>Par exemple, si tu veux changer le flow de Booba</p>
-<div id="0bf17c0b" class="cell" data-execution_count="7">
+<div id="26838cfc" class="cell" data-execution_count="7">
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>booba.flow <span class="op">=</span> <span class="st">"Lyrique et complexe"</span></span>
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(booba.flow)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -729,13 +729,13 @@ Agressif et technique</code></pre>
 </div>
 </div>
 <p>Si tu veux changer une punchline spécifique ou en ajouter une nouvelle</p>
-<div id="a3e86241" class="cell" data-execution_count="8">
+<div id="fe767ba4" class="cell" data-execution_count="8">
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>booba.punchlines[<span class="dv">0</span>] <span class="op">=</span> <span class="st">"Nouvelle punchline plus forte"</span></span>
 <span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>booba.punchlines.append(<span class="st">"Tout le monde sait que j'suis le meilleur"</span>)  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Il est souvent <em>plus</em> judicieux de contrôler la modification des attributs via des méthodes au lieu de les modifier directement. Cela offre une meilleure <strong>encapsulation</strong> (notion que nous verrons après).</p>
 <p>Tu pourrais ajouter une méthode comme <code>changer_flow()</code> directement dans ta classe Rappeur</p>
-<div id="3398ac5c" class="cell" data-execution_count="9">
+<div id="11e114cd" class="cell" data-execution_count="9">
 <div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> typing <span class="im">import</span> List</span>
 <span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
 <span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -802,16 +802,16 @@ Toute variable n’est pas un attribut
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>L’attribut nouveau_flow n’était pas nécessaire dans le constructeur de la classe. Pour changer le flow, il est plus approprié d’utiliser une méthode dédiée.</p>
-<p>Explication : Le constructeur d’une classe est généralement utilisé pour initialiser les attributs qui définissent l’état de base d’une instance. nouveau_flow est plus une action ponctuelle qu’un attribut d’état permanent de l’objet. Avoir un attribut initial pour flow est logique car il décrit une propriété de l’instance de Rappeur. En revanche, nouveau_flow ressemble plus à une valeur temporaire utilisée pour modifier flow.*</p>
+<p>L’attribut <em>nouveau_flow</em> n’était pas nécessaire dans le constructeur de la classe. Pour changer le flow, il est plus approprié d’utiliser une méthode dédiée.</p>
+<p><em>Explication</em> : Le constructeur d’une classe est généralement utilisé pour initialiser les attributs qui définissent l’état de base d’une instance. nouveau_flow est plus une action ponctuelle qu’un attribut d’état permanent de l’objet. Avoir un attribut initial pour flow est logique car il décrit une propriété de l’instance de Rappeur. En revanche, nouveau_flow ressemble plus à une valeur temporaire utilisée pour modifier flow.*</p>
 </div>
 </div>
 <p>En suivant ces étapes, tu peux efficacement gérer et mettre à jour les attributs de tes instances de <code>Rappeur</code>, ce qui te permet de maintenir ton code organisé et tes données à jour.</p>
 <p>Voilà les gars, vous savez maintenant comment gérer les attributs de vos rappeurs comme des pros !</p>
-<p>Maintenant TIME TO PRACTICE ! 💪</p>
+<p><strong>Maintenant TIME TO PRACTICE ! 💪</strong></p>
 </section>
 <section id="exercices" class="level2">
-<h2 class="anchored" data-anchor-id="exercices">Exercices</h2>
+<h2 class="anchored" data-anchor-id="exercices">8. Exercices</h2>
 <p>Je t’ai concocté une série d’exercices passionnants 🌟 qui te permettront non seulement de créer de nouvelles classes, mais aussi de (re)découvrir des notions essentielles de la programmation Python 🐍.</p>
 <p>Ces exercices sont spécialement conçus pour booster ta compréhension des principes de la programmation orientée objet 🔄, tout en te donnant l’occasion de manipuler des attributs, de gérer des méthodes, et d’explorer des interactions complexes entre objets.</p>
 <p>Bonne courage et surtout, prends du plaisir en codant ! 🚀✨</p>
@@ -1029,10 +1029,10 @@ Conseil
 </section>
 </section>
 <section id="correction" class="level2">
-<h2 class="anchored" data-anchor-id="correction">Correction</h2>
+<h2 class="anchored" data-anchor-id="correction">9. Correction</h2>
 <p>La correction sera disponible prochainement ;)</p>
 <p>N’hésite pas à prendre rdv si tu es bloqué :</p>
-<div style="text-align: center">
+<div style="text-align: left">
   <a href="https://cal.com/menyssa.cherifa-luron/1h">
     <button class="button-61"> Prendre RDV ! 🚀</button>
   </a>
