@@ -17,11 +17,10 @@ website:
   back-to-top-navigation: true
   favicon: "images/python logo.png"
   navbar:
-    logo: "images/python logo.png"
     background: primary
     foreground: light
     left:
-      - href: index.qmd
+      - href: index_test.qmd
         text: "🏠Accueil"
       - href: cours/index.qmd
         text: "📝Cours"

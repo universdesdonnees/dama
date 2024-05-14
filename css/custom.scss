@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Sans+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Sans+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
 /*-- scss:defaults --*/
 $white:    #fff !default;
 $gray-100: #f8f9fa !default;
@@ -36,7 +34,7 @@ $success:       $green !default;
 $info:          $pink !default;
 $warning:       $yellow !default;
 $danger:        $orange !default;
-$light:         $gray-100 !default;
+$light:         #f5f5f5 !default;
 $dark:          $gray-800 !default;
 
 $font-family-sans-serif:      Fira Sans Condensed, sans-serif !default;
@@ -93,3 +91,76 @@ $grid-margin-width: 400px !default;
 
 // The gutter that appears between the above columns
 $grid-column-gutter-width: 1.5rem !default;
+
+
+.cal// Home page stuff
+.title-block {
+  margin: 1em 0;
+  border-bottom: 3px solid $gray-200;
+  padding-bottom: 3em;
+}
+
+.course-details {
+  margin: 0 0 1em;
+  border-bottom: 3px solid $gray-200;
+  padding-bottom: 1em;
+}
+
+.course-details h3 {
+  margin-top: 0;
+}
+
+.course-title {
+  font-size: 3.5rem;
+  margin-top: 0;
+}
+
+.course-subtitle {
+  font-size: 1.7rem;
+}
+
+.course-meta {
+  font-size: 1.2rem;
+  color: $gray-600;
+  margin-top: 2rem;
+}
+
+.course-details ul {
+  list-style: none;
+  text-indent: -0.7rem;
+  padding-left: 1.4rem;
+}
+
+.contact-policy p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.course-details-smaller li {
+  font-size: 1rem;
+}
+
+.course-details-smaller h3 {
+  font-size: 1.4rem;
+}
+
+
+// Active links in navbar and sidebar
+.navbar-dark .navbar-nav .show>.nav-link,
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+div.sidebar-item-container .active,
+div.sidebar-item-container .show>.nav-link,
+div.sidebar-item-container .sidebar-link>code{
+  color: $blue;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-brand:hover {
+  color: $blue;
+}
+
+.navbar .quarto-navbar-tools .quarto-navigation-tool:hover {
+  color: $blue !important;
+
+}
