@@ -3,15 +3,18 @@ title: "Introduction à Python"
 subtitle: "Un peu de révisions ne fait pas de mal"
 ---
 
+-----------------
+
 Si tu as déjà des notions avancées en prog Python, passe directement au module suivant 
 
 ```{=html}
-<div style="text-align: center">
+<div style="text-align: left">
   <a href="module1.qmd">
     <button class="button-61"> Go Module 1 ! 🚀</button>
   </a>
 </div>
 ```
+-----------------
 
 # 1. Introduction  
 

@@ -3,7 +3,7 @@ title: "Contexte et notions élémentaires"
 subtitle: "Gentle introduction à la POO en Python"
 ---
 
-## 1. Introduction  
+## 1. La Programmation orientée objet   
 La Programmation Orientée Objet (POO), c'est la base de la base, le flow de la programmation !
 
 En POO, **une classe c'est comme un moule à objets**, une représentation qui définit les caractéristiques et les comportements des entités du même type.
@@ -28,7 +28,7 @@ Bref, la POO c'est le swag de la programmation ! Ça structure ton code comme un
 Alors, t'es chaud pour devenir une OOP star ?
 On va coder ça comme jamais ! 
 
-## 2 - La POO pour les MC's : Les avantages du flow
+## 2. Avantages
 
 Les avantages de ce style de programmation, c'est comme les atouts d'un bon rappeur :
 
@@ -69,12 +69,12 @@ C'est ce qui fait toute la richesse de la POO !
 En somme, la POO, c'est plus modulaire qu'un beat et plus réutilisable qu'un sample. Elle permet :
 <ul>
     <li>Modularité et réutilisabilité du code</li>
-     <li>Facilité de maintenance et d'évolution du code</li>
-     <li>Représentation naturelle des concepts du monde réel</li>
+    <li>Facilité de maintenance et d'évolution du code</li>
+    <li>Représentation naturelle des concepts du monde réel</li>
 </ul>
 :::
 
-## 3. Classe = Moule à objets
+## 3. Classe
 
 **Une classe, c'est comme un moule à gâteau en forme de rappeur** :
 
@@ -117,7 +117,7 @@ C'est une manière pour Python de savoir si le fichier actuel est exécuté comm
 
 :::
 
-## 4. Constructeur : `__init__` et  `self`, les kickstarts de l'instanciation
+## 4. Constructeur : `__init__` et  `self`
 Le constructeur `__init__` est **appelé automatiquement quand tu crées une nouvelle instance de ta classe.**
 
 Son rôle ? 
@@ -142,9 +142,9 @@ C'est pour ça que tu retrouves `self` partout !
 </ul>
 :::
 
-## 5. Attributs : les caractères qui font un bon rappeur
+## 5. Attributs 
 
-Les attributs en POO, c'est comme les caractéristiques qui définissent un bon rappeur. 
+Les attributs en POO, c'est comme les **caractéristiques qui définissent un bon rappeur.**
 
 Par exemple pour chaque rappeur on peut lui attribué les caractéristiques suivantes : 
 
@@ -191,9 +191,9 @@ print(f"Niska a produit {niska.nb_albums} albums et \n"
 print(f"\nVald a produit {vald.nb_albums} albums et son flow est {vald.flow.lower()}")
 ```
 
-## 6. Méthodes : les skills qui font un bon MC
+## 6. Méthodes
 
-Les méthodes, c'est ce qui permet à tes objets d'agir, d'interagir et de se démarquer. 
+Les méthodes, c'est ce qui **permet à tes objets d'agir, d'interagir et de se démarquer.** 
 
 Une méthode peut être :
 
@@ -202,7 +202,7 @@ Une méthode peut être :
 - Un flow "calculateur" pour traiter des données (`calculer_nb_albums()`)
 - Ou même un flow "abstract" pour définir un comportement général (`rapper()`)
 
-Les méthodes, c'est aussi ce qui permet à tes objets de communiquer entre eux. 
+Les méthodes, c'est aussi ce qui permet à tes **objets de communiquer entre eux.** 
 Un peu comme des featuring entre rappeurs !
 
 ```{python}
@@ -356,9 +356,9 @@ booba.repondre(kaaris, "TG ! J'suis le DUC !")
 ```
 :::
 
-## 7. Modifier les attributs d'un Rappeur
+## 7. Modifier les attributs
 
-C'est essentiel pour gérer les interactions entre objets, contrôler l'accès aux données et rendre le code plus lisible, comme un rappeur qui adapte son flow à différents beats pour créer des sons uniques et puissants. 🎤💪
+C'est essentiel pour gérer les interactions entre objets,**contrôler l'accès aux données et rendre le code plus lisible**, comme un rappeur qui adapte son flow à différents beats pour créer des sons uniques et puissants. 🎤💪
 
 Comme vu précédemment, pour chaque instance de `Rappeur`, tu peux accéder à ses attributs directement 
 
@@ -442,18 +442,18 @@ print("Flow après : ", booba.flow)
 ::: {.callout-caution}
 ### Toute variable n'est pas un attribut
 
-L'attribut nouveau_flow n'était pas nécessaire dans le constructeur de la classe. Pour changer le flow, il est plus approprié d'utiliser une méthode dédiée. 
+L'attribut *nouveau_flow* n'était pas nécessaire dans le constructeur de la classe. Pour changer le flow, il est plus approprié d'utiliser une méthode dédiée. 
 
-Explication : Le constructeur d'une classe est généralement utilisé pour initialiser les attributs qui définissent l'état de base d'une instance. nouveau_flow est plus une action ponctuelle qu'un attribut d'état permanent de l'objet. Avoir un attribut initial pour flow est logique car il décrit une propriété de l'instance de Rappeur. En revanche, nouveau_flow ressemble plus à une valeur temporaire utilisée pour modifier flow.*
+*Explication* : Le constructeur d'une classe est généralement utilisé pour initialiser les attributs qui définissent l'état de base d'une instance. nouveau_flow est plus une action ponctuelle qu'un attribut d'état permanent de l'objet. Avoir un attribut initial pour flow est logique car il décrit une propriété de l'instance de Rappeur. En revanche, nouveau_flow ressemble plus à une valeur temporaire utilisée pour modifier flow.*
 :::
 
 En suivant ces étapes, tu peux efficacement gérer et mettre à jour les attributs de tes instances de `Rappeur`, ce qui te permet de maintenir ton code organisé et tes données à jour.
 
 Voilà les gars, vous savez maintenant comment gérer les attributs de vos rappeurs comme des pros ! 
 
-Maintenant TIME TO PRACTICE ! 💪
+**Maintenant TIME TO PRACTICE ! 💪**
 
-## Exercices 
+## 8. Exercices 
 
 Je t'ai concocté une série d'exercices passionnants 🌟 qui te permettront non seulement de créer de nouvelles classes, mais aussi de (re)découvrir des notions essentielles de la programmation Python 🐍. 
 
@@ -612,14 +612,14 @@ La classe `Battle` doit inclure des méthodes pour :
 Dans la méthode `juger_punchline(punchline)`, considère d'utiliser des techniques d'analyse de texte pour évaluer les punchlines, comme compter les syllabes ou utiliser des expressions régulières pour identifier les rimes et autres figures de style.
 :::
 
-## Correction 
+## 9. Correction 
 
 La correction sera disponible prochainement ;)
 
 N'hésite pas à prendre rdv si tu es bloqué : 
 
 ```{=html}
-<div style="text-align: center">
+<div style="text-align: left">
   <a href="https://cal.com/menyssa.cherifa-luron/1h">
     <button class="button-61"> Prendre RDV ! 🚀</button>
   </a>

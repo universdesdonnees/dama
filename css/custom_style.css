@@ -1,4 +1,6 @@
 /* CSS */
+b,strong {font-weight: bold}
+
 .button-61 {
     align-items: center;
     appearance: none;

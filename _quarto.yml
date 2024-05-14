@@ -17,9 +17,11 @@ website:
   back-to-top-navigation: true
   favicon: "images/python logo.png"
   navbar:
+    toggle-position: right
+    collapse-below: lg
     background: primary
     foreground: light
-    left:
+    right:
       - href: index.qmd
         text: "🏠Accueil"
       - href: cours/index.qmd
@@ -69,9 +71,11 @@ website:
       4.0)](https://creativecommons.org/licenses/by-nc/4.0/)'
     right: 'Fait avec {{< fa brands python >}} et [Quarto](https://quarto.org/)<br> 
     [Voir sur {{< fa brands github >}} GitHub](https://github.com/universdesdonnees/poo_en_python)'
+    background: "#F5F5F5"
 
 format:
   html:
+    fontcolor: '#212529'
     page-layout: full
     highlight-style: oblivion
     theme:

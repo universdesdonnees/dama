@@ -4,30 +4,35 @@ subtitle: "Découvre les concepts clés de la programmation orientée objet (POO
 details: |
   Fait avec {{< fa brands python >}} et [Quarto](https://quarto.org/)<br> [Voir sur {{< fa brands github >}} GitHub](https://github.com/universdesdonnees/poo_en_python)<br>Par Ményssa Cherifa-Luron, PhD
 
-
 sidebar: false
 toc: false
 page-layout: full
 format:
   html:
     template-partials:
-      - title-block.html
+      - helpers/title-block.html
 course-logo: "images/python logo.png"
 ---
 
 ::: {.home}
-
 :::
 
 ```{=html}
-<div style="text-align: center">
+<div style="text-align: left">
   <h1>🙋🏻‍♀️ Bienvenue !</h1>
+</div>
+```
+-----------------
+
+```{=html}
+<div style="text-align: left">
   <p>Salut, 👋 moi, c'est Ményssa Cherifa-Luron (MCL), Data scientist et Formatrice freelance.</p>
   <a href="about.qmd">
     <button class="button-61">En savoir plus ! 🚀</button>
   </a>
 </div>
 ```
+<br>
 
 ## ⚡TL;DR 
 Une série de carrousels sera disponible prochainement sur LinkedIn. Voici le premier 👇
@@ -37,15 +42,13 @@ Une série de carrousels sera disponible prochainement sur LinkedIn. Voici le pr
 
 **Ne loupe rien et viens me suivre sur LinkedIn** !
 
------------------
 ```{=html}
-<div style="text-align: center">
+<div style="text-align: left">
   <a href="https://www.linkedin.com/in/menyssacherifaluron/">
     <button class="button-61">Me suivre ! 🚀</button>
   </a>
 </div>
 ```
------------------
 
 ## 🛎️ Au menu
 
@@ -61,11 +64,11 @@ Apprentissage par la pratique, à travers des exercices amusants basés sur des 
 
 ## 🎯 Objectifs 
 
-- Tu découvriras les principes fondamentaux de la POO : `classes`, `objets`, `attributs`, `méthodes` 
-- Tu apprendras à distinguer les notions d'`encapsulation`, d'`héritage`, de `polymorphisme`, d'`abstraction` et bien plus encore ...
+- Tu découvriras les principes fondamentaux de la POO : **classes**, **objets**, **attributs**, **méthodes** 
+- Tu apprendras à distinguer les notions d'**encapsulation**, d'**héritage**, de **polymorphisme**, d'**abstraction** et bien plus encore ...
 - Tu t'exerceras  créer tes propres classes inspirées d'exemples du quotidien : musique, smartphone, voiture,...
-- Tu sauras `instancier`des objets et interagir avec eux  
-- Tu comprendras comment la POO peut t'aider à `structurer tes projets de data science`
+- Tu sauras **instancier**des objets et interagir avec eux  
+- Tu comprendras comment la POO peut t'aider à **structurer tes projets de data science**
 
 -----------------
 ```{=html}

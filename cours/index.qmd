@@ -8,9 +8,9 @@ sidebar: false
 
 ::: {.callout-important collapse=false}
 ## 📢 Les modules
-- Pour le moment 3 modules sont prévus pour ce cours.
+- Pour le moment 4 modules sont prévus pour ce cours.
 - Les corrections se feront au fur et à mesure
-- La prise de RDV est possible sur la page `A propos`
+- La prise de RDV est possible sur la page `À Propos`
 :::
 # 💻 Modules
 
