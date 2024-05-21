@@ -1,104 +1,65 @@
 ---
-title: "Organisation du cours"
 format: html
 page-layout: full
 toc: false
 sidebar: false
 ---
 
-::: {.callout-important collapse=false}
-## 📢 Les modules
-- Pour le moment 4 modules sont prévus pour ce cours.
-- Les corrections se feront au fur et à mesure
-- La prise de RDV est possible sur la page `À Propos`
-:::
-# 💻 Modules
-
-::: {style="display:inline-block;width: 28.5%;border-style: dotted;border-width: 1px;border-color: &quot;#fefefe&quot;; margin:1%;padding:1.5%;background-color:#fafafa"}
-**Module 0**
-
-Introduction à Python - Rappels essentiels
-
-⛔ Cours 
-
-⛔ Exercices
-
-⛔ Corrections
-
------------------
 ```{=html}
-<div style="text-align: center">
-  <a href="module0.qmd">
-    <button class="button-61">Commencer le cours ! 🚀</button>
-  </a>
+<div class="container max-w-full mx-auto py-12 px-6 text-center">
+  <h1 class="text-4xl text-black font-medium leading-snug tracking-wider">Cours disponibles</h1>
+  <p class="text-lg text-gray-700 mt-2 px-6"> Choisis le cours qui t'intéresse et c'est parti !</p>
+</div>
+
+<div class="ag-format-container">
+  <div class="ag-courses_box">
+    <div class="ag-courses_item">
+      <a href="#" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg"></div>
+        <div class="ag-courses-item_title">
+          R : Introduction à la programmation
+        </div>
+        <div class="ag-courses-item_date-box">
+          Niveau :<span class="ag-courses-item_date"> débutant</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="ag-courses_item">
+      <a href="python_intro.qmd" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg"></div>
+        <div class="ag-courses-item_title">
+          Python : Introduction à la programmation
+        </div>
+        <div class="ag-courses-item_date-box">
+          Niveau :<span class="ag-courses-item_date"> débutant</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="ag-courses_item">
+      <a href="#" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg"></div>
+        <div class="ag-courses-item_title">
+          R Shiny : Déployer des applications web avec R 
+        </div>
+        <div class="ag-courses-item_date-box">
+          Niveau :<span class="ag-courses-item_date"> Intermédiaire</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="ag-courses_item">
+      <a href="python_poo.qmd" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg"></div>
+        <div class="ag-courses-item_title">
+          Python : Programmation orientée objets
+        </div>
+        <div class="ag-courses-item_date-box">
+          Niveau :<span class="ag-courses-item_date"> Intermédiaire</span>
+        </div>
+      </a>
+    </div>
+  </div>
 </div>
 ```
------------------
-:::
-
-::: {style="display:inline-block;width: 28.5%;border-style: dotted;border-width: 1px;border-color: &quot;#fefefe&quot;; margin:1%;padding:1.5%;background-color:#fafafa"}
-**Module 1**
-
-POO 1. Contexte et notions élémentaires
-
-✅ Cours 
-
-✅ Exercices
-
-⛔ Corrections
-
------------------
-```{=html}
-<div style="text-align: center">
-  <a href="module1.qmd">
-    <button class="button-61">Commencer le cours ! 🚀</button>
-  </a>
-</div>
-```
------------------
-:::
-
-::: {style="display:inline-block;width: 28.5%;border-style: dotted;border-width: 1px;border-color: &quot;#fefefe&quot;; margin:1%;padding:1.5%;background-color:#fafafa"}
-**Module 2**
-
-POO 2.
-
-⛔ Cours 
-
-⛔ Exercices 
-
-⛔ Corrections   
-
------------------
-```{=html}
-<div style="text-align: center">
-  <a href="module2.qmd">
-    <button class="button-61">Commencer le cours ! 🚀</button>
-  </a>
-</div>
-```
------------------
-:::
-
-::: {style="display:inline-block;width: 28.5%;border-style: dotted;border-width: 1px;border-color: &quot;#fefefe&quot;; margin:1%;padding:1.5%;background-color:#fafafa"}
-**Module 3**
-
-
-POO 3.
-
-⛔ Cours 
-
-⛔ Exercices 
-
-⛔ Corrections
-
------------------
-```{=html}
-<div style="text-align: center">
-  <a href="module3.qmd">
-    <button class="button-61">Commencer le cours ! 🚀</button>
-  </a>
-</div>
-```
------------------
-:::

@@ -1,6 +1,7 @@
 ---
-title: "Contexte et notions élémentaires"
-subtitle: "Gentle introduction à la POO en Python"
+title: "Gentle introduction à la POO en Python"
+subtitle: ""
+sidebar: false
 ---
 
 ICI  ------ a ranger 
@@ -12,6 +13,8 @@ ICI  ------ a ranger
 - Tu sauras **instancier**des objets et interagir avec eux  
 - Tu comprendras comment la POO peut t'aider à **structurer tes projets de data science**
 ICI  ------ a ranger 
+
+# Partie 1. Contexte et notions élémentaires
 
 ## 1. La Programmation orientée objet   
 La Programmation Orientée Objet (POO), c'est la base de la base, le flow de la programmation !

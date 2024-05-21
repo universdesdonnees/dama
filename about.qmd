@@ -30,7 +30,7 @@ Salut, 👋 moi, c'est **Ményssa Cherifa-Luron (MCL)**, Data scientist et Forma
 ```{=html}
 <div style="text-align: center">
   <a href="https://cal.com/menyssa.cherifa-luron/1h">
-    <button class="button-61"> Prendre RDV ! 🚀</button>
+    <button class="button-61"> Prendre RDV ! 🚀 </button>
   </a>
 </div>
 ```

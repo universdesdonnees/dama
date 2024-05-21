@@ -45,32 +45,6 @@ website:
   search: 
     location: navbar
     type: textbox
-  sidebar:
-    background: "#F5F5F5"
-    style: docked
-    alignment: "center"
-    logo: "images/python logo.png"
-    tools:
-      - icon: linkedin
-        href: https://www.linkedin.com/in/menyssacherifaluron/
-      - icon: github
-        href: https://github.com/universdesdonnees/poo_en_python
-    contents:
-      - section: "Modules"
-        contents:
-            - text: "---"
-            - href: cours/module0.qmd
-              text: "Introduction à Python - Rappels essentiels"
-            - text: "---"
-            - href: cours/module1.qmd
-              text: "POO 1. Contexte et notions élémentaires"
-            - text: "---"
-            - href: cours/module2.qmd
-              text: "POO 2.📝 Module 2"
-            - text: "---"
-            - href: cours/module3.qmd
-              text: "POO 3.📝 Module 3"
-              
   page-footer:
     left: 'Contenu {{< fa brands creative-commons >}} 2024 par [Ményssa Cherifa-Luron](https://www.linkedin.com/in/menyssacherifaluron/), adapté de [Jon Cardoso-Silva''s Quarto template for university courses](https://github.com/jonjoncardoso/quarto-template-for-university-courses)<br> Tout le contenu est sous licence {{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-nc >}} [Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC
       4.0)](https://creativecommons.org/licenses/by-nc/4.0/)'

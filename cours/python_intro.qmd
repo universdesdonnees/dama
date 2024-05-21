@@ -1,11 +1,12 @@
 ---
-title: "Introduction à Python"
+title: "Python : Introduction à la programmation"
 subtitle: "Un peu de révisions ne fait pas de mal"
+sidebar: false
 ---
 
 -----------------
 
-Si tu as déjà des notions avancées en prog Python, passe directement au module suivant 
+Si tu as déjà des notions avancées en prog Python, passe directement à la programmation orientée objets 
 
 ```{=html}
 <div style="text-align: left">

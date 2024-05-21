@@ -1,7 +1,0 @@
----
-title: "🗓️ Module 2"
-subtitle: " "
-format: html
----
-
-Bientôt
