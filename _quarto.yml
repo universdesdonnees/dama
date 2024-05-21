@@ -5,7 +5,7 @@ execute:
   debug: true
 
 website:
-  title: "POO en Python"
+  title: "Data Avec Ményssa"
   page-navigation: true
   open-graph: true
   cookie-consent:
@@ -15,19 +15,24 @@ website:
     language: "fr"
   google-analytics: "G-QTG3TJ9SJQ"
   back-to-top-navigation: true
-  favicon: "images/python logo.png"
+  favicon: "images/dama_logo.png"
   navbar:
+    logo: images/dama_logo.png
+    logo-alt: "Data avec Ményssa"
+    title: false
     toggle-position: right
     collapse-below: lg
     background: primary
     foreground: light
     right:
       - href: index.qmd
-        text: "🏠Accueil"
+        text: "{{< fa home >}} Accueil"
       - href: cours/index.qmd
-        text: "📝Cours"
+        text: "{{< fa chalkboard-user >}} Cours"
+      - href: coding_session.qmd
+        text: "{{< fa code >}} Coding Session"
       - href: about.qmd
-        text: "🙋🏻‍♀️À Propos"
+        text: "{{< fa circle-info >}} À Propos"
     tools:
       - icon: linkedin
         href: https://www.linkedin.com/in/menyssacherifaluron/
@@ -87,5 +92,5 @@ format:
     css: 
       - css/custom_style.css
     toc: true
-
+    
 

@@ -3,6 +3,16 @@ title: "Contexte et notions élémentaires"
 subtitle: "Gentle introduction à la POO en Python"
 ---
 
+ICI  ------ a ranger 
+## 🎯 Objectifs de la POO
+
+- Tu découvriras les principes fondamentaux de la POO : **classes**, **objets**, **attributs**, **méthodes** 
+- Tu apprendras à distinguer les notions d'**encapsulation**, d'**héritage**, de **polymorphisme**, d'**abstraction** et bien plus encore ...
+- Tu t'exerceras  créer tes propres classes inspirées d'exemples du quotidien : musique, smartphone, voiture,...
+- Tu sauras **instancier**des objets et interagir avec eux  
+- Tu comprendras comment la POO peut t'aider à **structurer tes projets de data science**
+ICI  ------ a ranger 
+
 ## 1. La Programmation orientée objet   
 La Programmation Orientée Objet (POO), c'est la base de la base, le flow de la programmation !
 

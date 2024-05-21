@@ -1,0 +1,139 @@
+---
+toc: false
+sidebar: false
+page-layout: full
+---
+
+```{=html}
+<div class="container max-w-full mx-auto py-12 px-6 text-center">
+  <h1 class="text-4xl text-black font-medium leading-snug tracking-wider">
+    Coder facile avec DAMA
+  </h1>
+  <p class="text-lg text-gray-700 mt-2 px-6">
+    Des coding sessions sur mesure, parce que tu es unique et que
+  </p>
+  <div class="flex justify-center mt-8">
+    <img src="images/coding_session.png" alt="Ma photo" class="w-64 h-64 object-cover rounded-full">
+  </div>
+</div>
+<br>
+<br>
+```
+
+## {{< fa database >}} La data science sur-mesure, rien que pour toi 
+Fini les formations *taille unique* qui te laissent sur ta faim. Il est temps de passer au niveau supérieur avec un apprentissage 100% personnalisé. 
+
+Imagine-toi dans quelques mois :
+
+- Maîtriser les **langages de programmation** les plus demandés en data science
+- Apprivoiser les algorithmes de **machine learning** les plus puissants
+- Booster ton **CV** et décrocher le **job de tes rêves**
+- Devenir l'expert(e) en data science dont les entreprises ont besoin
+
+Ça en jette, pas vrai ? Et si je te disais que c'est possible... à condition d'avoir la bonne feuille de route ? 
+
+## {{< fa fingerprint >}} Pourquoi mes sessions sont différentes ? 
+
+Parce qu'elles sont 100% personnalisées en fonction de **TON niveau, TES objectifs et TON rythme d'apprentissage.** Fini les formations à la chaîne qui te laissent sur ta faim.
+
+Avec moi, tu auras :
+
+- 👨‍🏫 Un suivi individuel avec un expert passionné via un **espace notion personnalisé**
+- 🎯 Un programme sur mesure aligné avec tes objectifs
+- 🕒 Un rythme flexible adapté à tes disponibilités
+- 🚀 Des projets concrets pour muscler ton portfolio
+
+## {{< fa stairs >}} Comment ça marche ?
+
+En 4 étapes, tu seras sur le chemin de la réussite !
+
+1. Installe [{{< fa code >}} VS code](https://code.visualstudio.com/) et l'extention [Visual Studio Live Share](https://visualstudio.microsoft.com/fr/services/live-share/) 
+
+2. Choisis ton arme secrète : R, Python, SQL... à toi de décider ce qui te fera décoller ! 
+
+3. Réserve ton créneau : Quelques clics sur mon site et hop, ta place est réservée. Facile comme bonjour ! 
+
+4. Connecte-toi et code en live avec moi : On se retrouve sur [Cal](https://cal.com/fr) et on code ensemble en temps réel avec VS Code Live Share.
+
+## {{< fa sack-dollar >}} Ce que tu gagnes en réservant maintenant (attention, ça va être dur de résister !)
+
+- 60 minutes de coaching en tête-à-tête avec moi, 100% adaptées à TES besoins 
+- Un environnement de codage partagé en live, pour progresser à vitesse grand V 
+- Mes conseils et astuces d'expert pour t'aider à atteindre tes objectifs en un temps record 
+- Des réponses à TOUTES tes questions de codage (même les plus tordues, promis !) 
+- Des ressources exclusives en bonus pour cimenter tes acquis et faire de toi un(e) pro 
+
+## {{< fa fire >}} Tarifs et packs, c'est maintenant ou jamais !
+
+Je crois en la valeur de mon expertise et je veux te la transmettre dans la bonne humeur. 
+
+::: {style="display:inline-block;width: 28.5%;border-style: dotted;border-width: 1px;border-color: &quot;#fefefe&quot;; margin:1%;padding:1.5%;background-color:#fafafa"}
+## Call Boost
+**Session d'1h**
+
+65€
+
+Petit coup de boost sur-mesure pour résoudre un problème précis.
+
+-----------------
+```{=html}
+<div style="text-align: center">
+  <a href="https://tally.so/r/3jBj4Q">
+    <button class="button-61">Réserve ta session ! 🚀</button>
+  </a>
+</div>
+```
+-----------------
+:::
+
+::: {style="display:inline-block;width: 28.5%;border-style: dotted;border-width: 1px;border-color: &quot;#fefefe&quot;; margin:1%;padding:1.5%;background-color:#fafafa"}
+## Data Dive
+**Pack 3 sessions**
+
+150€ ~~195€~~
+
+Idéal pour creuser un sujet à fond et progresser à vitesse grand V. 
+
+-----------------
+```{=html}
+<div style="text-align: center">
+  <a href="https://tally.so/r/3jBj4Q">
+    <button class="button-61">Obtiens ton pack ! 🚀</button>
+  </a>
+</div>
+```
+-----------------
+:::
+
+::: {style="display:inline-block;width: 28.5%;border-style: dotted;border-width: 1px;border-color: &quot;#fefefe&quot;; margin:1%;padding:1.5%;background-color:#fafafa"}
+## Data Odyssey
+**Pack de 10 sessions**
+
+500 ~~650€~~
+
+L'option parfaite pour un véritable parcours de montée en compétences.
+
+-----------------
+```{=html}
+<div style="text-align: center">  
+  <a href="https://tally.so/r/3jBj4Q">
+    <button class="button-61">Lance-toi maintenant ! 🚀</button>
+  </a>
+</div>
+```
+-----------------
+:::
+
+***Les tarifs canon de mes partenaires experts** : j'ai une équipe de choc à mes côtés, prête à t'accompagner à des tarifs ultra-sympas à partir de 30€ de l'heure.*
+
+## {{< fa stopwatch >}} Les places partent à la vitesse de l'éclair, réserve la tienne maintenant !
+
+T'es à deux doigts de faire décoller ta carrière en data science. Ne laisse pas passer cette occasion en or ! Choisis vite ton langage préféré, ton créneau, règle en ligne et let's go ! Je t'attends avec impatience. 
+
+<div style="text-align: center">
+  <a href="https://tally.so/r/3jBj4Q">
+    <button class="button-61">Réserver mon cours ! 🚀</button>
+  </a>
+</div>
+
+Tu as encore des questions ? Tu veux en savoir plus sur mon approche ? Écris-moi [ici](cmenyssa@live.fr), je me ferai un plaisir de te répondre !

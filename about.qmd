@@ -21,16 +21,6 @@ Salut, 👋 moi, c'est **Ményssa Cherifa-Luron (MCL)**, Data scientist et Forma
 - LinkedIn `Top Data Science Voice`
 - Créatrice et autrice de la newsletter ['Smart'](https://www.linkedin.com/newsletters/7100158974640967680/), offrant des récits qui éclairent et inspirent.
 
-## 👩‍🏫 Mes autres cours 
-
-À l'IA School, j'ai créé et enseigné les cours suivants :
-
-- [R - Introduction](https://universdesdonnees.github.io/R-Introduction/cours/Cours.html)
-
-- [R - Shiny](https://universdesdonnees.github.io/R-Shiny/cours/cours.html)
-
-- [Python - Introduction](https://github.com/universdesdonnees/Python-Introduction)
-
 ## 💬 Me contacter
 
 | 📩 Email | 👩‍💻 GitHub | 💼 LinkedIn |

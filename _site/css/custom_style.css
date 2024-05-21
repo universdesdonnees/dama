@@ -61,4 +61,8 @@ b,strong {font-weight: bold}
   }
 
 
-  
+  .navbar-logo {
+    max-height: 100px;
+    width: auto;
+    align-items: baseline;
+  }
