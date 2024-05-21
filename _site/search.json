@@ -56,11 +56,11 @@
     "text": "Ici la data science c’est facile, utile et accessible à tous. No Bullshit, juste l’essentiel pour pratiquer et performer !\n    \n    \n      Fait avec  et Quarto Voir sur  GitHubPar Ményssa Cherifa-Luron, PhD"
   },
   {
-    "objectID": "index.html#tldr",
-    "href": "index.html#tldr",
+    "objectID": "index.html#mini-cours",
+    "href": "index.html#mini-cours",
     "title": "Data Avec Ményssa",
-    "section": "⚡TL;DR",
-    "text": "⚡TL;DR\nUne série de carrousels sera disponible prochainement sur LinkedIn. Voici le premier 👇\n\nNe loupe rien et viens me suivre sur LinkedIn !\n\n  \n    Me suivre ! 🚀"
+    "section": " Mini-cours",
+    "text": "Mini-cours\n\n  Retrouve ici les derniers mini-cours que je poste régulièrement sur LinkedIn.  Check this out👇\n\n\n\n  \n    \n  \n  \n    \n     \n  \n    \n  \n\n\n  Tu aimes ? Ne loupe rien et viens me suivre sur LinkedIn !\n  \n     Me suivre ! 🚀"
   },
   {
     "objectID": "index.html#au-menu",
@@ -70,651 +70,11 @@
     "text": "Au menu\nQue tu sois débutant, intermédiaire ou avancé, ces cours te permettront de progresser en data science à ton rythme, avec des exemples concrets et des exercices adaptés.\nTu pourras entre autre :\n\nMaitriser R pour des analyses de données au top\nGénérer des visualisations à couper le souffle\nPython pour la data science : de Zéro à Héro !\nSQL pour la gestion et l’interrogation des bases de données\nMachine Learning : Développer des modèles prédictifs puissants\n\nEt plus encore…\nJ’espère que tu es prêt ? Oui ! Alors, prépare-toi devenir un pro et à développer tes propres applications en data science.\n\n\n  \n     Commencer les cours ! 🚀"
   },
   {
-    "objectID": "index.html#méthode",
-    "href": "index.html#méthode",
-    "title": "Data Avec Ményssa",
-    "section": "🔧 Méthode",
-    "text": "🔧 Méthode\nApprentissage par la pratique, à travers des exercices ludiques basés sur des situations réelles.\n\n\n  \n     Commencer les cours ! 🚀"
-  },
-  {
-    "objectID": "index.html#objectifs",
-    "href": "index.html#objectifs",
-    "title": "Data Avec Ményssa",
-    "section": "🎯 Objectifs",
-    "text": "🎯 Objectifs\n\nTu découvriras les principes fondamentaux de la POO : classes, objets, attributs, méthodes\nTu apprendras à distinguer les notions d’encapsulation, d’héritage, de polymorphisme, d’abstraction et bien plus encore …\nTu t’exerceras créer tes propres classes inspirées d’exemples du quotidien : musique, smartphone, voiture,…\nTu sauras instancierdes objets et interagir avec eux\n\nTu comprendras comment la POO peut t’aider à structurer tes projets de data science\n\n\n\n  \n    Commencer le cours ! 🚀"
-  },
-  {
-    "objectID": "cours/module2.html",
-    "href": "cours/module2.html",
-    "title": "🗓️ Module 2",
-    "section": "",
-    "text": "Bientôt\n\n\n\n Back to top",
-    "crumbs": [
-      "🏠Accueil",
-      "Modules",
-      "POO 2.📝 Module 2"
-    ]
-  },
-  {
-    "objectID": "cours/module0.html",
-    "href": "cours/module0.html",
-    "title": "Python : Introduction à la programmation",
-    "section": "",
-    "text": "Si tu as déjà des notions avancées en prog Python, passe directement au module suivant",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "Introduction à Python - Rappels essentiels"
-    ]
-  },
-  {
-    "objectID": "cours/module0.html#les-variables",
-    "href": "cours/module0.html#les-variables",
-    "title": "Python : Introduction à la programmation",
-    "section": "2.1. Les variables",
-    "text": "2.1. Les variables\nLes variables, c’est un peu comme des boîtes dans lesquelles tu peux ranger des trucs : des nombres, du texte, etc.\nPar exemple, si tu écris x = 10, tu crées une variable “x” qui contient la valeur 10. Easy !\nLe truc cool avec Python, c’est qu’il devine tout seul le type de données que tu mets dans la variable.\nC’est ce qu’on appelle le typage dynamique. Pratique, non ?\nQuelques règles de base à retenir sur les variables :\n\nPour donner une valeur à une variable, on utilise le signe égal (=). C’est l’affectation.\nTu peux écraser la valeur d’une variable en lui réaffectant une nouvelle valeur.\nAttention à la casse ! “maVariable” et “mavariable”, pour Python c’est pas pareil.\nTu peux afficher plusieurs variables d’un coup avec print() en les séparant par des virgules.\nTu peux affecter plusieurs valeurs à plusieurs variables sur une seule ligne. Stylé !\n\nPour les noms de variables, tu as le choix entre :\n\nla casse camel : monNomDeVariable\nla casse Pascal : MonNomDeVariable\nla casse serpent : mon_nom_de_variable\n\nÉvite juste de commencer les noms par des chiffres, d’utiliser des caractères spéciaux et de mélanger chiffres et lettres n’importe comment.\n\n# Affectation simple \nMa_variable =  10\nprint(Ma_variable)\n\n# Affectation de plusieurs valeurs\nx, y, z = \"Chocolat\", \"Vanille\", \"Fraise\"\n\nprint(x)\nprint(y)\nprint(z)\n\n# Affectation de la même valeur\nx = y = z = \"Chocolat\"\n\nprint(x)\nprint(y)\nprint(z)\n\n10\nChocolat\nVanille\nFraise\nChocolat\nChocolat\nChocolat\n\n\n\n2.1.1. Types de variables\nEn Python, chaque variable a un type bien précis. C’est un peu comme les groupes sanguin : A, B, AB ou O. Sauf qu’ici, on a :\n\nLes entiers (int) : pour les nombres sans virgule. Exemples : 5, -3, 0.\nLes nombres complexes (complex) : pour les maths de l’espace ! Exemple : 3 + 4j.\nLes flottants (float) : pour les nombres à virgule. Exemples : 3.14, -0.001.\nLes chaînes de caractères (str) : pour le texte, entouré de guillemets. Exemple : “Hello World!”\nLes booléens (bool) : pour les valeurs “vrai” (True) ou “faux” (False). Souvent le résultat de comparaisons.\n\nPourquoi c’est important de connaître le type d’une variable ? Parce que tu ne peux pas additionner des pommes et des poires ! Enfin si, mais ça donne une compote bizarre… 🍎+🍐=🤢\nPlus sérieusement, chaque type a ses propres opérations possibles. Tu peux multiplier deux int, concaténer deux str, mais pas l’inverse.\nAllez, un petit défi : devine le type des variables suivantes (réponse en commentaire) :\n\na = 42\nb = “42”\nc = 42.0\nd = True\ne = 2 + 3j\n\n\n# Afficher le type d'une variable\nbonjour = \"Hello\"\ntype(bonjour) \n\n# Définition de plusieurs variables \nnom = \"Alice\"\nage = 25       \ntaille = 1.70  \nestVrai = True \nestFaux = False \nprint(\"la variable nom est de type :\", type(nom))\nprint(\"la variable age est de type :\",type(age))\nprint(\"la variable taille est de type :\",type(taille))\nprint(\"la variable estVrai est de type :\",type(estVrai))\nprint(\"la variable estFaux est de type :\",type(estFaux))\n\nla variable nom est de type : &lt;class 'str'&gt;\nla variable age est de type : &lt;class 'int'&gt;\nla variable taille est de type : &lt;class 'float'&gt;\nla variable estVrai est de type : &lt;class 'bool'&gt;\nla variable estFaux est de type : &lt;class 'bool'&gt;\n\n\n\n\n2.1.2. Conversion de types\nLe casting, c’est un peu comme dans un film : tu prends un acteur (une valeur) et tu lui fais jouer un autre rôle (un autre type). 🎥\nEn Python, tu peux facilement convertir entre les types de base comme :\n\nLes entiers (int)\nLes chaînes de caractères (str)\nLes booléens (bool)\nLes flottants (float)\n\nVoici quelques exemples de casting en action :\n🎬 int ➡ str\n🎬 str ➡ int\n🎬 float ➡ int\n🎬 int ➡ bool\nMais attention aux pièges !\nToutes les conversions ne sont pas possibles, comme transformer un texte en nombre :\nprix = \"dix\" prix_int = int(prix)  # Erreur : ValueError\n\nConversion en Entier (int)\n\n\n# Depuis une chaîne de caractères :\nchaine = \"123\"\nnombre = int(chaine)  # Convertit la chaîne \"123\" en entier 123\n\n## Depuis un booléen :\nvrai = True\nentier = int(vrai)  # Convertit True en 1\n\n## Depuis un float :\nflottant = 9.99\nentier = int(flottant)  # Convertit 9.99 en 9 (troncature, pas d'arrondi)\n\n\nConversion en Chaîne de Caractères (str)\n\n\n## Depuis un entier ou un float :\nnombre = 123\nchaine = str(nombre)  # Convertit l'entier 123 en chaîne \"123\"\n\n## Depuis un booléen :\nfaux = False\nchaine = str(faux)  # Convertit False en \"False\"\n\n\nConversion en Booléen (bool)\n\n\n## Depuis une chaîne de caractères** :\nchaine = \"\"\nbooleen = bool(chaine)  # Convertit une chaîne vide en False\nchaine2 = \"Python\"\nbooleen2 = bool(chaine2)  # Convertit \"Python\" en True\n\n## Depuis un nombre : \nnombre = 0\nbooleen = bool(nombre)  # Convertit 0 en False\nnombre2 = 123\nbooleen2 = bool(nombre2)  # Convertit 123 en True\n\n\nConversion en Float (float)\n\n\n## Depuis une chaîne de caractères:\nchaine = \"123.45\"\nflottant = float(chaine)  # Convertit la chaîne \"123.45\" en float 123.45\n\n## Depuis un entier :\nentier = 100\nflottant = float(entier)  # Convertit l'entier 100 en float 100.0\n\n## Depuis un booléen:\nvrai = True\nflottant = float(vrai)  # Convertit True en 1.0\n\n\n\n2.1.3. Opérations arithmétiques\nEn Python, tu peux faire des maths comme un pro avec ces 4 opérateurs :\n\nL’addition (+) : pour ajouter des nombres Exemple : 3 + 2 = 5\nLa soustraction (-) : pour soustraire des nombres Exemple : 5 - 2 = 3\nLa multiplication (*) : pour multiplier des nombres Exemple : 3 * 2 = 6\nLa division (/) : pour diviser des nombres Exemple : 6 / 2 = 3\n\nFacile, non ? Mais attends, y’a encore plus fort ! Python gère aussi :\n\nLes puissances (**) : pour les exposants Exemple : 2 ** 3 = 8 (2 puissance 3)\nLes divisions entières (//) : pour obtenir un résultat entier Exemple : 7 // 2 = 3\nLes modulos (%) : pour obtenir le reste d’une division Exemple : 7 % 2 = 1 (car 7 divisé par 2 donne 3 reste 1)\n\n\nsomme = 10 + 5       # Résultat: 15\ndifference = 10 - 5  # Résultat: 5\nproduit = 10 * 5     # Résultat: 50\nquotient = 10 / 5    # Résultat: 2.0\n\nModulo (%) retourne le reste de la division Puissance (**) élève un nombre à une certaine puissance.\n\nreste = 10 % 3       # Résultat: 1\npuissance = 2 ** 3   # Résultat: 8\npuissance_bis = 2 ^ 3\n\n\n\n\n\n\n\nOpérations sur les str\n\n\n\nGrâce à ces 2 opérateurs magiques :\n\nLa concaténation (+) : pour combiner des chaînes Exemple : “Hello” + ” World!” = “Hello World!”\nLa répétition (*) : pour répéter une chaîne un certain nombre de fois Exemple : “Ha” * 3 = “HaHaHa”\n\nC’est aussi simple que ça ! Mais attention, y’a quelques règles à respecter :\n⚠️ Tu ne peux pas concaténer des types différents (string + int par exemple). Faudra d’abord les convertir.\n⚠️ La répétition ne marche qu’avec des entiers positifs. Pas de “Ha” * -3 ou “LOL” * 2.5 !\n\n\n\n\n2.1.4. Opérateurs d’affectation composés\nLes opérateurs d’affectation composés sont des raccourcis qui combinent une opération arithmétique ou binaire avec une affectation.\nEn gros, ils permettent d’effectuer une opération sur une variable et de lui réaffecter le résultat en une seule étape.\n\n# Initialisation de x\nx = 5\nprint(x)\n# Ajouter et assigner\nx += 2  # x est maintenant 7\nprint(x)\n\n# Soustraire et assigner\nx -= 3  # x est maintenant 4\nprint(x)\n\n# Multiplier et assigner\nx *= 4  # x est maintenant 16\nprint(x)\n# Diviser et assigner\nx /= 2  # x est maintenant 8\nprint(x)\n# Division entière et assigner\nx //= 3  # x est maintenant 2\nprint(x)\n# Modulo et assigner\nx %= 3  # x est maintenant 2\nprint(x)\n# Exponentielle et assigner\nx **= 2  # x est maintenant 4\nprint(x)\n\n5\n7\n4\n16\n8.0\n2.0\n2.0\n4.0\n\n\n\n\n\n\n\n\nÀ Retenir\n\n\n\n\nUne variable est un espace de stockage nommé utilisé pour contenir des données qui peuvent être modifiées pendant l’exécution d’un programme.\nLes types : Entier, Flottant, Chaîne de caractères, Booléen, etc.\nLes opérations sur les nombres (Entier, Flottant,Booléen) peuvent être : + (addition), - (soustraction), * (multiplication), / (division), % (modulo).\nLes opérateurs pour chaînes de caractères sont :\n\n+ pour la concaténation : ‘Hello’ + ’ World’ donne ‘Hello World’.\n* pour la répétition : ‘Hello’ * 3 donne ‘HelloHelloHello’.\n\nLes opérateurs composés (+=, -=, *=, /=, %=) servent à simplifier l’écriture des opérations en combinant un opérateur et une affectation.",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "Introduction à Python - Rappels essentiels"
-    ]
-  },
-  {
-    "objectID": "cours/module0.html#commentaires-et-affichage",
-    "href": "cours/module0.html#commentaires-et-affichage",
-    "title": "Python : Introduction à la programmation",
-    "section": "2.2. Commentaires et affichage",
-    "text": "2.2. Commentaires et affichage\nVoici une adaptation de la cellule en gardant le rôle de DataCopy :\n\n\n2.2 Commentaires et affichage\n\nLes commentaires sont utilisés pour expliquer le code.\nImagine-les comme des post-it collés sur ton script 📝 Ils t’aident à garder le cap quand tu relis ton code 3 mois plus tard !\nQuelques tips de pro pour tes commentaires :\n\nSois bref mais explicite\n\nIndique l’objectif du bloc de code\nExplique les paramètres et valeurs retournées des fonctions\nNote les points d’amélioration possibles\n\nAvec des bons commentaires, ton code devient une carte au trésor facile à suivre !\nIls commencent par un # et s’étendent jusqu’à la fin de la ligne.\n\n\n\n\n\n\nÀ Retenir\n\n\n\n\nLes commentaires sont ignorés lors de l’exécution du code.\n\n\n\nEn résumé, les commentaires sont des outils essentiels pour rendre ton code plus compréhensible et maintenable sur le long terme. Prends le temps de les rédiger avec soin, tes collègues (et ton toi du futur) te remercieront !",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "Introduction à Python - Rappels essentiels"
-    ]
-  },
-  {
-    "objectID": "cours/module0.html#structures-de-contrôle",
-    "href": "cours/module0.html#structures-de-contrôle",
-    "title": "Python : Introduction à la programmation",
-    "section": "2.3. Structures de contrôle",
-    "text": "2.3. Structures de contrôle\n\n2.3.1 Les opérateurs\n\n\n2.3.2 Les conditions\n\n\n2.3.3 Les boucles",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "Introduction à Python - Rappels essentiels"
-    ]
-  },
-  {
-    "objectID": "cours/module0.html#exercices-1",
-    "href": "cours/module0.html#exercices-1",
-    "title": "Python : Introduction à la programmation",
-    "section": "Exercices 1",
-    "text": "Exercices 1",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "Introduction à Python - Rappels essentiels"
-    ]
-  },
-  {
-    "objectID": "cours/module0.html#projet-1-juste-prix",
-    "href": "cours/module0.html#projet-1-juste-prix",
-    "title": "Python : Introduction à la programmation",
-    "section": "Projet 1 : Juste prix",
-    "text": "Projet 1 : Juste prix",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "Introduction à Python - Rappels essentiels"
-    ]
-  },
-  {
-    "objectID": "cours/module0.html#projet-2-casino",
-    "href": "cours/module0.html#projet-2-casino",
-    "title": "Python : Introduction à la programmation",
-    "section": "Projet 2 : Casino",
-    "text": "Projet 2 : Casino",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "Introduction à Python - Rappels essentiels"
-    ]
-  },
-  {
-    "objectID": "cours/module0.html#types-de-données",
-    "href": "cours/module0.html#types-de-données",
-    "title": "Python : Introduction à la programmation",
-    "section": "2.4. Types de Données",
-    "text": "2.4. Types de Données\n\n2.4.1 Les chaines de caractères\n\n\n2.4.2 Les listes\n\n\n2.4.3 Les tuples\n\n\n2.4.4 Les ensembles\n\n\n2.4.5 Les dictionnaires",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "Introduction à Python - Rappels essentiels"
-    ]
-  },
-  {
-    "objectID": "cours/module0.html#exercices",
-    "href": "cours/module0.html#exercices",
-    "title": "Python : Introduction à la programmation",
-    "section": "Exercices",
-    "text": "Exercices",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "Introduction à Python - Rappels essentiels"
-    ]
-  },
-  {
-    "objectID": "cours/module0.html#projet-3-pendu",
-    "href": "cours/module0.html#projet-3-pendu",
-    "title": "Python : Introduction à la programmation",
-    "section": "Projet 3 : Pendu",
-    "text": "Projet 3 : Pendu",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "Introduction à Python - Rappels essentiels"
-    ]
-  },
-  {
-    "objectID": "cours/module0.html#fonctions-définition-et-appel",
-    "href": "cours/module0.html#fonctions-définition-et-appel",
-    "title": "Python : Introduction à la programmation",
-    "section": "2.5. Fonctions : définition et appel",
-    "text": "2.5. Fonctions : définition et appel\n\n2.5.1 Les paramètres et arguments\n\n\n2.5.2 Les types de fonctions\n\n\n2.5.3 La portée des variables\n\n\n2.5.4 Nombre variable d’arguments\n\n\n2.5.5 Les fonctions anonymes : lambda\n\n\n2.5.6 Les fonctions et la récursivité\n\n\n2.5.7 Générateurs et décorateurs",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "Introduction à Python - Rappels essentiels"
-    ]
-  },
-  {
-    "objectID": "cours/module0.html#exercices-3",
-    "href": "cours/module0.html#exercices-3",
-    "title": "Python : Introduction à la programmation",
-    "section": "Exercices 3",
-    "text": "Exercices 3",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "Introduction à Python - Rappels essentiels"
-    ]
-  },
-  {
-    "objectID": "cours/module0.html#gestion-des-exceptions",
-    "href": "cours/module0.html#gestion-des-exceptions",
-    "title": "Python : Introduction à la programmation",
-    "section": "3. Gestion des exceptions",
-    "text": "3. Gestion des exceptions\n\n3.1 Définition\n\n\n3.2 Traitement des exceptions\n\n3.2.1 Try-Except\n\n\n3.2.2 Finally\n\n\n3.2.3 Else\n\n\n\n3.3 Assertions\n\n\n3.4 Raise",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "Introduction à Python - Rappels essentiels"
-    ]
-  },
-  {
-    "objectID": "cours/module0.html#projet-2-bis-casino-avec-exceptions",
-    "href": "cours/module0.html#projet-2-bis-casino-avec-exceptions",
-    "title": "Python : Introduction à la programmation",
-    "section": "Projet 2 bis : Casino avec exceptions",
-    "text": "Projet 2 bis : Casino avec exceptions",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "Introduction à Python - Rappels essentiels"
-    ]
-  },
-  {
-    "objectID": "cours/module0.html#exercices-4",
-    "href": "cours/module0.html#exercices-4",
-    "title": "Python : Introduction à la programmation",
-    "section": "Exercices 4",
-    "text": "Exercices 4",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "Introduction à Python - Rappels essentiels"
-    ]
-  },
-  {
-    "objectID": "cours/module0.html#lecture-et-écriture-de-fichiers",
-    "href": "cours/module0.html#lecture-et-écriture-de-fichiers",
-    "title": "Python : Introduction à la programmation",
-    "section": "4. Lecture et écriture de fichiers",
-    "text": "4. Lecture et écriture de fichiers\n\n4.1 Gestion simple des fichiers\n\n\n4.2 Travailler avec différents formats de fichier",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "Introduction à Python - Rappels essentiels"
-    ]
-  },
-  {
-    "objectID": "cours/module0.html#exercices-5",
-    "href": "cours/module0.html#exercices-5",
-    "title": "Python : Introduction à la programmation",
-    "section": "Exercices 5",
-    "text": "Exercices 5",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "Introduction à Python - Rappels essentiels"
-    ]
-  },
-  {
-    "objectID": "cours/module0.html#projet-4-trieur-de-fichier",
-    "href": "cours/module0.html#projet-4-trieur-de-fichier",
-    "title": "Python : Introduction à la programmation",
-    "section": "Projet 4 : Trieur de fichier",
-    "text": "Projet 4 : Trieur de fichier",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "Introduction à Python - Rappels essentiels"
-    ]
-  },
-  {
-    "objectID": "cours/module0.html#modules-et-packages",
-    "href": "cours/module0.html#modules-et-packages",
-    "title": "Python : Introduction à la programmation",
-    "section": "5. Modules et Packages",
-    "text": "5. Modules et Packages",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "Introduction à Python - Rappels essentiels"
-    ]
-  },
-  {
-    "objectID": "cours/module0.html#exercices-6",
-    "href": "cours/module0.html#exercices-6",
-    "title": "Python : Introduction à la programmation",
-    "section": "Exercices 6",
-    "text": "Exercices 6",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "Introduction à Python - Rappels essentiels"
-    ]
-  },
-  {
-    "objectID": "cours/module0.html#bonnes-pratiques-en-programmation",
-    "href": "cours/module0.html#bonnes-pratiques-en-programmation",
-    "title": "Python : Introduction à la programmation",
-    "section": "6. Bonnes Pratiques en Programmation",
-    "text": "6. Bonnes Pratiques en Programmation",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "Introduction à Python - Rappels essentiels"
-    ]
-  },
-  {
-    "objectID": "cours/module0.html#projet-5-gestionnaire-de-tâches",
-    "href": "cours/module0.html#projet-5-gestionnaire-de-tâches",
-    "title": "Python : Introduction à la programmation",
-    "section": "Projet 5 : Gestionnaire de tâches",
-    "text": "Projet 5 : Gestionnaire de tâches",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "Introduction à Python - Rappels essentiels"
-    ]
-  },
-  {
-    "objectID": "cours/module0.html#certification-avec-datacamp---bonus",
-    "href": "cours/module0.html#certification-avec-datacamp---bonus",
-    "title": "Python : Introduction à la programmation",
-    "section": "7. Certification avec DataCamp - bonus",
-    "text": "7. Certification avec DataCamp - bonus",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "Introduction à Python - Rappels essentiels"
-    ]
-  },
-  {
-    "objectID": "cours/module0.html#références",
-    "href": "cours/module0.html#références",
-    "title": "Python : Introduction à la programmation",
-    "section": "8. Références",
-    "text": "8. Références\n\n\n\n\n\n\nÀ Retenir\n\n\n\n\n\n\n\n\n\n\n\n\nLe terme __main__\n\n\n\n\n\n\n\n\n\n\n\n\nFocus : PEP8 et Annotation de type\n\n\n\n\n\n\nMaintenant TIME TO PRACTICE ! 💪",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "Introduction à Python - Rappels essentiels"
-    ]
-  },
-  {
-    "objectID": "cours/module0.html#exercices-2",
-    "href": "cours/module0.html#exercices-2",
-    "title": "Python : Introduction à la programmation",
-    "section": "Exercices",
-    "text": "Exercices\nJe t’ai concocté une série d’exercices passionnants 🌟 qui te permettront non seulement de créer de nouvelles classes, mais aussi de (re)découvrir des notions essentielles de la programmation Python 🐍.\nCes exercices sont spécialement conçus pour booster ta compréhension des principes de la programmation orientée objet 🔄, tout en te donnant l’occasion de manipuler des attributs, de gérer des méthodes, et d’explorer des interactions complexes entre objets.\nBonne courage et surtout, prends du plaisir en codant ! 🚀✨\n\n1 - Facile : Création de la classe Rappeur\n\nÉnoncé\nCrée une classe Rappeur avec les attributs suivants :\n\nnom : le nom du rappeur.\nflow : une description du style de flow du rappeur.\nalbums : une liste des noms d’albums du rappeur.\n\nLa classe doit aussi inclure une méthode introduction() qui affiche une phrase décrivant le rappeur et une méthode sortir_album() qui prend le nom d’un nouvel album et l’ajoute à la liste des albums.\n\n\n\n\n\n\nConseil\n\n\n\nPour la méthode sortir_album(), assure-toi de vérifier que l’album n’est pas déjà dans la liste avant de l’ajouter. Cela évitera les doublons dans la discographie du rappeur.",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "Introduction à Python - Rappels essentiels"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "🙋🏻‍♀️ Qui suis-je ?",
-    "section": "",
-    "text": "Salut, 👋 moi, c’est Ményssa Cherifa-Luron (MCL), Data scientist et Formatrice freelance."
-  },
-  {
-    "objectID": "about.html#mon-parcours",
-    "href": "about.html#mon-parcours",
-    "title": "🙋🏻‍♀️ Qui suis-je ?",
-    "section": "👩‍💻 Mon parcours",
-    "text": "👩‍💻 Mon parcours\n\nDoctorat en Data Science\n8 ans d’XP (Start-up, ONG, Grand Groupe) en Stats/ML/DL\nFormatrice 5 🌟 à l’IA School et à L’Université Paris Cité\nAutrice sur des sujets comme R, SQL, et Python ➡️ Mes livres\nLinkedIn Top Data Science Voice\nCréatrice et autrice de la newsletter ‘Smart’, offrant des récits qui éclairent et inspirent."
-  },
-  {
-    "objectID": "about.html#mes-autres-cours",
-    "href": "about.html#mes-autres-cours",
-    "title": "🙋🏻‍♀️ Qui suis-je ?",
-    "section": "👩‍🏫 Mes autres cours",
-    "text": "👩‍🏫 Mes autres cours\nÀ l’IA School, j’ai créé et enseigné les cours suivants :\n\nR - Introduction\nR - Shiny\nPython - Introduction"
-  },
-  {
-    "objectID": "about.html#me-contacter",
-    "href": "about.html#me-contacter",
-    "title": "🙋🏻‍♀️ Qui suis-je ?",
-    "section": "💬 Me contacter",
-    "text": "💬 Me contacter\n\n\n\n📩 Email\n👩‍💻 GitHub\n💼 LinkedIn\n\n\n\n\ncmenyssa@live.fr\n@universdesdonnees\n@Ményssa Cherifa-Luron\n\n\n\n\n  \n     Prendre RDV ! 🚀"
-  },
-  {
-    "objectID": "cours/index.html",
-    "href": "cours/index.html",
-    "title": "Cours disponibles",
-    "section": "",
-    "text": "Cours disponibles\n   Choisis le cours qui t'intéresse et c'est parti !\n\n\n\n  \n    \n      \n        \n        \n          R : Introduction à la programmation\n        \n        \n          Niveau : débutant\n        \n      \n    \n\n    \n      \n        \n        \n          Python : Introduction à la programmation\n        \n        \n          Niveau : débutant\n        \n      \n    \n\n    \n      \n        \n        \n          R Shiny : Déployer des applications web avec R \n        \n        \n          Niveau : Intermédiaire\n        \n      \n    \n\n    \n      \n        \n        \n          Python : Programmation orientée objets\n        \n        \n          Niveau : Intermédiaire\n        \n      \n    \n  \n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "cours/module1.html",
-    "href": "cours/module1.html",
-    "title": "Contexte et notions élémentaires",
-    "section": "",
-    "text": "ICI —— a ranger ## 🎯 Objectifs de la POO",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "POO 1. Contexte et notions élémentaires"
-    ]
-  },
-  {
-    "objectID": "cours/module1.html#la-programmation-orientée-objet",
-    "href": "cours/module1.html#la-programmation-orientée-objet",
-    "title": "Contexte et notions élémentaires",
-    "section": "1. La Programmation orientée objet",
-    "text": "1. La Programmation orientée objet\nLa Programmation Orientée Objet (POO), c’est la base de la base, le flow de la programmation !\nEn POO, une classe c’est comme un moule à objets, une représentation qui définit les caractéristiques et les comportements des entités du même type.\nEt un objet ? C’est une instance unique créée à partir de ce moule, comme un rappeur qui sort du lot !\nTout comme un rappeur a ses propres caractéristiques (son flow, son style, ses punchlines…), un objet a ses propres attributs (des variables) et méthodes (des fonctions).\n\n\n\n Fig 1. Imagine une voiture en tant que classe, avec des attributs principaux tels que le modèle, le prix, la couleur et l’année de construction. Tu peux créer autant d’objets que tu le souhaites à partir de la classe.\n\n\nEn Python, tout est objet, même les classes ! C’est dire si ça a de la classe.\nPour accéder aux attributs d’un objet, on utilise la notation “dot”, comme quand on dit “tel rappeur.son flow”, tu vois le style ?\nEt pour créer une instance à partir d’une classe, c’est comme si tu lançais un nouveau rappeur dans le game ! Tu utilises le constructeur de la classe.\nBref, la POO c’est le swag de la programmation ! Ça structure ton code comme un bon album, avec chaque classe qui joue son rôle.\nAlors, t’es chaud pour devenir une OOP star ? On va coder ça comme jamais !",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "POO 1. Contexte et notions élémentaires"
-    ]
-  },
-  {
-    "objectID": "cours/module1.html#avantages",
-    "href": "cours/module1.html#avantages",
-    "title": "Contexte et notions élémentaires",
-    "section": "2. Avantages",
-    "text": "2. Avantages\nLes avantages de ce style de programmation, c’est comme les atouts d’un bon rappeur :\n\nUn flow réutilisable et partageable 🎤 Avec la POO, ton code est comme un bon couplet : Tu peux le réutiliser et le partager sans tout réécrire à chaque fois !\n\n\nUne sécurité renforcée 🔒 La POO, c’est comme un bon contrat de label : Tu protèges tes données sensibles pour éviter les leaks !\n\n\nUn debugging facilité 🐛 Avec la POO, quand y’a un bug, c’est comme chercher la fausse note : Tu sais direct dans quelle mesure chercher !\n\n\nUne flexibilité de ouf 🚀 La POO, c’est comme un featuring qui déchire : Tu peux réutiliser les talents de plusieurs classes sans réinventer la roue !\n\nLes mots clés de la POO, c’est comme le flow, les punchlines, les phases et les mesures pour un rappeur : Classe, Objet, Méthodes et Attributs, c’est les bases pour rapper de la bonne POO !\nEt les 4 concepts fondamentaux, c’est comme les 4 éléments du hip-hop :\n\nHéritage\nEncapsulation\nPolymorphisme\nAbstraction\n\nC’est ce qui fait toute la richesse de la POO !\n\n\n\n\n\n\nÀ Retenir\n\n\n\n\n\nEn somme, la POO, c’est plus modulaire qu’un beat et plus réutilisable qu’un sample. Elle permet :\n\n\nModularité et réutilisabilité du code\n\n\nFacilité de maintenance et d’évolution du code\n\n\nReprésentation naturelle des concepts du monde réel",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "POO 1. Contexte et notions élémentaires"
-    ]
-  },
-  {
-    "objectID": "cours/module1.html#classe",
-    "href": "cours/module1.html#classe",
-    "title": "Contexte et notions élémentaires",
-    "section": "3. Classe",
-    "text": "3. Classe\nUne classe, c’est comme un moule à gâteau en forme de rappeur :\nElle définit les caractéristiques et les comportements - comme un rappeur a son style, son flow, ses punchlines.\nConcrètement, une classe c’est un blueprint, un modèle qui va servir à créer des objets.\nC’est un peu comme un label de musique qui a son identité et qui va signer des artistes qui correspondent à son style.\nQuand tu crées un objet à partir de cette classe, on dit que tu crées une instance.\n\nUne instance est un exemplaire unique de cette classe !\n\nUn peu comme un rappeur signé sur le label, qui a son style propre tout en s’inscrivant dans l’identité du label.\nEt le gros avantage, c’est que tu peux créer autant d’instances que tu veux à partir de la même classe !\nC’est comme si ton label pouvait signer des dizaines de rappeurs qui ont chacun leur personnalité mais qui représentent tous l’esprit du label.\nBref, les classes c’est la base de la POO et c’est ce qui va te permettre de structurer ton code de façon claire et réutilisable.\n\n# Définition basique de la classe Rappeur\nclass Rappeur: \n    pass\n\n# Définition de l'instance unique menyssa\nmenyssa = Rappeur()  \n\n# menyssa est bien un objet Rappeur\ntype(menyssa) \n\n__main__.Rappeur\n\n\n\n\n\n\n\n\nLe terme __main__\n\n\n\nLe terme __main__ dans Python a une signification spéciale. Il fait référence au nom de l’espace de noms (ou du “scope”) dans lequel le script courant est exécuté.\nC’est une manière pour Python de savoir si le fichier actuel est exécuté comme script principal ou s’il est importé à partir d’un autre fichier.*",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "POO 1. Contexte et notions élémentaires"
-    ]
-  },
-  {
-    "objectID": "cours/module1.html#constructeur-__init__-et-self",
-    "href": "cours/module1.html#constructeur-__init__-et-self",
-    "title": "Contexte et notions élémentaires",
-    "section": "4. Constructeur : __init__ et self",
-    "text": "4. Constructeur : __init__ et self\nLe constructeur __init__ est appelé automatiquement quand tu crées une nouvelle instance de ta classe.\nSon rôle ?\nInitialiser les attributs de ton objet, comme un Directeur Artistique (DA) qui définirait le style et l’image de son artiste.\nEt self dans tout ça ? C’est le rappeur lui-même !\nDans une méthode, self fait référence à l’instance courante de la classe. C’est grâce à lui que tu peux accéder aux attributs et méthodes de ton objet.\nQuand tu appelles une méthode sur une instance, Python passe automatiquement cette instance en premier argument. C’est pour ça que tu retrouves self partout !\n\n\n\n\n\n\nÀ Retenir\n\n\n\n\n\ninit et self, permettent de construire et de faire vivre tes objets, comme un DA et son rappeur qui créent ensemble un personnage unique. :\n\n\ninit est le constructeur qui initialise les attributs\n\n\nself représente l’instance courante dans les méthodes\n\n\nEnsemble, ils donnent vie à tes objets et leur permettent d’interagir avec le monde !",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "POO 1. Contexte et notions élémentaires"
-    ]
-  },
-  {
-    "objectID": "cours/module1.html#attributs",
-    "href": "cours/module1.html#attributs",
-    "title": "Contexte et notions élémentaires",
-    "section": "5. Attributs",
-    "text": "5. Attributs\nLes attributs en POO, c’est comme les caractéristiques qui définissent un bon rappeur.\nPar exemple pour chaque rappeur on peut lui attribué les caractéristiques suivantes :\n\nLe flow (self.flow) : c’est son débit, sa manière de rapper. Ça peut être smooth, agressif, technique… C’est ce qui fait son style unique.\nLe nombre d’albums (self.nb_albums) : ça montre son expérience, comme le nombre de projets sur GitHub pour un dev. Plus t’en as, plus t’es respecté !\nLes featuring (self.featurings) : c’est les collab avec d’autres artistes. Comme quand tu fais du pair programming ou que tu participes à un projet open source.\n\nVoici comment déclarer ces attributs dans notre classe “Rappeur”\n\n# Définition de la classe Rappeur \nclass Rappeur:\n    # Constructeur de la classe avec les attributs\n    def __init__(self, nom, flow, nb_albums, featurings):\n        self.nom = nom              # Nom du rappeur\n        self.flow = flow            # Style de flow musical du rappeur\n        self.nb_albums = nb_albums  # Nombre total d'albums produits\n        self.featurings = featurings  # Liste des artistes avec lesquels il a collaboré\n\n# Création des instances de la classe Rappeur pour Booba, Vald et Niska.\n# Chaque instance est créée avec des détails spécifiques au rappeur.\nbooba = Rappeur(nom=\"Booba\", \n                flow=\"Agressif et technique\",                \n                nb_albums=10,\n                featurings=[\"Kaaris\", \"Damso\", \"Gato\"])\n\nvald = Rappeur(nom=\"Vald\",\n               flow=\"Sombre et introspectif\",\n               nb_albums=6,\n               featurings=[\"Suikon Blaz AD\", \"Damso\"])\n\nniska = Rappeur(nom=\"Niska\", \n                flow=\"Mélodique et festif\", \n                nb_albums=4, \n                featurings=[\"Booba\", \"SCH\", \"Hamza\"])\n\n# Ici, on affiche le nombre d'albums produits par Niska et le style de Booba.\nprint(f\"Niska a produit {niska.nb_albums} albums et \\n\"\n      f\"le flow de Booba est : {booba.flow}\")\n\n# Ici, on affiche le flow de vald et son nombre d'album.\nprint(f\"\\nVald a produit {vald.nb_albums} albums et son flow est {vald.flow.lower()}\")\n\nNiska a produit 4 albums et \nle flow de Booba est : Agressif et technique\n\nVald a produit 6 albums et son flow est sombre et introspectif",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "POO 1. Contexte et notions élémentaires"
-    ]
-  },
-  {
-    "objectID": "cours/module1.html#méthodes",
-    "href": "cours/module1.html#méthodes",
-    "title": "Contexte et notions élémentaires",
-    "section": "6. Méthodes",
-    "text": "6. Méthodes\nLes méthodes, c’est ce qui permet à tes objets d’agir, d’interagir et de se démarquer.\nUne méthode peut être :\n\nUn flow “getter” pour récupérer des infos (get_punchline())\nUn flow “setter” pour modifier l’état (set_style(new_style))\nUn flow “calculateur” pour traiter des données (calculer_nb_albums())\nOu même un flow “abstract” pour définir un comportement général (rapper())\n\nLes méthodes, c’est aussi ce qui permet à tes objets de communiquer entre eux. Un peu comme des featuring entre rappeurs !\n\n# Importation du module random\nimport random\n\n# Définition de la classe Rappeur\nclass Rappeur:\n    # Constructeur de la classe avec les attributs nécessaires pour définir un rappeur\n    def __init__(self, nom, flow, nb_albums, featurings, punchlines):\n        self.nom = nom              \n        self.flow = flow            \n        self.nb_albums = nb_albums  \n        self.featurings = featurings  \n        self.punchlines = punchlines  # Liste des punchlines célèbres du rappeur\n    \n    # Méthode pour afficher une punchline au hasard\n    def balancer_punchline(self):\n        # Utilisation de random.choice pour sélectionner et afficher une punchline aléatoire de la liste\n        print(f\"{self.nom} balance : {random.choice(self.punchlines)}\")\n\n# Création d'une instance Booba\nbooba = Rappeur(nom=\"Booba\", \n                flow=\"Agressif et technique\",                \n                nb_albums=10,\n                featurings=[\"Kaaris\", \"Damso\", \"Gato\"],\n                punchlines=[\"92i\", \"Pitbull\", \"Kalash\"])\n\n# Appel de la méthode balancer_punchline pour afficher une punchline de Booba tirée au hasard\nbooba.balancer_punchline()\n\nBooba balance : 92i\n\n\nMaintenant allons un peu plus long et imaginons un clash entre rappeurs (hihihi!)\n\nimport random  # Importation nécessaire pour utiliser random.choice\n\nclass Rappeur:\n    def __init__(self, nom, flow, nb_albums, featurings, punchlines):\n        self.nom = nom  \n        self.flow = flow  \n        self.nb_albums = nb_albums  \n        self.featurings = featurings  \n        self.punchlines = punchlines  \n\n\n    def balancer_punchline(self):\n        print(f\"{self.nom} balance : {random.choice(self.punchlines)}\")\n\n    # Méthode permettant à un rappeur de clasher un autre rappeur \n    # en utilisant la première punchline de sa liste\n    def clasher(self, autre_rappeur):\n        print(f\"{self.nom} clash {autre_rappeur.nom} : {self.punchlines[0]}\")\n        \n    # Méthode permettant à un rappeur de répondre à un \n    # clash avec une punchline spécifique\n    def repondre(self, autre_rappeur, punchline):\n        print(f\"{self.nom} répond à {autre_rappeur.nom} : {punchline}\")\n\n# Création des instances pour Booba et Kaaris\nbooba = Rappeur(nom=\"Booba\", \n                flow=\"Agressif et technique\",                \n                nb_albums=10,\n                featurings=[\"Kaaris\", \"Damso\", \"Gato\"],\n                punchlines=[\"T'es qu'un fils de...\", \"J'vais t'faire une Kalash en live\"])        \n\nkaaris = Rappeur(nom=\"Kaaris\",\n                 flow=\"Aggressif et sombre\",\n                 nb_albums=8,\n                 featurings=[\"Gazo\", \"Kalash Criminel\", \"Hamza\"],\n                 punchlines=[\"J'vais t'faire danser la Zumba\", \"T'es même pas un vrai MC\"])\n\n# Simulation d'un clash entre Booba et Kaaris\nbooba.clasher(kaaris)\nkaaris.repondre(booba, \"T'es qu'un tocard !\")\nbooba.repondre(kaaris, \"TG ! J'suis le DUC !\")\n\nBooba clash Kaaris : T'es qu'un fils de...\nKaaris répond à Booba : T'es qu'un tocard !\nBooba répond à Kaaris : TG ! J'suis le DUC !\n\n\nLa puissance des attributs et des méthodes résident dans l’intéraction de tes objets de manière intuitive et stylée.\n\n\n\n\n\n\nÀ Retenir\n\n\n\n\n\nles attributs et méthodes c’est ce qui donne vie à tes objets et leur permet de briller sur la scène de ton programme !\nAlors pour créer des méthodes qui claquent, suis ces tips :\n\n\nDonne-leur un nom explicite qui décrit bien leur rôle\n\n\nUtilise le self pour accéder aux attributs et autres méthodes de l’objet\n\n\nSépare bien les responsabilités : une méthode = une tâche précise\n\n\nDocumente-les avec des docstrings pour expliquer ce qu’elles font\n\n\nLa PEP 8 est ton ami !\n\n\n\n\n\n\n\n\n\n\n\nFocus : PEP8 et Annotation de type\n\n\n\nVoici la même classe avec le code PEP 8 friendly et les annotations de type\n\nfrom typing import List # annoter les attributs featurings et punchlines.\nimport random\nclass Rappeur:\n    \"\"\"Classe définissant un rappeur caractérisé par son nom, style de flow, nombre \n    d'albums, collaborations et punchlines.\n    \"\"\"\n    def __init__(self, nom: str, flow: str, nb_albums: int, featurings: List[str], \n                 punchlines: List[str]):\n        self.nom: str = nom\n        self.flow: str = flow\n        self.nb_albums: int = nb_albums\n        self.featurings: List[str] = featurings\n        self.punchlines: List[str] = punchlines\n\n    def balancer_punchline(self) -&gt; None:\n        \"\"\"Affiche une punchline aléatoire du rappeur.\"\"\"\n        punchline: str = random.choice(self.punchlines)\n        print(f\"{self.nom} balance : {punchline}\")\n\n    def clasher(self, autre_rappeur: 'Rappeur') -&gt; None:\n        \"\"\"Permet au rappeur de clasher un autre rappeur en utilisant la première \n        punchline de sa liste.\n        \"\"\"\n        print(f\"{self.nom} clash {autre_rappeur.nom} : {self.punchlines[0]}\")\n        \n    def repondre(self, autre_rappeur: 'Rappeur', punchline: str) -&gt; None:\n        \"\"\"Permet au rappeur de répondre à un clash avec une punchline spécifique.\"\"\"\n        print(f\"{self.nom} répond à {autre_rappeur.nom} : {punchline}\")\n\n# Création d'instances pour Booba et Kaaris avec typage explicite\nbooba = Rappeur(\n    nom=\"Booba\", \n    flow=\"Agressif et technique\",                \n    nb_albums=10,\n    featurings=[\"Kaaris\", \"Damso\", \"Gato\"],\n    punchlines=[\"T'es qu'un fils de...\", \"J'vais t'faire une Kalash en live\"]\n)        \n\nkaaris = Rappeur(\n    nom=\"Kaaris\",\n    flow=\"Aggressif et sombre\",\n    nb_albums=8,\n    featurings=[\"Gazo\", \"Kalash Criminel\", \"Hamza\"],\n    punchlines=[\"J'vais t'faire danser la Zumba\", \"T'es même pas un vrai MC\"]\n)\n\n# Simulation d'un clash et réponses entre Booba et Kaaris\nbooba.clasher(kaaris)\nkaaris.repondre(booba, \"T'es qu'un tocard !\")\nbooba.repondre(kaaris, \"TG ! J'suis le DUC !\")\n\nBooba clash Kaaris : T'es qu'un fils de...\nKaaris répond à Booba : T'es qu'un tocard !\nBooba répond à Kaaris : TG ! J'suis le DUC !",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "POO 1. Contexte et notions élémentaires"
-    ]
-  },
-  {
-    "objectID": "cours/module1.html#modifier-les-attributs",
-    "href": "cours/module1.html#modifier-les-attributs",
-    "title": "Contexte et notions élémentaires",
-    "section": "7. Modifier les attributs",
-    "text": "7. Modifier les attributs\nC’est essentiel pour gérer les interactions entre objets,contrôler l’accès aux données et rendre le code plus lisible, comme un rappeur qui adapte son flow à différents beats pour créer des sons uniques et puissants. 🎤💪\nComme vu précédemment, pour chaque instance de Rappeur, tu peux accéder à ses attributs directement\n\nprint(booba.nom)  \nprint(booba.flow) \n\nBooba\nAgressif et technique\n\n\nPour modifier les attributs, tu assignes simplement une nouvelle valeur.\nPar exemple, si tu veux changer le flow de Booba\n\nbooba.flow = \"Lyrique et complexe\"\nprint(booba.flow)\n\nLyrique et complexe\n\n\nSi tu veux changer une punchline spécifique ou en ajouter une nouvelle\n\nbooba.punchlines[0] = \"Nouvelle punchline plus forte\"\nbooba.punchlines.append(\"Tout le monde sait que j'suis le meilleur\")  \n\nIl est souvent plus judicieux de contrôler la modification des attributs via des méthodes au lieu de les modifier directement. Cela offre une meilleure encapsulation (notion que nous verrons après).\nTu pourrais ajouter une méthode comme changer_flow() directement dans ta classe Rappeur\n\nfrom typing import List\nimport random\n\nclass Rappeur:\n    \"\"\"Classe définissant un rappeur caractérisé par son nom, style de flow, nombre \n    d'albums, collaborations et punchlines.\n    \"\"\"\n    def __init__(self, nom: str, flow: str, nb_albums: int, featurings: List[str], \n                 punchlines: List[str]):\n        self.nom: str = nom\n        self.flow: str = flow\n        self.nb_albums: int = nb_albums\n        self.featurings: List[str] = featurings\n        self.punchlines: List[str] = punchlines\n\n    def balancer_punchline(self) -&gt; None:\n        \"\"\"Affiche une punchline aléatoire du rappeur.\"\"\"\n        punchline: str = random.choice(self.punchlines)\n        print(f\"{self.nom} balance : {punchline}\")\n\n    def clasher(self, autre_rappeur: 'Rappeur') -&gt; None:\n        \"\"\"Permet au rappeur de clasher un autre rappeur en utilisant la première \n        punchline de sa liste.\n        \"\"\"\n        print(f\"{self.nom} clash {autre_rappeur.nom} : {self.punchlines[0]}\")\n        \n    def repondre(self, autre_rappeur: 'Rappeur', punchline: str) -&gt; None:\n        \"\"\"Permet au rappeur de répondre à un clash avec une punchline spécifique.\"\"\"\n        print(f\"{self.nom} répond à {autre_rappeur.nom} : {punchline}\")\n\n    def changer_flow(self, nouveau_flow: str) -&gt; None:\n        \"\"\"Change le flow du rappeur.\"\"\"\n        self.flow = nouveau_flow\n\n# Création de l'instance de Booba\nbooba = Rappeur(\n    nom=\"Booba\", \n    flow=\"Agressif et technique\",                \n    nb_albums=10,\n    featurings=[\"Kaaris\", \"Damso\", \"Gato\"],\n    punchlines=[\"T'es qu'un fils de...\", \"J'vais t'faire une Kalash en live\"]\n)\n\n# Affichage du flow avant la modification\nprint(\"Flow avant : \", booba.flow)\n\n# Modification du flow\nbooba.changer_flow(\"Poétique et introspectif\")\n\n# Affichage du flow après la modification\nprint(\"Flow après : \", booba.flow)\n\nFlow avant :  Agressif et technique\nFlow après :  Poétique et introspectif\n\n\n\n\n\n\n\n\nToute variable n’est pas un attribut\n\n\n\nL’attribut nouveau_flow n’était pas nécessaire dans le constructeur de la classe. Pour changer le flow, il est plus approprié d’utiliser une méthode dédiée.\nExplication : Le constructeur d’une classe est généralement utilisé pour initialiser les attributs qui définissent l’état de base d’une instance. nouveau_flow est plus une action ponctuelle qu’un attribut d’état permanent de l’objet. Avoir un attribut initial pour flow est logique car il décrit une propriété de l’instance de Rappeur. En revanche, nouveau_flow ressemble plus à une valeur temporaire utilisée pour modifier flow.*\n\n\nEn suivant ces étapes, tu peux efficacement gérer et mettre à jour les attributs de tes instances de Rappeur, ce qui te permet de maintenir ton code organisé et tes données à jour.\nVoilà les gars, vous savez maintenant comment gérer les attributs de vos rappeurs comme des pros !\nMaintenant TIME TO PRACTICE ! 💪",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "POO 1. Contexte et notions élémentaires"
-    ]
-  },
-  {
-    "objectID": "cours/module1.html#exercices",
-    "href": "cours/module1.html#exercices",
-    "title": "Contexte et notions élémentaires",
-    "section": "8. Exercices",
-    "text": "8. Exercices\nJe t’ai concocté une série d’exercices passionnants 🌟 qui te permettront non seulement de créer de nouvelles classes, mais aussi de (re)découvrir des notions essentielles de la programmation Python 🐍.\nCes exercices sont spécialement conçus pour booster ta compréhension des principes de la programmation orientée objet 🔄, tout en te donnant l’occasion de manipuler des attributs, de gérer des méthodes, et d’explorer des interactions complexes entre objets.\nBonne courage et surtout, prends du plaisir en codant ! 🚀✨\n\n1 - Facile : Création de la classe Rappeur\n\nÉnoncé\nCrée une classe Rappeur avec les attributs suivants :\n\nnom : le nom du rappeur.\nflow : une description du style de flow du rappeur.\nalbums : une liste des noms d’albums du rappeur.\n\nLa classe doit aussi inclure une méthode introduction() qui affiche une phrase décrivant le rappeur et une méthode sortir_album() qui prend le nom d’un nouvel album et l’ajoute à la liste des albums.\n\n\n\n\n\n\nConseil\n\n\n\nPour la méthode sortir_album(), assure-toi de vérifier que l’album n’est pas déjà dans la liste avant de l’ajouter. Cela évitera les doublons dans la discographie du rappeur.\n\n\n\n\n\n2 - Facile : La Bibliothèque\n\nÉnoncé\nCrée une classe Livre avec les attributs suivants :\n\ntitre : le titre du livre.\nauteur : l’auteur du livre.\n\nLa classe doit inclure des méthodes pour :\n\nDéfinir un premier livre numérique et afficher ses informations.\nMettre à jour le titre et l’auteur d’un livre.\nAfficher les détails d’un livre.\n\n\n\n\n\n\n\nConseil\n\n\n\nLorsque tu modifies les attributs d’un livre, pense à utiliser des méthodes de getter et de setter. Cela te permet de contrôler comment les attributs sont mis à jour et de valider les données si nécessaire.\n\n\n\n\n\n3 - Facile : Compte bancaire\n\nÉnoncé\nCrée une classe Account avec les attributs suivants :\n\nsolde : le solde initial du compte.\n\nLa classe doit inclure des méthodes pour :\n\nDéposer des fonds sur le compte.\nRetirer des fonds du compte.\nAppliquer un taux d’intérêt au solde du compte.\n\n\n\n\n\n\n\nConseil\n\n\n\nTeste scrupuleusement les méthodes de dépôt et de retrait pour gérer correctement les scénarios où le compte pourrait devenir négatif. Ajoute des conditions pour empêcher le retrait de fonds supérieurs au solde disponible.\n\n\n\n\n\n4 - Intermédiaire : Conseiller financier\n\nÉnoncé\nCrée une classe CompteBancaire avec les attributs suivants :\n\nidentifiant : l’identifiant du compte.\nnom_proprietaire : le nom du propriétaire du compte.\nsolde : le solde initial du compte.\n\nLa classe doit inclure des méthodes pour :\n\nGérer les dépôts et les retraits, en appliquant des agios en cas de découvert.\nAfficher tous les détails du compte.\n\n\n\n\n\n\n\nConseil\n\n\n\nPour gérer les découverts, envisage d’ajouter un attribut qui définit un découvert maximum autorisé. Cela rendra la gestion du compte plus flexible et réaliste.\n\n\n\n\n\n5 - Intermédiaire : Gestion des Featurings\n\nÉnoncé\nAméliore la classe Rappeur pour inclure un attribut collaborations, qui est une liste de tuples. Chaque tuple contient le nom d’un autre rappeur et le titre de la chanson sur laquelle ils ont collaboré.\nLa classe doit inclure des méthodes pour :\n\nAjouter une collaboration à la liste des collaborations.\nAfficher toutes les collaborations du rappeur.\n\n\n\n\n\n\n\nConseil\n\n\n\nQuand tu ajoutes des collaborations, assure-toi de vérifier si la collaboration existe déjà pour éviter les entrées en double. Cela peut être fait en vérifiant si le tuple (rappeur, titre de la chanson) est déjà dans la liste des collaborations.\n\n\n\n\n\n6 - Difficile : Tournoi de Bataille\n\nÉnoncé\nCrée une classe Carte avec les attributs suivants :\n\nvaleur : la valeur de la carte.\nnom : le nom de la carte.\n\nCrée une classe Paquet avec les attributs suivants :\n\ncartes : la liste des cartes du paquet.\n\nLa classe Paquet doit inclure des méthodes pour :\n\nMélanger le paquet de cartes.\nDistribuer les cartes équitablement entre les joueurs.\n\nCrée une classe Joueur avec les attributs suivants :\n\nmain : la main du joueur.\n\nLa classe Joueur doit inclure des méthodes pour :\n\nPréparer la main du joueur pour la bataille.\n\nCrée une classe Tournoi avec les attributs suivants :\n\njoueurs : la liste des joueurs participants.\n\nLa classe Tournoi doit inclure des méthodes pour :\n\nDérouler la bataille entre les joueurs.\nDéclarer le gagnant du tournoi.\n\n\n\n\n\n\n\nConseil\n\n\n\nPour la distribution des cartes, assure-toi que le mélange soit complet avant de distribuer les cartes afin d’assurer l’équité du jeu. Utilise des méthodes robustes pour gérer les égalités et les cas spéciaux où plusieurs tours de cartes sont nécessaires.\n\n\n\n\n\n7 - Difficile : Battle de Rap\n\nÉnoncé\nCrée une classe Battle avec les attributs suivants : * rappeur1 : le premier rappeur participant. * rappeur2 : le deuxième rappeur participant.\nLa classe Battle doit inclure des méthodes pour : * Faire s’affronter les deux rappeurs en affichant leurs punchlines et déterminer le gagnant. * Afficher le gagnant de la bataille et sa punchline gagnante.\nBonus : Implémente une méthode juger_punchline(punchline) dans la classe Rappeur qui attribue un score à une punchline basé sur des critères comme la rime, le nombre de syllabes, ou d’autres aspects stylistiques que tu juges importants.\n\n\n\n\n\n\nConseil\n\n\n\nDans la méthode juger_punchline(punchline), considère d’utiliser des techniques d’analyse de texte pour évaluer les punchlines, comme compter les syllabes ou utiliser des expressions régulières pour identifier les rimes et autres figures de style.",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "POO 1. Contexte et notions élémentaires"
-    ]
-  },
-  {
-    "objectID": "cours/module1.html#correction",
-    "href": "cours/module1.html#correction",
-    "title": "Contexte et notions élémentaires",
-    "section": "9. Correction",
-    "text": "9. Correction\nLa correction sera disponible prochainement ;)\nN’hésite pas à prendre rdv si tu es bloqué :\n\n  \n     Prendre RDV ! 🚀",
-    "crumbs": [
-      "{{< fa home >}} Accueil",
-      "Modules",
-      "POO 1. Contexte et notions élémentaires"
-    ]
-  },
-  {
-    "objectID": "cours/module3.html",
-    "href": "cours/module3.html",
-    "title": "🗓️ Module 3",
-    "section": "",
-    "text": "Bientôt\n\n\n\n Back to top",
-    "crumbs": [
-      "🏠Accueil",
-      "Modules",
-      "POO 3.📝 Module 3"
-    ]
-  },
-  {
-    "objectID": "LICENSE-CC-BY-NC-ND-4.0.html",
-    "href": "LICENSE-CC-BY-NC-ND-4.0.html",
-    "title": "Attribution-NonCommercial-NoDerivatives 4.0 International",
-    "section": "",
-    "text": "Creative Commons Corporation (“Creative Commons”) is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an “as-is” basis. Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.\n\nCreative Commons public licenses provide a standard set of terms and conditions that creators and other rights holders may use to share original works of authorship and other material subject to copyright and certain other rights specified in the public license below. The following considerations are for informational purposes only, are not exhaustive, and do not form part of our licenses.\n\nConsiderations for licensors: Our public licenses are intended for use by those authorized to give the public permission to use material in ways otherwise restricted by copyright and certain other rights. Our licenses are irrevocable. Licensors should read and understand the terms and conditions of the license they choose before applying it. Licensors should also secure all rights necessary before applying our licenses so that the public can reuse the material as expected. Licensors should clearly mark any material not subject to the license. This includes other CC-licensed material, or material used under an exception or limitation to copyright. More considerations for licensors.\nConsiderations for the public: By using one of our public licenses, a licensor grants the public permission to use the licensed material under specified terms and conditions. If the licensor’s permission is not necessary for any reason–for example, because of any applicable exception or limitation to copyright–then that use is not regulated by the license. Our licenses grant only permissions under copyright and certain other rights that a licensor has authority to grant. Use of the licensed material may still be restricted for other reasons, including because others have copyright or other rights in the material. A licensor may make special requests, such as asking that all changes be marked or described. Although not required by our licenses, you are encouraged to respect those requests where reasonable. More considerations for the public.\n\n\n\n\nBy exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License (“Public License”). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.\n\n\n\nAdapted Material means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image.\nCopyright and Similar Rights means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public License, the rights specified in Section 2(b)(1)-(2) are not Copyright and Similar Rights.\nEffective Technological Measures means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar international agreements.\nExceptions and Limitations means fair use, fair dealing, and/or any other exception or limitation to Copyright and Similar Rights that applies to Your use of the Licensed Material.\nLicensed Material means the artistic or literary work, database, or other material to which the Licensor applied this Public License.\nLicensed Rights means the rights granted to You subject to the terms and conditions of this Public License, which are limited to all Copyright and Similar Rights that apply to Your use of the Licensed Material and that the Licensor has authority to license.\nLicensor means the individual(s) or entity(ies) granting rights under this Public License.\nNonCommercial means not primarily intended for or directed towards commercial advantage or monetary compensation. For purposes of this Public License, the exchange of the Licensed Material for other material subject to Copyright and Similar Rights by digital file-sharing or similar means is NonCommercial provided there is no payment of monetary compensation in connection with the exchange.\nShare means to provide material to the public by any means or process that requires permission under the Licensed Rights, such as reproduction, public display, public performance, distribution, dissemination, communication, or importation, and to make material available to the public including in ways that members of the public may access the material from a place and at a time individually chosen by them.\nSui Generis Database Rights means rights other than copyright resulting from Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, as amended and/or succeeded, as well as other essentially equivalent rights anywhere in the world.\nYou means the individual or entity exercising the Licensed Rights under this Public License. Your has a corresponding meaning.\n\n\n\n\n\nLicense grant.\n\nSubject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to:\nA. reproduce and Share the Licensed Material, in whole or in part, for NonCommercial purposes only; and\nB. produce and reproduce, but not Share, Adapted Material for NonCommercial purposes only.\nExceptions and Limitations. For the avoidance of doubt, where Exceptions and Limitations apply to Your use, this Public License does not apply, and You do not need to comply with its terms and conditions.\nTerm. The term of this Public License is specified in Section 6(a).\nMedia and formats; technical modifications allowed. The Licensor authorizes You to exercise the Licensed Rights in all media and formats whether now known or hereafter created, and to make technical modifications necessary to do so. The Licensor waives and/or agrees not to assert any right or authority to forbid You from making technical modifications necessary to exercise the Licensed Rights, including technical modifications necessary to circumvent Effective Technological Measures. For purposes of this Public License, simply making modifications authorized by this Section 2(a)(4) never produces Adapted Material.\nDownstream recipients.\nA. Offer from the Licensor – Licensed Material. Every recipient of the Licensed Material automatically receives an offer from the Licensor to exercise the Licensed Rights under the terms and conditions of this Public License.\nB. No downstream restrictions. You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.\nNo endorsement. Nothing in this Public License constitutes or may be construed as permission to assert or imply that You are, or that Your use of the Licensed Material is, connected with, or sponsored, endorsed, or granted official status by, the Licensor or others designated to receive attribution as provided in Section 3(a)(1)(A)(i).\n\nOther rights.\n\nMoral rights, such as the right of integrity, are not licensed under this Public License, nor are publicity, privacy, and/or other similar personality rights; however, to the extent possible, the Licensor waives and/or agrees not to assert any such rights held by the Licensor to the limited extent necessary to allow You to exercise the Licensed Rights, but not otherwise.\nPatent and trademark rights are not licensed under this Public License.\nTo the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme. In all other cases the Licensor expressly reserves any right to collect such royalties, including when the Licensed Material is used other than for NonCommercial purposes.\n\n\n\n\n\nYour exercise of the Licensed Rights is expressly made subject to the following conditions.\n\nAttribution.\n\nIf You Share the Licensed Material, You must:\nA. retain the following if it is supplied by the Licensor with the Licensed Material:\n\nidentification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);\na copyright notice;\na notice that refers to this Public License;\na notice that refers to the disclaimer of warranties;\na URI or hyperlink to the Licensed Material to the extent reasonably practicable;\n\nB. indicate if You modified the Licensed Material and retain an indication of any previous modifications; and\nC. indicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.\nFor the avoidance of doubt, You do not have permission under this Public License to Share Adapted Material.\nYou may satisfy the conditions in Section 3(a)(1) in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.\nIf requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.\n\n\n\n\n\nWhere the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:\n\nfor the avoidance of doubt, Section 2(a)(1) grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database for NonCommercial purposes only and provided You do not Share Adapted Material;\nif You include all or a substantial portion of the database contents in a database in which You have Sui Generis Database Rights, then the database in which You have Sui Generis Database Rights (but not its individual contents) is Adapted Material; and\nYou must comply with the conditions in Section 3(a) if You Share all or a substantial portion of the contents of the database.\n\nFor the avoidance of doubt, this Section 4 supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.\n\n\n\n\nUnless otherwise separately undertaken by the Licensor, to the extent possible, the Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable. Where disclaimers of warranties are not allowed in full or in part, this disclaimer may not apply to You.\nTo the extent possible, in no event will the Licensor be liable to You on any legal theory (including, without limitation, negligence) or otherwise for any direct, special, indirect, incidental, consequential, punitive, exemplary, or other losses, costs, expenses, or damages arising out of this Public License or use of the Licensed Material, even if the Licensor has been advised of the possibility of such losses, costs, expenses, or damages. Where a limitation of liability is not allowed in full or in part, this limitation may not apply to You.\nThe disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.\n\n\n\n\n\nThis Public License applies for the term of the Copyright and Similar Rights licensed here. However, if You fail to comply with this Public License, then Your rights under this Public License terminate automatically.\nWhere Your right to use the Licensed Material has terminated under Section 6(a), it reinstates:\n\nautomatically as of the date the violation is cured, provided it is cured within 30 days of Your discovery of the violation; or\nupon express reinstatement by the Licensor.\n\nFor the avoidance of doubt, this Section 6(b) does not affect any right the Licensor may have to seek remedies for Your violations of this Public License.\nFor the avoidance of doubt, the Licensor may also offer the Licensed Material under separate terms or conditions or stop distributing the Licensed Material at any time; however, doing so will not terminate this Public License.\nSections 1, 5, 6, 7, and 8 survive termination of this Public License.\n\n\n\n\n\nThe Licensor shall not be bound by any additional or different terms or conditions communicated by You unless expressly agreed.\nAny arrangements, understandings, or agreements regarding the Licensed Material not stated herein are separate from and independent of the terms and conditions of this Public License.\n\n\n\n\n\nFor the avoidance of doubt, this Public License does not, and shall not be interpreted to, reduce, limit, restrict, or impose conditions on any use of the Licensed Material that could lawfully be made without permission under this Public License.\nTo the extent possible, if any provision of this Public License is deemed unenforceable, it shall be automatically reformed to the minimum extent necessary to make it enforceable. If the provision cannot be reformed, it shall be severed from this Public License without affecting the enforceability of the remaining terms and conditions.\nNo term or condition of this Public License will be waived and no failure to comply consented to unless expressly agreed to by the Licensor.\nNothing in this Public License constitutes or may be interpreted as a limitation upon, or waiver of, any privileges and immunities that apply to the Licensor or You, including from the legal processes of any jurisdiction or authority.\n\n\nCreative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the “Licensor.” Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at creativecommons.org/policies, Creative Commons does not authorize the use of the trademark “Creative Commons” or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.\nCreative Commons may be contacted at creativecommons.org."
-  },
-  {
-    "objectID": "LICENSE-CC-BY-NC-ND-4.0.html#creative-commons-attribution-noncommercial-noderivatives-4.0-international-public-license",
-    "href": "LICENSE-CC-BY-NC-ND-4.0.html#creative-commons-attribution-noncommercial-noderivatives-4.0-international-public-license",
-    "title": "Attribution-NonCommercial-NoDerivatives 4.0 International",
-    "section": "",
-    "text": "By exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License (“Public License”). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.\n\n\n\nAdapted Material means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image.\nCopyright and Similar Rights means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public License, the rights specified in Section 2(b)(1)-(2) are not Copyright and Similar Rights.\nEffective Technological Measures means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar international agreements.\nExceptions and Limitations means fair use, fair dealing, and/or any other exception or limitation to Copyright and Similar Rights that applies to Your use of the Licensed Material.\nLicensed Material means the artistic or literary work, database, or other material to which the Licensor applied this Public License.\nLicensed Rights means the rights granted to You subject to the terms and conditions of this Public License, which are limited to all Copyright and Similar Rights that apply to Your use of the Licensed Material and that the Licensor has authority to license.\nLicensor means the individual(s) or entity(ies) granting rights under this Public License.\nNonCommercial means not primarily intended for or directed towards commercial advantage or monetary compensation. For purposes of this Public License, the exchange of the Licensed Material for other material subject to Copyright and Similar Rights by digital file-sharing or similar means is NonCommercial provided there is no payment of monetary compensation in connection with the exchange.\nShare means to provide material to the public by any means or process that requires permission under the Licensed Rights, such as reproduction, public display, public performance, distribution, dissemination, communication, or importation, and to make material available to the public including in ways that members of the public may access the material from a place and at a time individually chosen by them.\nSui Generis Database Rights means rights other than copyright resulting from Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, as amended and/or succeeded, as well as other essentially equivalent rights anywhere in the world.\nYou means the individual or entity exercising the Licensed Rights under this Public License. Your has a corresponding meaning.\n\n\n\n\n\nLicense grant.\n\nSubject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to:\nA. reproduce and Share the Licensed Material, in whole or in part, for NonCommercial purposes only; and\nB. produce and reproduce, but not Share, Adapted Material for NonCommercial purposes only.\nExceptions and Limitations. For the avoidance of doubt, where Exceptions and Limitations apply to Your use, this Public License does not apply, and You do not need to comply with its terms and conditions.\nTerm. The term of this Public License is specified in Section 6(a).\nMedia and formats; technical modifications allowed. The Licensor authorizes You to exercise the Licensed Rights in all media and formats whether now known or hereafter created, and to make technical modifications necessary to do so. The Licensor waives and/or agrees not to assert any right or authority to forbid You from making technical modifications necessary to exercise the Licensed Rights, including technical modifications necessary to circumvent Effective Technological Measures. For purposes of this Public License, simply making modifications authorized by this Section 2(a)(4) never produces Adapted Material.\nDownstream recipients.\nA. Offer from the Licensor – Licensed Material. Every recipient of the Licensed Material automatically receives an offer from the Licensor to exercise the Licensed Rights under the terms and conditions of this Public License.\nB. No downstream restrictions. You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.\nNo endorsement. Nothing in this Public License constitutes or may be construed as permission to assert or imply that You are, or that Your use of the Licensed Material is, connected with, or sponsored, endorsed, or granted official status by, the Licensor or others designated to receive attribution as provided in Section 3(a)(1)(A)(i).\n\nOther rights.\n\nMoral rights, such as the right of integrity, are not licensed under this Public License, nor are publicity, privacy, and/or other similar personality rights; however, to the extent possible, the Licensor waives and/or agrees not to assert any such rights held by the Licensor to the limited extent necessary to allow You to exercise the Licensed Rights, but not otherwise.\nPatent and trademark rights are not licensed under this Public License.\nTo the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme. In all other cases the Licensor expressly reserves any right to collect such royalties, including when the Licensed Material is used other than for NonCommercial purposes.\n\n\n\n\n\nYour exercise of the Licensed Rights is expressly made subject to the following conditions.\n\nAttribution.\n\nIf You Share the Licensed Material, You must:\nA. retain the following if it is supplied by the Licensor with the Licensed Material:\n\nidentification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);\na copyright notice;\na notice that refers to this Public License;\na notice that refers to the disclaimer of warranties;\na URI or hyperlink to the Licensed Material to the extent reasonably practicable;\n\nB. indicate if You modified the Licensed Material and retain an indication of any previous modifications; and\nC. indicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.\nFor the avoidance of doubt, You do not have permission under this Public License to Share Adapted Material.\nYou may satisfy the conditions in Section 3(a)(1) in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.\nIf requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.\n\n\n\n\n\nWhere the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:\n\nfor the avoidance of doubt, Section 2(a)(1) grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database for NonCommercial purposes only and provided You do not Share Adapted Material;\nif You include all or a substantial portion of the database contents in a database in which You have Sui Generis Database Rights, then the database in which You have Sui Generis Database Rights (but not its individual contents) is Adapted Material; and\nYou must comply with the conditions in Section 3(a) if You Share all or a substantial portion of the contents of the database.\n\nFor the avoidance of doubt, this Section 4 supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.\n\n\n\n\nUnless otherwise separately undertaken by the Licensor, to the extent possible, the Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable. Where disclaimers of warranties are not allowed in full or in part, this disclaimer may not apply to You.\nTo the extent possible, in no event will the Licensor be liable to You on any legal theory (including, without limitation, negligence) or otherwise for any direct, special, indirect, incidental, consequential, punitive, exemplary, or other losses, costs, expenses, or damages arising out of this Public License or use of the Licensed Material, even if the Licensor has been advised of the possibility of such losses, costs, expenses, or damages. Where a limitation of liability is not allowed in full or in part, this limitation may not apply to You.\nThe disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.\n\n\n\n\n\nThis Public License applies for the term of the Copyright and Similar Rights licensed here. However, if You fail to comply with this Public License, then Your rights under this Public License terminate automatically.\nWhere Your right to use the Licensed Material has terminated under Section 6(a), it reinstates:\n\nautomatically as of the date the violation is cured, provided it is cured within 30 days of Your discovery of the violation; or\nupon express reinstatement by the Licensor.\n\nFor the avoidance of doubt, this Section 6(b) does not affect any right the Licensor may have to seek remedies for Your violations of this Public License.\nFor the avoidance of doubt, the Licensor may also offer the Licensed Material under separate terms or conditions or stop distributing the Licensed Material at any time; however, doing so will not terminate this Public License.\nSections 1, 5, 6, 7, and 8 survive termination of this Public License.\n\n\n\n\n\nThe Licensor shall not be bound by any additional or different terms or conditions communicated by You unless expressly agreed.\nAny arrangements, understandings, or agreements regarding the Licensed Material not stated herein are separate from and independent of the terms and conditions of this Public License.\n\n\n\n\n\nFor the avoidance of doubt, this Public License does not, and shall not be interpreted to, reduce, limit, restrict, or impose conditions on any use of the Licensed Material that could lawfully be made without permission under this Public License.\nTo the extent possible, if any provision of this Public License is deemed unenforceable, it shall be automatically reformed to the minimum extent necessary to make it enforceable. If the provision cannot be reformed, it shall be severed from this Public License without affecting the enforceability of the remaining terms and conditions.\nNo term or condition of this Public License will be waived and no failure to comply consented to unless expressly agreed to by the Licensor.\nNothing in this Public License constitutes or may be interpreted as a limitation upon, or waiver of, any privileges and immunities that apply to the Licensor or You, including from the legal processes of any jurisdiction or authority.\n\n\nCreative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the “Licensor.” Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at creativecommons.org/policies, Creative Commons does not authorize the use of the trademark “Creative Commons” or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.\nCreative Commons may be contacted at creativecommons.org."
-  },
-  {
-    "objectID": "index.html#mini-cours",
-    "href": "index.html#mini-cours",
-    "title": "Data Avec Ményssa",
-    "section": " Mini-cours",
-    "text": "Mini-cours\n\n  Retrouve ici les derniers mini-cours que je poste régulièrement sur LinkedIn.  Check this out👇\n\n\n\n  \n    \n  \n  \n    \n     \n  \n    \n  \n\n\n  Tu aimes ? Ne loupe rien et viens me suivre sur LinkedIn !\n  \n     Me suivre ! 🚀"
-  },
-  {
     "objectID": "index.html#collaboration",
     "href": "index.html#collaboration",
     "title": "Data Avec Ményssa",
     "section": " Collaboration",
     "text": "Collaboration\nTu es déjà expert et tu souhaites créer un cours ?\nTu adhères à l’esprit Open Learning Source ?\nC’est avec plaisir, parce que j’aime les featurings ! Par contre ici, on veut du simple et de l’accessible. Alors si ça te dit envoie moi un petit mail ou contacte moi directement sur LinkedIn"
-  },
-  {
-    "objectID": "index.html#tu-es-déjà-expert-et-tu-souhaites-créer-un-cours-cest-avec-plaisir-jaime-les-featurings-par-contre-ici-on-veut-du-simple-et-de-laccessible.-avec-un-haut-niveau-de-vulgarisation-et-de-divertissement.",
-    "href": "index.html#tu-es-déjà-expert-et-tu-souhaites-créer-un-cours-cest-avec-plaisir-jaime-les-featurings-par-contre-ici-on-veut-du-simple-et-de-laccessible.-avec-un-haut-niveau-de-vulgarisation-et-de-divertissement.",
-    "title": "Data Avec Ményssa",
-    "section": "Tu es déjà expert et tu souhaites créer un cours ? C’est avec plaisir, j’aime les featurings ! Par contre ici, on veut du simple et de l’accessible. Avec un haut niveau de vulgarisation et de divertissement.",
-    "text": "Tu es déjà expert et tu souhaites créer un cours ? C’est avec plaisir, j’aime les featurings ! Par contre ici, on veut du simple et de l’accessible. Avec un haut niveau de vulgarisation et de divertissement."
-  },
-  {
-    "objectID": "coding_session.html",
-    "href": "coding_session.html",
-    "title": "\n    Coder facile avec DAMA\n  ",
-    "section": "",
-    "text": "Des coding sessions sur mesure, parce que tu es unique et que\nLes tarifs canon de mes partenaires experts : j’ai une équipe de choc à mes côtés, prête à t’accompagner à des tarifs ultra-sympas à partir de 30€ de l’heure."
-  },
-  {
-    "objectID": "coding_session.html#comment-ça-marche-en-3-étapes-tu-seras-sur-le-chemin-de-la-réussite",
-    "href": "coding_session.html#comment-ça-marche-en-3-étapes-tu-seras-sur-le-chemin-de-la-réussite",
-    "title": "Coding Session",
-    "section": "",
-    "text": "Choisis ton arme secrète : R, Python, SQL… à toi de décider ce qui te fera décoller ! 🚀\nRéserve ton créneau : Quelques clics sur mon site et hop, ta place est réservée. Facile comme bonjour ! ⏰\nConnecte-toi et code en live avec moi : On se retrouve sur Google Meet et on code ensemble en temps réel avec VS Code Live Share. Une expérience d’apprentissage de ouf ! 🤯"
-  },
-  {
-    "objectID": "coding_session.html#ce-que-tu-gagnes-en-réservant-maintenant-attention-ça-va-être-dur-de-résister",
-    "href": "coding_session.html#ce-que-tu-gagnes-en-réservant-maintenant-attention-ça-va-être-dur-de-résister",
-    "title": "\n    Coder facile avec DAMA\n  ",
-    "section": " Ce que tu gagnes en réservant maintenant (attention, ça va être dur de résister !)",
-    "text": "Ce que tu gagnes en réservant maintenant (attention, ça va être dur de résister !)\n\n60 minutes de coaching en tête-à-tête avec moi, 100% adaptées à TES besoins\nUn environnement de codage partagé en live, pour progresser à vitesse grand V\nMes conseils et astuces d’expert pour t’aider à atteindre tes objectifs en un temps record\nDes réponses à TOUTES tes questions de codage (même les plus tordues, promis !)\nDes ressources exclusives en bonus pour cimenter tes acquis et faire de toi un(e) pro"
-  },
-  {
-    "objectID": "coding_session.html#mes-domaines-dexpertise-tu-vas-kiffer-grave",
-    "href": "coding_session.html#mes-domaines-dexpertise-tu-vas-kiffer-grave",
-    "title": "\n    Coder facile avec DAMA\n  ",
-    "section": "🧠 Mes domaines d’expertise, tu vas kiffer grave",
-    "text": "🧠 Mes domaines d’expertise, tu vas kiffer grave\n\nAnalyse de données et visualisation avec R\nDéveloppement web et data science avec Python\nGestion et interrogation de bases de données avec SQL\nEt tellement plus, tu n’imagines même pas !"
-  },
-  {
-    "objectID": "coding_session.html#tarifs-et-packs-cest-maintenant-ou-jamais",
-    "href": "coding_session.html#tarifs-et-packs-cest-maintenant-ou-jamais",
-    "title": "\n    Coder facile avec DAMA\n  ",
-    "section": " Tarifs et packs, c’est maintenant ou jamais !",
-    "text": "Tarifs et packs, c’est maintenant ou jamais !\nJe crois en la valeur de mon expertise et je veux te la transmettre dans la bonne humeur."
-  },
-  {
-    "objectID": "coding_session.html#les-places-partent-à-la-vitesse-de-léclair-réserve-la-tienne-maintenant",
-    "href": "coding_session.html#les-places-partent-à-la-vitesse-de-léclair-réserve-la-tienne-maintenant",
-    "title": "\n    Coder facile avec DAMA\n  ",
-    "section": " Les places partent à la vitesse de l’éclair, réserve la tienne maintenant !",
-    "text": "Les places partent à la vitesse de l’éclair, réserve la tienne maintenant !\nT’es à deux doigts de faire décoller ta carrière en data science. Ne laisse pas passer cette occasion en or ! Choisis vite ton langage préféré, ton créneau, règle en ligne et let’s go ! Je t’attends avec impatience.\n\n Réserver mon cours ! 🚀 \n\nTu as encore des questions ? Tu veux en savoir plus sur mon approche ? Écris-moi ici, je me ferai un plaisir de te répondre !"
-  },
-  {
-    "objectID": "coding_session.html#comment-ça-marche",
-    "href": "coding_session.html#comment-ça-marche",
-    "title": "\n    Coder facile avec DAMA\n  ",
-    "section": " Comment ça marche ?",
-    "text": "Comment ça marche ?\nEn 4 étapes, tu seras sur le chemin de la réussite !\n\nInstalle  VS code et l’extention Visual Studio Live Share\nChoisis ton arme secrète : R, Python, SQL… à toi de décider ce qui te fera décoller !\nRéserve ton créneau : Quelques clics sur mon site et hop, ta place est réservée. Facile comme bonjour !\nConnecte-toi et code en live avec moi : On se retrouve sur Cal et on code ensemble en temps réel avec VS Code Live Share."
-  },
-  {
-    "objectID": "coding_session.html#la-data-science-à-la-carte",
-    "href": "coding_session.html#la-data-science-à-la-carte",
-    "title": "\n    Coder facile avec DAMA\n  ",
-    "section": "La data science à la carte",
-    "text": "La data science à la carte\nJe sais que tu en as assez des formations standardisées qui ne répondent pas vraiment à tes besoins.\nTu aspires à quelque chose de plus personnalisé, de plus adapté à tes objectifs. Comme toi\n\nen train de jongler avec Python, R et SQL comme si tu avais fait ça toute ta vie.\nen train de dompter les algorithmes de machine learning les plus complexes avec une facilité déconcertante.\nen train de décrocher ton job de rêve grâce à tes compétences ultra-pointues en data science.\nen train de devenir l’expert(e) que toutes les entreprises s’arrachent.\n\nÇa fait rêver, pas vrai ? Et si je te disais que c’est à portée de main ?"
-  },
-  {
-    "objectID": "coding_session.html#section",
-    "href": "coding_session.html#section",
-    "title": "\n    Coder facile avec DAMA\n  ",
-    "section": "",
-    "text": "Je sais que tu en as assez des formations standardisées qui ne répondent pas vraiment à tes besoins.\nTu aspires à quelque chose de plus personnalisé, de plus adapté à tes objectifs. Comme toi\n\nen train de jongler avec Python, R et SQL comme si tu avais fait ça toute ta vie.\nen train de dompter les algorithmes de machine learning les plus complexes avec une facilité déconcertante.\nen train de décrocher ton job de rêve grâce à tes compétences ultra-pointues en data science.\nen train de devenir l’expert(e) que toutes les entreprises s’arrachent.\n\nÇa fait rêver, pas vrai ? Et si je te disais que c’est à portée de main ?"
-  },
-  {
-    "objectID": "coding_session.html#moi-dama-je-peux-ty-emmener",
-    "href": "coding_session.html#moi-dama-je-peux-ty-emmener",
-    "title": "\n    Coder facile avec DAMA\n  ",
-    "section": "🙋‍♂️ MOI, DAMA, JE PEUX T’Y EMMENER !",
-    "text": "🙋‍♂️ MOI, DAMA, JE PEUX T’Y EMMENER !\nAvec mes sessions de codage en direct taillées sur mesure, je vais t’aider à :"
-  },
-  {
-    "objectID": "coding_session.html#pourquoi-mes-sessions-sont-différentes",
-    "href": "coding_session.html#pourquoi-mes-sessions-sont-différentes",
-    "title": "\n    Coder facile avec DAMA\n  ",
-    "section": " Pourquoi mes sessions sont différentes ?",
-    "text": "Pourquoi mes sessions sont différentes ?\nParce qu’elles sont 100% personnalisées en fonction de TON niveau, TES objectifs et TON rythme d’apprentissage. Fini les formations à la chaîne qui te laissent sur ta faim.\nAvec moi, tu auras :\n\n👨‍🏫 Un suivi individuel avec un expert passionné via un espace notion personnalisé\n🎯 Un programme sur mesure aligné avec tes objectifs\n🕒 Un rythme flexible adapté à tes disponibilités\n🚀 Des projets concrets pour muscler ton portfolio"
-  },
-  {
-    "objectID": "coding_session.html#prête-à-propulser-ta-carrière-en-data-science",
-    "href": "coding_session.html#prête-à-propulser-ta-carrière-en-data-science",
-    "title": "\n    Coder facile avec DAMA\n  ",
-    "section": "🔥 PRÊT(E) À PROPULSER TA CARRIÈRE EN DATA SCIENCE ?",
-    "text": "🔥 PRÊT(E) À PROPULSER TA CARRIÈRE EN DATA SCIENCE ?\nAlors n’attends plus et réserve dès maintenant ta première session de codage personnalisée !\nC’est le premier pas vers la carrière de tes rêves.\n[BOUTON RÉSERVER MA SESSION]\nTu as encore des questions ? Tu veux en savoir plus sur mon approche ? Écris-moi à dama@datasciencecoaching.com, je me ferai un plaisir de te répondre !\nÀ très vite, DAMA"
-  },
-  {
-    "objectID": "coding_session.html#la-data-science-sur-mesure-rien-que-pour-toi",
-    "href": "coding_session.html#la-data-science-sur-mesure-rien-que-pour-toi",
-    "title": "\n    Coder facile avec DAMA\n  ",
-    "section": " La data science sur-mesure, rien que pour toi",
-    "text": "La data science sur-mesure, rien que pour toi\nFini les formations taille unique qui te laissent sur ta faim. Il est temps de passer au niveau supérieur avec un apprentissage 100% personnalisé.\nImagine-toi dans quelques mois :\n\nMaîtriser les langages de programmation les plus demandés en data science\nApprivoiser les algorithmes de machine learning les plus puissants\nBooster ton CV et décrocher le job de tes rêves\nDevenir l’expert(e) en data science dont les entreprises ont besoin\n\nÇa en jette, pas vrai ? Et si je te disais que c’est possible… à condition d’avoir la bonne feuille de route ?"
-  },
-  {
-    "objectID": "coding_session.html#call-boost",
-    "href": "coding_session.html#call-boost",
-    "title": "\n    Coder facile avec DAMA\n  ",
-    "section": "Call Boost",
-    "text": "Call Boost\nSession d’1h\n65€\nPetit coup de boost sur-mesure pour résoudre un problème précis.\n\n\n  \n    Réserve ta session ! 🚀"
-  },
-  {
-    "objectID": "coding_session.html#data-dive",
-    "href": "coding_session.html#data-dive",
-    "title": "\n    Coder facile avec DAMA\n  ",
-    "section": "Data Dive",
-    "text": "Data Dive\nPack 3 sessions\n150€ 195€\nIdéal pour creuser un sujet à fond et progresser à vitesse grand V.\n\n\n  \n    Obtiens ton pack ! 🚀"
-  },
-  {
-    "objectID": "coding_session.html#data-odyssey",
-    "href": "coding_session.html#data-odyssey",
-    "title": "\n    Coder facile avec DAMA\n  ",
-    "section": "Data Odyssey",
-    "text": "Data Odyssey\nPack de 10 sessions\n500 650€\nL’option parfaite pour un véritable parcours de montée en compétences.\n\n  \n  \n    Lance-toi maintenant ! 🚀"
-  },
-  {
-    "objectID": "cours/ancien_index.html",
-    "href": "cours/ancien_index.html",
-    "title": "\n    Cours disponibles\n  ",
-    "section": "",
-    "text": "Cours disponibles\n  \n  \n    Des coding sessions sur mesure, parce que tu es unique et que\n  \n\n\n  \n    \n      \n        \n\n        \n          UI/Web&Graph design for teenagers 11-17 years old\n        \n\n        \n          Start:\n          \n            04.11.2022\n          \n        \n      \n    \n\n    \n      \n        \n\n        \n          UX/UI Web-Design + Mobile Design\n        \n\n        \n          Start:\n          \n            04.11.2022\n          \n        \n      \n    \n\n    \n      \n        \n\n        \n          Annual package \"Product+UX/UI+Graph designer 2022\"\n        \n\n        \n          Start:\n          \n            04.11.2022\n          \n        \n      \n    \n\n    \n      \n        \n\n        \n          Graphic Design\n        \n\n        \n          Start:\n          \n            04.11.2022\n          \n        \n      \n    \n\n    \n      \n        \n\n        \n          Motion Design\n        \n\n        \n          Start:\n          \n            30.11.2022\n          \n        \n      \n    \n\n    \n      \n        \n\n        \n          Front-end development + jQuery + CMS\n        \n      \n    \n\n    \n      \n        \n        \n        \n          Digital Marketing\n        \n      \n    \n\n    \n      \n        \n\n        \n          Interior Design\n        \n\n        \n          Start:\n          \n            31.10.2022\n          \n        \n      \n    \n\n  \n\n\n\n\n\n\n\n\n📢 Les modules\n\n\n\n\n\n\nPour le moment 4 modules sont prévus pour ce cours.\nLes corrections se feront au fur et à mesure\nLa prise de RDV est possible sur la page À Propos\n\n\n\n\n\n💻 Modules\n\nModule 0\nIntroduction à Python - Rappels essentiels\n⛔ Cours\n⛔ Exercices\n⛔ Corrections\n\n\n  \n    Commencer le cours ! 🚀\n  \n\n\n\n\nModule 1\nPOO 1. Contexte et notions élémentaires\n✅ Cours\n✅ Exercices\n⛔ Corrections\n\n\n  \n    Commencer le cours ! 🚀\n  \n\n\n\n\nModule 2\nPOO 2.\n⛔ Cours\n⛔ Exercices\n⛔ Corrections\n\n\n  \n    Commencer le cours ! 🚀\n  \n\n\n\n\nModule 3\nPOO 3.\n⛔ Cours\n⛔ Exercices\n⛔ Corrections\n\n\n  \n    Commencer le cours ! 🚀\n  \n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "cours/python_intro.html",
@@ -892,6 +252,111 @@
     "text": "Exercices\nJe t’ai concocté une série d’exercices passionnants 🌟 qui te permettront non seulement de créer de nouvelles classes, mais aussi de (re)découvrir des notions essentielles de la programmation Python 🐍.\nCes exercices sont spécialement conçus pour booster ta compréhension des principes de la programmation orientée objet 🔄, tout en te donnant l’occasion de manipuler des attributs, de gérer des méthodes, et d’explorer des interactions complexes entre objets.\nBonne courage et surtout, prends du plaisir en codant ! 🚀✨\n\n1 - Facile : Création de la classe Rappeur\n\nÉnoncé\nCrée une classe Rappeur avec les attributs suivants :\n\nnom : le nom du rappeur.\nflow : une description du style de flow du rappeur.\nalbums : une liste des noms d’albums du rappeur.\n\nLa classe doit aussi inclure une méthode introduction() qui affiche une phrase décrivant le rappeur et une méthode sortir_album() qui prend le nom d’un nouvel album et l’ajoute à la liste des albums.\n\n\n\n\n\n\nConseil\n\n\n\nPour la méthode sortir_album(), assure-toi de vérifier que l’album n’est pas déjà dans la liste avant de l’ajouter. Cela évitera les doublons dans la discographie du rappeur."
   },
   {
+    "objectID": "cours/ancien_index.html",
+    "href": "cours/ancien_index.html",
+    "title": "\n    Cours disponibles\n  ",
+    "section": "",
+    "text": "Cours disponibles\n  \n  \n    Des coding sessions sur mesure, parce que tu es unique et que\n  \n\n\n  \n    \n      \n        \n\n        \n          UI/Web&Graph design for teenagers 11-17 years old\n        \n\n        \n          Start:\n          \n            04.11.2022\n          \n        \n      \n    \n\n    \n      \n        \n\n        \n          UX/UI Web-Design + Mobile Design\n        \n\n        \n          Start:\n          \n            04.11.2022\n          \n        \n      \n    \n\n    \n      \n        \n\n        \n          Annual package \"Product+UX/UI+Graph designer 2022\"\n        \n\n        \n          Start:\n          \n            04.11.2022\n          \n        \n      \n    \n\n    \n      \n        \n\n        \n          Graphic Design\n        \n\n        \n          Start:\n          \n            04.11.2022\n          \n        \n      \n    \n\n    \n      \n        \n\n        \n          Motion Design\n        \n\n        \n          Start:\n          \n            30.11.2022\n          \n        \n      \n    \n\n    \n      \n        \n\n        \n          Front-end development + jQuery + CMS\n        \n      \n    \n\n    \n      \n        \n        \n        \n          Digital Marketing\n        \n      \n    \n\n    \n      \n        \n\n        \n          Interior Design\n        \n\n        \n          Start:\n          \n            31.10.2022\n          \n        \n      \n    \n\n  \n\n\n\n\n\n\n\n\n📢 Les modules\n\n\n\n\n\n\nPour le moment 4 modules sont prévus pour ce cours.\nLes corrections se feront au fur et à mesure\nLa prise de RDV est possible sur la page À Propos\n\n\n\n\n\n💻 Modules\n\nModule 0\nIntroduction à Python - Rappels essentiels\n⛔ Cours\n⛔ Exercices\n⛔ Corrections\n\n\n  \n    Commencer le cours ! 🚀\n  \n\n\n\n\nModule 1\nPOO 1. Contexte et notions élémentaires\n✅ Cours\n✅ Exercices\n⛔ Corrections\n\n\n  \n    Commencer le cours ! 🚀\n  \n\n\n\n\nModule 2\nPOO 2.\n⛔ Cours\n⛔ Exercices\n⛔ Corrections\n\n\n  \n    Commencer le cours ! 🚀\n  \n\n\n\n\nModule 3\nPOO 3.\n⛔ Cours\n⛔ Exercices\n⛔ Corrections\n\n\n  \n    Commencer le cours ! 🚀\n  \n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": " Qui suis-je ?",
+    "section": "",
+    "text": "Salut, 👋 moi, c'est Ményssa, ta formatrice principale en data science. Je suis passionnée par la transformation des données ennuyeuses en histoires captivantes – un peu comme un chef qui transforme des pois chiches en steak !\n    J'aime l'idée de rendre la data science facile et accessible à tous et toutes, c'est pour cela que j'ai créé ce site et que je partage du contenu sur  LinkedIn."
+  },
+  {
+    "objectID": "about.html#mon-parcours",
+    "href": "about.html#mon-parcours",
+    "title": " Qui suis-je ?",
+    "section": " Mon parcours",
+    "text": "Mon parcours\n\nDoctorat en Data Science ➡️ Mes Projets\n8 ans d’XP (Start-up, ONG, Grand Groupe) en Stats/ML/DL\nFormatrice 5 🌟 à l’IA School et à L’Université Paris Cité\nAutrice sur des sujets comme R, SQL, et Python ➡️ Mes livres\nLinkedIn Top Data Science Voice\nCréatrice et autrice de la newsletter ‘Smart’, offrant des récits qui éclairent et inspirent."
+  },
+  {
+    "objectID": "about.html#me-contacter",
+    "href": "about.html#me-contacter",
+    "title": " Qui suis-je ?",
+    "section": " Me contacter",
+    "text": "Me contacter\n Email |  GitHub |  LinkedIn |"
+  },
+  {
+    "objectID": "coding_session.html",
+    "href": "coding_session.html",
+    "title": "\n    Coder facile avec DAMA",
+    "section": "",
+    "text": "Des coding sessions sur mesure, parce que tu es unique et que"
+  },
+  {
+    "objectID": "coding_session.html#la-data-science-sur-mesure-rien-que-pour-toi",
+    "href": "coding_session.html#la-data-science-sur-mesure-rien-que-pour-toi",
+    "title": "\n    Coder facile avec DAMA",
+    "section": " La data science sur-mesure, rien que pour toi",
+    "text": "La data science sur-mesure, rien que pour toi\nFini les formations taille unique qui te laissent sur ta faim. Il est temps de passer au niveau supérieur avec un apprentissage 100% personnalisé.\nImagine-toi dans quelques mois :\n\nMaîtriser les langages de programmation les plus demandés en data science\nApprivoiser les algorithmes de machine learning les plus puissants\nBooster ton CV et décrocher le job de tes rêves\nDevenir l’expert(e) en data science dont les entreprises ont besoin\n\nÇa en jette, pas vrai ? Et si je te disais que c’est possible… à condition d’avoir la bonne feuille de route ?"
+  },
+  {
+    "objectID": "coding_session.html#pourquoi-mes-sessions-sont-différentes",
+    "href": "coding_session.html#pourquoi-mes-sessions-sont-différentes",
+    "title": "\n    Coder facile avec DAMA",
+    "section": " Pourquoi mes sessions sont différentes ?",
+    "text": "Pourquoi mes sessions sont différentes ?\nParce qu’elles sont 100% personnalisées en fonction de TON niveau, TES objectifs et TON rythme d’apprentissage. Fini les formations à la chaîne qui te laissent sur ta faim.\nAvec moi, tu auras :\n\n👨‍🏫 Un suivi individuel avec un expert passionné via un espace notion personnalisé*\n🎯 Un programme sur mesure aligné avec tes objectifs\n🕒 Un rythme flexible adapté à tes disponibilités\n🚀 Des projets concrets pour muscler ton portfolio"
+  },
+  {
+    "objectID": "coding_session.html#comment-ça-marche",
+    "href": "coding_session.html#comment-ça-marche",
+    "title": "\n    Coder facile avec DAMA",
+    "section": " Comment ça marche ?",
+    "text": "Comment ça marche ?\nEn 4 étapes, tu seras sur le chemin de la réussite !\n\nInstalle  VS code et l’extention Visual Studio Live Share\nChoisis ton arme secrète : R, Python, SQL… à toi de décider ce qui te fera décoller !\nRéserve ton créneau : Quelques clics sur mon site et hop, ta place est réservée. Facile comme bonjour !\nConnecte-toi et code en live avec moi : On se retrouve sur Cal et on code ensemble en temps réel avec VS Code Live Share."
+  },
+  {
+    "objectID": "coding_session.html#ce-que-tu-gagnes-en-réservant-maintenant-attention-ça-va-être-dur-de-résister",
+    "href": "coding_session.html#ce-que-tu-gagnes-en-réservant-maintenant-attention-ça-va-être-dur-de-résister",
+    "title": "\n    Coder facile avec DAMA",
+    "section": " Ce que tu gagnes en réservant maintenant (attention, ça va être dur de résister !)",
+    "text": "Ce que tu gagnes en réservant maintenant (attention, ça va être dur de résister !)\n\n60 minutes de coaching en tête-à-tête avec moi, 100% adaptées à TES besoins\nUn environnement de codage partagé en live, pour progresser à vitesse grand V\nMes conseils et astuces d’expert pour t’aider à atteindre tes objectifs en un temps record\nDes réponses à TOUTES tes questions de codage (même les plus tordues, promis !)\nDes ressources exclusives en bonus pour cimenter tes acquis et faire de toi un(e) pro"
+  },
+  {
+    "objectID": "coding_session.html#tarifs-et-packs-cest-maintenant-ou-jamais",
+    "href": "coding_session.html#tarifs-et-packs-cest-maintenant-ou-jamais",
+    "title": "\n    Coder facile avec DAMA",
+    "section": " Tarifs et packs, c’est maintenant ou jamais !",
+    "text": "Tarifs et packs, c’est maintenant ou jamais !\nJe crois en la valeur de mon expertise et je veux te la transmettre dans la bonne humeur.\n\n  \n    \n      \n        Call Boost\n        Session d'1h\n        65€ - Boost sur-mesure pour résoudre un problème précis.\n        Réserve ta session ! 🚀\n      \n    \n  \n\n  \n    \n      \n        Data Dive\n        Pack 3 sessions\n        150€ 195€ - Idéal pour creuser un sujet à fond et progresser à vitesse grand V. \n         Obtiens ton pack ! 🚀\n      \n    \n  \n\n  \n    \n      \n        Data Odyssey\n        Pack de 10 sessions\n        500€ 650€ - L'option parfaite pour un véritable parcours de montée en compétences.\n         Obtiens ton super pack ! 🚀\n      \n    \n  \n\nLes tarifs canon de mes partenaires experts : j’ai une équipe de choc à mes côtés, prête à t’accompagner à des tarifs ultra-sympas à partir de 30€ de l’heure."
+  },
+  {
+    "objectID": "coding_session.html#call-boost",
+    "href": "coding_session.html#call-boost",
+    "title": "\n    Coder facile avec DAMA",
+    "section": "Call Boost",
+    "text": "Call Boost\nSession d’1h\n65€\nPetit coup de boost sur-mesure pour résoudre un problème précis.\n\n\n  \n    Réserve ta session ! 🚀"
+  },
+  {
+    "objectID": "coding_session.html#data-dive",
+    "href": "coding_session.html#data-dive",
+    "title": "\n    Coder facile avec DAMA",
+    "section": "Data Dive",
+    "text": "Data Dive\nPack 3 sessions\n\n\n  \n    Obtiens ton pack ! 🚀"
+  },
+  {
+    "objectID": "coding_session.html#data-odyssey",
+    "href": "coding_session.html#data-odyssey",
+    "title": "\n    Coder facile avec DAMA",
+    "section": "Data Odyssey",
+    "text": "Data Odyssey\nPack de 10 sessions\n500 650€\nL’option parfaite pour un véritable parcours de montée en compétences.\n\n  \n  \n    Lance-toi maintenant ! 🚀"
+  },
+  {
+    "objectID": "coding_session.html#les-places-partent-à-la-vitesse-de-léclair-réserve-la-tienne-maintenant",
+    "href": "coding_session.html#les-places-partent-à-la-vitesse-de-léclair-réserve-la-tienne-maintenant",
+    "title": "\n    Coder facile avec DAMA",
+    "section": " Les places partent à la vitesse de l’éclair, réserve la tienne maintenant !",
+    "text": "Les places partent à la vitesse de l’éclair, réserve la tienne maintenant !\nT’es à deux doigts de faire décoller ta carrière en data science. Ne laisse pas passer cette occasion en or ! Choisis vite ton langage préféré, ton créneau, règle en ligne et let’s go ! Je t’attends avec impatience.\n\n Réserver mon cours ! 🚀 \n\nTu as encore des questions ? Tu veux en savoir plus sur mon approche ? Écris-moi ici, je me ferai un plaisir de te répondre !\n\n* Le Data Science Launch Pad est un espace en ligne qui rassemble les meilleures ressources et un parcours structuré pour aider les débutants à se lancer en data science. Il propose une feuille de route d’apprentissage, une base de connaissances, des idées de projets pratiques et un suivi de progression personnalisé. Disponible uniquement pour le parcours Data Odyssey"
+  },
+  {
+    "objectID": "cours/index.html",
+    "href": "cours/index.html",
+    "title": "  Cours disponibles",
+    "section": "",
+    "text": "Cours disponibles\n   Choisis le cours qui t'intéresse et c'est parti !\n\n\n\n  \n    \n      \n        \n        \n          R : Introduction à la programmation\n        \n        \n          Niveau : débutant\n        \n      \n    \n\n    \n      \n        \n        \n          Python : Introduction à la programmation\n        \n        \n          Niveau : débutant\n        \n      \n    \n\n    \n      \n        \n        \n          R Shiny : Déployer des applications web avec R \n        \n        \n          Niveau : Intermédiaire\n        \n      \n    \n\n    \n      \n        \n        \n          Python : Programmation orientée objets\n        \n        \n          Niveau : Intermédiaire\n        \n      \n    \n  \n\n\n\n\n Back to top"
+  },
+  {
     "objectID": "cours/python_poo.html",
     "href": "cours/python_poo.html",
     "title": "Gentle introduction à la POO en Python",
@@ -938,7 +403,7 @@
     "href": "cours/python_poo.html#méthodes",
     "title": "Gentle introduction à la POO en Python",
     "section": "6. Méthodes",
-    "text": "6. Méthodes\nLes méthodes, c’est ce qui permet à tes objets d’agir, d’interagir et de se démarquer.\nUne méthode peut être :\n\nUn flow “getter” pour récupérer des infos (get_punchline())\nUn flow “setter” pour modifier l’état (set_style(new_style))\nUn flow “calculateur” pour traiter des données (calculer_nb_albums())\nOu même un flow “abstract” pour définir un comportement général (rapper())\n\nLes méthodes, c’est aussi ce qui permet à tes objets de communiquer entre eux. Un peu comme des featuring entre rappeurs !\n\n# Importation du module random\nimport random\n\n# Définition de la classe Rappeur\nclass Rappeur:\n    # Constructeur de la classe avec les attributs nécessaires pour définir un rappeur\n    def __init__(self, nom, flow, nb_albums, featurings, punchlines):\n        self.nom = nom              \n        self.flow = flow            \n        self.nb_albums = nb_albums  \n        self.featurings = featurings  \n        self.punchlines = punchlines  # Liste des punchlines célèbres du rappeur\n    \n    # Méthode pour afficher une punchline au hasard\n    def balancer_punchline(self):\n        # Utilisation de random.choice pour sélectionner et afficher une punchline aléatoire de la liste\n        print(f\"{self.nom} balance : {random.choice(self.punchlines)}\")\n\n# Création d'une instance Booba\nbooba = Rappeur(nom=\"Booba\", \n                flow=\"Agressif et technique\",                \n                nb_albums=10,\n                featurings=[\"Kaaris\", \"Damso\", \"Gato\"],\n                punchlines=[\"92i\", \"Pitbull\", \"Kalash\"])\n\n# Appel de la méthode balancer_punchline pour afficher une punchline de Booba tirée au hasard\nbooba.balancer_punchline()\n\nBooba balance : Pitbull\n\n\nMaintenant allons un peu plus long et imaginons un clash entre rappeurs (hihihi!)\n\nimport random  # Importation nécessaire pour utiliser random.choice\n\nclass Rappeur:\n    def __init__(self, nom, flow, nb_albums, featurings, punchlines):\n        self.nom = nom  \n        self.flow = flow  \n        self.nb_albums = nb_albums  \n        self.featurings = featurings  \n        self.punchlines = punchlines  \n\n\n    def balancer_punchline(self):\n        print(f\"{self.nom} balance : {random.choice(self.punchlines)}\")\n\n    # Méthode permettant à un rappeur de clasher un autre rappeur \n    # en utilisant la première punchline de sa liste\n    def clasher(self, autre_rappeur):\n        print(f\"{self.nom} clash {autre_rappeur.nom} : {self.punchlines[0]}\")\n        \n    # Méthode permettant à un rappeur de répondre à un \n    # clash avec une punchline spécifique\n    def repondre(self, autre_rappeur, punchline):\n        print(f\"{self.nom} répond à {autre_rappeur.nom} : {punchline}\")\n\n# Création des instances pour Booba et Kaaris\nbooba = Rappeur(nom=\"Booba\", \n                flow=\"Agressif et technique\",                \n                nb_albums=10,\n                featurings=[\"Kaaris\", \"Damso\", \"Gato\"],\n                punchlines=[\"T'es qu'un fils de...\", \"J'vais t'faire une Kalash en live\"])        \n\nkaaris = Rappeur(nom=\"Kaaris\",\n                 flow=\"Aggressif et sombre\",\n                 nb_albums=8,\n                 featurings=[\"Gazo\", \"Kalash Criminel\", \"Hamza\"],\n                 punchlines=[\"J'vais t'faire danser la Zumba\", \"T'es même pas un vrai MC\"])\n\n# Simulation d'un clash entre Booba et Kaaris\nbooba.clasher(kaaris)\nkaaris.repondre(booba, \"T'es qu'un tocard !\")\nbooba.repondre(kaaris, \"TG ! J'suis le DUC !\")\n\nBooba clash Kaaris : T'es qu'un fils de...\nKaaris répond à Booba : T'es qu'un tocard !\nBooba répond à Kaaris : TG ! J'suis le DUC !\n\n\nLa puissance des attributs et des méthodes résident dans l’intéraction de tes objets de manière intuitive et stylée.\n\n\n\n\n\n\nÀ Retenir\n\n\n\n\n\nles attributs et méthodes c’est ce qui donne vie à tes objets et leur permet de briller sur la scène de ton programme !\nAlors pour créer des méthodes qui claquent, suis ces tips :\n\n\nDonne-leur un nom explicite qui décrit bien leur rôle\n\n\nUtilise le self pour accéder aux attributs et autres méthodes de l’objet\n\n\nSépare bien les responsabilités : une méthode = une tâche précise\n\n\nDocumente-les avec des docstrings pour expliquer ce qu’elles font\n\n\nLa PEP 8 est ton ami !\n\n\n\n\n\n\n\n\n\n\n\nFocus : PEP8 et Annotation de type\n\n\n\nVoici la même classe avec le code PEP 8 friendly et les annotations de type\n\nfrom typing import List # annoter les attributs featurings et punchlines.\nimport random\nclass Rappeur:\n    \"\"\"Classe définissant un rappeur caractérisé par son nom, style de flow, nombre \n    d'albums, collaborations et punchlines.\n    \"\"\"\n    def __init__(self, nom: str, flow: str, nb_albums: int, featurings: List[str], \n                 punchlines: List[str]):\n        self.nom: str = nom\n        self.flow: str = flow\n        self.nb_albums: int = nb_albums\n        self.featurings: List[str] = featurings\n        self.punchlines: List[str] = punchlines\n\n    def balancer_punchline(self) -&gt; None:\n        \"\"\"Affiche une punchline aléatoire du rappeur.\"\"\"\n        punchline: str = random.choice(self.punchlines)\n        print(f\"{self.nom} balance : {punchline}\")\n\n    def clasher(self, autre_rappeur: 'Rappeur') -&gt; None:\n        \"\"\"Permet au rappeur de clasher un autre rappeur en utilisant la première \n        punchline de sa liste.\n        \"\"\"\n        print(f\"{self.nom} clash {autre_rappeur.nom} : {self.punchlines[0]}\")\n        \n    def repondre(self, autre_rappeur: 'Rappeur', punchline: str) -&gt; None:\n        \"\"\"Permet au rappeur de répondre à un clash avec une punchline spécifique.\"\"\"\n        print(f\"{self.nom} répond à {autre_rappeur.nom} : {punchline}\")\n\n# Création d'instances pour Booba et Kaaris avec typage explicite\nbooba = Rappeur(\n    nom=\"Booba\", \n    flow=\"Agressif et technique\",                \n    nb_albums=10,\n    featurings=[\"Kaaris\", \"Damso\", \"Gato\"],\n    punchlines=[\"T'es qu'un fils de...\", \"J'vais t'faire une Kalash en live\"]\n)        \n\nkaaris = Rappeur(\n    nom=\"Kaaris\",\n    flow=\"Aggressif et sombre\",\n    nb_albums=8,\n    featurings=[\"Gazo\", \"Kalash Criminel\", \"Hamza\"],\n    punchlines=[\"J'vais t'faire danser la Zumba\", \"T'es même pas un vrai MC\"]\n)\n\n# Simulation d'un clash et réponses entre Booba et Kaaris\nbooba.clasher(kaaris)\nkaaris.repondre(booba, \"T'es qu'un tocard !\")\nbooba.repondre(kaaris, \"TG ! J'suis le DUC !\")\n\nBooba clash Kaaris : T'es qu'un fils de...\nKaaris répond à Booba : T'es qu'un tocard !\nBooba répond à Kaaris : TG ! J'suis le DUC !"
+    "text": "6. Méthodes\nLes méthodes, c’est ce qui permet à tes objets d’agir, d’interagir et de se démarquer.\nUne méthode peut être :\n\nUn flow “getter” pour récupérer des infos (get_punchline())\nUn flow “setter” pour modifier l’état (set_style(new_style))\nUn flow “calculateur” pour traiter des données (calculer_nb_albums())\nOu même un flow “abstract” pour définir un comportement général (rapper())\n\nLes méthodes, c’est aussi ce qui permet à tes objets de communiquer entre eux. Un peu comme des featuring entre rappeurs !\n\n# Importation du module random\nimport random\n\n# Définition de la classe Rappeur\nclass Rappeur:\n    # Constructeur de la classe avec les attributs nécessaires pour définir un rappeur\n    def __init__(self, nom, flow, nb_albums, featurings, punchlines):\n        self.nom = nom              \n        self.flow = flow            \n        self.nb_albums = nb_albums  \n        self.featurings = featurings  \n        self.punchlines = punchlines  # Liste des punchlines célèbres du rappeur\n    \n    # Méthode pour afficher une punchline au hasard\n    def balancer_punchline(self):\n        # Utilisation de random.choice pour sélectionner et afficher une punchline aléatoire de la liste\n        print(f\"{self.nom} balance : {random.choice(self.punchlines)}\")\n\n# Création d'une instance Booba\nbooba = Rappeur(nom=\"Booba\", \n                flow=\"Agressif et technique\",                \n                nb_albums=10,\n                featurings=[\"Kaaris\", \"Damso\", \"Gato\"],\n                punchlines=[\"92i\", \"Pitbull\", \"Kalash\"])\n\n# Appel de la méthode balancer_punchline pour afficher une punchline de Booba tirée au hasard\nbooba.balancer_punchline()\n\nBooba balance : Kalash\n\n\nMaintenant allons un peu plus long et imaginons un clash entre rappeurs (hihihi!)\n\nimport random  # Importation nécessaire pour utiliser random.choice\n\nclass Rappeur:\n    def __init__(self, nom, flow, nb_albums, featurings, punchlines):\n        self.nom = nom  \n        self.flow = flow  \n        self.nb_albums = nb_albums  \n        self.featurings = featurings  \n        self.punchlines = punchlines  \n\n\n    def balancer_punchline(self):\n        print(f\"{self.nom} balance : {random.choice(self.punchlines)}\")\n\n    # Méthode permettant à un rappeur de clasher un autre rappeur \n    # en utilisant la première punchline de sa liste\n    def clasher(self, autre_rappeur):\n        print(f\"{self.nom} clash {autre_rappeur.nom} : {self.punchlines[0]}\")\n        \n    # Méthode permettant à un rappeur de répondre à un \n    # clash avec une punchline spécifique\n    def repondre(self, autre_rappeur, punchline):\n        print(f\"{self.nom} répond à {autre_rappeur.nom} : {punchline}\")\n\n# Création des instances pour Booba et Kaaris\nbooba = Rappeur(nom=\"Booba\", \n                flow=\"Agressif et technique\",                \n                nb_albums=10,\n                featurings=[\"Kaaris\", \"Damso\", \"Gato\"],\n                punchlines=[\"T'es qu'un fils de...\", \"J'vais t'faire une Kalash en live\"])        \n\nkaaris = Rappeur(nom=\"Kaaris\",\n                 flow=\"Aggressif et sombre\",\n                 nb_albums=8,\n                 featurings=[\"Gazo\", \"Kalash Criminel\", \"Hamza\"],\n                 punchlines=[\"J'vais t'faire danser la Zumba\", \"T'es même pas un vrai MC\"])\n\n# Simulation d'un clash entre Booba et Kaaris\nbooba.clasher(kaaris)\nkaaris.repondre(booba, \"T'es qu'un tocard !\")\nbooba.repondre(kaaris, \"TG ! J'suis le DUC !\")\n\nBooba clash Kaaris : T'es qu'un fils de...\nKaaris répond à Booba : T'es qu'un tocard !\nBooba répond à Kaaris : TG ! J'suis le DUC !\n\n\nLa puissance des attributs et des méthodes résident dans l’intéraction de tes objets de manière intuitive et stylée.\n\n\n\n\n\n\nÀ Retenir\n\n\n\n\n\nles attributs et méthodes c’est ce qui donne vie à tes objets et leur permet de briller sur la scène de ton programme !\nAlors pour créer des méthodes qui claquent, suis ces tips :\n\n\nDonne-leur un nom explicite qui décrit bien leur rôle\n\n\nUtilise le self pour accéder aux attributs et autres méthodes de l’objet\n\n\nSépare bien les responsabilités : une méthode = une tâche précise\n\n\nDocumente-les avec des docstrings pour expliquer ce qu’elles font\n\n\nLa PEP 8 est ton ami !\n\n\n\n\n\n\n\n\n\n\n\nFocus : PEP8 et Annotation de type\n\n\n\nVoici la même classe avec le code PEP 8 friendly et les annotations de type\n\nfrom typing import List # annoter les attributs featurings et punchlines.\nimport random\nclass Rappeur:\n    \"\"\"Classe définissant un rappeur caractérisé par son nom, style de flow, nombre \n    d'albums, collaborations et punchlines.\n    \"\"\"\n    def __init__(self, nom: str, flow: str, nb_albums: int, featurings: List[str], \n                 punchlines: List[str]):\n        self.nom: str = nom\n        self.flow: str = flow\n        self.nb_albums: int = nb_albums\n        self.featurings: List[str] = featurings\n        self.punchlines: List[str] = punchlines\n\n    def balancer_punchline(self) -&gt; None:\n        \"\"\"Affiche une punchline aléatoire du rappeur.\"\"\"\n        punchline: str = random.choice(self.punchlines)\n        print(f\"{self.nom} balance : {punchline}\")\n\n    def clasher(self, autre_rappeur: 'Rappeur') -&gt; None:\n        \"\"\"Permet au rappeur de clasher un autre rappeur en utilisant la première \n        punchline de sa liste.\n        \"\"\"\n        print(f\"{self.nom} clash {autre_rappeur.nom} : {self.punchlines[0]}\")\n        \n    def repondre(self, autre_rappeur: 'Rappeur', punchline: str) -&gt; None:\n        \"\"\"Permet au rappeur de répondre à un clash avec une punchline spécifique.\"\"\"\n        print(f\"{self.nom} répond à {autre_rappeur.nom} : {punchline}\")\n\n# Création d'instances pour Booba et Kaaris avec typage explicite\nbooba = Rappeur(\n    nom=\"Booba\", \n    flow=\"Agressif et technique\",                \n    nb_albums=10,\n    featurings=[\"Kaaris\", \"Damso\", \"Gato\"],\n    punchlines=[\"T'es qu'un fils de...\", \"J'vais t'faire une Kalash en live\"]\n)        \n\nkaaris = Rappeur(\n    nom=\"Kaaris\",\n    flow=\"Aggressif et sombre\",\n    nb_albums=8,\n    featurings=[\"Gazo\", \"Kalash Criminel\", \"Hamza\"],\n    punchlines=[\"J'vais t'faire danser la Zumba\", \"T'es même pas un vrai MC\"]\n)\n\n# Simulation d'un clash et réponses entre Booba et Kaaris\nbooba.clasher(kaaris)\nkaaris.repondre(booba, \"T'es qu'un tocard !\")\nbooba.repondre(kaaris, \"TG ! J'suis le DUC !\")\n\nBooba clash Kaaris : T'es qu'un fils de...\nKaaris répond à Booba : T'es qu'un tocard !\nBooba répond à Kaaris : TG ! J'suis le DUC !"
   },
   {
     "objectID": "cours/python_poo.html#modifier-les-attributs",
@@ -960,5 +425,117 @@
     "title": "Gentle introduction à la POO en Python",
     "section": "9. Correction",
     "text": "9. Correction\nLa correction sera disponible prochainement ;)\nN’hésite pas à prendre rdv si tu es bloqué :\n\n  \n     Prendre RDV ! 🚀"
+  },
+  {
+    "objectID": "LICENSE-CC-BY-NC-ND-4.0.html",
+    "href": "LICENSE-CC-BY-NC-ND-4.0.html",
+    "title": "Attribution-NonCommercial-NoDerivatives 4.0 International",
+    "section": "",
+    "text": "Creative Commons Corporation (“Creative Commons”) is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an “as-is” basis. Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.\n\nCreative Commons public licenses provide a standard set of terms and conditions that creators and other rights holders may use to share original works of authorship and other material subject to copyright and certain other rights specified in the public license below. The following considerations are for informational purposes only, are not exhaustive, and do not form part of our licenses.\n\nConsiderations for licensors: Our public licenses are intended for use by those authorized to give the public permission to use material in ways otherwise restricted by copyright and certain other rights. Our licenses are irrevocable. Licensors should read and understand the terms and conditions of the license they choose before applying it. Licensors should also secure all rights necessary before applying our licenses so that the public can reuse the material as expected. Licensors should clearly mark any material not subject to the license. This includes other CC-licensed material, or material used under an exception or limitation to copyright. More considerations for licensors.\nConsiderations for the public: By using one of our public licenses, a licensor grants the public permission to use the licensed material under specified terms and conditions. If the licensor’s permission is not necessary for any reason–for example, because of any applicable exception or limitation to copyright–then that use is not regulated by the license. Our licenses grant only permissions under copyright and certain other rights that a licensor has authority to grant. Use of the licensed material may still be restricted for other reasons, including because others have copyright or other rights in the material. A licensor may make special requests, such as asking that all changes be marked or described. Although not required by our licenses, you are encouraged to respect those requests where reasonable. More considerations for the public.\n\n\n\n\nBy exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License (“Public License”). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.\n\n\n\nAdapted Material means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image.\nCopyright and Similar Rights means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public License, the rights specified in Section 2(b)(1)-(2) are not Copyright and Similar Rights.\nEffective Technological Measures means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar international agreements.\nExceptions and Limitations means fair use, fair dealing, and/or any other exception or limitation to Copyright and Similar Rights that applies to Your use of the Licensed Material.\nLicensed Material means the artistic or literary work, database, or other material to which the Licensor applied this Public License.\nLicensed Rights means the rights granted to You subject to the terms and conditions of this Public License, which are limited to all Copyright and Similar Rights that apply to Your use of the Licensed Material and that the Licensor has authority to license.\nLicensor means the individual(s) or entity(ies) granting rights under this Public License.\nNonCommercial means not primarily intended for or directed towards commercial advantage or monetary compensation. For purposes of this Public License, the exchange of the Licensed Material for other material subject to Copyright and Similar Rights by digital file-sharing or similar means is NonCommercial provided there is no payment of monetary compensation in connection with the exchange.\nShare means to provide material to the public by any means or process that requires permission under the Licensed Rights, such as reproduction, public display, public performance, distribution, dissemination, communication, or importation, and to make material available to the public including in ways that members of the public may access the material from a place and at a time individually chosen by them.\nSui Generis Database Rights means rights other than copyright resulting from Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, as amended and/or succeeded, as well as other essentially equivalent rights anywhere in the world.\nYou means the individual or entity exercising the Licensed Rights under this Public License. Your has a corresponding meaning.\n\n\n\n\n\nLicense grant.\n\nSubject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to:\nA. reproduce and Share the Licensed Material, in whole or in part, for NonCommercial purposes only; and\nB. produce and reproduce, but not Share, Adapted Material for NonCommercial purposes only.\nExceptions and Limitations. For the avoidance of doubt, where Exceptions and Limitations apply to Your use, this Public License does not apply, and You do not need to comply with its terms and conditions.\nTerm. The term of this Public License is specified in Section 6(a).\nMedia and formats; technical modifications allowed. The Licensor authorizes You to exercise the Licensed Rights in all media and formats whether now known or hereafter created, and to make technical modifications necessary to do so. The Licensor waives and/or agrees not to assert any right or authority to forbid You from making technical modifications necessary to exercise the Licensed Rights, including technical modifications necessary to circumvent Effective Technological Measures. For purposes of this Public License, simply making modifications authorized by this Section 2(a)(4) never produces Adapted Material.\nDownstream recipients.\nA. Offer from the Licensor – Licensed Material. Every recipient of the Licensed Material automatically receives an offer from the Licensor to exercise the Licensed Rights under the terms and conditions of this Public License.\nB. No downstream restrictions. You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.\nNo endorsement. Nothing in this Public License constitutes or may be construed as permission to assert or imply that You are, or that Your use of the Licensed Material is, connected with, or sponsored, endorsed, or granted official status by, the Licensor or others designated to receive attribution as provided in Section 3(a)(1)(A)(i).\n\nOther rights.\n\nMoral rights, such as the right of integrity, are not licensed under this Public License, nor are publicity, privacy, and/or other similar personality rights; however, to the extent possible, the Licensor waives and/or agrees not to assert any such rights held by the Licensor to the limited extent necessary to allow You to exercise the Licensed Rights, but not otherwise.\nPatent and trademark rights are not licensed under this Public License.\nTo the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme. In all other cases the Licensor expressly reserves any right to collect such royalties, including when the Licensed Material is used other than for NonCommercial purposes.\n\n\n\n\n\nYour exercise of the Licensed Rights is expressly made subject to the following conditions.\n\nAttribution.\n\nIf You Share the Licensed Material, You must:\nA. retain the following if it is supplied by the Licensor with the Licensed Material:\n\nidentification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);\na copyright notice;\na notice that refers to this Public License;\na notice that refers to the disclaimer of warranties;\na URI or hyperlink to the Licensed Material to the extent reasonably practicable;\n\nB. indicate if You modified the Licensed Material and retain an indication of any previous modifications; and\nC. indicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.\nFor the avoidance of doubt, You do not have permission under this Public License to Share Adapted Material.\nYou may satisfy the conditions in Section 3(a)(1) in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.\nIf requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.\n\n\n\n\n\nWhere the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:\n\nfor the avoidance of doubt, Section 2(a)(1) grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database for NonCommercial purposes only and provided You do not Share Adapted Material;\nif You include all or a substantial portion of the database contents in a database in which You have Sui Generis Database Rights, then the database in which You have Sui Generis Database Rights (but not its individual contents) is Adapted Material; and\nYou must comply with the conditions in Section 3(a) if You Share all or a substantial portion of the contents of the database.\n\nFor the avoidance of doubt, this Section 4 supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.\n\n\n\n\nUnless otherwise separately undertaken by the Licensor, to the extent possible, the Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable. Where disclaimers of warranties are not allowed in full or in part, this disclaimer may not apply to You.\nTo the extent possible, in no event will the Licensor be liable to You on any legal theory (including, without limitation, negligence) or otherwise for any direct, special, indirect, incidental, consequential, punitive, exemplary, or other losses, costs, expenses, or damages arising out of this Public License or use of the Licensed Material, even if the Licensor has been advised of the possibility of such losses, costs, expenses, or damages. Where a limitation of liability is not allowed in full or in part, this limitation may not apply to You.\nThe disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.\n\n\n\n\n\nThis Public License applies for the term of the Copyright and Similar Rights licensed here. However, if You fail to comply with this Public License, then Your rights under this Public License terminate automatically.\nWhere Your right to use the Licensed Material has terminated under Section 6(a), it reinstates:\n\nautomatically as of the date the violation is cured, provided it is cured within 30 days of Your discovery of the violation; or\nupon express reinstatement by the Licensor.\n\nFor the avoidance of doubt, this Section 6(b) does not affect any right the Licensor may have to seek remedies for Your violations of this Public License.\nFor the avoidance of doubt, the Licensor may also offer the Licensed Material under separate terms or conditions or stop distributing the Licensed Material at any time; however, doing so will not terminate this Public License.\nSections 1, 5, 6, 7, and 8 survive termination of this Public License.\n\n\n\n\n\nThe Licensor shall not be bound by any additional or different terms or conditions communicated by You unless expressly agreed.\nAny arrangements, understandings, or agreements regarding the Licensed Material not stated herein are separate from and independent of the terms and conditions of this Public License.\n\n\n\n\n\nFor the avoidance of doubt, this Public License does not, and shall not be interpreted to, reduce, limit, restrict, or impose conditions on any use of the Licensed Material that could lawfully be made without permission under this Public License.\nTo the extent possible, if any provision of this Public License is deemed unenforceable, it shall be automatically reformed to the minimum extent necessary to make it enforceable. If the provision cannot be reformed, it shall be severed from this Public License without affecting the enforceability of the remaining terms and conditions.\nNo term or condition of this Public License will be waived and no failure to comply consented to unless expressly agreed to by the Licensor.\nNothing in this Public License constitutes or may be interpreted as a limitation upon, or waiver of, any privileges and immunities that apply to the Licensor or You, including from the legal processes of any jurisdiction or authority.\n\n\nCreative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the “Licensor.” Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at creativecommons.org/policies, Creative Commons does not authorize the use of the trademark “Creative Commons” or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.\nCreative Commons may be contacted at creativecommons.org."
+  },
+  {
+    "objectID": "LICENSE-CC-BY-NC-ND-4.0.html#creative-commons-attribution-noncommercial-noderivatives-4.0-international-public-license",
+    "href": "LICENSE-CC-BY-NC-ND-4.0.html#creative-commons-attribution-noncommercial-noderivatives-4.0-international-public-license",
+    "title": "Attribution-NonCommercial-NoDerivatives 4.0 International",
+    "section": "",
+    "text": "By exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License (“Public License”). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.\n\n\n\nAdapted Material means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image.\nCopyright and Similar Rights means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public License, the rights specified in Section 2(b)(1)-(2) are not Copyright and Similar Rights.\nEffective Technological Measures means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar international agreements.\nExceptions and Limitations means fair use, fair dealing, and/or any other exception or limitation to Copyright and Similar Rights that applies to Your use of the Licensed Material.\nLicensed Material means the artistic or literary work, database, or other material to which the Licensor applied this Public License.\nLicensed Rights means the rights granted to You subject to the terms and conditions of this Public License, which are limited to all Copyright and Similar Rights that apply to Your use of the Licensed Material and that the Licensor has authority to license.\nLicensor means the individual(s) or entity(ies) granting rights under this Public License.\nNonCommercial means not primarily intended for or directed towards commercial advantage or monetary compensation. For purposes of this Public License, the exchange of the Licensed Material for other material subject to Copyright and Similar Rights by digital file-sharing or similar means is NonCommercial provided there is no payment of monetary compensation in connection with the exchange.\nShare means to provide material to the public by any means or process that requires permission under the Licensed Rights, such as reproduction, public display, public performance, distribution, dissemination, communication, or importation, and to make material available to the public including in ways that members of the public may access the material from a place and at a time individually chosen by them.\nSui Generis Database Rights means rights other than copyright resulting from Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, as amended and/or succeeded, as well as other essentially equivalent rights anywhere in the world.\nYou means the individual or entity exercising the Licensed Rights under this Public License. Your has a corresponding meaning.\n\n\n\n\n\nLicense grant.\n\nSubject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to:\nA. reproduce and Share the Licensed Material, in whole or in part, for NonCommercial purposes only; and\nB. produce and reproduce, but not Share, Adapted Material for NonCommercial purposes only.\nExceptions and Limitations. For the avoidance of doubt, where Exceptions and Limitations apply to Your use, this Public License does not apply, and You do not need to comply with its terms and conditions.\nTerm. The term of this Public License is specified in Section 6(a).\nMedia and formats; technical modifications allowed. The Licensor authorizes You to exercise the Licensed Rights in all media and formats whether now known or hereafter created, and to make technical modifications necessary to do so. The Licensor waives and/or agrees not to assert any right or authority to forbid You from making technical modifications necessary to exercise the Licensed Rights, including technical modifications necessary to circumvent Effective Technological Measures. For purposes of this Public License, simply making modifications authorized by this Section 2(a)(4) never produces Adapted Material.\nDownstream recipients.\nA. Offer from the Licensor – Licensed Material. Every recipient of the Licensed Material automatically receives an offer from the Licensor to exercise the Licensed Rights under the terms and conditions of this Public License.\nB. No downstream restrictions. You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.\nNo endorsement. Nothing in this Public License constitutes or may be construed as permission to assert or imply that You are, or that Your use of the Licensed Material is, connected with, or sponsored, endorsed, or granted official status by, the Licensor or others designated to receive attribution as provided in Section 3(a)(1)(A)(i).\n\nOther rights.\n\nMoral rights, such as the right of integrity, are not licensed under this Public License, nor are publicity, privacy, and/or other similar personality rights; however, to the extent possible, the Licensor waives and/or agrees not to assert any such rights held by the Licensor to the limited extent necessary to allow You to exercise the Licensed Rights, but not otherwise.\nPatent and trademark rights are not licensed under this Public License.\nTo the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme. In all other cases the Licensor expressly reserves any right to collect such royalties, including when the Licensed Material is used other than for NonCommercial purposes.\n\n\n\n\n\nYour exercise of the Licensed Rights is expressly made subject to the following conditions.\n\nAttribution.\n\nIf You Share the Licensed Material, You must:\nA. retain the following if it is supplied by the Licensor with the Licensed Material:\n\nidentification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);\na copyright notice;\na notice that refers to this Public License;\na notice that refers to the disclaimer of warranties;\na URI or hyperlink to the Licensed Material to the extent reasonably practicable;\n\nB. indicate if You modified the Licensed Material and retain an indication of any previous modifications; and\nC. indicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.\nFor the avoidance of doubt, You do not have permission under this Public License to Share Adapted Material.\nYou may satisfy the conditions in Section 3(a)(1) in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.\nIf requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.\n\n\n\n\n\nWhere the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:\n\nfor the avoidance of doubt, Section 2(a)(1) grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database for NonCommercial purposes only and provided You do not Share Adapted Material;\nif You include all or a substantial portion of the database contents in a database in which You have Sui Generis Database Rights, then the database in which You have Sui Generis Database Rights (but not its individual contents) is Adapted Material; and\nYou must comply with the conditions in Section 3(a) if You Share all or a substantial portion of the contents of the database.\n\nFor the avoidance of doubt, this Section 4 supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.\n\n\n\n\nUnless otherwise separately undertaken by the Licensor, to the extent possible, the Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable. Where disclaimers of warranties are not allowed in full or in part, this disclaimer may not apply to You.\nTo the extent possible, in no event will the Licensor be liable to You on any legal theory (including, without limitation, negligence) or otherwise for any direct, special, indirect, incidental, consequential, punitive, exemplary, or other losses, costs, expenses, or damages arising out of this Public License or use of the Licensed Material, even if the Licensor has been advised of the possibility of such losses, costs, expenses, or damages. Where a limitation of liability is not allowed in full or in part, this limitation may not apply to You.\nThe disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.\n\n\n\n\n\nThis Public License applies for the term of the Copyright and Similar Rights licensed here. However, if You fail to comply with this Public License, then Your rights under this Public License terminate automatically.\nWhere Your right to use the Licensed Material has terminated under Section 6(a), it reinstates:\n\nautomatically as of the date the violation is cured, provided it is cured within 30 days of Your discovery of the violation; or\nupon express reinstatement by the Licensor.\n\nFor the avoidance of doubt, this Section 6(b) does not affect any right the Licensor may have to seek remedies for Your violations of this Public License.\nFor the avoidance of doubt, the Licensor may also offer the Licensed Material under separate terms or conditions or stop distributing the Licensed Material at any time; however, doing so will not terminate this Public License.\nSections 1, 5, 6, 7, and 8 survive termination of this Public License.\n\n\n\n\n\nThe Licensor shall not be bound by any additional or different terms or conditions communicated by You unless expressly agreed.\nAny arrangements, understandings, or agreements regarding the Licensed Material not stated herein are separate from and independent of the terms and conditions of this Public License.\n\n\n\n\n\nFor the avoidance of doubt, this Public License does not, and shall not be interpreted to, reduce, limit, restrict, or impose conditions on any use of the Licensed Material that could lawfully be made without permission under this Public License.\nTo the extent possible, if any provision of this Public License is deemed unenforceable, it shall be automatically reformed to the minimum extent necessary to make it enforceable. If the provision cannot be reformed, it shall be severed from this Public License without affecting the enforceability of the remaining terms and conditions.\nNo term or condition of this Public License will be waived and no failure to comply consented to unless expressly agreed to by the Licensor.\nNothing in this Public License constitutes or may be interpreted as a limitation upon, or waiver of, any privileges and immunities that apply to the Licensor or You, including from the legal processes of any jurisdiction or authority.\n\n\nCreative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the “Licensor.” Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at creativecommons.org/policies, Creative Commons does not authorize the use of the trademark “Creative Commons” or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.\nCreative Commons may be contacted at creativecommons.org."
+  },
+  {
+    "objectID": "coding_session.html#section",
+    "href": "coding_session.html#section",
+    "title": "\n    Coder facile avec DAMA",
+    "section": "",
+    "text": "Lance-toi maintenant ! 🚀"
+  },
+  {
+    "objectID": "mentions_legales.html",
+    "href": "mentions_legales.html",
+    "title": "Mentions légales",
+    "section": "",
+    "text": "Publication du site édité par l’auto-entreprise :\nMényssa Cherifa-Luron\n11 rue antonio vivaldi\n31300 Toulouse\ncmenyssa@live.fr"
+  },
+  {
+    "objectID": "mentions_legales.html#hébergement",
+    "href": "mentions_legales.html#hébergement",
+    "title": "Mentions légales",
+    "section": "Hébergement",
+    "text": "Hébergement\nGitHub Pages (https://pages.github.com/)\nGitHub, Inc.\n88 Colin P. Kelly Jr. Street\nSan Francisco, CA 94107\nUnited States\n+1 (877) 448-4820"
+  },
+  {
+    "objectID": "mentions_legales.html#responsabilité",
+    "href": "mentions_legales.html#responsabilité",
+    "title": "Mentions légales",
+    "section": "Responsabilité",
+    "text": "Responsabilité\nMényssa Cherifa-Luron met tous ses moyens en œuvre pour assurer l’exactitude et la mise à jour des informations diffusées sur ce site. Ményssa Cherifa-Luron se réserve le droit de corriger, à tout moment et sans préavis, le contenu. Les renseignements contenus dans ce document sont donnés à titre indicatif et correspondent à nos connaissances actuelles. Ils ne peuvent en aucun cas engager notre responsabilité en cas d’utilisation non conforme ou inadaptée de nos produits.\nMényssa Cherifa-Luron décline toute responsabilité pour tous dommages résultant d’une intrusion frauduleuse d’un tiers ayant entraîné une modification des informations sur le site ; et plus généralement pour tous dommages, directs ou indirects, qu’elles qu’en soient les causes, origines, nature ou conséquences, provoqués à raison de l’accès de quiconque au site ou de l’impossibilité d’y accéder."
+  },
+  {
+    "objectID": "mentions_legales.html#liens",
+    "href": "mentions_legales.html#liens",
+    "title": "Mentions légales",
+    "section": "Liens",
+    "text": "Liens\nCe site contient des liens vers d’autres sites ou sources Internet. Ményssa Cherifa-Luron ne pourra être tenu pour responsable de leur mise à disposition, ni de leur contenu, ni des dommages, de quelque nature que ce soit, subis par les visiteurs qui se rendraient sur ces liens."
+  },
+  {
+    "objectID": "mentions_legales.html#propriété-intellectuelle-et-industrielle",
+    "href": "mentions_legales.html#propriété-intellectuelle-et-industrielle",
+    "title": "Mentions légales",
+    "section": "Propriété intellectuelle et industrielle",
+    "text": "Propriété intellectuelle et industrielle\nL’ensemble de ce site relève de la législation française du droit d’auteur et de la propriété intellectuelle. Tous les droits de reproduction sont réservés y compris pour les documents téléchargeables. La reproduction de tout document publié sur ce site est uniquement autorisée pour un usage personnel. Toute reproduction et utilisation de copies réalisées à d’autres fins étant expressément interdites."
+  },
+  {
+    "objectID": "mentions_legales.html#utilisation-des-données-personnelles",
+    "href": "mentions_legales.html#utilisation-des-données-personnelles",
+    "title": "Mentions légales",
+    "section": "Utilisation des données personnelles",
+    "text": "Utilisation des données personnelles\nMényssa Cherifa-Luron collecte des informations pour identifier vos besoins et vous proposer un meilleur service. Les éléments de statistique nous permettent de mieux comprendre comment les visiteurs interagissent avec notre site.\nEn application de la loi n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, vous disposez d’un droit d’accès, de rectification ou de suppression des données vous concernant. Toute demande en ce sens devra être adressée à : Ményssa Cherifa-Luron, 11 rue antonio vivaldi, 31300 Toulouse, cmenyssa@live.fr. En tout état de cause, la confidentialité des informations relatives aux visiteurs de ce site sera préservée."
+  },
+  {
+    "objectID": "cours/R_intro.html",
+    "href": "cours/R_intro.html",
+    "title": "Sample Report (Quarto)",
+    "section": "",
+    "text": "1 Partie 1\n\nVoir le codex = 2 + 2 \n\n\n\n2 Partie 2\n\n\n Back to top"
+  },
+  {
+    "objectID": "cours/R_intro copy.html",
+    "href": "cours/R_intro copy.html",
+    "title": "Super Titre",
+    "section": "",
+    "text": "Une note :)"
+  },
+  {
+    "objectID": "cours/R_intro copy.html#background",
+    "href": "cours/R_intro copy.html#background",
+    "title": "Learning from failure: ‘Red flags’ in body-worn camera data",
+    "section": "Background",
+    "text": "Background\nFrom the outset of the rollout of body-worn cameras, TJJD faced a major issue with implementation: in 2019, body worn cameras were an established tool for law enforcement, but there was very little literature or best practice to draw from for their use in a correctional environment. Unlike police officers, juvenile correctional officers (JCOs) deal directly with their charges for virtually their entire shift. In an eight-hour shift, a police officer might record a few calls and traffic stops. A juvenile correctional officer, on the other hand, would record for almost eight consecutive hours. And, because TJJD recorded round-the-clock for hundreds of employees at a time, this added up very quickly to a lot of footage.\nFor example, a typical dorm in a correctional center might have four JCOs assigned to it. Across a single week, these four JCOs would be expected to record at least 160 hours of footage."
+  },
+  {
+    "objectID": "cours/R_intro copy.html#un-paragraphe",
+    "href": "cours/R_intro copy.html#un-paragraphe",
+    "title": "Super Titre",
+    "section": "un paragraphe",
+    "text": "un paragraphe"
+  },
+  {
+    "objectID": "cours/cours_template.html",
+    "href": "cours/cours_template.html",
+    "title": "Sample Report (Quarto)",
+    "section": "",
+    "text": "1 Partie 1\n\nVoir le codex = 2 + 2 \n\n\n\n2 Partie 2\n\n\n Back to top"
+  },
+  {
+    "objectID": "articles/article_template.html",
+    "href": "articles/article_template.html",
+    "title": "Super Titre",
+    "section": "",
+    "text": "Une note :)"
+  },
+  {
+    "objectID": "articles/article_template.html#un-paragraphe",
+    "href": "articles/article_template.html#un-paragraphe",
+    "title": "Super Titre",
+    "section": "un paragraphe",
+    "text": "un paragraphe"
   }
 ]

@@ -48,6 +48,7 @@ website:
   page-footer:
     left: 'Contenu {{< fa brands creative-commons >}} 2024 par [Ményssa Cherifa-Luron](https://www.linkedin.com/in/menyssacherifaluron/), adapté de [Jon Cardoso-Silva''s Quarto template for university courses](https://github.com/jonjoncardoso/quarto-template-for-university-courses)<br> Tout le contenu est sous licence {{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-nc >}} [Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC
       4.0)](https://creativecommons.org/licenses/by-nc/4.0/)'
+    center: '[Mentions Légales](mentions_legales.qmd)'
     right: 'Fait avec {{< fa brands python >}} et [Quarto](https://quarto.org/)<br> 
     [Voir sur {{< fa brands github >}} GitHub](https://github.com/universdesdonnees/poo_en_python)'
     background: "#F5F5F5"

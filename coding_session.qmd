@@ -7,13 +7,12 @@ page-layout: full
 ```{=html}
 <div class="container max-w-full mx-auto py-12 px-6 text-center">
   <h1 class="text-4xl text-black font-medium leading-snug tracking-wider">
-    Coder facile avec DAMA
-  </h1>
+    <i class="fa-solid fa-code-branch"></i>Coder facile avec DAMA</h1>
   <p class="text-lg text-gray-700 mt-2 px-6">
     Des coding sessions sur mesure, parce que tu es unique et que
   </p>
   <div class="flex justify-center mt-8">
-    <img src="images/coding_session.png" alt="Ma photo" class="w-64 h-64 object-cover rounded-full">
+    <img src="images/coding_session.png" alt="Ma photo">
   </div>
 </div>
 <br>
@@ -38,7 +37,7 @@ Parce qu'elles sont 100% personnalisées en fonction de **TON niveau, TES object
 
 Avec moi, tu auras :
 
-- 👨‍🏫 Un suivi individuel avec un expert passionné via un **espace notion personnalisé**
+- 👨‍🏫 Un suivi individuel avec un expert passionné via un **espace notion personnalisé***
 - 🎯 Un programme sur mesure aligné avec tes objectifs
 - 🕒 Un rythme flexible adapté à tes disponibilités
 - 🚀 Des projets concrets pour muscler ton portfolio
@@ -57,7 +56,7 @@ En 4 étapes, tu seras sur le chemin de la réussite !
 
 ## {{< fa sack-dollar >}} Ce que tu gagnes en réservant maintenant (attention, ça va être dur de résister !)
 
-- 60 minutes de coaching en tête-à-tête avec moi, 100% adaptées à TES besoins 
+- 60 minutes de coaching en tête-à-tête avec moi, **100% adaptées à TES besoins** 
 - Un environnement de codage partagé en live, pour progresser à vitesse grand V 
 - Mes conseils et astuces d'expert pour t'aider à atteindre tes objectifs en un temps record 
 - Des réponses à TOUTES tes questions de codage (même les plus tordues, promis !) 
@@ -67,62 +66,42 @@ En 4 étapes, tu seras sur le chemin de la réussite !
 
 Je crois en la valeur de mon expertise et je veux te la transmettre dans la bonne humeur. 
 
-::: {style="display:inline-block;width: 28.5%;border-style: dotted;border-width: 1px;border-color: &quot;#fefefe&quot;; margin:1%;padding:1.5%;background-color:#fafafa"}
-## Call Boost
-**Session d'1h**
-
-65€
-
-Petit coup de boost sur-mesure pour résoudre un problème précis.
-
------------------
 ```{=html}
-<div style="text-align: center">
-  <a href="https://tally.so/r/3jBj4Q">
-    <button class="button-61">Réserve ta session ! 🚀</button>
-  </a>
+<div class="container">
+  <div class="card">
+    <div class="box">
+      <div class="content">
+        <h2>Call Boost</h2>
+        <h3>Session d'1h</h3>
+        <p>65€ - Boost sur-mesure pour résoudre un problème précis.</p>
+        <a href="https://tally.so/r/3jBj4Q">Réserve ta session ! 🚀</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="box">
+      <div class="content">
+        <h2>Data Dive</h2>
+        <h3>Pack 3 sessions</h3>
+        <p>150€ <s>195€</s> - Idéal pour creuser un sujet à fond et progresser à vitesse grand V. </p>
+        <a href="https://tally.so/r/3jBj4Q"> Obtiens ton pack ! 🚀</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="box">
+      <div class="content">
+        <h2>Data Odyssey</h2>
+        <h3>Pack de 10 sessions</h3>
+        <p>500€ <s>650€</s> - L'option parfaite pour un véritable parcours de montée en compétences.</p>
+        <a href="https://tally.so/r/3jBj4Q"> Obtiens ton super pack ! 🚀</a>
+      </div>
+    </div>
+  </div>
 </div>
 ```
------------------
-:::
-
-::: {style="display:inline-block;width: 28.5%;border-style: dotted;border-width: 1px;border-color: &quot;#fefefe&quot;; margin:1%;padding:1.5%;background-color:#fafafa"}
-## Data Dive
-**Pack 3 sessions**
-
-150€ ~~195€~~
-
-Idéal pour creuser un sujet à fond et progresser à vitesse grand V. 
-
------------------
-```{=html}
-<div style="text-align: center">
-  <a href="https://tally.so/r/3jBj4Q">
-    <button class="button-61">Obtiens ton pack ! 🚀</button>
-  </a>
-</div>
-```
------------------
-:::
-
-::: {style="display:inline-block;width: 28.5%;border-style: dotted;border-width: 1px;border-color: &quot;#fefefe&quot;; margin:1%;padding:1.5%;background-color:#fafafa"}
-## Data Odyssey
-**Pack de 10 sessions**
-
-500 ~~650€~~
-
-L'option parfaite pour un véritable parcours de montée en compétences.
-
------------------
-```{=html}
-<div style="text-align: center">  
-  <a href="https://tally.so/r/3jBj4Q">
-    <button class="button-61">Lance-toi maintenant ! 🚀</button>
-  </a>
-</div>
-```
------------------
-:::
 
 ***Les tarifs canon de mes partenaires experts** : j'ai une équipe de choc à mes côtés, prête à t'accompagner à des tarifs ultra-sympas à partir de 30€ de l'heure.*
 
@@ -137,3 +116,7 @@ T'es à deux doigts de faire décoller ta carrière en data science. Ne laisse p
 </div>
 
 Tu as encore des questions ? Tu veux en savoir plus sur mon approche ? Écris-moi [ici](cmenyssa@live.fr), je me ferai un plaisir de te répondre !
+
+-----------------
+
+\* Le *Data Science Launch Pad* est un espace en ligne qui rassemble les meilleures ressources et un parcours structuré pour aider les débutants à se lancer en data science. Il propose une feuille de route d'apprentissage, une base de connaissances, des idées de projets pratiques et un suivi de progression personnalisé. Disponible uniquement pour le parcours *Data Odyssey*

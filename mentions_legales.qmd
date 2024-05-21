@@ -1,0 +1,45 @@
+---
+title: "Mentions légales"
+sidebar: false
+page-layout: full
+toc: false
+---
+
+Publication du site édité par l'auto-entreprise :
+
+Ményssa Cherifa-Luron
+
+11 rue antonio vivaldi
+
+31300 Toulouse
+
+cmenyssa@live.fr
+
+## Hébergement
+GitHub Pages (https://pages.github.com/)
+
+GitHub, Inc.
+
+88 Colin P. Kelly Jr. Street
+
+San Francisco, CA 94107
+
+United States
+
++1 (877) 448-4820
+
+## Responsabilité
+Ményssa Cherifa-Luron met tous ses moyens en œuvre pour assurer l'exactitude et la mise à jour des informations diffusées sur ce site. Ményssa Cherifa-Luron se réserve le droit de corriger, à tout moment et sans préavis, le contenu. Les renseignements contenus dans ce document sont donnés à titre indicatif et correspondent à nos connaissances actuelles. Ils ne peuvent en aucun cas engager notre responsabilité en cas d’utilisation non conforme ou inadaptée de nos produits. 
+
+Ményssa Cherifa-Luron décline toute responsabilité pour tous dommages résultant d'une intrusion frauduleuse d'un tiers ayant entraîné une modification des informations sur le site ; et plus généralement pour tous dommages, directs ou indirects, qu'elles qu'en soient les causes, origines, nature ou conséquences, provoqués à raison de l'accès de quiconque au site ou de l'impossibilité d'y accéder.
+
+## Liens
+Ce site contient des liens vers d’autres sites ou sources Internet. Ményssa Cherifa-Luron ne pourra être tenu pour responsable de leur mise à disposition, ni de leur contenu, ni des dommages, de quelque nature que ce soit, subis par les visiteurs qui se rendraient sur ces liens.
+
+## Propriété intellectuelle et industrielle
+L'ensemble de ce site relève de la législation française du droit d'auteur et de la propriété intellectuelle. Tous les droits de reproduction sont réservés y compris pour les documents téléchargeables. La reproduction de tout document publié sur ce site est uniquement autorisée pour un usage personnel. Toute reproduction et utilisation de copies réalisées à d'autres fins étant expressément interdites.
+
+## Utilisation des données personnelles
+Ményssa Cherifa-Luron collecte des informations pour identifier vos besoins et vous proposer un meilleur service. Les éléments de statistique nous permettent de mieux comprendre comment les visiteurs interagissent avec notre site. 
+
+En application de la loi n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, vous disposez d’un droit d’accès, de rectification ou de suppression des données vous concernant. Toute demande en ce sens devra être adressée à : Ményssa Cherifa-Luron, 11 rue antonio vivaldi, 31300 Toulouse, cmenyssa@live.fr. En tout état de cause, la confidentialité des informations relatives aux visiteurs de ce site sera préservée.

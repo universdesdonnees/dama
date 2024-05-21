@@ -7,7 +7,7 @@ sidebar: false
 
 ```{=html}
 <div class="container max-w-full mx-auto py-12 px-6 text-center">
-  <h1 class="text-4xl text-black font-medium leading-snug tracking-wider">Cours disponibles</h1>
+  <h1 class="text-4xl text-black font-medium leading-snug tracking-wider"> <i class="fa-solid fa-graduation-cap"></i> Cours disponibles</h1>
   <p class="text-lg text-gray-700 mt-2 px-6"> Choisis le cours qui t'intéresse et c'est parti !</p>
 </div>
 

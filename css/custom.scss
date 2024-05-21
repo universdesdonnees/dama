@@ -8,24 +8,11 @@ $gray-500: #adb5bd !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
-
-// Plasma colors
-// viridisLite::viridis(7, option = "plasma", begin = 0, end = 0.9)
-
-// Viridis colors
-// viridisLite::viridis(6, option = "viridis", begin = 0, end = 1)
-$blue:   #0D0887 !default;  // Plasma[1]
-$pink:   #BF3984 !default;  // Plasma[4]
-$orange: #FFBD59 !default;  // Plasma[6]
-$yellow: #F8CB42 !default;  // Plasma[7]
-$green:  #7AD151 !default;  // Viridis[5]
-
-
-// Sky colors (tailwind)
-
-// Green colors (tailwind)
-
-// Orange colors (tailwind)
+$blue:   #0D0887 !default;  
+$pink:   #BF3984 !default;  
+$orange: #FFBD59 !default;  
+$yellow: #F8CB42 !default;  
+$green:  #7AD151 !default;  
 $orange-500: #f59e0b !default; 
 
 $primary:       $black !default;

@@ -10,27 +10,12 @@ format:
   html:
     template-partials:
       - helpers/title-block.html
-course-logo: "images/dama_logo.png"
+course-logo: "images/Linkedin MCL.png"
 ---
 
 ::: {.home}
 :::
 
-```{=html}
-<div style="text-align: left">
-  <h1><i class="fa-solid fa-door-open"></i> Bienvenue !</h1>
-</div>
-```
------------------
-
-```{=html}
-<div style="text-align: center">
-  <p>Salut,  moi, c'est Ményssa Cherifa-Luron (MCL), Data scientist et Formatrice freelance.</p>
-  <a href="about.qmd">
-    <button class="button-61">En savoir plus ! 🚀</button>
-  </a>
-</div>
-```
 <br>
 
 ## {{< fa bolt >}} Mini-cours

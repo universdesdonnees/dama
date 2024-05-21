@@ -1,0 +1,44 @@
+---
+title: "Sample Report (Quarto)"
+format: 
+  html:
+    toc: true
+    toc_float: true
+    toc-title: Table des matières
+    toc-location: left
+    code-copy: true
+    code-fold: true
+    code-link: true
+    code-overflow: scroll
+    code-summary: "Voir le code"
+    embed-resources: true
+    anchor-sections: true
+    smooth-scroll: true
+number-sections: true
+execute: 
+  echo: true
+  warning: false
+  message: false
+  fig.with: 9
+title-block-banner: "#fff"
+title-block-banner-color: "black"
+
+---
+
+```{=html}
+<style>
+figcaption {
+  text-align: center;
+}
+</style>
+```
+<br/>
+
+# Partie 1
+
+```{r}
+x = 2 + 2 
+```
+
+# Partie 2
+

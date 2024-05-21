@@ -1,37 +1,31 @@
 ---
-title: 🙋🏻‍♀️ Qui suis-je ?
+title: "{{< fa hand-spock >}} Qui suis-je ?"
 sidebar: false
 page-layout: full
 toc: false
 ---
-Salut, 👋 moi, c'est **Ményssa Cherifa-Luron (MCL)**, Data scientist et Formatrice freelance.
-
+```{=html}
 <div style="display: flex; align-items: center;">
-  <img src="images/Linkedin MCL.png" alt="Ma photo" style="width: 100px; margin-right: 20px;">
-  <p>Je suis passionnée par la transformation des données ennuyeuses en histoires captivantes – un peu comme un chef qui transforme des pois chiches en steak !</p>
+  <img src="images/Linkedin MCL.png" alt="Ma photo" style="width: 250px; margin-right: 20px;">
+  <div>
+    <p>Salut, 👋 moi, c'est Ményssa, ta formatrice principale en data science. Je suis passionnée par la transformation des données ennuyeuses en histoires captivantes – un peu comme un chef qui transforme des pois chiches en steak !</p>
+    <p>J'aime l'idée de rendre la data science facile et accessible à tous et toutes, c'est pour cela que j'ai créé ce site et que je partage du contenu sur <a href="https://www.linkedin.com/in/menyssacherifaluron/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>.</p>
+  </div>
 </div>
-
 <br>
 
-## 👩‍💻 Mon parcours
-- Doctorat en Data Science
+```
+
+## {{< fa briefcase>}} Mon parcours
+- Doctorat en Data Science ➡️ [Mes Projets](https://github.com/universdesdonnees/universdesdonnees)
 - 8 ans d'XP (Start-up, ONG, Grand Groupe) en Stats/ML/DL 
 - Formatrice 5 🌟 à l'[IA School](https://www.intelligence-artificielle-school.com/?gad_source=1&gclid=CjwKCAiA_aGuBhACEiwAly57Mb4r76ce4ltU5l6_uI_juVjOtmW4LvzS2X8xjInfn5bxq5NJFDpH6BoC4MoQAvD_BwE) et à L'[Université Paris Cité](https://u-paris.fr/)
 - Autrice sur des sujets comme R, SQL, et Python ➡️ [Mes livres](https://www.amazon.fr/s?i=stripbooks&rh=p_27%3AMenyssa+Cherifa-Luron&s=relevancerank&text=Menyssa+Cherifa-Luron&linkCode=ll2&tag=mcherifa21-21&linkId=bd1b178e56ff3df3999515f7d7414119&language=fr_FR&ref_=as_li_ss_tl)
 - LinkedIn `Top Data Science Voice`
 - Créatrice et autrice de la newsletter ['Smart'](https://www.linkedin.com/newsletters/7100158974640967680/), offrant des récits qui éclairent et inspirent.
 
-## 💬 Me contacter
+## {{< fa comments >}} Me contacter
 
-| 📩 Email | 👩‍💻 GitHub | 💼 LinkedIn |
-|----------|------------|-------------|
-| [cmenyssa@live.fr](mailto:cmenyssa@live.fr) | [@universdesdonnees](https://github.com/universdesdonnees) | [@Ményssa Cherifa-Luron](https://www.linkedin.com/in/menyssacherifaluron/) |
+| {{< fa envelope >}}  [Email](mailto:cmenyssa@live.fr) | {{< fa brands github >}}  [GitHub]((https://github.com/universdesdonnees) ) | {{< fa brands linkedin >}} [LinkedIn](https://www.linkedin.com/in/menyssacherifaluron/) |
 
-```{=html}
-<div style="text-align: center">
-  <a href="https://cal.com/menyssa.cherifa-luron/1h">
-    <button class="button-61"> Prendre RDV ! 🚀 </button>
-  </a>
-</div>
-```
------------------
+
