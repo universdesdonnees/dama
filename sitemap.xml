@@ -2,38 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://universdesdonnees.github.io/poo_en_python/README.html</loc>
-    <lastmod>2024-05-13T09:46:56.842Z</lastmod>
+    <lastmod>2024-05-21T08:28:35.565Z</lastmod>
   </url>
   <url>
     <loc>https://universdesdonnees.github.io/poo_en_python/index.html</loc>
-    <lastmod>2024-05-14T18:20:24.685Z</lastmod>
+    <lastmod>2024-05-21T07:12:19.010Z</lastmod>
   </url>
   <url>
-    <loc>https://universdesdonnees.github.io/poo_en_python/cours/module2.html</loc>
-    <lastmod>2024-05-13T06:48:12.534Z</lastmod>
+    <loc>https://universdesdonnees.github.io/poo_en_python/cours/python_intro.html</loc>
+    <lastmod>2024-05-21T08:29:16.746Z</lastmod>
   </url>
   <url>
-    <loc>https://universdesdonnees.github.io/poo_en_python/cours/module0.html</loc>
-    <lastmod>2024-05-14T17:55:44.486Z</lastmod>
+    <loc>https://universdesdonnees.github.io/poo_en_python/cours/ancien_index.html</loc>
+    <lastmod>2024-05-21T07:58:27.024Z</lastmod>
   </url>
   <url>
     <loc>https://universdesdonnees.github.io/poo_en_python/about.html</loc>
-    <lastmod>2024-05-13T09:08:40.893Z</lastmod>
+    <lastmod>2024-05-21T08:42:18.514Z</lastmod>
+  </url>
+  <url>
+    <loc>https://universdesdonnees.github.io/poo_en_python/coding_session.html</loc>
+    <lastmod>2024-05-21T07:17:08.733Z</lastmod>
   </url>
   <url>
     <loc>https://universdesdonnees.github.io/poo_en_python/cours/index.html</loc>
-    <lastmod>2024-05-14T18:22:42.041Z</lastmod>
+    <lastmod>2024-05-21T08:23:46.970Z</lastmod>
   </url>
   <url>
-    <loc>https://universdesdonnees.github.io/poo_en_python/cours/module1.html</loc>
-    <lastmod>2024-05-14T18:17:10.481Z</lastmod>
-  </url>
-  <url>
-    <loc>https://universdesdonnees.github.io/poo_en_python/cours/module3.html</loc>
-    <lastmod>2024-05-13T07:06:25.056Z</lastmod>
+    <loc>https://universdesdonnees.github.io/poo_en_python/cours/python_poo.html</loc>
+    <lastmod>2024-05-21T08:26:48.540Z</lastmod>
   </url>
   <url>
     <loc>https://universdesdonnees.github.io/poo_en_python/LICENSE-CC-BY-NC-ND-4.0.html</loc>
-    <lastmod>2024-05-12T20:54:05.261Z</lastmod>
+    <lastmod>2024-05-16T22:22:42.632Z</lastmod>
   </url>
 </urlset>
