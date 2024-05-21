@@ -1,4 +1,4 @@
-| ![Logo POO](https://github.com/universdesdonnees/poo_en_python/blob/master/images/python%20logo.png?raw=true) | **Bienvenue sur mon site dédié à la programmation orientée objet (POO).**<br>Ce site vise à fournir des ressources complètes pour maîtriser les concepts et la mise en œuvre de la POO dans différents langages de programmation. |
+| ![Logo POO](https://github.com/universdesdonnees/dama/blob/master/images/dama_logo.png?raw=true) | **Bienvenue sur mon site dédié à la programmation orientée objet (POO).**<br>Ce site vise à fournir des ressources complètes pour maîtriser les concepts et la mise en œuvre de la POO dans différents langages de programmation. |
 | --- | --- |
 
 ## 👉 Parcourir les Leçons  : [Site](https://universdesdonnees.github.io/poo_en_python/) 👈
