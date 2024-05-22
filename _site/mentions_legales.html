@@ -121,7 +121,7 @@ cookieconsent.run({
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text"><i class="fa-solid fa-home" aria-label="home"></i> Accueil</span></a>
@@ -131,8 +131,12 @@ cookieconsent.run({
 <span class="menu-text"><i class="fa-solid fa-chalkboard-user" aria-label="chalkboard-user"></i> Cours</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./coding_session.html"> 
-<span class="menu-text"><i class="fa-solid fa-code" aria-label="code"></i> Coding Session</span></a>
+    <a class="nav-link" href="./coding_session_entreprise.html"> 
+<span class="menu-text"><i class="fa-solid fa-code" aria-label="code"></i> Formation</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./blog/index.html"> 
+<span class="menu-text"><i class="fa-solid fa-blog" aria-label="blog"></i> Blog</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
@@ -192,7 +196,7 @@ cookieconsent.run({
 <p>Ményssa Cherifa-Luron</p>
 <p>11 rue antonio vivaldi</p>
 <p>31300 Toulouse</p>
-<p>cmenyssa@live.fr</p>
+<p>damaestla@gmail.com</p>
 <section id="hébergement" class="level2">
 <h2 class="anchored" data-anchor-id="hébergement">Hébergement</h2>
 <p>GitHub Pages (https://pages.github.com/)</p>
@@ -218,7 +222,7 @@ cookieconsent.run({
 <section id="utilisation-des-données-personnelles" class="level2">
 <h2 class="anchored" data-anchor-id="utilisation-des-données-personnelles">Utilisation des données personnelles</h2>
 <p>Ményssa Cherifa-Luron collecte des informations pour identifier vos besoins et vous proposer un meilleur service. Les éléments de statistique nous permettent de mieux comprendre comment les visiteurs interagissent avec notre site.</p>
-<p>En application de la loi n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, vous disposez d’un droit d’accès, de rectification ou de suppression des données vous concernant. Toute demande en ce sens devra être adressée à : Ményssa Cherifa-Luron, 11 rue antonio vivaldi, 31300 Toulouse, cmenyssa@live.fr. En tout état de cause, la confidentialité des informations relatives aux visiteurs de ce site sera préservée.</p>
+<p>En application de la loi n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, vous disposez d’un droit d’accès, de rectification ou de suppression des données vous concernant. Toute demande en ce sens devra être adressée à : Ményssa Cherifa-Luron, 11 rue antonio vivaldi, 31300 Toulouse, damaestla@gmail.com. En tout état de cause, la confidentialité des informations relatives aux visiteurs de ce site sera préservée.</p>
 
 
 </section>
@@ -305,7 +309,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/universdesdonnees\.github\.io\/poo_en_python\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

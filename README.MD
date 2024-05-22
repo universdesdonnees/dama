@@ -52,7 +52,7 @@ Des exercices pratiques, des exemples de code et d'autres ressources complément
 Pour toute question ou suggestion, vous pouvez me contacter via :
 
 - [LinkedIn](https://www.linkedin.com/in/menyssacherifa/) 
-- [Mail](cmenyssa@live.fr)
+- [Mail](damaestla@gmail.com)
 
 ## Licence
 

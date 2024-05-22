@@ -121,7 +121,7 @@ cookieconsent.run({
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text"><i class="fa-solid fa-home" aria-label="home"></i> Accueil</span></a>
@@ -131,8 +131,12 @@ cookieconsent.run({
 <span class="menu-text"><i class="fa-solid fa-chalkboard-user" aria-label="chalkboard-user"></i> Cours</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./coding_session.html"> 
-<span class="menu-text"><i class="fa-solid fa-code" aria-label="code"></i> Coding Session</span></a>
+    <a class="nav-link" href="./coding_session_entreprise.html"> 
+<span class="menu-text"><i class="fa-solid fa-code" aria-label="code"></i> Formation</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./blog/index.html"> 
+<span class="menu-text"><i class="fa-solid fa-blog" aria-label="blog"></i> Blog</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
@@ -269,7 +273,7 @@ cookieconsent.run({
 <p>Pour toute question ou suggestion, vous pouvez me contacter via :</p>
 <ul>
 <li><a href="https://www.linkedin.com/in/menyssacherifa/">LinkedIn</a></li>
-<li><a href="cmenyssa@live.fr">Mail</a></li>
+<li><a href="damaestla@gmail.com">Mail</a></li>
 </ul>
 </section>
 <section id="licence" class="level2">
@@ -364,7 +368,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/universdesdonnees\.github\.io\/poo_en_python\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

@@ -22,7 +22,7 @@ page-layout: full
 ```
 
 ## {{< fa database >}} La data science sur-mesure, adaptée à vos enjeux business 
-Fini les formations génériques qui ne répondent pas à vos besoins spécifiques. Il est temps de passer à la vitesse supérieure avec des formations 100% personnalisées. 
+Fini les formations génériques qui ne répondent pas à vos besoins spécifiques. **Il est temps de passer à la vitesse supérieure avec des formations 100% personnalisées.**
 
 Imaginez vos équipes dans quelques mois :
 
@@ -69,12 +69,13 @@ En 4 étapes, vos équipes seront sur le chemin de la réussite !
 Je crois en la valeur de mon expertise et je veux la mettre au service de votre réussite. Parlons de vos besoins et voyons comment je peux y répondre !
 
 <div style="text-align: center">
-  <a href="mailto:cmenyssa@live.fr">
-    <button class="button-61">Contactez-moi ! 🚀</button>
+  <a href="https://tally.so/r/3jBj4Q">
+    <button class="button-61">Passer à l'action! 🚀</button>
   </a>
 </div>
 
-Vous avez encore des questions ? Vous voulez en savoir plus sur mon approche ? Écrivez-moi à [cmenyssa@live.fr](mailto:cmenyssa@live.fr), je me ferai un plaisir de vous répondre !
+Vous avez encore des questions ? Vous voulez en savoir plus sur mon approche ? Écrivez-moi à [damaestla@gmail.com
+](damaestla@gmail.com), je me ferai un plaisir de vous répondre !
 
 -----------------
 
