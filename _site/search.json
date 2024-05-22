@@ -655,7 +655,7 @@
     "href": "blog/article_template.html",
     "title": "Super Titre",
     "section": "",
-    "text": "Une note :)"
+    "text": "Pour rédiger l’article vous pouvez utiliser toute la syntaxe markdown"
   },
   {
     "objectID": "blog/article_template.html#un-paragraphe",
@@ -663,5 +663,12 @@
     "title": "Super Titre",
     "section": "un paragraphe",
     "text": "un paragraphe"
+  },
+  {
+    "objectID": "blog/article_template.html#deux-paragraphe",
+    "href": "blog/article_template.html#deux-paragraphe",
+    "title": "Super Titre",
+    "section": "deux paragraphe",
+    "text": "deux paragraphe\n\nsous paragraphe\n\nsous-sous paragraphe\n\nPlus d’article ici\n\n\n\n\n\nA propos des auteurs\n\nAuteur1 est …\n\n\nAuteur2 est … :…\n\n\n\n\n\nCopyright and licence\n\n© année, Auteur\n\n\n  Cet article est sous licence Creative Commons Attribution 4.0 (CC BY 4.0)  International licence.\n\n\n\nCiter cet article :\n\nAuteur1, Auteur2 et al 2024. “Titre” DAMA, date. URL"
   }
 ]

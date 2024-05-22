@@ -17,6 +17,8 @@ title-block-banner-color: "black"
 image-alt: etblabla
 ---
 
+Pour rédiger l'article vous pouvez utiliser toute la syntaxe [markdown](https://quarto.org/docs/authoring/markdown-basics.html)
+
 ::: {.callout-note appearance="simple" collapse="true"}
 ## Une note :)
 
@@ -24,3 +26,37 @@ image-alt: etblabla
 
 ## un paragraphe
 
+## deux paragraphe
+
+### sous paragraphe
+
+#### sous-sous paragraphe
+
+
+::: {.article-btn}
+[Plus d'article ici](index.qmd)
+:::
+
+::: {.further-info}
+::: grid
+::: {.g-col-12 .g-col-md-12}
+A propos des auteurs
+: **Auteur1** est ...
+: **Auteur2** est ...
+:...
+
+:::
+
+::: {.g-col-12 .g-col-md-6}
+Copyright and licence
+: &copy; année, Auteur
+
+<a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> Cet article est sous licence Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>. 
+:::
+
+::: {.g-col-12 .g-col-md-6}
+Citer cet article :
+: Auteur1, Auteur2 et al 2024. "Titre" DAMA, date. [URL]()
+:::
+:::
+:::
