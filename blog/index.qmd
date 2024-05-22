@@ -15,7 +15,7 @@ listing:
 ## {{< fa handshake-simple >}} Collaboration 
 Tu es déjà expert.e et tu souhaites rédiger un article ou créer un cours ? Tu adhères à l'esprit *Open Learning Source* ?
 
-C'est avec plaisir, parce que j'aime les featurings ! Si ça te dit envoie moi un petit [mail](damaestla@gmail.com) ou contacte moi directement sur [LinkedIn](https://www.linkedin.com/in/menyssacherifaluron/) et commence à rédiger avec les templates [articles](https://github.com/universdesdonnees/dama/blob/master/blog/article_template.qmd) et [cours](https://github.com/universdesdonnees/dama/blob/master/cours/cours_template.qmd).
+C'est avec plaisir, parce que j'aime les featurings ! Si ça te dit envoie moi un petit à damaestla@gmail.com ou contacte moi directement sur [LinkedIn](https://www.linkedin.com/in/menyssacherifaluron/) et commence à rédiger avec les templates [articles](https://github.com/universdesdonnees/dama/blob/master/blog/article_template.qmd) et [cours](https://github.com/universdesdonnees/dama/blob/master/cours/cours_template.qmd).
 
 :::
 -----------------

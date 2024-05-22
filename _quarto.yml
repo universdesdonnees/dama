@@ -41,9 +41,9 @@ website:
       - icon: github
         menu:
           - text: Code source
-            href: https://github.com/universdesdonnees/poo_en_python
+            href: https://github.com/universdesdonnees/dama
           - text: Signaler un bug
-            href: https://github.com/universdesdonnees/poo_en_python/issues
+            href: https://github.com/universdesdonnees/dama/issues
   search: 
     location: navbar
     type: textbox
@@ -52,7 +52,7 @@ website:
       4.0)](https://creativecommons.org/licenses/by-nc/4.0/)'
     center: '[Mentions Légales](mentions_legales.qmd)'
     right: 'Fait avec {{< fa brands python >}} et [Quarto](https://quarto.org/)<br> 
-    [Voir sur {{< fa brands github >}} GitHub](https://github.com/universdesdonnees/poo_en_python)'
+    [Voir sur {{< fa brands github >}} GitHub](https://github.com/universdesdonnees/dama)'
     background: "#F5F5F5"
 
 format:

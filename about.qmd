@@ -26,6 +26,6 @@ toc: false
 
 ## {{< fa comments >}} Me contacter
 
-| {{< fa envelope >}}  [Email](damaestla@gmail.com) | {{< fa brands github >}}  [GitHub]((https://github.com/universdesdonnees) ) | {{< fa brands linkedin >}} [LinkedIn](https://www.linkedin.com/in/menyssacherifaluron/) |
+| {{< fa envelope >}}  Email : damaestla@gmail.com | {{< fa brands github >}}  [GitHub]((https://github.com/universdesdonnees) ) | {{< fa brands linkedin >}} [LinkedIn](https://www.linkedin.com/in/menyssacherifaluron/) |
 
 

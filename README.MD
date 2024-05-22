@@ -1,43 +1,6 @@
 | ![Logo POO](https://github.com/universdesdonnees/dama/blob/master/images/dama_logo.png?raw=true) | **Bienvenue sur mon site dédié à la programmation orientée objet (POO).**<br>Ce site vise à fournir des ressources complètes pour maîtriser les concepts et la mise en œuvre de la POO dans différents langages de programmation. |
 | --- | --- |
 
-## 👉 Parcourir les Leçons  : [Site](https://universdesdonnees.github.io/poo_en_python/) 👈
-
-1. ✨**Introduction à la POO** :  
-- Qu'est-ce que la POO ? 
-  
-- Avantages de la POO   
-
-- Principaux concepts (classes, objets, héritage, etc.) :
-
-2. ✨**Implémentation** :  Python   
-
-3. ✨**Conception orientée objet**  
-
-- Principes de conception (SOLID, etc.) 
-
-- Modélisation UML  
-
-- Patrons de conception
-
-4. ✨**Bonnes pratiques et cas d'utilisation** :  
-- Programmation orientée objet dans les projets   
-- Développement de logiciels d'entreprise   
-- Exemples de code et exercices
-
-## Pré-requis
-
-### Connaissances requises
-
-- Concepts de base de la programmation (variables, structures de contrôle, etc.)
-- Connaissance d'au moins un langage de programmation
-
-### Outils recommandés
-
-- Un environnement de développement intégré (IDE) adapté au(x) langage(s) étudié(s)
-- Accès à Internet pour les ressources en ligne
-
-## Ressources complémentaires
 
 Des exercices pratiques, des exemples de code et d'autres ressources complémentaires seront fournis pour chaque leçon afin de renforcer l'apprentissage.
 
@@ -52,7 +15,7 @@ Des exercices pratiques, des exemples de code et d'autres ressources complément
 Pour toute question ou suggestion, vous pouvez me contacter via :
 
 - [LinkedIn](https://www.linkedin.com/in/menyssacherifa/) 
-- [Mail](damaestla@gmail.com)
+- Mail : damaestla@gmail.com
 
 ## Licence
 
