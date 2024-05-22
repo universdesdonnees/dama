@@ -32,7 +32,6 @@ Pour rédiger l'article vous pouvez utiliser toute la syntaxe [markdown](https:/
 
 #### sous-sous paragraphe
 
-
 ::: {.article-btn}
 [Plus d'article ici](index.qmd)
 :::

@@ -29,8 +29,6 @@ website:
         text: "{{< fa home >}} Accueil"
       - href: cours/index.qmd
         text: "{{< fa chalkboard-user >}} Cours"
-      - text: "{{< fa code >}} Formation"
-        href: coding_session_entreprise.qmd 
       - text: "{{< fa blog >}} Blog"
         href:  blog/index.qmd   
       - href: about.qmd

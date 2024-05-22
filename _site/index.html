@@ -245,7 +245,7 @@ cookieconsent.run({
 <h2 class="anchored" data-anchor-id="collaboration"><i class="fa-solid fa-handshake-simple" aria-label="handshake-simple"></i> Collaboration</h2>
 <p>Tu es déjà expert et tu souhaites rédiger un article et/ou créer un cours ?</p>
 <p>Tu adhères à l’esprit <em>Open Learning Source</em> ?</p>
-<p>C’est avec plaisir, parce que j’aime les featurings ! Par contre ici, on veut du simple et de l’accessible. Alors si ça te dit envoie moi un petit mail à : damaestla@gmail.com ou contacte moi directement sur <a href="https://www.linkedin.com/in/menyssacherifaluron/">LinkedIn</a></p>
+<p>C’est avec plaisir, parce que j’aime les featurings ! Si ça te dit envoie moi un petit mail à damaestla@gmail.com ou contacte moi directement sur <a href="https://www.linkedin.com/in/menyssacherifaluron/">LinkedIn</a> et commence à rédiger avec les templates <a href="https://github.com/universdesdonnees/dama/blob/master/blog/article_template.qmd">articles</a> et <a href="https://github.com/universdesdonnees/dama/blob/master/cours/cours_template.qmd">cours</a>.</p>
 
 
 </section>
@@ -332,7 +332,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/universdesdonnees\.github\.io\/poo_en_python\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Data Avec Ményssa</title>
+<link>https://universdesdonnees.github.io/poo_en_python/blog/</link>
+<atom:link href="https://universdesdonnees.github.io/poo_en_python/blog/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.4.554</generator>
+<lastBuildDate>Wed, 15 Nov 2023 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Super Titre</title>
+  <dc:creator>Ményssa </dc:creator>
+  <link>https://universdesdonnees.github.io/poo_en_python/blog/article_template.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Pour rédiger l’article vous pouvez utiliser toute la syntaxe <a href="https://quarto.org/docs/authoring/markdown-basics.html">markdown</a></p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Une note :)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+</div>
+<section id="un-paragraphe" class="level2">
+<h2 class="anchored" data-anchor-id="un-paragraphe">un paragraphe</h2>
+</section>
+<section id="deux-paragraphe" class="level2">
+<h2 class="anchored" data-anchor-id="deux-paragraphe">deux paragraphe</h2>
+<section id="sous-paragraphe" class="level3">
+<h3 class="anchored" data-anchor-id="sous-paragraphe">sous paragraphe</h3>
+<section id="sous-sous-paragraphe" class="level4">
+<h4 class="anchored" data-anchor-id="sous-sous-paragraphe">sous-sous paragraphe</h4>
+<div class="article-btn">
+<p><a href="../blog/index.html">Plus d’article ici</a></p>
+</div>
+<div class="further-info">
+<div class="grid">
+<div class="g-col-12 g-col-md-12">
+<dl>
+<dt>A propos des auteurs</dt>
+<dd>
+<strong>Auteur1</strong> est …
+</dd>
+<dd>
+<strong>Auteur2</strong> est … :…
+</dd>
+</dl>
+</div>
+<div class="g-col-12 g-col-md-6">
+<dl>
+<dt>Copyright and licence</dt>
+<dd>
+© année, Auteur
+</dd>
+</dl>
+<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> Cet article est sous licence Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>.</p>
+</div>
+<div class="g-col-12 g-col-md-6">
+<dl>
+<dt>Citer cet article :</dt>
+<dd>
+Auteur1, Auteur2 et al 2024. “Titre” DAMA, date. <a href="">URL</a>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+
+
+</section>
+</section>
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>data</category>
+  <category>R</category>
+  <category>Data quality</category>
+  <category>Data analysis</category>
+  <category>Monitoring</category>
+  <guid>https://universdesdonnees.github.io/poo_en_python/blog/article_template.html</guid>
+  <pubDate>Wed, 15 Nov 2023 23:00:00 GMT</pubDate>
+  <media:content url="https://universdesdonnees.github.io/poo_en_python/blog" medium="image"/>
+</item>
+</channel>
+</rss>
