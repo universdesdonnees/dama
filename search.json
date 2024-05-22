@@ -4,28 +4,7 @@
     "href": "README.html",
     "title": "Data Avec Ményssa",
     "section": "",
-    "text": "Bienvenue sur mon site dédié à la programmation orientée objet (POO).Ce site vise à fournir des ressources complètes pour maîtriser les concepts et la mise en œuvre de la POO dans différents langages de programmation."
-  },
-  {
-    "objectID": "README.html#parcourir-les-leçons-site",
-    "href": "README.html#parcourir-les-leçons-site",
-    "title": "Data Avec Ményssa",
-    "section": "👉 Parcourir les Leçons : Site 👈",
-    "text": "👉 Parcourir les Leçons : Site 👈\n\n✨Introduction à la POO :\n\n\n\nQu’est-ce que la POO ?\nAvantages de la POO\nPrincipaux concepts (classes, objets, héritage, etc.) :\n\n\n✨Implémentation : Python\n✨Conception orientée objet\n\n\nPrincipes de conception (SOLID, etc.)\nModélisation UML\nPatrons de conception\n\n\n✨Bonnes pratiques et cas d’utilisation :\n\n\n\nProgrammation orientée objet dans les projets\n\nDéveloppement de logiciels d’entreprise\n\nExemples de code et exercices"
-  },
-  {
-    "objectID": "README.html#pré-requis",
-    "href": "README.html#pré-requis",
-    "title": "Data Avec Ményssa",
-    "section": "Pré-requis",
-    "text": "Pré-requis\n\nConnaissances requises\n\nConcepts de base de la programmation (variables, structures de contrôle, etc.)\nConnaissance d’au moins un langage de programmation\n\n\n\nOutils recommandés\n\nUn environnement de développement intégré (IDE) adapté au(x) langage(s) étudié(s)\nAccès à Internet pour les ressources en ligne"
-  },
-  {
-    "objectID": "README.html#ressources-complémentaires",
-    "href": "README.html#ressources-complémentaires",
-    "title": "Data Avec Ményssa",
-    "section": "Ressources complémentaires",
-    "text": "Ressources complémentaires\nDes exercices pratiques, des exemples de code et d’autres ressources complémentaires seront fournis pour chaque leçon afin de renforcer l’apprentissage."
+    "text": "Bienvenue sur mon site dédié à la programmation orientée objet (POO).Ce site vise à fournir des ressources complètes pour maîtriser les concepts et la mise en œuvre de la POO dans différents langages de programmation.\nDes exercices pratiques, des exemples de code et d’autres ressources complémentaires seront fournis pour chaque leçon afin de renforcer l’apprentissage."
   },
   {
     "objectID": "README.html#comment-utiliser-ce-site",
@@ -39,7 +18,7 @@
     "href": "README.html#contact",
     "title": "Data Avec Ményssa",
     "section": "Contact",
-    "text": "Contact\nPour toute question ou suggestion, vous pouvez me contacter via :\n\nLinkedIn\nMail"
+    "text": "Contact\nPour toute question ou suggestion, vous pouvez me contacter via :\n\nLinkedIn\nMail : damaestla@gmail.com"
   },
   {
     "objectID": "README.html#licence",
@@ -109,7 +88,7 @@
     "href": "cours/python_poo.html#méthodes",
     "title": "Gentle introduction à la POO en Python",
     "section": "6. Méthodes",
-    "text": "6. Méthodes\nLes méthodes, c’est ce qui permet à tes objets d’agir, d’interagir et de se démarquer.\nUne méthode peut être :\n\nUn flow “getter” pour récupérer des infos (get_punchline())\nUn flow “setter” pour modifier l’état (set_style(new_style))\nUn flow “calculateur” pour traiter des données (calculer_nb_albums())\nOu même un flow “abstract” pour définir un comportement général (rapper())\n\nLes méthodes, c’est aussi ce qui permet à tes objets de communiquer entre eux. Un peu comme des featuring entre rappeurs !\n\n# Importation du module random\nimport random\n\n# Définition de la classe Rappeur\nclass Rappeur:\n    # Constructeur de la classe avec les attributs nécessaires pour définir un rappeur\n    def __init__(self, nom, flow, nb_albums, featurings, punchlines):\n        self.nom = nom              \n        self.flow = flow            \n        self.nb_albums = nb_albums  \n        self.featurings = featurings  \n        self.punchlines = punchlines  # Liste des punchlines célèbres du rappeur\n    \n    # Méthode pour afficher une punchline au hasard\n    def balancer_punchline(self):\n        # Utilisation de random.choice pour sélectionner et afficher une punchline aléatoire de la liste\n        print(f\"{self.nom} balance : {random.choice(self.punchlines)}\")\n\n# Création d'une instance Booba\nbooba = Rappeur(nom=\"Booba\", \n                flow=\"Agressif et technique\",                \n                nb_albums=10,\n                featurings=[\"Kaaris\", \"Damso\", \"Gato\"],\n                punchlines=[\"92i\", \"Pitbull\", \"Kalash\"])\n\n# Appel de la méthode balancer_punchline pour afficher une punchline de Booba tirée au hasard\nbooba.balancer_punchline()\n\nBooba balance : 92i\n\n\nMaintenant allons un peu plus long et imaginons un clash entre rappeurs (hihihi!)\n\nimport random  # Importation nécessaire pour utiliser random.choice\n\nclass Rappeur:\n    def __init__(self, nom, flow, nb_albums, featurings, punchlines):\n        self.nom = nom  \n        self.flow = flow  \n        self.nb_albums = nb_albums  \n        self.featurings = featurings  \n        self.punchlines = punchlines  \n\n\n    def balancer_punchline(self):\n        print(f\"{self.nom} balance : {random.choice(self.punchlines)}\")\n\n    # Méthode permettant à un rappeur de clasher un autre rappeur \n    # en utilisant la première punchline de sa liste\n    def clasher(self, autre_rappeur):\n        print(f\"{self.nom} clash {autre_rappeur.nom} : {self.punchlines[0]}\")\n        \n    # Méthode permettant à un rappeur de répondre à un \n    # clash avec une punchline spécifique\n    def repondre(self, autre_rappeur, punchline):\n        print(f\"{self.nom} répond à {autre_rappeur.nom} : {punchline}\")\n\n# Création des instances pour Booba et Kaaris\nbooba = Rappeur(nom=\"Booba\", \n                flow=\"Agressif et technique\",                \n                nb_albums=10,\n                featurings=[\"Kaaris\", \"Damso\", \"Gato\"],\n                punchlines=[\"T'es qu'un fils de...\", \"J'vais t'faire une Kalash en live\"])        \n\nkaaris = Rappeur(nom=\"Kaaris\",\n                 flow=\"Aggressif et sombre\",\n                 nb_albums=8,\n                 featurings=[\"Gazo\", \"Kalash Criminel\", \"Hamza\"],\n                 punchlines=[\"J'vais t'faire danser la Zumba\", \"T'es même pas un vrai MC\"])\n\n# Simulation d'un clash entre Booba et Kaaris\nbooba.clasher(kaaris)\nkaaris.repondre(booba, \"T'es qu'un tocard !\")\nbooba.repondre(kaaris, \"TG ! J'suis le DUC !\")\n\nBooba clash Kaaris : T'es qu'un fils de...\nKaaris répond à Booba : T'es qu'un tocard !\nBooba répond à Kaaris : TG ! J'suis le DUC !\n\n\nLa puissance des attributs et des méthodes résident dans l’intéraction de tes objets de manière intuitive et stylée.\n\n\n\n\n\n\nÀ Retenir\n\n\n\n\n\nles attributs et méthodes c’est ce qui donne vie à tes objets et leur permet de briller sur la scène de ton programme !\nAlors pour créer des méthodes qui claquent, suis ces tips :\n\n\nDonne-leur un nom explicite qui décrit bien leur rôle\n\n\nUtilise le self pour accéder aux attributs et autres méthodes de l’objet\n\n\nSépare bien les responsabilités : une méthode = une tâche précise\n\n\nDocumente-les avec des docstrings pour expliquer ce qu’elles font\n\n\nLa PEP 8 est ton ami !\n\n\n\n\n\n\n\n\n\n\n\nFocus : PEP8 et Annotation de type\n\n\n\nVoici la même classe avec le code PEP 8 friendly et les annotations de type\n\nfrom typing import List # annoter les attributs featurings et punchlines.\nimport random\nclass Rappeur:\n    \"\"\"Classe définissant un rappeur caractérisé par son nom, style de flow, nombre \n    d'albums, collaborations et punchlines.\n    \"\"\"\n    def __init__(self, nom: str, flow: str, nb_albums: int, featurings: List[str], \n                 punchlines: List[str]):\n        self.nom: str = nom\n        self.flow: str = flow\n        self.nb_albums: int = nb_albums\n        self.featurings: List[str] = featurings\n        self.punchlines: List[str] = punchlines\n\n    def balancer_punchline(self) -&gt; None:\n        \"\"\"Affiche une punchline aléatoire du rappeur.\"\"\"\n        punchline: str = random.choice(self.punchlines)\n        print(f\"{self.nom} balance : {punchline}\")\n\n    def clasher(self, autre_rappeur: 'Rappeur') -&gt; None:\n        \"\"\"Permet au rappeur de clasher un autre rappeur en utilisant la première \n        punchline de sa liste.\n        \"\"\"\n        print(f\"{self.nom} clash {autre_rappeur.nom} : {self.punchlines[0]}\")\n        \n    def repondre(self, autre_rappeur: 'Rappeur', punchline: str) -&gt; None:\n        \"\"\"Permet au rappeur de répondre à un clash avec une punchline spécifique.\"\"\"\n        print(f\"{self.nom} répond à {autre_rappeur.nom} : {punchline}\")\n\n# Création d'instances pour Booba et Kaaris avec typage explicite\nbooba = Rappeur(\n    nom=\"Booba\", \n    flow=\"Agressif et technique\",                \n    nb_albums=10,\n    featurings=[\"Kaaris\", \"Damso\", \"Gato\"],\n    punchlines=[\"T'es qu'un fils de...\", \"J'vais t'faire une Kalash en live\"]\n)        \n\nkaaris = Rappeur(\n    nom=\"Kaaris\",\n    flow=\"Aggressif et sombre\",\n    nb_albums=8,\n    featurings=[\"Gazo\", \"Kalash Criminel\", \"Hamza\"],\n    punchlines=[\"J'vais t'faire danser la Zumba\", \"T'es même pas un vrai MC\"]\n)\n\n# Simulation d'un clash et réponses entre Booba et Kaaris\nbooba.clasher(kaaris)\nkaaris.repondre(booba, \"T'es qu'un tocard !\")\nbooba.repondre(kaaris, \"TG ! J'suis le DUC !\")\n\nBooba clash Kaaris : T'es qu'un fils de...\nKaaris répond à Booba : T'es qu'un tocard !\nBooba répond à Kaaris : TG ! J'suis le DUC !"
+    "text": "6. Méthodes\nLes méthodes, c’est ce qui permet à tes objets d’agir, d’interagir et de se démarquer.\nUne méthode peut être :\n\nUn flow “getter” pour récupérer des infos (get_punchline())\nUn flow “setter” pour modifier l’état (set_style(new_style))\nUn flow “calculateur” pour traiter des données (calculer_nb_albums())\nOu même un flow “abstract” pour définir un comportement général (rapper())\n\nLes méthodes, c’est aussi ce qui permet à tes objets de communiquer entre eux. Un peu comme des featuring entre rappeurs !\n\n# Importation du module random\nimport random\n\n# Définition de la classe Rappeur\nclass Rappeur:\n    # Constructeur de la classe avec les attributs nécessaires pour définir un rappeur\n    def __init__(self, nom, flow, nb_albums, featurings, punchlines):\n        self.nom = nom              \n        self.flow = flow            \n        self.nb_albums = nb_albums  \n        self.featurings = featurings  \n        self.punchlines = punchlines  # Liste des punchlines célèbres du rappeur\n    \n    # Méthode pour afficher une punchline au hasard\n    def balancer_punchline(self):\n        # Utilisation de random.choice pour sélectionner et afficher une punchline aléatoire de la liste\n        print(f\"{self.nom} balance : {random.choice(self.punchlines)}\")\n\n# Création d'une instance Booba\nbooba = Rappeur(nom=\"Booba\", \n                flow=\"Agressif et technique\",                \n                nb_albums=10,\n                featurings=[\"Kaaris\", \"Damso\", \"Gato\"],\n                punchlines=[\"92i\", \"Pitbull\", \"Kalash\"])\n\n# Appel de la méthode balancer_punchline pour afficher une punchline de Booba tirée au hasard\nbooba.balancer_punchline()\n\nBooba balance : Pitbull\n\n\nMaintenant allons un peu plus long et imaginons un clash entre rappeurs (hihihi!)\n\nimport random  # Importation nécessaire pour utiliser random.choice\n\nclass Rappeur:\n    def __init__(self, nom, flow, nb_albums, featurings, punchlines):\n        self.nom = nom  \n        self.flow = flow  \n        self.nb_albums = nb_albums  \n        self.featurings = featurings  \n        self.punchlines = punchlines  \n\n\n    def balancer_punchline(self):\n        print(f\"{self.nom} balance : {random.choice(self.punchlines)}\")\n\n    # Méthode permettant à un rappeur de clasher un autre rappeur \n    # en utilisant la première punchline de sa liste\n    def clasher(self, autre_rappeur):\n        print(f\"{self.nom} clash {autre_rappeur.nom} : {self.punchlines[0]}\")\n        \n    # Méthode permettant à un rappeur de répondre à un \n    # clash avec une punchline spécifique\n    def repondre(self, autre_rappeur, punchline):\n        print(f\"{self.nom} répond à {autre_rappeur.nom} : {punchline}\")\n\n# Création des instances pour Booba et Kaaris\nbooba = Rappeur(nom=\"Booba\", \n                flow=\"Agressif et technique\",                \n                nb_albums=10,\n                featurings=[\"Kaaris\", \"Damso\", \"Gato\"],\n                punchlines=[\"T'es qu'un fils de...\", \"J'vais t'faire une Kalash en live\"])        \n\nkaaris = Rappeur(nom=\"Kaaris\",\n                 flow=\"Aggressif et sombre\",\n                 nb_albums=8,\n                 featurings=[\"Gazo\", \"Kalash Criminel\", \"Hamza\"],\n                 punchlines=[\"J'vais t'faire danser la Zumba\", \"T'es même pas un vrai MC\"])\n\n# Simulation d'un clash entre Booba et Kaaris\nbooba.clasher(kaaris)\nkaaris.repondre(booba, \"T'es qu'un tocard !\")\nbooba.repondre(kaaris, \"TG ! J'suis le DUC !\")\n\nBooba clash Kaaris : T'es qu'un fils de...\nKaaris répond à Booba : T'es qu'un tocard !\nBooba répond à Kaaris : TG ! J'suis le DUC !\n\n\nLa puissance des attributs et des méthodes résident dans l’intéraction de tes objets de manière intuitive et stylée.\n\n\n\n\n\n\nÀ Retenir\n\n\n\n\n\nles attributs et méthodes c’est ce qui donne vie à tes objets et leur permet de briller sur la scène de ton programme !\nAlors pour créer des méthodes qui claquent, suis ces tips :\n\n\nDonne-leur un nom explicite qui décrit bien leur rôle\n\n\nUtilise le self pour accéder aux attributs et autres méthodes de l’objet\n\n\nSépare bien les responsabilités : une méthode = une tâche précise\n\n\nDocumente-les avec des docstrings pour expliquer ce qu’elles font\n\n\nLa PEP 8 est ton ami !\n\n\n\n\n\n\n\n\n\n\n\nFocus : PEP8 et Annotation de type\n\n\n\nVoici la même classe avec le code PEP 8 friendly et les annotations de type\n\nfrom typing import List # annoter les attributs featurings et punchlines.\nimport random\nclass Rappeur:\n    \"\"\"Classe définissant un rappeur caractérisé par son nom, style de flow, nombre \n    d'albums, collaborations et punchlines.\n    \"\"\"\n    def __init__(self, nom: str, flow: str, nb_albums: int, featurings: List[str], \n                 punchlines: List[str]):\n        self.nom: str = nom\n        self.flow: str = flow\n        self.nb_albums: int = nb_albums\n        self.featurings: List[str] = featurings\n        self.punchlines: List[str] = punchlines\n\n    def balancer_punchline(self) -&gt; None:\n        \"\"\"Affiche une punchline aléatoire du rappeur.\"\"\"\n        punchline: str = random.choice(self.punchlines)\n        print(f\"{self.nom} balance : {punchline}\")\n\n    def clasher(self, autre_rappeur: 'Rappeur') -&gt; None:\n        \"\"\"Permet au rappeur de clasher un autre rappeur en utilisant la première \n        punchline de sa liste.\n        \"\"\"\n        print(f\"{self.nom} clash {autre_rappeur.nom} : {self.punchlines[0]}\")\n        \n    def repondre(self, autre_rappeur: 'Rappeur', punchline: str) -&gt; None:\n        \"\"\"Permet au rappeur de répondre à un clash avec une punchline spécifique.\"\"\"\n        print(f\"{self.nom} répond à {autre_rappeur.nom} : {punchline}\")\n\n# Création d'instances pour Booba et Kaaris avec typage explicite\nbooba = Rappeur(\n    nom=\"Booba\", \n    flow=\"Agressif et technique\",                \n    nb_albums=10,\n    featurings=[\"Kaaris\", \"Damso\", \"Gato\"],\n    punchlines=[\"T'es qu'un fils de...\", \"J'vais t'faire une Kalash en live\"]\n)        \n\nkaaris = Rappeur(\n    nom=\"Kaaris\",\n    flow=\"Aggressif et sombre\",\n    nb_albums=8,\n    featurings=[\"Gazo\", \"Kalash Criminel\", \"Hamza\"],\n    punchlines=[\"J'vais t'faire danser la Zumba\", \"T'es même pas un vrai MC\"]\n)\n\n# Simulation d'un clash et réponses entre Booba et Kaaris\nbooba.clasher(kaaris)\nkaaris.repondre(booba, \"T'es qu'un tocard !\")\nbooba.repondre(kaaris, \"TG ! J'suis le DUC !\")\n\nBooba clash Kaaris : T'es qu'un fils de...\nKaaris répond à Booba : T'es qu'un tocard !\nBooba répond à Kaaris : TG ! J'suis le DUC !"
   },
   {
     "objectID": "cours/python_poo.html#modifier-les-attributs",
@@ -147,18 +126,67 @@
     "text": "Cours disponibles\n  \n  \n    Des coding sessions sur mesure, parce que tu es unique et que\n  \n\n\n  \n    \n      \n        \n\n        \n          UI/Web&Graph design for teenagers 11-17 years old\n        \n\n        \n          Start:\n          \n            04.11.2022\n          \n        \n      \n    \n\n    \n      \n        \n\n        \n          UX/UI Web-Design + Mobile Design\n        \n\n        \n          Start:\n          \n            04.11.2022\n          \n        \n      \n    \n\n    \n      \n        \n\n        \n          Annual package \"Product+UX/UI+Graph designer 2022\"\n        \n\n        \n          Start:\n          \n            04.11.2022\n          \n        \n      \n    \n\n    \n      \n        \n\n        \n          Graphic Design\n        \n\n        \n          Start:\n          \n            04.11.2022\n          \n        \n      \n    \n\n    \n      \n        \n\n        \n          Motion Design\n        \n\n        \n          Start:\n          \n            30.11.2022\n          \n        \n      \n    \n\n    \n      \n        \n\n        \n          Front-end development + jQuery + CMS\n        \n      \n    \n\n    \n      \n        \n        \n        \n          Digital Marketing\n        \n      \n    \n\n    \n      \n        \n\n        \n          Interior Design\n        \n\n        \n          Start:\n          \n            31.10.2022\n          \n        \n      \n    \n\n  \n\n\n\n\n\n\n\n\n📢 Les modules\n\n\n\n\n\n\nPour le moment 4 modules sont prévus pour ce cours.\nLes corrections se feront au fur et à mesure\nLa prise de RDV est possible sur la page À Propos\n\n\n\n\n\n💻 Modules\n\nModule 0\nIntroduction à Python - Rappels essentiels\n⛔ Cours\n⛔ Exercices\n⛔ Corrections\n\n\n  \n    Commencer le cours ! 🚀\n  \n\n\n\n\nModule 1\nPOO 1. Contexte et notions élémentaires\n✅ Cours\n✅ Exercices\n⛔ Corrections\n\n\n  \n    Commencer le cours ! 🚀\n  \n\n\n\n\nModule 2\nPOO 2.\n⛔ Cours\n⛔ Exercices\n⛔ Corrections\n\n\n  \n    Commencer le cours ! 🚀\n  \n\n\n\n\nModule 3\nPOO 3.\n⛔ Cours\n⛔ Exercices\n⛔ Corrections\n\n\n  \n    Commencer le cours ! 🚀\n  \n\n\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "articles/article_template.html",
-    "href": "articles/article_template.html",
-    "title": "Super Titre",
+    "objectID": "coding_session_entreprise.html",
+    "href": "coding_session_entreprise.html",
+    "title": "\n    Avec DAMA, cap sur l'autonomie de vos équipes",
     "section": "",
-    "text": "Une note :)"
+    "text": "Des formations data science sur mesure, parce que chaque entreprise est unique"
   },
   {
-    "objectID": "articles/article_template.html#un-paragraphe",
-    "href": "articles/article_template.html#un-paragraphe",
+    "objectID": "coding_session_entreprise.html#la-data-science-sur-mesure-adaptée-à-vos-enjeux-business",
+    "href": "coding_session_entreprise.html#la-data-science-sur-mesure-adaptée-à-vos-enjeux-business",
+    "title": "\n    Avec DAMA, cap sur l'autonomie de vos équipes",
+    "section": " La data science sur-mesure, adaptée à vos enjeux business",
+    "text": "La data science sur-mesure, adaptée à vos enjeux business\nFini les formations génériques qui ne répondent pas à vos besoins spécifiques. Il est temps de passer à la vitesse supérieure avec des formations 100% personnalisées.\nImaginez vos équipes dans quelques mois :\n\nMaîtrisant les langages de programmation les plus demandés en data science\nApprivoisant les algorithmes de machine learning les plus puissants\nBoostant leur employabilité et leur valeur sur le marché\nDevenant les experts en data science dont votre entreprise a besoin\n\nÇa en jette, pas vrai ? Et si je vous disais que c’est possible… à condition d’avoir la bonne feuille de route ?"
+  },
+  {
+    "objectID": "coding_session_entreprise.html#pourquoi-mes-formations-sont-différentes",
+    "href": "coding_session_entreprise.html#pourquoi-mes-formations-sont-différentes",
+    "title": "\n    Avec DAMA, cap sur l'autonomie de vos équipes",
+    "section": " Pourquoi mes formations sont différentes ?",
+    "text": "Pourquoi mes formations sont différentes ?\nParce qu’elles sont 100% personnalisées en fonction du niveau, des objectifs et du rythme d’apprentissage de vos collaborateurs. Fini les formations à la chaîne qui ne répondent pas à vos enjeux.\nAvec moi, vous aurez :\n\n👨‍🏫 Un suivi individuel avec un expert passionné via un espace notion personnalisé*\n🎯 Un programme sur mesure aligné avec vos objectifs business\n🕒 Un rythme flexible adapté aux disponibilités de vos équipes\n🚀 Des projets concrets pour muscler leur portfolio et apporter de la valeur à votre entreprise"
+  },
+  {
+    "objectID": "coding_session_entreprise.html#comment-ça-marche",
+    "href": "coding_session_entreprise.html#comment-ça-marche",
+    "title": "\n    Avec DAMA, cap sur l'autonomie de vos équipes",
+    "section": " Comment ça marche ?",
+    "text": "Comment ça marche ?\nEn 4 étapes, vos équipes seront sur le chemin de la réussite !\n\nNous échangeons sur vos besoins et définissons ensemble les objectifs de la formation\nJe crée un programme personnalisé aligné avec vos enjeux business\nVos collaborateurs se connectent et codent en live avec moi via  VS code et Visual Studio Live Share\nJe vous fournis un reporting détaillé des progrès de chaque participant"
+  },
+  {
+    "objectID": "coding_session_entreprise.html#ce-que-vous-gagnez-en-me-choisissant-comme-partenaire-de-formation-attention-ça-va-être-dur-de-résister",
+    "href": "coding_session_entreprise.html#ce-que-vous-gagnez-en-me-choisissant-comme-partenaire-de-formation-attention-ça-va-être-dur-de-résister",
+    "title": "\n    Avec DAMA, cap sur l'autonomie de vos équipes",
+    "section": " Ce que vous gagnez en me choisissant comme partenaire de formation (attention, ça va être dur de résister !)",
+    "text": "Ce que vous gagnez en me choisissant comme partenaire de formation (attention, ça va être dur de résister !)\n\nDes sessions de coaching en tête-à-tête, 100% adaptées aux besoins de vos collaborateurs\nUn environnement de codage partagé en live, pour progresser à vitesse grand V\nMes conseils et astuces d’expert pour aider vos équipes à monter en compétences rapidement\nDes réponses à TOUTES leurs questions de codage (même les plus tordues, promis !)\nDes ressources exclusives en bonus pour cimenter leurs acquis et en faire des pros de la data"
+  },
+  {
+    "objectID": "coding_session_entreprise.html#offres-sur-mesure-contactez-moi-pour-en-discuter",
+    "href": "coding_session_entreprise.html#offres-sur-mesure-contactez-moi-pour-en-discuter",
+    "title": "\n    Avec DAMA, cap sur l'autonomie de vos équipes",
+    "section": " Offres sur-mesure, contactez-moi pour en discuter !",
+    "text": "Offres sur-mesure, contactez-moi pour en discuter !\nJe crois en la valeur de mon expertise et je veux la mettre au service de votre réussite. Parlons de vos besoins et voyons comment je peux y répondre !\n\n Passer à l’action! 🚀 \n\nVous avez encore des questions ? Vous voulez en savoir plus sur mon approche ? Écrivez-moi à damaestla@gmail.com, je me ferai un plaisir de vous répondre !\n\n* Le Data Science Launch Pad est un espace en ligne qui rassemble les meilleures ressources et un parcours structuré pour aider vos collaborateurs à monter en compétences en data science. Il propose une feuille de route d’apprentissage, une base de connaissances, des idées de projets pratiques et un suivi de progression personnalisé."
+  },
+  {
+    "objectID": "blog/article_template.html",
+    "href": "blog/article_template.html",
+    "title": "Super Titre",
+    "section": "",
+    "text": "Pour rédiger l’article vous pouvez utiliser toute la syntaxe markdown"
+  },
+  {
+    "objectID": "blog/article_template.html#un-paragraphe",
+    "href": "blog/article_template.html#un-paragraphe",
     "title": "Super Titre",
     "section": "un paragraphe",
     "text": "un paragraphe"
+  },
+  {
+    "objectID": "blog/article_template.html#deux-paragraphe",
+    "href": "blog/article_template.html#deux-paragraphe",
+    "title": "Super Titre",
+    "section": "deux paragraphe",
+    "text": "deux paragraphe\n\nsous paragraphe\n\nsous-sous paragraphe\n\nPlus d’article ici\n\n\n\n\n\nA propos des auteurs\n\nAuteur1 est …\n\n\nAuteur2 est … :…\n\n\n\n\n\nCopyright and licence\n\n© année, Auteur\n\n\n  Cet article est sous licence Creative Commons Attribution 4.0 (CC BY 4.0)  International licence.\n\n\n\nCiter cet article :\n\nAuteur1, Auteur2 et al 2024. “Titre” DAMA, date. URL"
   },
   {
     "objectID": "about.html",
@@ -179,53 +207,53 @@
     "href": "about.html#me-contacter",
     "title": " Qui suis-je ?",
     "section": " Me contacter",
-    "text": "Me contacter\n Email |  GitHub |  LinkedIn |"
+    "text": "Me contacter\n Email : damaestla@gmail.com |  GitHub |  LinkedIn |"
   },
   {
-    "objectID": "coding_session.html",
-    "href": "coding_session.html",
+    "objectID": "coding_session_ind.html",
+    "href": "coding_session_ind.html",
     "title": "\n    Coder facile avec DAMA",
     "section": "",
     "text": "Des coding sessions sur mesure, parce que tu es unique et que"
   },
   {
-    "objectID": "coding_session.html#la-data-science-sur-mesure-rien-que-pour-toi",
-    "href": "coding_session.html#la-data-science-sur-mesure-rien-que-pour-toi",
+    "objectID": "coding_session_ind.html#la-data-science-sur-mesure-rien-que-pour-toi",
+    "href": "coding_session_ind.html#la-data-science-sur-mesure-rien-que-pour-toi",
     "title": "\n    Coder facile avec DAMA",
     "section": " La data science sur-mesure, rien que pour toi",
     "text": "La data science sur-mesure, rien que pour toi\nFini les formations taille unique qui te laissent sur ta faim. Il est temps de passer au niveau supérieur avec un apprentissage 100% personnalisé.\nImagine-toi dans quelques mois :\n\nMaîtriser les langages de programmation les plus demandés en data science\nApprivoiser les algorithmes de machine learning les plus puissants\nBooster ton CV et décrocher le job de tes rêves\nDevenir l’expert(e) en data science dont les entreprises ont besoin\n\nÇa en jette, pas vrai ? Et si je te disais que c’est possible… à condition d’avoir la bonne feuille de route ?"
   },
   {
-    "objectID": "coding_session.html#pourquoi-mes-sessions-sont-différentes",
-    "href": "coding_session.html#pourquoi-mes-sessions-sont-différentes",
+    "objectID": "coding_session_ind.html#pourquoi-mes-sessions-sont-différentes",
+    "href": "coding_session_ind.html#pourquoi-mes-sessions-sont-différentes",
     "title": "\n    Coder facile avec DAMA",
     "section": " Pourquoi mes sessions sont différentes ?",
     "text": "Pourquoi mes sessions sont différentes ?\nParce qu’elles sont 100% personnalisées en fonction de TON niveau, TES objectifs et TON rythme d’apprentissage. Fini les formations à la chaîne qui te laissent sur ta faim.\nAvec moi, tu auras :\n\n👨‍🏫 Un suivi individuel avec un expert passionné via un espace notion personnalisé*\n🎯 Un programme sur mesure aligné avec tes objectifs\n🕒 Un rythme flexible adapté à tes disponibilités\n🚀 Des projets concrets pour muscler ton portfolio"
   },
   {
-    "objectID": "coding_session.html#comment-ça-marche",
-    "href": "coding_session.html#comment-ça-marche",
+    "objectID": "coding_session_ind.html#comment-ça-marche",
+    "href": "coding_session_ind.html#comment-ça-marche",
     "title": "\n    Coder facile avec DAMA",
     "section": " Comment ça marche ?",
     "text": "Comment ça marche ?\nEn 4 étapes, tu seras sur le chemin de la réussite !\n\nInstalle  VS code et l’extention Visual Studio Live Share\nChoisis ton arme secrète : R, Python, SQL… à toi de décider ce qui te fera décoller !\nRéserve ton créneau : Quelques clics sur mon site et hop, ta place est réservée. Facile comme bonjour !\nConnecte-toi et code en live avec moi : On se retrouve sur Cal et on code ensemble en temps réel avec VS Code Live Share."
   },
   {
-    "objectID": "coding_session.html#ce-que-tu-gagnes-en-réservant-maintenant-attention-ça-va-être-dur-de-résister",
-    "href": "coding_session.html#ce-que-tu-gagnes-en-réservant-maintenant-attention-ça-va-être-dur-de-résister",
+    "objectID": "coding_session_ind.html#ce-que-tu-gagnes-en-réservant-maintenant-attention-ça-va-être-dur-de-résister",
+    "href": "coding_session_ind.html#ce-que-tu-gagnes-en-réservant-maintenant-attention-ça-va-être-dur-de-résister",
     "title": "\n    Coder facile avec DAMA",
     "section": " Ce que tu gagnes en réservant maintenant (attention, ça va être dur de résister !)",
     "text": "Ce que tu gagnes en réservant maintenant (attention, ça va être dur de résister !)\n\n60 minutes de coaching en tête-à-tête avec moi, 100% adaptées à TES besoins\nUn environnement de codage partagé en live, pour progresser à vitesse grand V\nMes conseils et astuces d’expert pour t’aider à atteindre tes objectifs en un temps record\nDes réponses à TOUTES tes questions de codage (même les plus tordues, promis !)\nDes ressources exclusives en bonus pour cimenter tes acquis et faire de toi un(e) pro"
   },
   {
-    "objectID": "coding_session.html#tarifs-et-packs-cest-maintenant-ou-jamais",
-    "href": "coding_session.html#tarifs-et-packs-cest-maintenant-ou-jamais",
+    "objectID": "coding_session_ind.html#tarifs-et-packs-cest-maintenant-ou-jamais",
+    "href": "coding_session_ind.html#tarifs-et-packs-cest-maintenant-ou-jamais",
     "title": "\n    Coder facile avec DAMA",
     "section": " Tarifs et packs, c’est maintenant ou jamais !",
     "text": "Tarifs et packs, c’est maintenant ou jamais !\nJe crois en la valeur de mon expertise et je veux te la transmettre dans la bonne humeur.\n\n  \n    \n      \n        Call Boost\n        Session d'1h\n        65€ - Boost sur-mesure pour résoudre un problème précis.\n        Réserve ta session ! 🚀\n      \n    \n  \n\n  \n    \n      \n        Data Dive\n        Pack 3 sessions\n        150€ 195€ - Idéal pour creuser un sujet à fond et progresser à vitesse grand V. \n         Obtiens ton pack ! 🚀\n      \n    \n  \n\n  \n    \n      \n        Data Odyssey\n        Pack de 10 sessions\n        500€ 650€ - L'option parfaite pour un véritable parcours de montée en compétences.\n         Obtiens ton super pack ! 🚀\n      \n    \n  \n\nLes tarifs canon de mes partenaires experts : j’ai une équipe de choc à mes côtés, prête à t’accompagner à des tarifs ultra-sympas à partir de 30€ de l’heure."
   },
   {
-    "objectID": "coding_session.html#les-places-partent-à-la-vitesse-de-léclair-réserve-la-tienne-maintenant",
-    "href": "coding_session.html#les-places-partent-à-la-vitesse-de-léclair-réserve-la-tienne-maintenant",
+    "objectID": "coding_session_ind.html#les-places-partent-à-la-vitesse-de-léclair-réserve-la-tienne-maintenant",
+    "href": "coding_session_ind.html#les-places-partent-à-la-vitesse-de-léclair-réserve-la-tienne-maintenant",
     "title": "\n    Coder facile avec DAMA",
     "section": " Les places partent à la vitesse de l’éclair, réserve la tienne maintenant !",
     "text": "Les places partent à la vitesse de l’éclair, réserve la tienne maintenant !\nT’es à deux doigts de faire décoller ta carrière en data science. Ne laisse pas passer cette occasion en or ! Choisis vite ton langage préféré, ton créneau, règle en ligne et let’s go ! Je t’attends avec impatience.\n\n Réserver mon cours ! 🚀 \n\nTu as encore des questions ? Tu veux en savoir plus sur mon approche ? Écris-moi ici, je me ferai un plaisir de te répondre !\n\n* Le Data Science Launch Pad est un espace en ligne qui rassemble les meilleures ressources et un parcours structuré pour aider les débutants à se lancer en data science. Il propose une feuille de route d’apprentissage, une base de connaissances, des idées de projets pratiques et un suivi de progression personnalisé. Disponible uniquement pour le parcours Data Odyssey"
@@ -438,14 +466,14 @@
     "href": "index.html#collaboration",
     "title": "Data Avec Ményssa",
     "section": " Collaboration",
-    "text": "Collaboration\nTu es déjà expert et tu souhaites créer un cours ?\nTu adhères à l’esprit Open Learning Source ?\nC’est avec plaisir, parce que j’aime les featurings ! Par contre ici, on veut du simple et de l’accessible. Alors si ça te dit envoie moi un petit mail ou contacte moi directement sur LinkedIn"
+    "text": "Collaboration\nTu es déjà expert et tu souhaites rédiger un article et/ou créer un cours ?\nTu adhères à l’esprit Open Learning Source ?\nC’est avec plaisir, parce que j’aime les featurings ! Si ça te dit envoie moi un petit mail à damaestla@gmail.com ou contacte moi directement sur LinkedIn et commence à rédiger avec les templates articles et cours."
   },
   {
     "objectID": "mentions_legales.html",
     "href": "mentions_legales.html",
     "title": "Mentions légales",
     "section": "",
-    "text": "Publication du site édité par l’auto-entreprise :\nMényssa Cherifa-Luron\n11 rue antonio vivaldi\n31300 Toulouse\ncmenyssa@live.fr"
+    "text": "Publication du site édité par l’auto-entreprise :\nMényssa Cherifa-Luron\n11 rue antonio vivaldi\n31300 Toulouse\ndamaestla@gmail.com"
   },
   {
     "objectID": "mentions_legales.html#hébergement",
@@ -480,6 +508,6 @@
     "href": "mentions_legales.html#utilisation-des-données-personnelles",
     "title": "Mentions légales",
     "section": "Utilisation des données personnelles",
-    "text": "Utilisation des données personnelles\nMényssa Cherifa-Luron collecte des informations pour identifier vos besoins et vous proposer un meilleur service. Les éléments de statistique nous permettent de mieux comprendre comment les visiteurs interagissent avec notre site.\nEn application de la loi n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, vous disposez d’un droit d’accès, de rectification ou de suppression des données vous concernant. Toute demande en ce sens devra être adressée à : Ményssa Cherifa-Luron, 11 rue antonio vivaldi, 31300 Toulouse, cmenyssa@live.fr. En tout état de cause, la confidentialité des informations relatives aux visiteurs de ce site sera préservée."
+    "text": "Utilisation des données personnelles\nMényssa Cherifa-Luron collecte des informations pour identifier vos besoins et vous proposer un meilleur service. Les éléments de statistique nous permettent de mieux comprendre comment les visiteurs interagissent avec notre site.\nEn application de la loi n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, vous disposez d’un droit d’accès, de rectification ou de suppression des données vous concernant. Toute demande en ce sens devra être adressée à : Ményssa Cherifa-Luron, 11 rue antonio vivaldi, 31300 Toulouse, damaestla@gmail.com. En tout état de cause, la confidentialité des informations relatives aux visiteurs de ce site sera préservée."
   }
 ]

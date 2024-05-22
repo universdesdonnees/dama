@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://universdesdonnees.github.io/poo_en_python/README.html</loc>
-    <lastmod>2024-05-21T08:28:35.565Z</lastmod>
+    <lastmod>2024-05-22T14:45:10.410Z</lastmod>
   </url>
   <url>
     <loc>https://universdesdonnees.github.io/poo_en_python/LICENSE-CC-BY-NC-ND-4.0.html</loc>
@@ -21,16 +21,24 @@
     <lastmod>2024-05-21T07:58:27.024Z</lastmod>
   </url>
   <url>
-    <loc>https://universdesdonnees.github.io/poo_en_python/articles/article_template.html</loc>
-    <lastmod>2024-05-21T13:45:04.150Z</lastmod>
+    <loc>https://universdesdonnees.github.io/poo_en_python/coding_session_entreprise.html</loc>
+    <lastmod>2024-05-22T14:43:05.593Z</lastmod>
+  </url>
+  <url>
+    <loc>https://universdesdonnees.github.io/poo_en_python/blog/article_template.html</loc>
+    <lastmod>2024-05-22T14:22:10.657Z</lastmod>
   </url>
   <url>
     <loc>https://universdesdonnees.github.io/poo_en_python/about.html</loc>
-    <lastmod>2024-05-21T12:40:49.875Z</lastmod>
+    <lastmod>2024-05-22T14:43:35.639Z</lastmod>
   </url>
   <url>
-    <loc>https://universdesdonnees.github.io/poo_en_python/coding_session.html</loc>
-    <lastmod>2024-05-21T11:48:40.616Z</lastmod>
+    <loc>https://universdesdonnees.github.io/poo_en_python/blog/index.html</loc>
+    <lastmod>2024-05-22T14:46:52.944Z</lastmod>
+  </url>
+  <url>
+    <loc>https://universdesdonnees.github.io/poo_en_python/coding_session_ind.html</loc>
+    <lastmod>2024-05-22T13:43:15.498Z</lastmod>
   </url>
   <url>
     <loc>https://universdesdonnees.github.io/poo_en_python/cours/cours_template.html</loc>
@@ -42,10 +50,10 @@
   </url>
   <url>
     <loc>https://universdesdonnees.github.io/poo_en_python/index.html</loc>
-    <lastmod>2024-05-21T12:32:21.268Z</lastmod>
+    <lastmod>2024-05-22T14:47:15.812Z</lastmod>
   </url>
   <url>
     <loc>https://universdesdonnees.github.io/poo_en_python/mentions_legales.html</loc>
-    <lastmod>2024-05-21T12:26:13.883Z</lastmod>
+    <lastmod>2024-05-22T14:33:47.250Z</lastmod>
   </url>
 </urlset>

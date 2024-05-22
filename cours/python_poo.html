@@ -155,7 +155,7 @@ cookieconsent.run({
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="../index.html"> 
 <span class="menu-text"><i class="fa-solid fa-home" aria-label="home"></i> Accueil</span></a>
@@ -165,8 +165,12 @@ cookieconsent.run({
 <span class="menu-text"><i class="fa-solid fa-chalkboard-user" aria-label="chalkboard-user"></i> Cours</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../coding_session.html"> 
-<span class="menu-text"><i class="fa-solid fa-code" aria-label="code"></i> Coding Session</span></a>
+    <a class="nav-link" href="../coding_session_entreprise.html"> 
+<span class="menu-text"><i class="fa-solid fa-code" aria-label="code"></i> Formation</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../blog/index.html"> 
+<span class="menu-text"><i class="fa-solid fa-blog" aria-label="blog"></i> Blog</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../about.html"> 
@@ -180,12 +184,12 @@ cookieconsent.run({
       <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
           <li>
-            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/universdesdonnees/poo_en_python">
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/universdesdonnees/dama">
             Code source
             </a>
           </li>
           <li>
-            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/universdesdonnees/poo_en_python/issues">
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/universdesdonnees/dama/issues">
             Signaler un bug
             </a>
           </li>
@@ -345,7 +349,7 @@ Représentation naturelle des concepts du monde réel
 <p>Et le gros avantage, c’est que <strong>tu peux créer autant d’instances que tu veux à partir de la même classe</strong> !</p>
 <p>C’est comme si ton label pouvait signer des dizaines de rappeurs qui ont chacun leur personnalité mais qui représentent tous l’esprit du label.</p>
 <p>Bref, les classes c’est la base de la POO et c’est ce qui va te permettre de structurer ton code de façon claire et réutilisable.</p>
-<div id="c75926a8" class="cell" data-execution_count="1">
+<div id="9cf1236f" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Définition basique de la classe Rappeur</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Rappeur: </span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">pass</span></span>
@@ -420,7 +424,7 @@ Ensemble, ils donnent vie à tes objets et leur permettent d’interagir avec le
 <li><p><strong>Les featuring (self.featurings)</strong> : c’est les collab avec d’autres artistes. Comme quand tu fais du pair programming ou que tu participes à un projet open source.</p></li>
 </ol>
 <p>Voici comment déclarer ces attributs dans notre classe “Rappeur”</p>
-<div id="76e7b817" class="cell" data-execution_count="2">
+<div id="0936d7e4" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Définition de la classe Rappeur </span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Rappeur:</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Constructeur de la classe avec les attributs</span></span>
@@ -472,7 +476,7 @@ Vald a produit 6 albums et son flow est sombre et introspectif</code></pre>
 <li>Ou même un flow “abstract” pour définir un comportement général (<code>rapper()</code>)</li>
 </ul>
 <p>Les méthodes, c’est aussi ce qui permet à tes <strong>objets de communiquer entre eux.</strong> Un peu comme des featuring entre rappeurs !</p>
-<div id="b9f385e0" class="cell" data-execution_count="3">
+<div id="aa86b78b" class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Importation du module random</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -501,11 +505,11 @@ Vald a produit 6 albums et son flow est sombre et introspectif</code></pre>
 <span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a><span class="co"># Appel de la méthode balancer_punchline pour afficher une punchline de Booba tirée au hasard</span></span>
 <span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>booba.balancer_punchline()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>Booba balance : 92i</code></pre>
+<pre><code>Booba balance : Pitbull</code></pre>
 </div>
 </div>
 <p>Maintenant allons un peu plus long et imaginons un clash entre rappeurs (<em>hihihi!</em>)</p>
-<div id="d24532e8" class="cell" data-execution_count="4">
+<div id="2ee6e030" class="cell" data-execution_count="4">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random  <span class="co"># Importation nécessaire pour utiliser random.choice</span></span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Rappeur:</span>
@@ -599,7 +603,7 @@ Focus : PEP8 et Annotation de type
 </div>
 <div class="callout-body-container callout-body">
 <p>Voici la même classe avec le <strong>code PEP 8 friendly</strong> et les annotations de type</p>
-<div id="e32d2b09" class="cell" data-execution_count="5">
+<div id="5dbd9f8d" class="cell" data-execution_count="5">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> typing <span class="im">import</span> List <span class="co"># annoter les attributs featurings et punchlines.</span></span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Rappeur:</span>
@@ -663,7 +667,7 @@ Booba répond à Kaaris : TG ! J'suis le DUC !</code></pre>
 <h2 class="anchored" data-anchor-id="modifier-les-attributs">7. Modifier les attributs</h2>
 <p>C’est essentiel pour gérer les interactions entre objets,<strong>contrôler l’accès aux données et rendre le code plus lisible</strong>, comme un rappeur qui adapte son flow à différents beats pour créer des sons uniques et puissants. 🎤💪</p>
 <p>Comme vu précédemment, pour chaque instance de <code>Rappeur</code>, tu peux accéder à ses attributs directement</p>
-<div id="2e046cc8" class="cell" data-execution_count="6">
+<div id="4279955b" class="cell" data-execution_count="6">
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(booba.nom)  </span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(booba.flow) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -673,7 +677,7 @@ Agressif et technique</code></pre>
 </div>
 <p>Pour modifier les attributs, tu assignes simplement une nouvelle valeur.</p>
 <p>Par exemple, si tu veux changer le flow de Booba</p>
-<div id="c12a7129" class="cell" data-execution_count="7">
+<div id="e7f73ef8" class="cell" data-execution_count="7">
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>booba.flow <span class="op">=</span> <span class="st">"Lyrique et complexe"</span></span>
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(booba.flow)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -681,13 +685,13 @@ Agressif et technique</code></pre>
 </div>
 </div>
 <p>Si tu veux changer une punchline spécifique ou en ajouter une nouvelle</p>
-<div id="c8eaea40" class="cell" data-execution_count="8">
+<div id="59989de7" class="cell" data-execution_count="8">
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>booba.punchlines[<span class="dv">0</span>] <span class="op">=</span> <span class="st">"Nouvelle punchline plus forte"</span></span>
 <span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>booba.punchlines.append(<span class="st">"Tout le monde sait que j'suis le meilleur"</span>)  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Il est souvent <em>plus</em> judicieux de contrôler la modification des attributs via des méthodes au lieu de les modifier directement. Cela offre une meilleure <strong>encapsulation</strong> (notion que nous verrons après).</p>
 <p>Tu pourrais ajouter une méthode comme <code>changer_flow()</code> directement dans ta classe Rappeur</p>
-<div id="fa15d5c0" class="cell" data-execution_count="9">
+<div id="699bf378" class="cell" data-execution_count="9">
 <div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> typing <span class="im">import</span> List</span>
 <span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
 <span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -1414,7 +1418,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <p><a href="mentions_legales.qmd">Mentions Légales</a></p>
 <div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
-<p>Fait avec <i class="fa-brands fa-python" aria-label="python"></i> et <a href="https://quarto.org/">Quarto</a><br> <a href="https://github.com/universdesdonnees/poo_en_python">Voir sur <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></p>
+<p>Fait avec <i class="fa-brands fa-python" aria-label="python"></i> et <a href="https://quarto.org/">Quarto</a><br> <a href="https://github.com/universdesdonnees/dama">Voir sur <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></p>
 </div>
   </div>
 </footer>
