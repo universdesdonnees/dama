@@ -5,7 +5,7 @@ execute:
   debug: true
 
 website:
-  title: "Data Avec Ményssa"
+  title: "Data Avec Ményssa" 
   page-navigation: true
   open-graph: true
   cookie-consent:
@@ -69,5 +69,6 @@ format:
     css: 
       - css/custom_style.css
     toc: true
+    lang: fr  
     
 

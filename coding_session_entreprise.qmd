@@ -1,5 +1,5 @@
 ---
-toc: false
+toc: true
 sidebar: false
 page-layout: full
 ---
@@ -13,9 +13,9 @@ page-layout: full
   </p>
   <div class="flex justify-center mt-8">
   <a href="https://tally.so/r/3jBj4Q">
-    <img src="images/dama_formation.png" width="700" height="400" alt="dama formation">
+    <button class="button-61">Passer à l'action! 🚀</button>
   </a>
-  </div>
+  </div> 
 </div> 
 <br>
 <br>
