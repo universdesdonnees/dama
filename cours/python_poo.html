@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.4.554">
@@ -91,17 +91,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "s"
   ],
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
   }
 }</script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-QTG3TJ9SJQ"></script>
@@ -150,8 +150,8 @@ cookieconsent.run({
     <img src="../images/dama_logo.png" alt="Data avec Ményssa" class="navbar-logo">
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Recherche"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Basculer la navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -205,7 +205,7 @@ cookieconsent.run({
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
   <li><a href="#partie-1.-contexte-et-notions-élémentaires" id="toc-partie-1.-contexte-et-notions-élémentaires" class="nav-link active" data-scroll-target="#partie-1.-contexte-et-notions-élémentaires">Partie 1. Contexte et notions élémentaires</a>
@@ -349,7 +349,7 @@ Représentation naturelle des concepts du monde réel
 <p>Et le gros avantage, c’est que <strong>tu peux créer autant d’instances que tu veux à partir de la même classe</strong> !</p>
 <p>C’est comme si ton label pouvait signer des dizaines de rappeurs qui ont chacun leur personnalité mais qui représentent tous l’esprit du label.</p>
 <p>Bref, les classes c’est la base de la POO et c’est ce qui va te permettre de structurer ton code de façon claire et réutilisable.</p>
-<div id="9cf1236f" class="cell" data-execution_count="1">
+<div id="c1603eb1" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Définition basique de la classe Rappeur</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Rappeur: </span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">pass</span></span>
@@ -358,7 +358,7 @@ Représentation naturelle des concepts du monde réel
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>menyssa <span class="op">=</span> Rappeur()  </span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># menyssa est bien un objet Rappeur</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="bu">type</span>(menyssa) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="bu">type</span>(menyssa) </span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 <pre><code>__main__.Rappeur</code></pre>
 </div>
@@ -424,7 +424,7 @@ Ensemble, ils donnent vie à tes objets et leur permettent d’interagir avec le
 <li><p><strong>Les featuring (self.featurings)</strong> : c’est les collab avec d’autres artistes. Comme quand tu fais du pair programming ou que tu participes à un projet open source.</p></li>
 </ol>
 <p>Voici comment déclarer ces attributs dans notre classe “Rappeur”</p>
-<div id="0936d7e4" class="cell" data-execution_count="2">
+<div id="3b2c5ca2" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Définition de la classe Rappeur </span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Rappeur:</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Constructeur de la classe avec les attributs</span></span>
@@ -456,7 +456,7 @@ Ensemble, ils donnent vie à tes objets et leur permettent d’interagir avec le
 <span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>      <span class="ss">f"le flow de Booba est : </span><span class="sc">{</span>booba<span class="sc">.</span>flow<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a><span class="co"># Ici, on affiche le flow de vald et son nombre d'album.</span></span>
-<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"</span><span class="ch">\n</span><span class="ss">Vald a produit </span><span class="sc">{</span>vald<span class="sc">.</span>nb_albums<span class="sc">}</span><span class="ss"> albums et son flow est </span><span class="sc">{</span>vald<span class="sc">.</span>flow<span class="sc">.</span>lower()<span class="sc">}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"</span><span class="ch">\n</span><span class="ss">Vald a produit </span><span class="sc">{</span>vald<span class="sc">.</span>nb_albums<span class="sc">}</span><span class="ss"> albums et son flow est </span><span class="sc">{</span>vald<span class="sc">.</span>flow<span class="sc">.</span>lower()<span class="sc">}</span><span class="ss">"</span>)</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Niska a produit 4 albums et 
 le flow de Booba est : Agressif et technique
@@ -476,7 +476,7 @@ Vald a produit 6 albums et son flow est sombre et introspectif</code></pre>
 <li>Ou même un flow “abstract” pour définir un comportement général (<code>rapper()</code>)</li>
 </ul>
 <p>Les méthodes, c’est aussi ce qui permet à tes <strong>objets de communiquer entre eux.</strong> Un peu comme des featuring entre rappeurs !</p>
-<div id="aa86b78b" class="cell" data-execution_count="3">
+<div id="0a2686c3" class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Importation du module random</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -503,13 +503,13 @@ Vald a produit 6 albums et son flow est sombre et introspectif</code></pre>
 <span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>                punchlines<span class="op">=</span>[<span class="st">"92i"</span>, <span class="st">"Pitbull"</span>, <span class="st">"Kalash"</span>])</span>
 <span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a><span class="co"># Appel de la méthode balancer_punchline pour afficher une punchline de Booba tirée au hasard</span></span>
-<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>booba.balancer_punchline()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>booba.balancer_punchline()</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>Booba balance : Pitbull</code></pre>
+<pre><code>Booba balance : 92i</code></pre>
 </div>
 </div>
 <p>Maintenant allons un peu plus long et imaginons un clash entre rappeurs (<em>hihihi!</em>)</p>
-<div id="2ee6e030" class="cell" data-execution_count="4">
+<div id="a9b54313" class="cell" data-execution_count="4">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random  <span class="co"># Importation nécessaire pour utiliser random.choice</span></span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Rappeur:</span>
@@ -550,7 +550,7 @@ Vald a produit 6 albums et son flow est sombre et introspectif</code></pre>
 <span id="cb7-38"><a href="#cb7-38" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulation d'un clash entre Booba et Kaaris</span></span>
 <span id="cb7-39"><a href="#cb7-39" aria-hidden="true" tabindex="-1"></a>booba.clasher(kaaris)</span>
 <span id="cb7-40"><a href="#cb7-40" aria-hidden="true" tabindex="-1"></a>kaaris.repondre(booba, <span class="st">"T'es qu'un tocard !"</span>)</span>
-<span id="cb7-41"><a href="#cb7-41" aria-hidden="true" tabindex="-1"></a>booba.repondre(kaaris, <span class="st">"TG ! J'suis le DUC !"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb7-41"><a href="#cb7-41" aria-hidden="true" tabindex="-1"></a>booba.repondre(kaaris, <span class="st">"TG ! J'suis le DUC !"</span>)</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Booba clash Kaaris : T'es qu'un fils de...
 Kaaris répond à Booba : T'es qu'un tocard !
@@ -603,7 +603,7 @@ Focus : PEP8 et Annotation de type
 </div>
 <div class="callout-body-container callout-body">
 <p>Voici la même classe avec le <strong>code PEP 8 friendly</strong> et les annotations de type</p>
-<div id="5dbd9f8d" class="cell" data-execution_count="5">
+<div id="55f6572e" class="cell" data-execution_count="5">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> typing <span class="im">import</span> List <span class="co"># annoter les attributs featurings et punchlines.</span></span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Rappeur:</span>
@@ -653,7 +653,7 @@ Focus : PEP8 et Annotation de type
 <span id="cb9-47"><a href="#cb9-47" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulation d'un clash et réponses entre Booba et Kaaris</span></span>
 <span id="cb9-48"><a href="#cb9-48" aria-hidden="true" tabindex="-1"></a>booba.clasher(kaaris)</span>
 <span id="cb9-49"><a href="#cb9-49" aria-hidden="true" tabindex="-1"></a>kaaris.repondre(booba, <span class="st">"T'es qu'un tocard !"</span>)</span>
-<span id="cb9-50"><a href="#cb9-50" aria-hidden="true" tabindex="-1"></a>booba.repondre(kaaris, <span class="st">"TG ! J'suis le DUC !"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb9-50"><a href="#cb9-50" aria-hidden="true" tabindex="-1"></a>booba.repondre(kaaris, <span class="st">"TG ! J'suis le DUC !"</span>)</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Booba clash Kaaris : T'es qu'un fils de...
 Kaaris répond à Booba : T'es qu'un tocard !
@@ -667,9 +667,9 @@ Booba répond à Kaaris : TG ! J'suis le DUC !</code></pre>
 <h2 class="anchored" data-anchor-id="modifier-les-attributs">7. Modifier les attributs</h2>
 <p>C’est essentiel pour gérer les interactions entre objets,<strong>contrôler l’accès aux données et rendre le code plus lisible</strong>, comme un rappeur qui adapte son flow à différents beats pour créer des sons uniques et puissants. 🎤💪</p>
 <p>Comme vu précédemment, pour chaque instance de <code>Rappeur</code>, tu peux accéder à ses attributs directement</p>
-<div id="4279955b" class="cell" data-execution_count="6">
+<div id="e26af353" class="cell" data-execution_count="6">
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(booba.nom)  </span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(booba.flow) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(booba.flow) </span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Booba
 Agressif et technique</code></pre>
@@ -677,21 +677,21 @@ Agressif et technique</code></pre>
 </div>
 <p>Pour modifier les attributs, tu assignes simplement une nouvelle valeur.</p>
 <p>Par exemple, si tu veux changer le flow de Booba</p>
-<div id="e7f73ef8" class="cell" data-execution_count="7">
+<div id="fcf965c1" class="cell" data-execution_count="7">
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>booba.flow <span class="op">=</span> <span class="st">"Lyrique et complexe"</span></span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(booba.flow)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(booba.flow)</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Lyrique et complexe</code></pre>
 </div>
 </div>
 <p>Si tu veux changer une punchline spécifique ou en ajouter une nouvelle</p>
-<div id="59989de7" class="cell" data-execution_count="8">
+<div id="4fd9f2a4" class="cell" data-execution_count="8">
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>booba.punchlines[<span class="dv">0</span>] <span class="op">=</span> <span class="st">"Nouvelle punchline plus forte"</span></span>
-<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>booba.punchlines.append(<span class="st">"Tout le monde sait que j'suis le meilleur"</span>)  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>booba.punchlines.append(<span class="st">"Tout le monde sait que j'suis le meilleur"</span>)  </span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Il est souvent <em>plus</em> judicieux de contrôler la modification des attributs via des méthodes au lieu de les modifier directement. Cela offre une meilleure <strong>encapsulation</strong> (notion que nous verrons après).</p>
 <p>Tu pourrais ajouter une méthode comme <code>changer_flow()</code> directement dans ta classe Rappeur</p>
-<div id="699bf378" class="cell" data-execution_count="9">
+<div id="d5210f45" class="cell" data-execution_count="9">
 <div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> typing <span class="im">import</span> List</span>
 <span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
 <span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -742,7 +742,7 @@ Agressif et technique</code></pre>
 <span id="cb16-48"><a href="#cb16-48" aria-hidden="true" tabindex="-1"></a>booba.changer_flow(<span class="st">"Poétique et introspectif"</span>)</span>
 <span id="cb16-49"><a href="#cb16-49" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb16-50"><a href="#cb16-50" aria-hidden="true" tabindex="-1"></a><span class="co"># Affichage du flow après la modification</span></span>
-<span id="cb16-51"><a href="#cb16-51" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Flow après : "</span>, booba.flow)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb16-51"><a href="#cb16-51" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Flow après : "</span>, booba.flow)</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Flow avant :  Agressif et technique
 Flow après :  Poétique et introspectif</code></pre>
@@ -998,7 +998,7 @@ Conseil
 </section>
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Retour au sommet</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1053,12 +1053,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Copié");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Copié");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
