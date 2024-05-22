@@ -72,7 +72,7 @@ J'espère que tu es prêt ? Oui ! Alors, prépare-toi devenir un pro et à déve
 ```
 ## {{< fa handshake-simple >}} Collaboration 
 
-Tu es déjà expert et tu souhaites créer un cours ?
+Tu es déjà expert et tu souhaites rédiger un article et/ou créer un cours ?
 
 Tu adhères à l'esprit *Open Learning Source* ?
 

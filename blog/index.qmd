@@ -1,0 +1,21 @@
+---
+search: false
+repo-actions: false
+listing:
+  sort: "date desc"
+  type: grid
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  page-size: 30
+  feed: true
+---
+
+::: {.callout-note appearance="simple" collapse="false"}
+## {{< fa handshake-simple >}} Collaboration 
+Tu es déjà expert et tu souhaites rédiger un article ou créer un cours ? Tu adhères à l'esprit *Open Learning Source* ?
+
+C'est avec plaisir, parce que j'aime les featurings ! Si ça te dit envoie moi un petit [mail](cmenyssa@live.fr) ou contacte moi directement sur [LinkedIn](https://www.linkedin.com/in/menyssacherifaluron/) et commence à rédiger avec les templates [articles]() et [cours]().
+
+:::
+-----------------

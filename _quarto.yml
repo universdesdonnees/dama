@@ -24,13 +24,15 @@ website:
     collapse-below: lg
     background: primary
     foreground: light
-    right:
+    left:
       - href: index.qmd
         text: "{{< fa home >}} Accueil"
       - href: cours/index.qmd
         text: "{{< fa chalkboard-user >}} Cours"
-      - href: coding_session.qmd
-        text: "{{< fa code >}} Coding Session"
+      - text: "{{< fa code >}} Coding Session"
+        href: coding_session_entreprise.qmd 
+      - text: "{{< fa blog >}} Blog"
+        href:  blog/index.qmd   
       - href: about.qmd
         text: "{{< fa circle-info >}} À Propos"
     tools:
