@@ -88,7 +88,7 @@ Auteur1, Auteur2 et al 2024. “Titre” DAMA, date. <a href="">URL</a>
 </section>
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Retour au sommet</a> ]]></description>
   <category>data</category>
   <category>R</category>
   <category>Data quality</category>

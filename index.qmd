@@ -1,6 +1,6 @@
 ---
-title: "Data Avec Ményssa"
-subtitle: "Ici la data science c'est facile, utile et accessible à tous. No Bullshit, juste l'essentiel pour pratiquer et performer !"
+title: " Découvrir, Assimiler, Maîtriser, Appliquer (DAMA)"
+subtitle: "La data science facile, utile et accessible à tous. Juste l'essentiel pour pratiquer et performer !"
 details: |
   Fait avec {{< fa brands python >}} et [Quarto](https://quarto.org/)<br> [Voir sur {{< fa brands github >}} GitHub](https://github.com/universdesdonnees/poo_en_python)<br>Par Ményssa Cherifa-Luron, PhD
 sidebar: false
@@ -21,7 +21,7 @@ course-logo: "images/Linkedin MCL.png"
 ## {{< fa bolt >}} Mini-cours
 ```{=html}
 <div style= "text-align: center">
-  Retrouve ici les derniers mini-cours que je poste régulièrement sur LinkedIn. <br> Check this out👇
+  Retrouve ici les derniers mini-cours que je poste régulièrement sur LinkedIn. <br> Check this out 👇
 <div>
 <br>
 <div class="grid title-block">
@@ -41,39 +41,67 @@ course-logo: "images/Linkedin MCL.png"
     <button class="button-61"> Me suivre ! 🚀</button>
   </a>
 </div>
-```   
-## {{< fa burger >}} Au menu
+``` 
 
-Que tu sois débutant, intermédiaire ou avancé, ces cours te permettront de progresser en data science à ton rythme, avec des exemples concrets et des exercices adaptés. 
+## {{< fa chalkboard-user >}}  Cours : Progresse en data science à ton rythme
 
-Tu pourras entre autre :
+Que tu sois débutant, intermédiaire ou avancé, les cours te permettront de monter en compétences en data science, avec des exemples concrets et des exercices adaptés. Tu y trouveras :
 
-- Maitriser **R** pour des analyses de données au top
-
-- Générer des **visualisations** à couper le souffle
-
-- **Python** pour la data science : de Zéro à Héro !
-
+- Maîtrise **R** pour des analyses de données au top
+- Génère des **visualisations** à couper le souffle
+- **Python** pour la data science : de zéro à héros !
 - **SQL** pour la gestion et l'interrogation des bases de données
-
-- **Machine Learning** : Développer des modèles prédictifs puissants
-
-Et plus encore...
+- **Machine Learning** : développe des modèles prédictifs puissants
+- Et bien plus encore...
 
 J'espère que tu es prêt ? Oui ! Alors, prépare-toi devenir un pro et à développer tes propres applications en data science.
 
------------------
 ```{=html}
 <div style="text-align: center">
   <a href="cours/index.qmd">
-    <button class="button-61"> Commencer les cours ! 🚀</button>
+    <button class="button-61"> Accéder aux cours 🚀</button>
   </a>
 </div>
 ```
+
+## {{< fa blog >}} Blog : Découvre, apprends, partage
+
+Le blog est un espace de partage et de vulgarisation scientifique autour de la data science. Tu y trouveras :
+
+- Des articles de fond pour comprendre les concepts clés
+- Des tutoriels pratiques pour monter en compétences
+- Des projets et retours d'expérience inspirants
+
+<div style="text-align: center">
+  <a href="blog/index.qmd">
+    <button class="button-61"> Accéder au blog 🚀</button>
+  </a>
+</div>
+
 ## {{< fa handshake-simple >}} Collaboration 
 
-Tu es déjà expert et tu souhaites rédiger un article et/ou créer un cours ?
+Tu es déjà expert.e et tu souhaites rédiger un article et/ou créer un cours ?
 
 Tu adhères à l'esprit *Open Learning Source* ?
 
-C'est avec plaisir, parce que j'aime les featurings ! Si ça te dit envoie moi un petit mail à damaestla@gmail.com ou contacte moi directement sur [LinkedIn](https://www.linkedin.com/in/menyssacherifaluron/) et commence à rédiger avec les templates [articles](https://github.com/universdesdonnees/dama/blob/master/blog/article_template.qmd) et [cours](https://github.com/universdesdonnees/dama/blob/master/cours/cours_template.qmd).
+C'est avec plaisir, parce que j'aime les featurings ! 
+
+### 📩 Comment contribuer ?
+
+1. Envoie-moi un petit mail à damaestla@gmail.com ou contacte-moi directement sur [LinkedIn](https://www.linkedin.com/in/menyssacherifaluron/)
+2. Commence à rédiger avec nos templates [articles](https://github.com/universdesdonnees/dama/blob/master/blog/article_template.qmd) et [cours](https://github.com/universdesdonnees/dama/blob/master/cours/cours_template.qmd)
+3. Soumets ton contenu, je le revois avec toi et on le publie ensemble !
+
+Rejoins la communauté DAMA et faisons briller la data science accessible à tous ! 
+
+```{=html}
+<div style="text-align: center">
+  <a href="mailto:damaestla@gmail.com">
+    <button class="button-61"> Collaborer 🚀</button>
+  </a>
+</div>
+```
+
+
+
+

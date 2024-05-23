@@ -1,22 +1,35 @@
 ---
-title: "Gentle introduction à la POO en Python"
-subtitle: ""
-sidebar: false
+title: "Gentle introduction à la Programmation Orientée Objets en Python"
+subtitle: "Tu exploreras les concepts fondamentaux comme les classes, les objets, l'encapsulation et l'héritage, tout en apprenant à les appliquer à des exemples concrets."
+format: 
+    html:
+        toc: true
+        toc_float: true
+        toc-title: Table des matières
+        toc-location: left
+        code-copy: true
+        code-fold: false
+        code-link: true
+        code-overflow: scroll
+        code-summary: "Voir le code"
+        embed-resources: true
+        anchor-sections: true
+        smooth-scroll: true
+number-sections: true
+execute: 
+    echo: true
+    warning: false
+    message: false
+    fig.with: 9
+title-block-banner: "#fff"
+title-block-banner-color: "black"
+author: Ményssa Cherifa-Luron, PhD
+date: today
 ---
 
-ICI  ------ a ranger 
-## 🎯 Objectifs de la POO
+#  Contexte et notions élémentaires
 
-- Tu découvriras les principes fondamentaux de la POO : **classes**, **objets**, **attributs**, **méthodes** 
-- Tu apprendras à distinguer les notions d'**encapsulation**, d'**héritage**, de **polymorphisme**, d'**abstraction** et bien plus encore ...
-- Tu t'exerceras  créer tes propres classes inspirées d'exemples du quotidien : musique, smartphone, voiture,...
-- Tu sauras **instancier**des objets et interagir avec eux  
-- Tu comprendras comment la POO peut t'aider à **structurer tes projets de data science**
-ICI  ------ a ranger 
-
-# Partie 1. Contexte et notions élémentaires
-
-## 1. La Programmation orientée objet   
+## La Programmation orientée objet   
 La Programmation Orientée Objet (POO), c'est la base de la base, le flow de la programmation !
 
 En POO, **une classe c'est comme un moule à objets**, une représentation qui définit les caractéristiques et les comportements des entités du même type.
@@ -41,7 +54,7 @@ Bref, la POO c'est le swag de la programmation ! Ça structure ton code comme un
 Alors, t'es chaud pour devenir une OOP star ?
 On va coder ça comme jamais ! 
 
-## 2. Avantages
+## Avantages
 
 Les avantages de ce style de programmation, c'est comme les atouts d'un bon rappeur :
 
@@ -87,7 +100,7 @@ En somme, la POO, c'est plus modulaire qu'un beat et plus réutilisable qu'un sa
 </ul>
 :::
 
-## 3. Classe
+## Classe
 
 **Une classe, c'est comme un moule à gâteau en forme de rappeur** :
 
@@ -130,7 +143,7 @@ C'est une manière pour Python de savoir si le fichier actuel est exécuté comm
 
 :::
 
-## 4. Constructeur : `__init__` et  `self`
+## Constructeur : `__init__` et  `self`
 Le constructeur `__init__` est **appelé automatiquement quand tu crées une nouvelle instance de ta classe.**
 
 Son rôle ? 
@@ -155,7 +168,7 @@ C'est pour ça que tu retrouves `self` partout !
 </ul>
 :::
 
-## 5. Attributs 
+## Attributs 
 
 Les attributs en POO, c'est comme les **caractéristiques qui définissent un bon rappeur.**
 
@@ -204,7 +217,7 @@ print(f"Niska a produit {niska.nb_albums} albums et \n"
 print(f"\nVald a produit {vald.nb_albums} albums et son flow est {vald.flow.lower()}")
 ```
 
-## 6. Méthodes
+## Méthodes
 
 Les méthodes, c'est ce qui **permet à tes objets d'agir, d'interagir et de se démarquer.** 
 
@@ -311,7 +324,7 @@ Alors pour créer des méthodes qui claquent, suis ces tips :
 </ul>
 :::
 
-::: {.callout-tip}
+::: {.callout-tip appearance="simple" collapse="true"}
 ### Focus : PEP8 et Annotation de type 
 
 Voici la même classe avec le **code PEP 8 friendly** et  les annotations de type
@@ -369,7 +382,7 @@ booba.repondre(kaaris, "TG ! J'suis le DUC !")
 ```
 :::
 
-## 7. Modifier les attributs
+## Modifier les attributs
 
 C'est essentiel pour gérer les interactions entre objets,**contrôler l'accès aux données et rendre le code plus lisible**, comme un rappeur qui adapte son flow à différents beats pour créer des sons uniques et puissants. 🎤💪
 
@@ -466,7 +479,7 @@ Voilà les gars, vous savez maintenant comment gérer les attributs de vos rappe
 
 **Maintenant TIME TO PRACTICE ! 💪**
 
-## 8. Exercices 
+## Exercices 
 
 Je t'ai concocté une série d'exercices passionnants 🌟 qui te permettront non seulement de créer de nouvelles classes, mais aussi de (re)découvrir des notions essentielles de la programmation Python 🐍. 
 
@@ -474,7 +487,7 @@ Ces exercices sont spécialement conçus pour booster ta compréhension des prin
 
 Bonne courage et surtout, prends du plaisir en codant ! 🚀✨
 
-### 1 - Facile : Création de la classe `Rappeur`
+### Facile : Création de la classe `Rappeur`
 #### Énoncé
 Crée une classe `Rappeur` avec les attributs suivants :
 
@@ -491,7 +504,7 @@ La classe doit aussi inclure une méthode `introduction()` qui affiche une phras
 Pour la méthode sortir_album(), assure-toi de vérifier que l'album n'est pas déjà dans la liste avant de l'ajouter. Cela évitera les doublons dans la discographie du rappeur.
 :::
 
-### 2 - Facile : La Bibliothèque 
+### Facile : La Bibliothèque 
 #### Énoncé
 Crée une classe `Livre` avec les attributs suivants :
 
@@ -512,7 +525,7 @@ La classe doit inclure des méthodes pour :
 Lorsque tu modifies les attributs d'un livre, pense à utiliser des méthodes de getter et de setter. Cela te permet de contrôler comment les attributs sont mis à jour et de valider les données si nécessaire.
 :::
 
-### 3 - Facile : Compte bancaire
+### Facile : Compte bancaire
 #### Énoncé
 Crée une classe `Account` avec les attributs suivants :
 
@@ -531,7 +544,7 @@ La classe doit inclure des méthodes pour :
 Teste scrupuleusement les méthodes de dépôt et de retrait pour gérer correctement les scénarios où le compte pourrait devenir négatif. Ajoute des conditions pour empêcher le retrait de fonds supérieurs au solde disponible.
 :::
 
-### 4 - Intermédiaire : Conseiller financier 
+### Intermédiaire : Conseiller financier 
 #### Énoncé
 Crée une classe `CompteBancaire` avec les attributs suivants :
 
@@ -552,7 +565,7 @@ La classe doit inclure des méthodes pour :
 Pour gérer les découverts, envisage d'ajouter un attribut qui définit un découvert maximum autorisé. Cela rendra la gestion du compte plus flexible et réaliste.
 :::
 
-### 5 - Intermédiaire : Gestion des Featurings
+### Intermédiaire : Gestion des Featurings
 #### Énoncé
 Améliore la classe `Rappeur` pour inclure un attribut `collaborations`, qui est une liste de tuples. Chaque tuple contient le nom d'un autre rappeur et le titre de la chanson sur laquelle ils ont collaboré.
 
@@ -567,7 +580,7 @@ La classe doit inclure des méthodes pour :
 Quand tu ajoutes des collaborations, assure-toi de vérifier si la collaboration existe déjà pour éviter les entrées en double. Cela peut être fait en vérifiant si le tuple (rappeur, titre de la chanson) est déjà dans la liste des collaborations.
 :::
 
-### 6 - Difficile : Tournoi de Bataille
+### Difficile : Tournoi de Bataille
 #### Énoncé
 Crée une classe `Carte` avec les attributs suivants :
 
@@ -608,7 +621,7 @@ La classe `Tournoi` doit inclure des méthodes pour :
 Pour la distribution des cartes, assure-toi que le mélange soit complet avant de distribuer les cartes afin d'assurer l'équité du jeu. Utilise des méthodes robustes pour gérer les égalités et les cas spéciaux où plusieurs tours de cartes sont nécessaires.
 :::
 
-### 7 - Difficile : Battle de Rap
+### Difficile : Battle de Rap
 #### Énoncé
 Crée une classe `Battle` avec les attributs suivants :
 * `rappeur1` : le premier rappeur participant.
@@ -625,16 +638,34 @@ La classe `Battle` doit inclure des méthodes pour :
 Dans la méthode `juger_punchline(punchline)`, considère d'utiliser des techniques d'analyse de texte pour évaluer les punchlines, comme compter les syllabes ou utiliser des expressions régulières pour identifier les rimes et autres figures de style.
 :::
 
-## 9. Correction 
+## Correction 
 
 La correction sera disponible prochainement ;)
 
-N'hésite pas à prendre rdv si tu es bloqué : 
+-----------------
 
-```{=html}
-<div style="text-align: left">
-  <a href="https://cal.com/menyssa.cherifa-luron/1h">
-    <button class="button-61"> Prendre RDV ! 🚀</button>
-  </a>
-</div>
-```
+::: {.cours-btn}
+[Plus de cours](index.qmd)
+:::
+
+::: {.further-info}
+::: grid
+::: {.g-col-12 .g-col-md-12}
+À propos des auteurs
+: Ményssa Cherifa-Luron, PhD est data scientist et formatrice freelance.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+Copyright and licence
+: &copy; 2024, Ményssa Cherifa-Luron, PhD 
+
+<a href="http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" style="height:22px!important;vertical-align:text-bottom;"/><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"/><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"/></a> Cet article est sous licence Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0) <a href="http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>.
+
+:::
+
+::: {.g-col-12 .g-col-md-6}
+Citer ce cours :
+: Ményssa Cherifa-Luron, PhD. "Gentle introduction à la Programmation Orientée Objets en Python". DAMA, 23/05/2024. Disponible [ici]( https://universdesdonnees.github.io/dama/cours/python_poo.html)
+:::
+:::
+:::

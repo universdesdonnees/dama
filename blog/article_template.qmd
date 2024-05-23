@@ -32,6 +32,10 @@ Pour rédiger l'article vous pouvez utiliser toute la syntaxe [markdown](https:/
 
 #### sous-sous paragraphe
 
+
+-----------------
+
+
 ::: {.article-btn}
 [Plus d'article ici](index.qmd)
 :::
@@ -39,7 +43,7 @@ Pour rédiger l'article vous pouvez utiliser toute la syntaxe [markdown](https:/
 ::: {.further-info}
 ::: grid
 ::: {.g-col-12 .g-col-md-12}
-A propos des auteurs
+À propos des auteurs
 : **Auteur1** est ...
 : **Auteur2** est ...
 :...

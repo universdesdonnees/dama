@@ -1,28 +1,30 @@
 ---
-title: "Sample Report (Quarto)"
+title: "Gentle introduction à la Programmation Orientée Objets en Python"
+subtitle: "Tu exploreras les concepts fondamentaux comme les classes, les objets, l'encapsulation et l'héritage, tout en apprenant à les appliquer à des exemples concrets."
 format: 
-  html:
-    toc: true
-    toc_float: true
-    toc-title: Table des matières
-    toc-location: left
-    code-copy: true
-    code-fold: true
-    code-link: true
-    code-overflow: scroll
-    code-summary: "Voir le code"
-    embed-resources: true
-    anchor-sections: true
-    smooth-scroll: true
+    html:
+        toc: true
+        toc_float: true
+        toc-title: Table des matières
+        toc-location: left
+        code-copy: true
+        code-fold: false
+        code-link: true
+        code-overflow: scroll
+        code-summary: "Voir le code"
+        embed-resources: true
+        anchor-sections: true
+        smooth-scroll: true
 number-sections: true
 execute: 
-  echo: true
-  warning: false
-  message: false
-  fig.with: 9
+    echo: true
+    warning: false
+    message: false
+    fig.with: 9
 title-block-banner: "#fff"
 title-block-banner-color: "black"
-
+author: Ményssa Cherifa-Luron, PhD
+date: today
 ---
 
 ```{=html}
@@ -42,3 +44,30 @@ x = 2 + 2
 
 # Partie 2
 
+-----------------
+
+::: {.cours-btn}
+[Plus de cours](index.qmd)
+:::
+
+::: {.further-info}
+::: grid
+::: {.g-col-12 .g-col-md-12}
+À propos des auteurs
+: Ményssa Cherifa-Luron, PhD est data scientist et formatrice freelance.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+Copyright and licence
+: &copy; 2024, Ményssa Cherifa-Luron, PhD 
+
+<a href="http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" style="height:22px!important;vertical-align:text-bottom;"/><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"/><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"/></a> Cet article est sous licence Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0) <a href="http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>.
+
+:::
+
+::: {.g-col-12 .g-col-md-6}
+Citer ce cours :
+: Ményssa Cherifa-Luron, PhD. "Gentle introduction à la Programmation Orientée Objets en Python". DAMA, 23/05/2024. Disponible [ici]( https://universdesdonnees.github.io/dama/cours/python_poo.html)
+:::
+:::
+:::

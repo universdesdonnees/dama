@@ -12,20 +12,21 @@ toc: false
     <p>J'aime l'idée de rendre la data science facile et accessible à tous et toutes, c'est pour cela que j'ai créé ce site et que je partage du contenu sur <a href="https://www.linkedin.com/in/menyssacherifaluron/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>.</p>
   </div>
 </div>
-<br>
-
-```
-
-## {{< fa briefcase>}} Mon parcours
-- Doctorat en Data Science ➡️ [Mes Projets](https://github.com/universdesdonnees/universdesdonnees)
-- 8 ans d'XP (Start-up, ONG, Grand Groupe) en Stats/ML/DL 
-- Formatrice 5 🌟 à l'[IA School](https://www.intelligence-artificielle-school.com/?gad_source=1&gclid=CjwKCAiA_aGuBhACEiwAly57Mb4r76ce4ltU5l6_uI_juVjOtmW4LvzS2X8xjInfn5bxq5NJFDpH6BoC4MoQAvD_BwE) et à L'[Université Paris Cité](https://u-paris.fr/)
-- Autrice sur des sujets comme R, SQL, et Python ➡️ [Mes livres](https://www.amazon.fr/s?i=stripbooks&rh=p_27%3AMenyssa+Cherifa-Luron&s=relevancerank&text=Menyssa+Cherifa-Luron&linkCode=ll2&tag=mcherifa21-21&linkId=bd1b178e56ff3df3999515f7d7414119&language=fr_FR&ref_=as_li_ss_tl)
-- LinkedIn `Top Data Science Voice`
-- Créatrice et autrice de la newsletter ['Smart'](https://www.linkedin.com/newsletters/7100158974640967680/), offrant des récits qui éclairent et inspirent.
-
-## {{< fa comments >}} Me contacter
-
-| {{< fa envelope >}}  Email : damaestla@gmail.com | {{< fa brands github >}}  [GitHub]((https://github.com/universdesdonnees) ) | {{< fa brands linkedin >}} [LinkedIn](https://www.linkedin.com/in/menyssacherifaluron/) |
-
-
+<div style="display: flex; justify-content: space-around; width: 100%; margin-bottom: 40px;">
+  <div style="flex: 1; padding: 20px;">
+    <h2><i class="fa-solid fa-hand-holding-heart"></i> Ma mission</h2>
+    <p>Je crois fermement que la data science ne devrait pas être réservée à une élite. Mon objectif est de démocratiser ce domaine passionnant et de donner à chacun les clés pour comprendre et utiliser la data, quel que soit son niveau de départ.</p>
+  </div>
+  <div style="flex: 1; padding: 20px;">
+    <h2><i class="fa-solid fa-fingerprint"></i> Mon approche</h2>
+    <p>J'ai à cœur de proposer des contenus de qualité, à la fois rigoureux et ludiques. Pas de jargon incompréhensible ici, juste des explications claires et des exemples concrets pour t'aider à progresser pas à pas.</p>
+  </div>
+</div>
+<div style="text-align: center; margin-bottom: 40px;">
+  <h2><i class="fa-solid fa-handshake"></i> Collaborons ensemble !</h2>
+  <p>Tu as une expertise à partager ? Une idée de cours ou d'article ? </p> 
+  <p>Je suis toujours ravie de collaborer avec d'autres passionnés pour créer des contenus toujours plus enrichissants. </p>
+  <p>N'hésite pas à me contacter, et construisons ensemble le futur de la data science accessible !</p>
+  <a href="mailto:damaestla@gmail.com" class="button">Me contacter</a>
+</div>
+  ```

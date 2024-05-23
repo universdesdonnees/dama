@@ -5,7 +5,7 @@ execute:
   debug: true
 
 website:
-  title: "Data Avec Ményssa" 
+  title: "DAMA" 
   page-navigation: true
   open-graph: true
   cookie-consent:
@@ -18,19 +18,17 @@ website:
   favicon: "images/dama_logo.png"
   navbar:
     logo: images/dama_logo.png
-    logo-alt: "Data avec Ményssa"
+    logo-alt: "DAMA"
     title: false
     toggle-position: right
     collapse-below: lg
     background: primary
     foreground: light
-    left:
+    right:
       - href: index.qmd
         text: "{{< fa home >}} Accueil"
       - href: cours/index.qmd
         text: "{{< fa chalkboard-user >}} Cours"
-      - text: "{{< fa code >}} Formation"
-        href: coding_session_entreprise.qmd 
       - text: "{{< fa blog >}} Blog"
         href:  blog/index.qmd   
       - href: about.qmd
