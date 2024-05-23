@@ -116,9 +116,10 @@ cookieconsent.run({
 background: #fff;
       }
 </style>
+<!-- Thank you to Ben Ruijl for the progress bar code!
+Ben is on GitHub here: https://github.com/benruijl
+And you can see the original code here: https://github.com/quarto-dev/quarto-cli/discussions/3842#discussioncomment-4591721 -->
 
-
-<link rel="stylesheet" href="../../css/custom_style.css">
 <meta property="og:title" content="DAMA - Guide de Rédaction d’un article aux petits oignons">
 <meta property="og:description" content="Un guide complet pour écrire des articles de vulgarisation captivants et de qualité. Suis ces conseils étape par étape pour partager ton savoir de façon efficace.">
 <meta property="og:image" content="https://universdesdonnees.github.io/images/guide_redaction.png">
@@ -134,9 +135,29 @@ background: #fff;
 <meta name="twitter:image-width" content="1024">
 <meta name="twitter:image:alt" content="Guide de rédaction DAMA">
 <meta name="twitter:card" content="summary_large_image">
-</head>
+</head><body class="nav-fixed"><div id="progress-bar" style="width: 0%; height:4px; background-color: #FFBD59;; position: fixed; top: 0px; z-index: 2000;"></div>
 
-<body class="nav-fixed">
+<script id="progressbar" type="text/javascript">
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    const bar = document.querySelector('#progress-bar');
+    const post = document.querySelector('#quarto-content');
+    const html = document.documentElement;
+    
+    const height = post.scrollHeight + post.offsetTop;
+    
+    window.addEventListener('scroll', () => {
+        bar.style.width = (html.scrollTop / (height- html.clientHeight)) * 100 + '%';
+    });
+});
+</script>
+
+
+<link rel="stylesheet" href="../../css/custom_style.css">
+
+
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
