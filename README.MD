@@ -1,21 +1,44 @@
-| ![Logo POO](https://github.com/universdesdonnees/dama/blob/master/images/dama_logo.png?raw=true) | **Bienvenue sur mon site dédié à la programmation orientée objet (POO).**<br>Ce site vise à fournir des ressources complètes pour maîtriser les concepts et la mise en œuvre de la POO dans différents langages de programmation. |
+| ![Logo POO](https://github.com/universdesdonnees/dama/blob/master/images/dama_logo.png?raw=true) | **Découvrir, Assimiler, Maîtriser, Appliquer (DAMA)**
+<br> Bienvenue sur DAMA, un blog dédié à rendre la data science facile, utile et accessible à tous. 
+<br> Notre objectif est de vous fournir l'essentiel pour pratiquer et performer en data science ! |
 | --- | --- |
 
 
-Des exercices pratiques, des exemples de code et d'autres ressources complémentaires seront fournis pour chaque leçon afin de renforcer l'apprentissage.
+## 🌟 Fonctionnalités
 
-## Comment utiliser ce site
+- **Mini-cours** : Retrouvez les derniers mini-cours que je poste régulièrement sur LinkedIn. Suivez-moi sur [LinkedIn](https://www.linkedin.com/in/menyssacherifaluron/) pour ne rien manquer !
 
-- Parcourez les différentes sections pour découvrir les concepts de la POO.
-- Consultez les ressources fournies (tutoriels, exemples de code, exercices).
-- N'hésitez pas à poser des questions ou à partager vos commentaires.
+- **Cours** : Progressez en data science à votre rythme avec nos cours. Que vous soyez débutant, intermédiaire ou avancé, vous trouverez des exemples concrets et des exercices adaptés pour maîtriser R, créer des visualisations époustouflantes, devenir un héros Python, gérer des bases de données avec SQL, développer des modèles prédictifs puissants avec le machine learning, et bien plus encore. Accédez aux cours [ici](cours/index.qmd).
 
-## Contact
+- **Blog** : Découvrez, apprenez et partagez à travers notre blog, un espace de vulgarisation scientifique autour de la data science. Vous y trouverez des articles de fond pour comprendre les concepts clés, des tutoriels pratiques pour monter en compétences, et des projets et retours d'expérience inspirants. Accédez au blog [ici](blog/index.qmd).
 
-Pour toute question ou suggestion, vous pouvez me contacter via :
+## 🤝 Collaboration
 
-- [LinkedIn](https://www.linkedin.com/in/menyssacherifa/) 
-- Mail : damaestla@gmail.com
+Vous êtes déjà expert.e et vous souhaitez rédiger un article et/ou créer un cours ? Vous adhérez à l'esprit *Open Learning Source* ? C'est avec plaisir que nous collaborerons avec vous !
+
+### 📩 Comment contribuer ?
+
+1. Envoyez-moi un e-mail à damaestla@gmail.com ou contactez-moi directement sur [LinkedIn](https://www.linkedin.com/in/menyssacherifaluron/).
+2. Commencez à rédiger en utilisant nos templates [articles](https://github.com/universdesdonnees/dama/blob/master/blog/article_template.qmd) et [cours](https://github.com/universdesdonnees/dama/blob/master/cours/cours_template.qmd).
+3. Soumettez votre contenu, je le revois avec vous et on le publie ensemble !
+
+Rejoignez la communauté DAMA et faisons briller la data science accessible à tous !
+
+## 🛠️ Construit avec
+
+- {{< fa brands python >}} Python
+- [Quarto](https://quarto.org/)
+
+## 👩‍💻 Auteur
+
+Ményssa Cherifa-Luron, PhD
+
+## 📄 Licence
+
+Ce projet est sous licence [Creative Commons Attribution-NonCommercial 4.0 International](http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1).
+
+<a href="http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" style="height:22px!important;vertical-align:text-bottom;"/><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"/><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"/></a>
+
 
 ## Licence
 

@@ -2,28 +2,28 @@
   {
     "objectID": "README.html",
     "href": "README.html",
-    "title": "Data Avec Ményssa",
+    "title": "DAMA",
     "section": "",
     "text": "Bienvenue sur mon site dédié à la programmation orientée objet (POO).Ce site vise à fournir des ressources complètes pour maîtriser les concepts et la mise en œuvre de la POO dans différents langages de programmation.\nDes exercices pratiques, des exemples de code et d’autres ressources complémentaires seront fournis pour chaque leçon afin de renforcer l’apprentissage."
   },
   {
     "objectID": "README.html#comment-utiliser-ce-site",
     "href": "README.html#comment-utiliser-ce-site",
-    "title": "Data Avec Ményssa",
+    "title": "DAMA",
     "section": "Comment utiliser ce site",
     "text": "Comment utiliser ce site\n\nParcourez les différentes sections pour découvrir les concepts de la POO.\nConsultez les ressources fournies (tutoriels, exemples de code, exercices).\nN’hésitez pas à poser des questions ou à partager vos commentaires."
   },
   {
     "objectID": "README.html#contact",
     "href": "README.html#contact",
-    "title": "Data Avec Ményssa",
+    "title": "DAMA",
     "section": "Contact",
     "text": "Contact\nPour toute question ou suggestion, vous pouvez me contacter via :\n\nLinkedIn\nMail : damaestla@gmail.com"
   },
   {
     "objectID": "README.html#licence",
     "href": "README.html#licence",
-    "title": "Data Avec Ményssa",
+    "title": "DAMA",
     "section": "Licence",
     "text": "Licence\nLa licence CC BY-NC 4.0 vous permet de :\nPartager : Copier, distribuer et communiquer le matériel par tous moyens et sous tous formats. Adapter : Remixer, transformer et créer à partir du matériel. Cependant, vous devez respecter les conditions suivantes :\nAttribution : Vous devez créditer l’Œuvre d’origine, intégrer un lien vers la licence et indiquer si des modifications ont été effectuées. Ces informations doivent être fournies par tous les moyens raisonnables, sans suggérer que l’auteur original vous soutient ou soutient la façon dont vous avez utilisé son Œuvre. Pas d’Utilisation Commerciale : Vous n’êtes pas autorisé à faire un usage commercial de cette Œuvre, en tout ou partie. Pas de restrictions complémentaires : Vous n’êtes pas autorisé à appliquer des conditions légales ou des mesures techniques qui restreindraient légalement autrui à utiliser l’Œuvre dans les conditions décrites par la licence. Aucune garantie n’est donnée avec cette licence. Il se peut qu’elle ne vous donne pas toutes les permissions nécessaires pour votre utilisation, par exemple pour les droits moraux, le droit des données personnelles ou le droit à l’image.\nPour plus d’informations et pour consulter le texte complet de la licence, veuillez vous référer à l’URL suivante : https://creativecommons.org/licenses/by-nc/4.0/deed.fr https://creativecommons.org/licenses/by-nc/4.0/deed.fr"
   },
@@ -119,53 +119,11 @@
     "text": "Collaboration\n\n\n\n\n\nTu es déjà expert.e et tu souhaites rédiger un article ou créer un cours ? Tu adhères à l’esprit Open Learning Source ?\nC’est avec plaisir, parce que j’aime les featurings ! Si ça te dit envoie moi un petit mail à damaestla@gmail.com ou contacte moi directement sur LinkedIn et commence à rédiger avec les templates articles et cours.\n\n\n\n\n    Cours disponibles\n   Choisis le cours qui t'intéresse et c'est parti !\n\n\n\n  \n    \n      \n        \n        \n          R : Introduction à la programmation\n        \n        \n          Niveau : débutant\n        \n      \n    \n\n    \n      \n        \n        \n          Python : Introduction à la programmation\n        \n        \n          Niveau : débutant\n        \n      \n    \n\n    \n      \n        \n        \n          R Shiny : Déployer des applications web avec R \n        \n        \n          Niveau : Intermédiaire\n        \n      \n    \n\n    \n      \n        \n        \n          Python : Programmation orientée objets\n        \n        \n          Niveau : Intermédiaire\n        \n      \n    \n  \n\n\n\n\n Retour au sommet"
   },
   {
-    "objectID": "cours/ancien_index.html",
-    "href": "cours/ancien_index.html",
-    "title": "\n    Cours disponibles\n  ",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": " Qui suis-je ?",
     "section": "",
-    "text": "Cours disponibles\n  \n  \n    Des coding sessions sur mesure, parce que tu es unique et que\n  \n\n\n  \n    \n      \n        \n\n        \n          UI/Web&Graph design for teenagers 11-17 years old\n        \n\n        \n          Start:\n          \n            04.11.2022\n          \n        \n      \n    \n\n    \n      \n        \n\n        \n          UX/UI Web-Design + Mobile Design\n        \n\n        \n          Start:\n          \n            04.11.2022\n          \n        \n      \n    \n\n    \n      \n        \n\n        \n          Annual package \"Product+UX/UI+Graph designer 2022\"\n        \n\n        \n          Start:\n          \n            04.11.2022\n          \n        \n      \n    \n\n    \n      \n        \n\n        \n          Graphic Design\n        \n\n        \n          Start:\n          \n            04.11.2022\n          \n        \n      \n    \n\n    \n      \n        \n\n        \n          Motion Design\n        \n\n        \n          Start:\n          \n            30.11.2022\n          \n        \n      \n    \n\n    \n      \n        \n\n        \n          Front-end development + jQuery + CMS\n        \n      \n    \n\n    \n      \n        \n        \n        \n          Digital Marketing\n        \n      \n    \n\n    \n      \n        \n\n        \n          Interior Design\n        \n\n        \n          Start:\n          \n            31.10.2022\n          \n        \n      \n    \n\n  \n\n\n\n\n\n\n\n\n📢 Les modules\n\n\n\n\n\n\nPour le moment 4 modules sont prévus pour ce cours.\nLes corrections se feront au fur et à mesure\nLa prise de RDV est possible sur la page À Propos\n\n\n\n\n\n💻 Modules\n\nModule 0\nIntroduction à Python - Rappels essentiels\n⛔ Cours\n⛔ Exercices\n⛔ Corrections\n\n\n  \n    Commencer le cours ! 🚀\n  \n\n\n\n\nModule 1\nPOO 1. Contexte et notions élémentaires\n✅ Cours\n✅ Exercices\n⛔ Corrections\n\n\n  \n    Commencer le cours ! 🚀\n  \n\n\n\n\nModule 2\nPOO 2.\n⛔ Cours\n⛔ Exercices\n⛔ Corrections\n\n\n  \n    Commencer le cours ! 🚀\n  \n\n\n\n\nModule 3\nPOO 3.\n⛔ Cours\n⛔ Exercices\n⛔ Corrections\n\n\n  \n    Commencer le cours ! 🚀\n  \n\n\n\n\n\n\n\n Retour au sommet"
-  },
-  {
-    "objectID": "coding_session_entreprise.html",
-    "href": "coding_session_entreprise.html",
-    "title": "\n    Avec DAMA, cap sur l'autonomie de vos équipes",
-    "section": "",
-    "text": "Des formations data science sur mesure, parce que chaque entreprise est unique\n  \n  \n  \n    Passer à l'action! 🚀"
-  },
-  {
-    "objectID": "coding_session_entreprise.html#la-data-science-sur-mesure-adaptée-à-vos-enjeux-business",
-    "href": "coding_session_entreprise.html#la-data-science-sur-mesure-adaptée-à-vos-enjeux-business",
-    "title": "\n    Avec DAMA, cap sur l'autonomie de vos équipes",
-    "section": " La data science sur-mesure, adaptée à vos enjeux business",
-    "text": "La data science sur-mesure, adaptée à vos enjeux business\nFini les formations génériques qui ne répondent pas à vos besoins spécifiques. Il est temps de passer à la vitesse supérieure avec des formations 100% personnalisées.\nImaginez vos équipes dans quelques mois :\n\nMaîtrisant les langages de programmation les plus demandés en data science\nApprivoisant les algorithmes de machine learning les plus puissants\nBoostant leur employabilité et leur valeur sur le marché\nDevenant les experts en data science dont votre entreprise a besoin\n\nÇa en jette, pas vrai ? Et si je vous disais que c’est possible… à condition d’avoir la bonne feuille de route ?"
-  },
-  {
-    "objectID": "coding_session_entreprise.html#pourquoi-mes-formations-sont-différentes",
-    "href": "coding_session_entreprise.html#pourquoi-mes-formations-sont-différentes",
-    "title": "\n    Avec DAMA, cap sur l'autonomie de vos équipes",
-    "section": " Pourquoi mes formations sont différentes ?",
-    "text": "Pourquoi mes formations sont différentes ?\nParce qu’elles sont 100% personnalisées en fonction du niveau, des objectifs et du rythme d’apprentissage de vos collaborateurs. Fini les formations à la chaîne qui ne répondent pas à vos enjeux.\nAvec moi, vous aurez :\n\n👨‍🏫 Un suivi individuel avec un expert passionné via un espace notion personnalisé*\n🎯 Un programme sur mesure aligné avec vos objectifs business\n🕒 Un rythme flexible adapté aux disponibilités de vos équipes\n🚀 Des projets concrets pour muscler leur portfolio et apporter de la valeur à votre entreprise"
-  },
-  {
-    "objectID": "coding_session_entreprise.html#comment-ça-marche",
-    "href": "coding_session_entreprise.html#comment-ça-marche",
-    "title": "\n    Avec DAMA, cap sur l'autonomie de vos équipes",
-    "section": " Comment ça marche ?",
-    "text": "Comment ça marche ?\nEn 4 étapes, vos équipes seront sur le chemin de la réussite !\n\nNous échangeons sur vos besoins et définissons ensemble les objectifs de la formation\nJe crée un programme personnalisé aligné avec vos enjeux business\nVos collaborateurs se connectent et codent en live avec moi via  VS code et Visual Studio Live Share\nJe vous fournis un reporting détaillé des progrès de chaque participant"
-  },
-  {
-    "objectID": "coding_session_entreprise.html#ce-que-vous-gagnez-en-me-choisissant-comme-partenaire-de-formation-attention-ça-va-être-dur-de-résister",
-    "href": "coding_session_entreprise.html#ce-que-vous-gagnez-en-me-choisissant-comme-partenaire-de-formation-attention-ça-va-être-dur-de-résister",
-    "title": "\n    Avec DAMA, cap sur l'autonomie de vos équipes",
-    "section": " Ce que vous gagnez en me choisissant comme partenaire de formation (attention, ça va être dur de résister !)",
-    "text": "Ce que vous gagnez en me choisissant comme partenaire de formation (attention, ça va être dur de résister !)\n\nDes sessions de coaching en tête-à-tête, 100% adaptées aux besoins de vos collaborateurs\nUn environnement de codage partagé en live, pour progresser à vitesse grand V\nMes conseils et astuces d’expert pour aider vos équipes à monter en compétences rapidement\nDes réponses à TOUTES leurs questions de codage (même les plus tordues, promis !)\nDes ressources exclusives en bonus pour cimenter leurs acquis et en faire des pros de la data"
-  },
-  {
-    "objectID": "coding_session_entreprise.html#offres-sur-mesure-contactez-moi-pour-en-discuter",
-    "href": "coding_session_entreprise.html#offres-sur-mesure-contactez-moi-pour-en-discuter",
-    "title": "\n    Avec DAMA, cap sur l'autonomie de vos équipes",
-    "section": " Offres sur-mesure, contactez-moi pour en discuter !",
-    "text": "Offres sur-mesure, contactez-moi pour en discuter !\nJe crois en la valeur de mon expertise et je veux la mettre au service de votre réussite. Parlons de vos besoins et voyons comment je peux y répondre !\n\n Passer à l’action! 🚀 \n\nVous avez encore des questions ? Vous voulez en savoir plus sur mon approche ? Écrivez-moi à damaestla@gmail.com, je me ferai un plaisir de vous répondre !\n\n* Le Data Science Launch Pad est un espace en ligne qui rassemble les meilleures ressources et un parcours structuré pour aider vos collaborateurs à monter en compétences en data science. Il propose une feuille de route d’apprentissage, une base de connaissances, des idées de projets pratiques et un suivi de progression personnalisé."
+    "text": "Salut, 👋 moi, c'est Ményssa, ta formatrice principale en data science. Je suis passionnée par la transformation des données ennuyeuses en histoires captivantes – un peu comme un chef qui transforme des pois chiches en steak !\n    J'aime l'idée de rendre la data science facile et accessible à tous et toutes, c'est pour cela que j'ai créé ce site et que je partage du contenu sur  LinkedIn.\n  \n\n\n  \n     Ma mission\n    Je crois fermement que la data science ne devrait pas être réservée à une élite. Mon objectif est de démocratiser ce domaine passionnant et de donner à chacun les clés pour comprendre et utiliser la data, quel que soit son niveau de départ.\n  \n  \n     Mon approche\n    J'ai à cœur de proposer des contenus de qualité, à la fois rigoureux et ludiques. Pas de jargon incompréhensible ici, juste des explications claires et des exemples concrets pour t'aider à progresser pas à pas.\n  \n\n\n   Collaborons ensemble !\n  Tu as une expertise à partager ? Une idée de cours ou d'article ?  \n  Je suis toujours ravie de collaborer avec d'autres passionnés pour créer des contenus toujours plus enrichissants. \n  N'hésite pas à me contacter, et construisons ensemble le futur de la data science accessible !\n  Me contacter\n\n\n\n\n Retour au sommet"
   },
   {
     "objectID": "blog/article_template.html",
@@ -189,81 +147,11 @@
     "text": "deux paragraphe\n\nsous paragraphe\n\nsous-sous paragraphe\n\n\nPlus d’article ici\n\n\n\n\n\nÀ propos des auteurs\n\nAuteur1 est …\n\n\nAuteur2 est … :…\n\n\n\n\n\nCopyright and licence\n\n© année, Auteur\n\n\n  Cet article est sous licence Creative Commons Attribution 4.0 (CC BY 4.0)  International licence.\n\n\n\nCiter cet article :\n\nAuteur1, Auteur2 et al 2024. “Titre” DAMA, date. URL"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": " Qui suis-je ?",
-    "section": "",
-    "text": "Salut, 👋 moi, c'est Ményssa, ta formatrice principale en data science. Je suis passionnée par la transformation des données ennuyeuses en histoires captivantes – un peu comme un chef qui transforme des pois chiches en steak !\n    J'aime l'idée de rendre la data science facile et accessible à tous et toutes, c'est pour cela que j'ai créé ce site et que je partage du contenu sur  LinkedIn.\n  \n\n\n  \n     Ma mission\n    Je crois fermement que la data science ne devrait pas être réservée à une élite. Mon objectif est de démocratiser ce domaine passionnant et de donner à chacun les clés pour comprendre et utiliser la data, quel que soit son niveau de départ.\n  \n  \n     Mon approche\n    J'ai à cœur de proposer des contenus de qualité, à la fois rigoureux et ludiques. Pas de jargon incompréhensible ici, juste des explications claires et des exemples concrets pour t'aider à progresser pas à pas.\n  \n\n\n   Collaborons ensemble !\n  Tu as une expertise à partager ? Une idée de cours ou d'article ?  \n  Je suis toujours ravie de collaborer avec d'autres passionnés pour créer des contenus toujours plus enrichissants. \n  N'hésite pas à me contacter, et construisons ensemble le futur de la data science accessible !\n  Me contacter\n\n\n\n\n Retour au sommet"
-  },
-  {
-    "objectID": "about.html#mon-parcours",
-    "href": "about.html#mon-parcours",
-    "title": " Qui suis-je ?",
-    "section": " Mon parcours",
-    "text": "Mon parcours\n\nDoctorat en Data Science ➡️ Mes Projets\n8 ans d’XP (Start-up, ONG, Grand Groupe) en Stats/ML/DL\nFormatrice 5 🌟 à l’IA School et à L’Université Paris Cité\nAutrice sur des sujets comme R, SQL, et Python ➡️ Mes livres\nLinkedIn Top Data Science Voice\nCréatrice et autrice de la newsletter ‘Smart’, offrant des récits qui éclairent et inspirent."
-  },
-  {
-    "objectID": "about.html#me-contacter",
-    "href": "about.html#me-contacter",
-    "title": " Qui suis-je ?",
-    "section": " Me contacter",
-    "text": "Me contacter\n Email : damaestla@gmail.com |  GitHub |  LinkedIn |"
-  },
-  {
-    "objectID": "coding_session_ind.html",
-    "href": "coding_session_ind.html",
-    "title": "\n    Coder facile avec DAMA",
-    "section": "",
-    "text": "Des coding sessions sur mesure, parce que tu es unique et que"
-  },
-  {
-    "objectID": "coding_session_ind.html#la-data-science-sur-mesure-rien-que-pour-toi",
-    "href": "coding_session_ind.html#la-data-science-sur-mesure-rien-que-pour-toi",
-    "title": "\n    Coder facile avec DAMA",
-    "section": " La data science sur-mesure, rien que pour toi",
-    "text": "La data science sur-mesure, rien que pour toi\nFini les formations taille unique qui te laissent sur ta faim. Il est temps de passer au niveau supérieur avec un apprentissage 100% personnalisé.\nImagine-toi dans quelques mois :\n\nMaîtriser les langages de programmation les plus demandés en data science\nApprivoiser les algorithmes de machine learning les plus puissants\nBooster ton CV et décrocher le job de tes rêves\nDevenir l’expert(e) en data science dont les entreprises ont besoin\n\nÇa en jette, pas vrai ? Et si je te disais que c’est possible… à condition d’avoir la bonne feuille de route ?"
-  },
-  {
-    "objectID": "coding_session_ind.html#pourquoi-mes-sessions-sont-différentes",
-    "href": "coding_session_ind.html#pourquoi-mes-sessions-sont-différentes",
-    "title": "\n    Coder facile avec DAMA",
-    "section": " Pourquoi mes sessions sont différentes ?",
-    "text": "Pourquoi mes sessions sont différentes ?\nParce qu’elles sont 100% personnalisées en fonction de TON niveau, TES objectifs et TON rythme d’apprentissage. Fini les formations à la chaîne qui te laissent sur ta faim.\nAvec moi, tu auras :\n\n👨‍🏫 Un suivi individuel avec un expert passionné via un espace notion personnalisé*\n🎯 Un programme sur mesure aligné avec tes objectifs\n🕒 Un rythme flexible adapté à tes disponibilités\n🚀 Des projets concrets pour muscler ton portfolio"
-  },
-  {
-    "objectID": "coding_session_ind.html#comment-ça-marche",
-    "href": "coding_session_ind.html#comment-ça-marche",
-    "title": "\n    Coder facile avec DAMA",
-    "section": " Comment ça marche ?",
-    "text": "Comment ça marche ?\nEn 4 étapes, tu seras sur le chemin de la réussite !\n\nInstalle  VS code et l’extention Visual Studio Live Share\nChoisis ton arme secrète : R, Python, SQL… à toi de décider ce qui te fera décoller !\nRéserve ton créneau : Quelques clics sur mon site et hop, ta place est réservée. Facile comme bonjour !\nConnecte-toi et code en live avec moi : On se retrouve sur Cal et on code ensemble en temps réel avec VS Code Live Share."
-  },
-  {
-    "objectID": "coding_session_ind.html#ce-que-tu-gagnes-en-réservant-maintenant-attention-ça-va-être-dur-de-résister",
-    "href": "coding_session_ind.html#ce-que-tu-gagnes-en-réservant-maintenant-attention-ça-va-être-dur-de-résister",
-    "title": "\n    Coder facile avec DAMA",
-    "section": " Ce que tu gagnes en réservant maintenant (attention, ça va être dur de résister !)",
-    "text": "Ce que tu gagnes en réservant maintenant (attention, ça va être dur de résister !)\n\n60 minutes de coaching en tête-à-tête avec moi, 100% adaptées à TES besoins\nUn environnement de codage partagé en live, pour progresser à vitesse grand V\nMes conseils et astuces d’expert pour t’aider à atteindre tes objectifs en un temps record\nDes réponses à TOUTES tes questions de codage (même les plus tordues, promis !)\nDes ressources exclusives en bonus pour cimenter tes acquis et faire de toi un(e) pro"
-  },
-  {
-    "objectID": "coding_session_ind.html#tarifs-et-packs-cest-maintenant-ou-jamais",
-    "href": "coding_session_ind.html#tarifs-et-packs-cest-maintenant-ou-jamais",
-    "title": "\n    Coder facile avec DAMA",
-    "section": " Tarifs et packs, c’est maintenant ou jamais !",
-    "text": "Tarifs et packs, c’est maintenant ou jamais !\nJe crois en la valeur de mon expertise et je veux te la transmettre dans la bonne humeur.\n\n  \n    \n      \n        Call Boost\n        Session d'1h\n        65€ - Boost sur-mesure pour résoudre un problème précis.\n        Réserve ta session ! 🚀\n      \n    \n  \n\n  \n    \n      \n        Data Dive\n        Pack 3 sessions\n        150€ 195€ - Idéal pour creuser un sujet à fond et progresser à vitesse grand V. \n         Obtiens ton pack ! 🚀\n      \n    \n  \n\n  \n    \n      \n        Data Odyssey\n        Pack de 10 sessions\n        500€ 650€ - L'option parfaite pour un véritable parcours de montée en compétences.\n         Obtiens ton super pack ! 🚀\n      \n    \n  \n\nLes tarifs canon de mes partenaires experts : j’ai une équipe de choc à mes côtés, prête à t’accompagner à des tarifs ultra-sympas à partir de 30€ de l’heure."
-  },
-  {
-    "objectID": "coding_session_ind.html#les-places-partent-à-la-vitesse-de-léclair-réserve-la-tienne-maintenant",
-    "href": "coding_session_ind.html#les-places-partent-à-la-vitesse-de-léclair-réserve-la-tienne-maintenant",
-    "title": "\n    Coder facile avec DAMA",
-    "section": " Les places partent à la vitesse de l’éclair, réserve la tienne maintenant !",
-    "text": "Les places partent à la vitesse de l’éclair, réserve la tienne maintenant !\nT’es à deux doigts de faire décoller ta carrière en data science. Ne laisse pas passer cette occasion en or ! Choisis vite ton langage préféré, ton créneau, règle en ligne et let’s go ! Je t’attends avec impatience.\n\n Réserver mon cours ! 🚀 \n\nTu as encore des questions ? Tu veux en savoir plus sur mon approche ? Écris-moi ici, je me ferai un plaisir de te répondre !\n\n* Le Data Science Launch Pad est un espace en ligne qui rassemble les meilleures ressources et un parcours structuré pour aider les débutants à se lancer en data science. Il propose une feuille de route d’apprentissage, une base de connaissances, des idées de projets pratiques et un suivi de progression personnalisé. Disponible uniquement pour le parcours Data Odyssey"
-  },
-  {
     "objectID": "cours/cours_template.html",
     "href": "cours/cours_template.html",
-    "title": "Sample Report (Quarto)",
+    "title": "Gentle introduction à la Programmation Orientée Objets en Python",
     "section": "",
-    "text": "1 Partie 1\n\nVoir le codex = 2 + 2 \n\n\n\n2 Partie 2\n\n\n Retour au sommet"
+    "text": "1 Partie 1\n\nx = 2 + 2 \n\n\n2 Partie 2\n\n\nPlus de cours\n\n\n\n\n\nÀ propos des auteurs\n\nMényssa Cherifa-Luron, PhD est data scientist et formatrice freelance.\n\n\n\n\n\nCopyright and licence\n\n© 2024, Ményssa Cherifa-Luron, PhD\n\n\n \n\n\t\n\t\n\n\n\n\t\n\t\n\t\t\n\t\n\n\n\n\t\n\t\n\t\t\n\t\n\n Cet article est sous licence Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0)  International licence.\n\n\n\nCiter ce cours :\n\nMényssa Cherifa-Luron, PhD. “Gentle introduction à la Programmation Orientée Objets en Python”. DAMA, 23/05/2024. Disponible ici\n\n\n\n\n\n\n\n Retour au sommet"
   },
   {
     "objectID": "cours/python_intro.html",
@@ -455,11 +343,18 @@
     "text": "Mini-cours\n\n  Retrouve ici les derniers mini-cours que je poste régulièrement sur LinkedIn.  Check this out 👇\n\n\n\n  \n    \n  \n  \n    \n     \n  \n    \n  \n\n\n  Tu aimes ? Ne loupe rien et viens me suivre sur LinkedIn !\n  \n     Me suivre ! 🚀"
   },
   {
-    "objectID": "index.html#au-menu",
-    "href": "index.html#au-menu",
+    "objectID": "index.html#cours-progresse-en-data-science-à-ton-rythme",
+    "href": "index.html#cours-progresse-en-data-science-à-ton-rythme",
     "title": "Découvrir, Assimiler, Maîtriser, Appliquer (DAMA)",
-    "section": " Au menu",
-    "text": "Au menu\nQue tu sois débutant, intermédiaire ou avancé, ces cours te permettront de progresser en data science à ton rythme, avec des exemples concrets et des exercices adaptés.\n\n🔧 Maîtrise R pour des analyses de données au top\n🎨 Génère des visualisations à couper le souffle\n🐍 Python pour la data science : de zéro à héros !\n🗄️ SQL pour la gestion et l’interrogation des bases de données\n🤖 Machine Learning : développe des modèles prédictifs puissants\n💡 Et bien plus encore…\n\nTu es prêt à devenir un pro et à développer tes propres applications en data science ? Alors, lance-toi dès maintenant !\n\n  \n     Accéder aux cours 🚀\n  \n\nTu pourras entre autre :\n\nMaitriser R pour des analyses de données au top\nGénérer des visualisations à couper le souffle\nPython pour la data science : de Zéro à Héro !\nSQL pour la gestion et l’interrogation des bases de données\nMachine Learning : Développer des modèles prédictifs puissants\n\nEt plus encore…\nJ’espère que tu es prêt ? Oui ! Alors, prépare-toi devenir un pro et à développer tes propres applications en data science.\n\n\n  \n     Accéder aux cours 🚀"
+    "section": " Cours : Progresse en data science à ton rythme",
+    "text": "Cours : Progresse en data science à ton rythme\nQue tu sois débutant, intermédiaire ou avancé, les cours te permettront de monter en compétences en data science, avec des exemples concrets et des exercices adaptés. Tu y trouveras :\n\nMaîtrise R pour des analyses de données au top\nGénère des visualisations à couper le souffle\nPython pour la data science : de zéro à héros !\nSQL pour la gestion et l’interrogation des bases de données\nMachine Learning : développe des modèles prédictifs puissants\nEt bien plus encore…\n\nJ’espère que tu es prêt ? Oui ! Alors, prépare-toi devenir un pro et à développer tes propres applications en data science.\n\n  \n     Accéder aux cours 🚀"
+  },
+  {
+    "objectID": "index.html#blog-découvre-apprends-partage",
+    "href": "index.html#blog-découvre-apprends-partage",
+    "title": "Découvrir, Assimiler, Maîtriser, Appliquer (DAMA)",
+    "section": " Blog : Découvre, apprends, partage",
+    "text": "Blog : Découvre, apprends, partage\nLe blog est un espace de partage et de vulgarisation scientifique autour de la data science. Tu y trouveras :\n\nDes articles de fond pour comprendre les concepts clés\nDes tutoriels pratiques pour monter en compétences\nDes projets et retours d’expérience inspirants\n\n\n  Accéder au blog 🚀"
   },
   {
     "objectID": "index.html#collaboration",
@@ -509,19 +404,5 @@
     "title": "Mentions légales",
     "section": "Utilisation des données personnelles",
     "text": "Utilisation des données personnelles\nMényssa Cherifa-Luron collecte des informations pour identifier vos besoins et vous proposer un meilleur service. Les éléments de statistique nous permettent de mieux comprendre comment les visiteurs interagissent avec notre site.\nEn application de la loi n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, vous disposez d’un droit d’accès, de rectification ou de suppression des données vous concernant. Toute demande en ce sens devra être adressée à : Ményssa Cherifa-Luron, 11 rue antonio vivaldi, 31300 Toulouse, damaestla@gmail.com. En tout état de cause, la confidentialité des informations relatives aux visiteurs de ce site sera préservée."
-  },
-  {
-    "objectID": "index.html#cours-progresse-en-data-science-à-ton-rythme",
-    "href": "index.html#cours-progresse-en-data-science-à-ton-rythme",
-    "title": "Découvrir, Assimiler, Maîtriser, Appliquer (DAMA)",
-    "section": " Cours : Progresse en data science à ton rythme",
-    "text": "Cours : Progresse en data science à ton rythme\nQue tu sois débutant, intermédiaire ou avancé, les cours te permettront de monter en compétences en data science, avec des exemples concrets et des exercices adaptés. Tu y trouveras :\n\nMaîtrise R pour des analyses de données au top\nGénère des visualisations à couper le souffle\nPython pour la data science : de zéro à héros !\nSQL pour la gestion et l’interrogation des bases de données\nMachine Learning : développe des modèles prédictifs puissants\nEt bien plus encore…\n\nJ’espère que tu es prêt ? Oui ! Alors, prépare-toi devenir un pro et à développer tes propres applications en data science.\n\n  \n     Accéder aux cours 🚀"
-  },
-  {
-    "objectID": "index.html#blog-découvre-apprends-partage",
-    "href": "index.html#blog-découvre-apprends-partage",
-    "title": "Découvrir, Assimiler, Maîtriser, Appliquer (DAMA)",
-    "section": " Blog : Découvre, apprends, partage",
-    "text": "Blog : Découvre, apprends, partage\nLe blog est un espace de partage et de vulgarisation scientifique autour de la data science. Tu y trouveras :\n\nDes articles de fond pour comprendre les concepts clés\nDes tutoriels pratiques pour monter en compétences\nDes projets et retours d’expérience inspirants\n\n\n  Accéder au blog 🚀"
   }
 ]
