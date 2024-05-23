@@ -5,7 +5,7 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Data Avec Ményssa</title>
+<title>DAMA</title>
 <link>https://universdesdonnees.github.io/poo_en_python/blog/</link>
 <atom:link href="https://universdesdonnees.github.io/poo_en_python/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
@@ -47,6 +47,7 @@ Une note :)
 <h3 class="anchored" data-anchor-id="sous-paragraphe">sous paragraphe</h3>
 <section id="sous-sous-paragraphe" class="level4">
 <h4 class="anchored" data-anchor-id="sous-sous-paragraphe">sous-sous paragraphe</h4>
+<hr>
 <div class="article-btn">
 <p><a href="../blog/index.html">Plus d’article ici</a></p>
 </div>
@@ -54,7 +55,7 @@ Une note :)
 <div class="grid">
 <div class="g-col-12 g-col-md-12">
 <dl>
-<dt>A propos des auteurs</dt>
+<dt>À propos des auteurs</dt>
 <dd>
 <strong>Auteur1</strong> est …
 </dd>
