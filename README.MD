@@ -1,7 +1,11 @@
-| ![Logo POO](https://github.com/universdesdonnees/dama/blob/master/images/dama_logo.png?raw=true) | **Découvrir, Assimiler, Maîtriser, Appliquer (DAMA)**
-<br> Bienvenue sur DAMA, un blog dédié à rendre la data science facile, utile et accessible à tous. 
-<br> Notre objectif est de vous fournir l'essentiel pour pratiquer et performer en data science ! |
+| ![Logo POO](https://github.com/universdesdonnees/dama/blob/master/images/dama_logo.png?raw=true) | **Découvrir, Assimiler, Maîtriser, Appliquer (DAMA)**<br><br>Bienvenue sur DAMA, un blog dédié à rendre la data science facile, utile et accessible à tous.<br><br>Notre objectif est de vous fournir l'essentiel pour pratiquer et performer en data science ! |
 | --- | --- |
+
+## 🌟 Fonctionnalités
+
+- **Mini-cours** : Retrouvez les derniers mini-cours que je poste régulièrement sur LinkedIn. Suivez-moi sur [LinkedIn](https://www.linkedin.com/in/menyssacherifaluron/) pour ne rien manquer !
+
+- **Cours** : Progressez en data science à votre rythme avec nos cours. Que vous soyez débutant, intermédiaire ou avancé, vous trouverez des exem
 
 
 ## 🌟 Fonctionnalités
@@ -38,9 +42,6 @@ Ményssa Cherifa-Luron, PhD
 Ce projet est sous licence [Creative Commons Attribution-NonCommercial 4.0 International](http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1).
 
 <a href="http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" style="height:22px!important;vertical-align:text-bottom;"/><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"/><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"/></a>
-
-
-## Licence
 
 La licence CC BY-NC 4.0 vous permet de :
 
