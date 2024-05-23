@@ -103,6 +103,10 @@ cookieconsent.run({
 <meta property="og:title" content="DAMA - Découvrir, Assimiler, Maîtriser, Appliquer (DAMA)">
 <meta property="og:description" content="La data science facile, utile et accessible à tous. Juste l’essentiel pour pratiquer et performer !">
 <meta property="og:site_name" content="DAMA">
+<meta name="twitter:title" content="DAMA - Découvrir, Assimiler, Maîtriser, Appliquer (DAMA)">
+<meta name="twitter:description" content="La data science facile, utile et accessible à tous. Juste l’essentiel pour pratiquer et performer !">
+<meta name="twitter:site" content="@cmenyssa">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed">
@@ -352,7 +356,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/universdesdonnees\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

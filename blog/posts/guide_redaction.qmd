@@ -141,7 +141,7 @@ Bonne rédaction !
 -----------------
 
 ::: {.article-btn}
-[Plus d'articles ici](index.qmd)
+[Plus d'articles ici](../index.qmd)
 :::
 
 ::: {.further-info}
@@ -161,7 +161,7 @@ Copyright and licence
 
 ::: {.g-col-12 .g-col-md-6}
 Citer cet article :
-: Ményssa Cherifa-Luron. "Guide de Rédaction d'un article aux petits oignons" DAMA, 23/05/2024. [URL]()
+: Ményssa Cherifa-Luron. "Guide de Rédaction d'un article aux petits oignons" DAMA, 23/05/2024. [URL](https://universdesdonnees.github.io/dama/blog/posts/guide_redaction.html)
 :::
 :::
 :::

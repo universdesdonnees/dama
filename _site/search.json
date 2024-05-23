@@ -7,18 +7,32 @@
     "text": "Découvrir, Assimiler, Maîtriser, Appliquer (DAMA)Bienvenue sur DAMA, un blog dédié à rendre la data science facile, utile et accessible à tous.Notre objectif est de vous fournir l’essentiel pour pratiquer et performer en data science !"
   },
   {
-    "objectID": "README.html#comment-utiliser-ce-site",
-    "href": "README.html#comment-utiliser-ce-site",
+    "objectID": "README.html#fonctionnalités",
+    "href": "README.html#fonctionnalités",
     "title": "DAMA",
-    "section": "Comment utiliser ce site",
-    "text": "Comment utiliser ce site\n\nParcourez les différentes sections pour découvrir les concepts de la POO.\nConsultez les ressources fournies (tutoriels, exemples de code, exercices).\nN’hésitez pas à poser des questions ou à partager vos commentaires."
+    "section": "🌟 Fonctionnalités",
+    "text": "🌟 Fonctionnalités\n\nMini-cours : Retrouvez les derniers mini-cours que je poste régulièrement sur LinkedIn. Suivez-moi sur LinkedIn pour ne rien manquer !\nCours : Progressez en data science à votre rythme avec nos cours. Que vous soyez débutant, intermédiaire ou avancé, vous trouverez des exemples concrets et des exercices adaptés pour maîtriser R, créer des visualisations époustouflantes, devenir un héros Python, gérer des bases de données avec SQL, développer des modèles prédictifs puissants avec le machine learning, et bien plus encore. Accédez aux cours ici.\nBlog : Découvrez, apprenez et partagez à travers notre blog, un espace de vulgarisation scientifique autour de la data science. Vous y trouverez des articles de fond pour comprendre les concepts clés, des tutoriels pratiques pour monter en compétences, et des projets et retours d’expérience inspirants. Accédez au blog ici."
   },
   {
-    "objectID": "README.html#contact",
-    "href": "README.html#contact",
+    "objectID": "README.html#collaboration",
+    "href": "README.html#collaboration",
     "title": "DAMA",
-    "section": "Contact",
-    "text": "Contact\nPour toute question ou suggestion, vous pouvez me contacter via :\n\nLinkedIn\nMail : damaestla@gmail.com"
+    "section": "🤝 Collaboration",
+    "text": "🤝 Collaboration\nVous êtes déjà expert.e et vous souhaitez rédiger un article et/ou créer un cours ? Vous adhérez à l’esprit Open Learning Source ? C’est avec plaisir que nous collaborerons avec vous !\n\n📩 Comment contribuer ?\n\nEnvoyez-moi un e-mail à damaestla@gmail.com ou contactez-moi directement sur LinkedIn.\nCommencez à rédiger en utilisant nos templates articles et cours.\nSoumettez votre contenu, je le revois avec vous et on le publie ensemble !\n\nRejoignez la communauté DAMA et faisons briller la data science accessible à tous !"
+  },
+  {
+    "objectID": "README.html#construit-avec",
+    "href": "README.html#construit-avec",
+    "title": "DAMA",
+    "section": "🛠️ Construit avec",
+    "text": "🛠️ Construit avec\nQuarto"
+  },
+  {
+    "objectID": "README.html#auteur",
+    "href": "README.html#auteur",
+    "title": "DAMA",
+    "section": "👩‍💻 Auteur",
+    "text": "👩‍💻 Auteur\nMényssa Cherifa-Luron, PhD"
   },
   {
     "objectID": "README.html#licence",
@@ -119,11 +133,39 @@
     "text": "Collaboration\n\n\n\n\n\nTu es déjà expert.e et tu souhaites rédiger un article ou créer un cours ? Tu adhères à l’esprit Open Learning Source ?\nC’est avec plaisir, parce que j’aime les featurings ! Si ça te dit envoie moi un petit mail à damaestla@gmail.com ou contacte moi directement sur LinkedIn et commence à rédiger avec les templates articles et cours.\n\n\n\n\n    Cours disponibles\n   Choisis le cours qui t'intéresse et c'est parti !\n\n\n\n  \n    \n      \n        \n        \n          R : Introduction à la programmation\n        \n        \n          Niveau : débutant\n        \n      \n    \n\n    \n      \n        \n        \n          Python : Introduction à la programmation\n        \n        \n          Niveau : débutant\n        \n      \n    \n\n    \n      \n        \n        \n          R Shiny : Déployer des applications web avec R \n        \n        \n          Niveau : Intermédiaire\n        \n      \n    \n\n    \n      \n        \n        \n          Python : Programmation orientée objets\n        \n        \n          Niveau : Intermédiaire\n        \n      \n    \n  \n\n\n\n\n Retour au sommet"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": " Qui suis-je ?",
+    "objectID": "blog/posts/guide_redaction.html",
+    "href": "blog/posts/guide_redaction.html",
+    "title": "Guide de Rédaction d’un article aux petits oignons",
     "section": "",
-    "text": "Salut, 👋 moi, c'est Ményssa, ta formatrice principale en data science. Je suis passionnée par la transformation des données ennuyeuses en histoires captivantes – un peu comme un chef qui transforme des pois chiches en steak !\n    J'aime l'idée de rendre la data science facile et accessible à tous et toutes, c'est pour cela que j'ai créé ce site et que je partage du contenu sur  LinkedIn.\n  \n\n\n  \n     Ma mission\n    Je crois fermement que la data science ne devrait pas être réservée à une élite. Mon objectif est de démocratiser ce domaine passionnant et de donner à chacun les clés pour comprendre et utiliser la data, quel que soit son niveau de départ.\n  \n  \n     Mon approche\n    J'ai à cœur de proposer des contenus de qualité, à la fois rigoureux et ludiques. Pas de jargon incompréhensible ici, juste des explications claires et des exemples concrets pour t'aider à progresser pas à pas.\n  \n\n\n   Collaborons ensemble !\n  Tu as une expertise à partager ? Une idée de cours ou d'article ?  \n  Je suis toujours ravie de collaborer avec d'autres passionnés pour créer des contenus toujours plus enrichissants. \n  N'hésite pas à me contacter, et construisons ensemble le futur de la data science accessible !\n  Me contacter\n\n\n\n\n Retour au sommet"
+    "text": "Félicitations ! En lisant cet article, tu fais le premier pas pour devenir un·e excellent·e vulgarisateur·rice. Que tu souhaites partager tes connaissances en data science, en histoire ou en jardinage, les conseils qui suivent t’aideront à écrire des articles clairs, captivants et mémorables.\nShall we begin?"
+  },
+  {
+    "objectID": "blog/posts/guide_redaction.html#conseils-pour-un-article-réussi",
+    "href": "blog/posts/guide_redaction.html#conseils-pour-un-article-réussi",
+    "title": "Guide de Rédaction d’un article aux petits oignons",
+    "section": "7 conseils pour un article réussi",
+    "text": "7 conseils pour un article réussi\n\n1. Concentre-toi sur une idée principale\n\nTon article se focalise-t-il sur un seul message clé ?\nPeux-tu résumer l’idée directrice en une phrase ?\n\nConstruis ton article autour d’un concept central que tu veux absolument transmettre à ton lecteur. Évite de te disperser.\n\n\n\n\n\n\nConseil : Résume ton idée principale en une phrase percutante. Ce sera le fil rouge de ton article.\n\n\n\n\n\n2. Pense à ce qui intéresse ton audience\n\nTon article répond-il à la question “En quoi est-ce utile/intéressant pour mes lecteurs ?”\nApportes-tu de la valeur en répondant à leurs questions, en les éduquant ou en les divertissant ?\n\nMets-toi à la place de tes lecteurs cibles. Ton article doit leur parler et leur apporter quelque chose de concret.\n\n\n3. Captive dès les premières lignes\n\nTon intro accroche-t-elle le lecteur efficacement ?\nDonne-t-elle envie de lire la suite ?\n\nSoigne particulièrement ton introduction. Utilise une anecdote, pose une question, cite une stat qui interpelle… Sois créatif pour donner envie de poursuivre la lecture.\n\n\n4. Adopte un langage clair et accessible\n\nTon vocabulaire est-il compréhensible par tous, sans jargon ?\nTes phrases sont-elles courtes et limpides ?\nAs-tu bien vulgarisé les notions techniques ?\n\nTon objectif est de démocratiser ton sujet. Évite les termes abscons, explique les concepts, fais des analogies avec des choses connues de tous.\n\n\n5. Raconte une histoire\n\nTon article raconte-t-il une histoire avec un début, un milieu et une fin ?\nUtilises-tu des exemples concrets et des anecdotes pour illustrer tes propos ?\n\nLes meilleurs articles sont ceux qui racontent une histoire et font vivre une expérience au lecteur. Rends ton sujet vivant et tangible.\n\n\n6. Fais naître des émotions\n\nTon article suscite-t-il des émotions (curiosité, surprise, amusement…) ?\nUtilises-tu l’humour avec parcimonie et à-propos ?\n\nL’émotion permet de capter l’attention et de mieux mémoriser. Fais sourire, étonner ou réfléchir ton lecteur.\n\n\n7. Relis et raccourcis\n\nAs-tu relu ton article à voix haute pour vérifier qu’il est fluide et plaisant à lire ?\nAs-tu éliminé les longueurs et détails superflus (vise -10% à chaque relecture) ?\n\nSois impitoyable lors de tes relectures. Chaque mot doit avoir son utilité. Supprime les fioritures, va à l’essentiel pour tenir ton lecteur en haleine jusqu’au bout."
+  },
+  {
+    "objectID": "blog/posts/guide_redaction.html#règles-à-respecter",
+    "href": "blog/posts/guide_redaction.html#règles-à-respecter",
+    "title": "Guide de Rédaction d’un article aux petits oignons",
+    "section": "5 règles à respecter",
+    "text": "5 règles à respecter\n\n1. Respecte les règles de base de l’orthographe et de la grammaire\n\nAs-tu relu attentivement ton article pour traquer les fautes ?\nAs-tu utilisé un correcteur orthographique et grammatical ?\n\nUne orthographe et une grammaire irréprochables sont indispensables pour assurer ta crédibilité. Fais très attention aux accords, conjugaisons, homophones, etc.\n\n\n2. Suis une structure d’article logique et cohérente\n\nTon article est-il bien structuré avec une intro, un développement et une conclusion ?\n\nTes idées s’enchaînent-elles de façon fluide et logique ?\n\nUn plan clair et une progression cohérente des idées permettront au lecteur de bien suivre ton raisonnement du début à la fin.\n\n\n3. Cite tes sources\n\nAs-tu cité les sources des chiffres, études et affirmations clés ?\nAs-tu vérifié la fiabilité de tes sources ?\n\nPour être crédible, appuie-toi sur des sources sérieuses et reconnues que tu cites explicitement. Évite les sources douteuses ou non vérifiées.\n\n\n4. Illustre avec des graphiques, schémas, images\n\nAs-tu inséré des éléments visuels pertinents pour illustrer tes propos ?\nTes visuels sont-ils clairs, lisibles et bien légendés ?\n\nRien de tel que des graphiques et schémas pour présenter des données et concepts de façon parlante. Choisis-les judicieusement.\n\n\n5. Fais relire ton article\n\nAs-tu fait relire ton article par au moins 2 personnes ?\nAs-tu bien pris en compte leurs retours ?\n\nAvant publication, fais relire ton article par des personnes de confiance, si possible à la fois des experts et des néophytes. Leurs retours t’aideront à l’améliorer."
+  },
+  {
+    "objectID": "blog/posts/guide_redaction.html#checklist-avant-publication",
+    "href": "blog/posts/guide_redaction.html#checklist-avant-publication",
+    "title": "Guide de Rédaction d’un article aux petits oignons",
+    "section": "Checklist avant publication",
+    "text": "Checklist avant publication\n\n\n\n\n\n\n\nTon article se concentre sur une idée principale\nIl est utile et intéressant pour ton audience\nL’intro accroche et donne envie de lire\n\nLe langage est clair et accessible à tous\nTu racontes une histoire, avec des exemples\nL’article suscite des émotions\nTu as relu et raccourci au maximum\nL’orthographe et la grammaire sont correctes\nLa structure est logique et fluide\nLes sources sont citées\n\nLes visuels sont pertinents et lisibles\nTu as fait relire l’article et intégré les retours"
+  },
+  {
+    "objectID": "blog/posts/guide_redaction.html#conclusion",
+    "href": "blog/posts/guide_redaction.html#conclusion",
+    "title": "Guide de Rédaction d’un article aux petits oignons",
+    "section": "Conclusion",
+    "text": "Conclusion\nFélicitations d’avoir lu ce guide jusqu’au bout ! Tu as maintenant en main toutes les clés pour écrire des articles passionnants qui transmettent efficacement tes connaissances.\nN’oublie pas l’essentiel : choisis un sujet qui te tient à cœur, structure bien tes idées, écris avec clarté et sincérité. Tes lecteurs ne s’y tromperont pas.\nAlors lance-toi, écris, partage ! Le monde a besoin de ton savoir.\nBonne rédaction !\n\n\nPlus d’articles ici\n\n\n\n\n\nÀ propos des auteurs\n\nMényssa Cherifa-Luron, PhD est data scientist et formatrice freelance.\n\n\n\n\n\nCopyright and licence\n\n© 2024, Ményssa Cherifa-Luron\n\n\n  Cet article est sous licence Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0)  International licence.\n\n\n\nCiter cet article :\n\nMényssa Cherifa-Luron. “Guide de Rédaction d’un article aux petits oignons” DAMA, 23/05/2024. URL"
   },
   {
     "objectID": "blog/article_template.html",
@@ -145,6 +187,13 @@
     "title": "Titre",
     "section": "deux paragraphe",
     "text": "deux paragraphe\n\nsous paragraphe\n\nsous-sous paragraphe\n\n\nPlus d’article ici\n\n\n\n\n\nÀ propos des auteurs\n\nAuteur1 est …\n\n\nAuteur2 est … :…\n\n\n\n\n\nCopyright and licence\n\n© année, Auteur\n\n\n  Cet article est sous licence Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0)  International licence.\n\n\n\nCiter cet article :\n\nAuteur1, Auteur2 et al 2024. “Titre” DAMA, date. URL"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": " Qui suis-je ?",
+    "section": "",
+    "text": "Salut, 👋 moi, c'est Ményssa, ta formatrice principale en data science. Je suis passionnée par la transformation des données ennuyeuses en histoires captivantes – un peu comme un chef qui transforme des pois chiches en steak !\n    J'aime l'idée de rendre la data science facile et accessible à tous et toutes, c'est pour cela que j'ai créé ce site et que je partage du contenu sur  LinkedIn.\n  \n\n\n  \n     Ma mission\n    Je crois fermement que la data science ne devrait pas être réservée à une élite. Mon objectif est de démocratiser ce domaine passionnant et de donner à chacun les clés pour comprendre et utiliser la data, quel que soit son niveau de départ.\n  \n  \n     Mon approche\n    J'ai à cœur de proposer des contenus de qualité, à la fois rigoureux et ludiques. Pas de jargon incompréhensible ici, juste des explications claires et des exemples concrets pour t'aider à progresser pas à pas.\n  \n\n\n   Collaborons ensemble !\n  Tu as une expertise à partager ? Une idée de cours ou d'article ?  \n  Je suis toujours ravie de collaborer avec d'autres passionnés pour créer des contenus toujours plus enrichissants. \n  N'hésite pas à me contacter, et construisons ensemble le futur de la data science accessible !\n  Me contacter\n\n\n\n\n Retour au sommet"
   },
   {
     "objectID": "cours/cours_template.html",
@@ -404,117 +453,5 @@
     "title": "Mentions légales",
     "section": "Utilisation des données personnelles",
     "text": "Utilisation des données personnelles\nMényssa Cherifa-Luron collecte des informations pour identifier vos besoins et vous proposer un meilleur service. Les éléments de statistique nous permettent de mieux comprendre comment les visiteurs interagissent avec notre site.\nEn application de la loi n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, vous disposez d’un droit d’accès, de rectification ou de suppression des données vous concernant. Toute demande en ce sens devra être adressée à : Ményssa Cherifa-Luron, 11 rue antonio vivaldi, 31300 Toulouse, damaestla@gmail.com. En tout état de cause, la confidentialité des informations relatives aux visiteurs de ce site sera préservée."
-  },
-  {
-    "objectID": "README.html#fonctionnalités",
-    "href": "README.html#fonctionnalités",
-    "title": "DAMA",
-    "section": "🌟 Fonctionnalités",
-    "text": "🌟 Fonctionnalités\n\nMini-cours : Retrouvez les derniers mini-cours que je poste régulièrement sur LinkedIn. Suivez-moi sur LinkedIn pour ne rien manquer !\nCours : Progressez en data science à votre rythme avec nos cours. Que vous soyez débutant, intermédiaire ou avancé, vous trouverez des exemples concrets et des exercices adaptés pour maîtriser R, créer des visualisations époustouflantes, devenir un héros Python, gérer des bases de données avec SQL, développer des modèles prédictifs puissants avec le machine learning, et bien plus encore. Accédez aux cours ici.\nBlog : Découvrez, apprenez et partagez à travers notre blog, un espace de vulgarisation scientifique autour de la data science. Vous y trouverez des articles de fond pour comprendre les concepts clés, des tutoriels pratiques pour monter en compétences, et des projets et retours d’expérience inspirants. Accédez au blog ici."
-  },
-  {
-    "objectID": "README.html#collaboration",
-    "href": "README.html#collaboration",
-    "title": "DAMA",
-    "section": "🤝 Collaboration",
-    "text": "🤝 Collaboration\nVous êtes déjà expert.e et vous souhaitez rédiger un article et/ou créer un cours ? Vous adhérez à l’esprit Open Learning Source ? C’est avec plaisir que nous collaborerons avec vous !\n\n📩 Comment contribuer ?\n\nEnvoyez-moi un e-mail à damaestla@gmail.com ou contactez-moi directement sur LinkedIn.\nCommencez à rédiger en utilisant nos templates articles et cours.\nSoumettez votre contenu, je le revois avec vous et on le publie ensemble !\n\nRejoignez la communauté DAMA et faisons briller la data science accessible à tous !"
-  },
-  {
-    "objectID": "README.html#construit-avec",
-    "href": "README.html#construit-avec",
-    "title": "DAMA",
-    "section": "🛠️ Construit avec",
-    "text": "🛠️ Construit avec\nQuarto"
-  },
-  {
-    "objectID": "README.html#auteur",
-    "href": "README.html#auteur",
-    "title": "DAMA",
-    "section": "👩‍💻 Auteur",
-    "text": "👩‍💻 Auteur\nMényssa Cherifa-Luron, PhD"
-  },
-  {
-    "objectID": "blog/guide_redaction.html",
-    "href": "blog/guide_redaction.html",
-    "title": "Guide de Rédaction d’un article aux petits oignons",
-    "section": "",
-    "text": "Félicitations ! En lisant cet article, tu fais le premier pas pour devenir un·e excellent·e vulgarisateur·rice. Que tu souhaites partager tes connaissances en data science, en histoire ou en jardinage, les conseils qui suivent t’aideront à écrire des articles clairs, captivants et mémorables.\nShall we dive in?"
-  },
-  {
-    "objectID": "blog/guide_redaction.html#introduction",
-    "href": "blog/guide_redaction.html#introduction",
-    "title": "Guide de Rédaction d’un article aux petits oignons",
-    "section": "",
-    "text": "Accroche le lecteur dès les premières lignes avec une anecdote, une question intrigante, une statistique frappante… Présente le sujet et pourquoi il est intéressant pour ton audience. Annonce le plan.\n\n\n\n\n\n\nConseil\n\n\n\nConcentre-toi sur une seule idée directrice que tu pourras résumer en une phrase. Construis tout ton article autour de ce message clé."
-  },
-  {
-    "objectID": "blog/guide_redaction.html#développement",
-    "href": "blog/guide_redaction.html#développement",
-    "title": "Guide de Rédaction d’un article aux petits oignons",
-    "section": "Développement",
-    "text": "Développement\nOrganise tes idées de façon logique et progressive :\n\nPartie 1 : Explique les concepts de base\nVulgarise les notions techniques en utilisant un vocabulaire simple, des phrases courtes, des analogies. Illustre avec des exemples concrets.\n\n\nPartie 2 : Rentre dans les détails\nDéveloppe ton sujet plus en profondeur. Utilise des graphiques, schémas ou visualisations de données pour rendre les choses plus parlantes.\n\n\n\n\n\n\nConseil\n\n\n\nRaconte une histoire ! Les meilleurs articles font vivre une expérience au lecteur avec un début, un milieu et une fin. Rends ton sujet vivant.\n\n\n\n\nPartie 3 : Donne des cas d’application\nMontre comment les concepts s’appliquent concrètement avec des cas réels. Cite tes sources si tu utilises des chiffres ou études externes."
-  },
-  {
-    "objectID": "blog/guide_redaction.html#conclusion",
-    "href": "blog/guide_redaction.html#conclusion",
-    "title": "Guide de Rédaction d’un article aux petits oignons",
-    "section": "Conclusion",
-    "text": "Conclusion\nFélicitations d’avoir lu ce guide jusqu’au bout ! Tu as maintenant en main toutes les clés pour écrire des articles passionnants qui transmettent efficacement tes connaissances.\nN’oublie pas l’essentiel : choisis un sujet qui te tient à cœur, structure bien tes idées, écris avec clarté et sincérité. Tes lecteurs ne s’y tromperont pas.\nAlors lance-toi, écris, partage ! Le monde a besoin de ton savoir.\nBonne rédaction !\n\n\nPlus d’articles ici\n\n\n\n\n\nÀ propos des auteurs\n\nMényssa Cherifa-Luron, PhD est data scientist et formatrice freelance.\n\n\n\n\n\nCopyright and licence\n\n© 2024, Ményssa Cherifa-Luron\n\n\n  Cet article est sous licence Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0)  International licence.\n\n\n\nCiter cet article :\n\nMényssa Cherifa-Luron. “Guide de Rédaction d’un article aux petits oignons” DAMA, 23/05/2024. URL"
-  },
-  {
-    "objectID": "blog/guide_redaction.html#conseils-pour-un-article-réussi",
-    "href": "blog/guide_redaction.html#conseils-pour-un-article-réussi",
-    "title": "Guide de Rédaction d’un article aux petits oignons",
-    "section": "7 conseils pour un article réussi",
-    "text": "7 conseils pour un article réussi\n\n1. Concentre-toi sur une idée principale\n\nTon article se focalise-t-il sur un seul message clé ?\nPeux-tu résumer l’idée directrice en une phrase ?\n\nConstruis ton article autour d’un concept central que tu veux absolument transmettre à ton lecteur. Évite de te disperser.\n\n\n\n\n\n\nConseil : Résume ton idée principale en une phrase percutante. Ce sera le fil rouge de ton article.\n\n\n\n\n\n2. Pense à ce qui intéresse ton audience\n\nTon article répond-il à la question “En quoi est-ce utile/intéressant pour mes lecteurs ?”\nApportes-tu de la valeur en répondant à leurs questions, en les éduquant ou en les divertissant ?\n\nMets-toi à la place de tes lecteurs cibles. Ton article doit leur parler et leur apporter quelque chose de concret.\n\n\n3. Captive dès les premières lignes\n\nTon intro accroche-t-elle le lecteur efficacement ?\nDonne-t-elle envie de lire la suite ?\n\nSoigne particulièrement ton introduction. Utilise une anecdote, pose une question, cite une stat qui interpelle… Sois créatif pour donner envie de poursuivre la lecture.\n\n\n4. Adopte un langage clair et accessible\n\nTon vocabulaire est-il compréhensible par tous, sans jargon ?\nTes phrases sont-elles courtes et limpides ?\nAs-tu bien vulgarisé les notions techniques ?\n\nTon objectif est de démocratiser ton sujet. Évite les termes abscons, explique les concepts, fais des analogies avec des choses connues de tous.\n\n\n5. Raconte une histoire\n\nTon article raconte-t-il une histoire avec un début, un milieu et une fin ?\nUtilises-tu des exemples concrets et des anecdotes pour illustrer tes propos ?\n\nLes meilleurs articles sont ceux qui racontent une histoire et font vivre une expérience au lecteur. Rends ton sujet vivant et tangible.\n\n\n6. Fais naître des émotions\n\nTon article suscite-t-il des émotions (curiosité, surprise, amusement…) ?\nUtilises-tu l’humour avec parcimonie et à-propos ?\n\nL’émotion permet de capter l’attention et de mieux mémoriser. Fais sourire, étonner ou réfléchir ton lecteur.\n\n\n7. Relis et raccourcis\n\nAs-tu relu ton article à voix haute pour vérifier qu’il est fluide et plaisant à lire ?\nAs-tu éliminé les longueurs et détails superflus (vise -10% à chaque relecture) ?\n\nSois impitoyable lors de tes relectures. Chaque mot doit avoir son utilité. Supprime les fioritures, va à l’essentiel pour tenir ton lecteur en haleine jusqu’au bout."
-  },
-  {
-    "objectID": "blog/guide_redaction.html#règles-à-respecter",
-    "href": "blog/guide_redaction.html#règles-à-respecter",
-    "title": "Guide de Rédaction d’un article aux petits oignons",
-    "section": "5 règles à respecter",
-    "text": "5 règles à respecter\n\n1. Respecte les règles de base de l’orthographe et de la grammaire\n\nAs-tu relu attentivement ton article pour traquer les fautes ?\nAs-tu utilisé un correcteur orthographique et grammatical ?\n\nUne orthographe et une grammaire irréprochables sont indispensables pour assurer ta crédibilité. Fais très attention aux accords, conjugaisons, homophones, etc.\n\n\n2. Suis une structure d’article logique et cohérente\n\nTon article est-il bien structuré avec une intro, un développement et une conclusion ?\n\nTes idées s’enchaînent-elles de façon fluide et logique ?\n\nUn plan clair et une progression cohérente des idées permettront au lecteur de bien suivre ton raisonnement du début à la fin.\n\n\n3. Cite tes sources\n\nAs-tu cité les sources des chiffres, études et affirmations clés ?\nAs-tu vérifié la fiabilité de tes sources ?\n\nPour être crédible, appuie-toi sur des sources sérieuses et reconnues que tu cites explicitement. Évite les sources douteuses ou non vérifiées.\n\n\n4. Illustre avec des graphiques, schémas, images\n\nAs-tu inséré des éléments visuels pertinents pour illustrer tes propos ?\nTes visuels sont-ils clairs, lisibles et bien légendés ?\n\nRien de tel que des graphiques et schémas pour présenter des données et concepts de façon parlante. Choisis-les judicieusement.\n\n\n5. Fais relire ton article\n\nAs-tu fait relire ton article par au moins 2 personnes ?\nAs-tu bien pris en compte leurs retours ?\n\nAvant publication, fais relire ton article par des personnes de confiance, si possible à la fois des experts et des néophytes. Leurs retours t’aideront à l’améliorer."
-  },
-  {
-    "objectID": "blog/guide_redaction.html#checklist-avant-publication",
-    "href": "blog/guide_redaction.html#checklist-avant-publication",
-    "title": "Guide de Rédaction d’un article aux petits oignons",
-    "section": "Checklist avant publication",
-    "text": "Checklist avant publication\n\n\n\n\n\n\n\nTon article se concentre sur une idée principale\nIl est utile et intéressant pour ton audience\nL’intro accroche et donne envie de lire\n\nLe langage est clair et accessible à tous\nTu racontes une histoire, avec des exemples\nL’article suscite des émotions\nTu as relu et raccourci au maximum\nL’orthographe et la grammaire sont correctes\nLa structure est logique et fluide\nLes sources sont citées\n\nLes visuels sont pertinents et lisibles\nTu as fait relire l’article et intégré les retours"
-  },
-  {
-    "objectID": "blog/posts/guide_redaction.html",
-    "href": "blog/posts/guide_redaction.html",
-    "title": "Guide de Rédaction d’un article aux petits oignons",
-    "section": "",
-    "text": "Félicitations ! En lisant cet article, tu fais le premier pas pour devenir un·e excellent·e vulgarisateur·rice. Que tu souhaites partager tes connaissances en data science, en histoire ou en jardinage, les conseils qui suivent t’aideront à écrire des articles clairs, captivants et mémorables.\nShall we begin?"
-  },
-  {
-    "objectID": "blog/posts/guide_redaction.html#conseils-pour-un-article-réussi",
-    "href": "blog/posts/guide_redaction.html#conseils-pour-un-article-réussi",
-    "title": "Guide de Rédaction d’un article aux petits oignons",
-    "section": "7 conseils pour un article réussi",
-    "text": "7 conseils pour un article réussi\n\n1. Concentre-toi sur une idée principale\n\nTon article se focalise-t-il sur un seul message clé ?\nPeux-tu résumer l’idée directrice en une phrase ?\n\nConstruis ton article autour d’un concept central que tu veux absolument transmettre à ton lecteur. Évite de te disperser.\n\n\n\n\n\n\nConseil : Résume ton idée principale en une phrase percutante. Ce sera le fil rouge de ton article.\n\n\n\n\n\n2. Pense à ce qui intéresse ton audience\n\nTon article répond-il à la question “En quoi est-ce utile/intéressant pour mes lecteurs ?”\nApportes-tu de la valeur en répondant à leurs questions, en les éduquant ou en les divertissant ?\n\nMets-toi à la place de tes lecteurs cibles. Ton article doit leur parler et leur apporter quelque chose de concret.\n\n\n3. Captive dès les premières lignes\n\nTon intro accroche-t-elle le lecteur efficacement ?\nDonne-t-elle envie de lire la suite ?\n\nSoigne particulièrement ton introduction. Utilise une anecdote, pose une question, cite une stat qui interpelle… Sois créatif pour donner envie de poursuivre la lecture.\n\n\n4. Adopte un langage clair et accessible\n\nTon vocabulaire est-il compréhensible par tous, sans jargon ?\nTes phrases sont-elles courtes et limpides ?\nAs-tu bien vulgarisé les notions techniques ?\n\nTon objectif est de démocratiser ton sujet. Évite les termes abscons, explique les concepts, fais des analogies avec des choses connues de tous.\n\n\n5. Raconte une histoire\n\nTon article raconte-t-il une histoire avec un début, un milieu et une fin ?\nUtilises-tu des exemples concrets et des anecdotes pour illustrer tes propos ?\n\nLes meilleurs articles sont ceux qui racontent une histoire et font vivre une expérience au lecteur. Rends ton sujet vivant et tangible.\n\n\n6. Fais naître des émotions\n\nTon article suscite-t-il des émotions (curiosité, surprise, amusement…) ?\nUtilises-tu l’humour avec parcimonie et à-propos ?\n\nL’émotion permet de capter l’attention et de mieux mémoriser. Fais sourire, étonner ou réfléchir ton lecteur.\n\n\n7. Relis et raccourcis\n\nAs-tu relu ton article à voix haute pour vérifier qu’il est fluide et plaisant à lire ?\nAs-tu éliminé les longueurs et détails superflus (vise -10% à chaque relecture) ?\n\nSois impitoyable lors de tes relectures. Chaque mot doit avoir son utilité. Supprime les fioritures, va à l’essentiel pour tenir ton lecteur en haleine jusqu’au bout."
-  },
-  {
-    "objectID": "blog/posts/guide_redaction.html#règles-à-respecter",
-    "href": "blog/posts/guide_redaction.html#règles-à-respecter",
-    "title": "Guide de Rédaction d’un article aux petits oignons",
-    "section": "5 règles à respecter",
-    "text": "5 règles à respecter\n\n1. Respecte les règles de base de l’orthographe et de la grammaire\n\nAs-tu relu attentivement ton article pour traquer les fautes ?\nAs-tu utilisé un correcteur orthographique et grammatical ?\n\nUne orthographe et une grammaire irréprochables sont indispensables pour assurer ta crédibilité. Fais très attention aux accords, conjugaisons, homophones, etc.\n\n\n2. Suis une structure d’article logique et cohérente\n\nTon article est-il bien structuré avec une intro, un développement et une conclusion ?\n\nTes idées s’enchaînent-elles de façon fluide et logique ?\n\nUn plan clair et une progression cohérente des idées permettront au lecteur de bien suivre ton raisonnement du début à la fin.\n\n\n3. Cite tes sources\n\nAs-tu cité les sources des chiffres, études et affirmations clés ?\nAs-tu vérifié la fiabilité de tes sources ?\n\nPour être crédible, appuie-toi sur des sources sérieuses et reconnues que tu cites explicitement. Évite les sources douteuses ou non vérifiées.\n\n\n4. Illustre avec des graphiques, schémas, images\n\nAs-tu inséré des éléments visuels pertinents pour illustrer tes propos ?\nTes visuels sont-ils clairs, lisibles et bien légendés ?\n\nRien de tel que des graphiques et schémas pour présenter des données et concepts de façon parlante. Choisis-les judicieusement.\n\n\n5. Fais relire ton article\n\nAs-tu fait relire ton article par au moins 2 personnes ?\nAs-tu bien pris en compte leurs retours ?\n\nAvant publication, fais relire ton article par des personnes de confiance, si possible à la fois des experts et des néophytes. Leurs retours t’aideront à l’améliorer."
-  },
-  {
-    "objectID": "blog/posts/guide_redaction.html#checklist-avant-publication",
-    "href": "blog/posts/guide_redaction.html#checklist-avant-publication",
-    "title": "Guide de Rédaction d’un article aux petits oignons",
-    "section": "Checklist avant publication",
-    "text": "Checklist avant publication\n\n\n\n\n\n\n\nTon article se concentre sur une idée principale\nIl est utile et intéressant pour ton audience\nL’intro accroche et donne envie de lire\n\nLe langage est clair et accessible à tous\nTu racontes une histoire, avec des exemples\nL’article suscite des émotions\nTu as relu et raccourci au maximum\nL’orthographe et la grammaire sont correctes\nLa structure est logique et fluide\nLes sources sont citées\n\nLes visuels sont pertinents et lisibles\nTu as fait relire l’article et intégré les retours"
-  },
-  {
-    "objectID": "blog/posts/guide_redaction.html#conclusion",
-    "href": "blog/posts/guide_redaction.html#conclusion",
-    "title": "Guide de Rédaction d’un article aux petits oignons",
-    "section": "Conclusion",
-    "text": "Conclusion\nFélicitations d’avoir lu ce guide jusqu’au bout ! Tu as maintenant en main toutes les clés pour écrire des articles passionnants qui transmettent efficacement tes connaissances.\nN’oublie pas l’essentiel : choisis un sujet qui te tient à cœur, structure bien tes idées, écris avec clarté et sincérité. Tes lecteurs ne s’y tromperont pas.\nAlors lance-toi, écris, partage ! Le monde a besoin de ton savoir.\nBonne rédaction !\n\n\nPlus d’articles ici\n\n\n\n\n\nÀ propos des auteurs\n\nMényssa Cherifa-Luron, PhD est data scientist et formatrice freelance.\n\n\n\n\n\nCopyright and licence\n\n© 2024, Ményssa Cherifa-Luron\n\n\n  Cet article est sous licence Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0)  International licence.\n\n\n\nCiter cet article :\n\nMényssa Cherifa-Luron. “Guide de Rédaction d’un article aux petits oignons” DAMA, 23/05/2024. URL"
   }
 ]

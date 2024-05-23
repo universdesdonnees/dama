@@ -121,8 +121,19 @@ background: #fff;
 <link rel="stylesheet" href="../../css/custom_style.css">
 <meta property="og:title" content="DAMA - Guide de Rédaction d’un article aux petits oignons">
 <meta property="og:description" content="Un guide complet pour écrire des articles de vulgarisation captivants et de qualité. Suis ces conseils étape par étape pour partager ton savoir de façon efficace.">
-<meta property="og:image" content="../../images/guide_redaction.png">
+<meta property="og:image" content="https://universdesdonnees.github.io/images/guide_redaction.png">
 <meta property="og:site_name" content="DAMA">
+<meta property="og:image:height" content="1024">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:alt" content="Guide de rédaction DAMA">
+<meta name="twitter:title" content="DAMA - Guide de Rédaction d’un article aux petits oignons">
+<meta name="twitter:description" content="Un guide complet pour écrire des articles de vulgarisation captivants et de qualité. Suis ces conseils étape par étape pour partager ton savoir de façon efficace.">
+<meta name="twitter:image" content="https://universdesdonnees.github.io/images/guide_redaction.png">
+<meta name="twitter:site" content="@cmenyssa">
+<meta name="twitter:image-height" content="1024">
+<meta name="twitter:image-width" content="1024">
+<meta name="twitter:image:alt" content="Guide de rédaction DAMA">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed">
@@ -409,7 +420,7 @@ background: #fff;
 <p>Bonne rédaction !</p>
 <hr>
 <div class="article-btn">
-<p><a href="index.qmd">Plus d’articles ici</a></p>
+<p><a href="../../blog/index.html">Plus d’articles ici</a></p>
 </div>
 <div class="further-info">
 <div class="grid">
@@ -434,7 +445,7 @@ Ményssa Cherifa-Luron, PhD est data scientist et formatrice freelance.
 <dl>
 <dt>Citer cet article :</dt>
 <dd>
-Ményssa Cherifa-Luron. “Guide de Rédaction d’un article aux petits oignons” DAMA, 23/05/2024. <a href="">URL</a>
+Ményssa Cherifa-Luron. “Guide de Rédaction d’un article aux petits oignons” DAMA, 23/05/2024. <a href="https://universdesdonnees.github.io/dama/blog/posts/guide_redaction.html">URL</a>
 </dd>
 </dl>
 </div>
@@ -526,7 +537,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/universdesdonnees\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -861,7 +872,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <p>Contenu <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2024 par <a href="https://www.linkedin.com/in/menyssacherifaluron/">Ményssa Cherifa-Luron</a>, adapté de <a href="https://github.com/jonjoncardoso/quarto-template-for-university-courses">Jon Cardoso-Silva’s Quarto template for university courses</a><br> Tout le contenu est sous licence <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-nc" aria-label="creative-commons-nc"></i> <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)</a></p>
 </div>   
     <div class="nav-footer-center">
-<p><a href="mentions_legales.qmd">Mentions Légales</a></p>
+<p><a href="../../mentions_legales.html">Mentions Légales</a></p>
 <div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
 <p>Fait avec <i class="fa-brands fa-python" aria-label="python"></i> et <a href="https://quarto.org/">Quarto</a><br> <a href="https://github.com/universdesdonnees/dama">Voir sur <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></p>
