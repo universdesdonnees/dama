@@ -1,1 +1,1 @@
-Sitemap: https://universdesdonnees.github.io/poo_en_python/sitemap.xml
+Sitemap: https://universdesdonnees.github.io/sitemap.xml
