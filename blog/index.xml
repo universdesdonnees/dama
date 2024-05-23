@@ -10,46 +10,170 @@
 <atom:link href="https://universdesdonnees.github.io/poo_en_python/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.554</generator>
-<lastBuildDate>Wed, 15 Nov 2023 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 22 May 2024 22:00:00 GMT</lastBuildDate>
 <item>
-  <title>Super Titre</title>
+  <title>Guide de Rédaction d’un article aux petits oignons</title>
   <dc:creator>Ményssa </dc:creator>
-  <link>https://universdesdonnees.github.io/poo_en_python/blog/article_template.html</link>
+  <link>https://universdesdonnees.github.io/poo_en_python/blog/posts/guide_redaction.html</link>
   <description><![CDATA[ 
 
 
 
 
 
-<p>Pour rédiger l’article vous pouvez utiliser toute la syntaxe <a href="https://quarto.org/docs/authoring/markdown-basics.html">markdown</a></p>
-<div class="callout callout-style-simple callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<p>Félicitations ! En lisant cet article, tu fais le premier pas pour devenir un·e excellent·e vulgarisateur·rice. Que tu souhaites partager tes connaissances en data science, en histoire ou en jardinage, les conseils qui suivent t’aideront à écrire des articles clairs, captivants et mémorables.</p>
+<p>Shall we begin?</p>
+<section id="conseils-pour-un-article-réussi" class="level2">
+<h2 class="anchored" data-anchor-id="conseils-pour-un-article-réussi">7 conseils pour un article réussi</h2>
+<section id="concentre-toi-sur-une-idée-principale" class="level3">
+<h3 class="anchored" data-anchor-id="concentre-toi-sur-une-idée-principale">1. Concentre-toi sur une idée principale</h3>
+<ul>
+<li>Ton article se focalise-t-il sur un seul message clé ?</li>
+<li>Peux-tu résumer l’idée directrice en une phrase ?</li>
+</ul>
+<p>Construis ton article autour d’un concept central que tu veux absolument transmettre à ton lecteur. Évite de te disperser.</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-title-container flex-fill">
-Une note :)
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-
+<div class="callout-body-container">
+<p>Conseil : Résume ton idée principale en une phrase percutante. Ce sera le fil rouge de ton article.</p>
 </div>
 </div>
 </div>
-<section id="un-paragraphe" class="level2">
-<h2 class="anchored" data-anchor-id="un-paragraphe">un paragraphe</h2>
 </section>
-<section id="deux-paragraphe" class="level2">
-<h2 class="anchored" data-anchor-id="deux-paragraphe">deux paragraphe</h2>
-<section id="sous-paragraphe" class="level3">
-<h3 class="anchored" data-anchor-id="sous-paragraphe">sous paragraphe</h3>
-<section id="sous-sous-paragraphe" class="level4">
-<h4 class="anchored" data-anchor-id="sous-sous-paragraphe">sous-sous paragraphe</h4>
+<section id="pense-à-ce-qui-intéresse-ton-audience" class="level3">
+<h3 class="anchored" data-anchor-id="pense-à-ce-qui-intéresse-ton-audience">2. Pense à ce qui intéresse ton audience</h3>
+<ul>
+<li>Ton article répond-il à la question “En quoi est-ce utile/intéressant pour mes lecteurs ?”</li>
+<li>Apportes-tu de la valeur en répondant à leurs questions, en les éduquant ou en les divertissant ?</li>
+</ul>
+<p>Mets-toi à la place de tes lecteurs cibles. Ton article doit leur parler et leur apporter quelque chose de concret.</p>
+</section>
+<section id="captive-dès-les-premières-lignes" class="level3">
+<h3 class="anchored" data-anchor-id="captive-dès-les-premières-lignes">3. Captive dès les premières lignes</h3>
+<ul>
+<li>Ton intro accroche-t-elle le lecteur efficacement ?</li>
+<li>Donne-t-elle envie de lire la suite ?</li>
+</ul>
+<p>Soigne particulièrement ton introduction. Utilise une anecdote, pose une question, cite une stat qui interpelle… Sois créatif pour donner envie de poursuivre la lecture.</p>
+</section>
+<section id="adopte-un-langage-clair-et-accessible" class="level3">
+<h3 class="anchored" data-anchor-id="adopte-un-langage-clair-et-accessible">4. Adopte un langage clair et accessible</h3>
+<ul>
+<li>Ton vocabulaire est-il compréhensible par tous, sans jargon ?</li>
+<li>Tes phrases sont-elles courtes et limpides ?</li>
+<li>As-tu bien vulgarisé les notions techniques ?</li>
+</ul>
+<p>Ton objectif est de démocratiser ton sujet. Évite les termes abscons, explique les concepts, fais des analogies avec des choses connues de tous.</p>
+</section>
+<section id="raconte-une-histoire" class="level3">
+<h3 class="anchored" data-anchor-id="raconte-une-histoire">5. Raconte une histoire</h3>
+<ul>
+<li>Ton article raconte-t-il une histoire avec un début, un milieu et une fin ?</li>
+<li>Utilises-tu des exemples concrets et des anecdotes pour illustrer tes propos ?</li>
+</ul>
+<p>Les meilleurs articles sont ceux qui racontent une histoire et font vivre une expérience au lecteur. Rends ton sujet vivant et tangible.</p>
+</section>
+<section id="fais-naître-des-émotions" class="level3">
+<h3 class="anchored" data-anchor-id="fais-naître-des-émotions">6. Fais naître des émotions</h3>
+<ul>
+<li>Ton article suscite-t-il des émotions (curiosité, surprise, amusement…) ?</li>
+<li>Utilises-tu l’humour avec parcimonie et à-propos ?</li>
+</ul>
+<p>L’émotion permet de capter l’attention et de mieux mémoriser. Fais sourire, étonner ou réfléchir ton lecteur.</p>
+</section>
+<section id="relis-et-raccourcis" class="level3">
+<h3 class="anchored" data-anchor-id="relis-et-raccourcis">7. Relis et raccourcis</h3>
+<ul>
+<li>As-tu relu ton article à voix haute pour vérifier qu’il est fluide et plaisant à lire ?</li>
+<li>As-tu éliminé les longueurs et détails superflus (vise -10% à chaque relecture) ?</li>
+</ul>
+<p>Sois impitoyable lors de tes relectures. Chaque mot doit avoir son utilité. Supprime les fioritures, va à l’essentiel pour tenir ton lecteur en haleine jusqu’au bout.</p>
+</section>
+</section>
+<section id="règles-à-respecter" class="level2">
+<h2 class="anchored" data-anchor-id="règles-à-respecter">5 règles à respecter</h2>
+<section id="respecte-les-règles-de-base-de-lorthographe-et-de-la-grammaire" class="level3">
+<h3 class="anchored" data-anchor-id="respecte-les-règles-de-base-de-lorthographe-et-de-la-grammaire">1. Respecte les règles de base de l’orthographe et de la grammaire</h3>
+<ul>
+<li>As-tu relu attentivement ton article pour traquer les fautes ?</li>
+<li>As-tu utilisé un correcteur orthographique et grammatical ?</li>
+</ul>
+<p>Une orthographe et une grammaire irréprochables sont indispensables pour assurer ta crédibilité. Fais très attention aux accords, conjugaisons, homophones, etc.</p>
+</section>
+<section id="suis-une-structure-darticle-logique-et-cohérente" class="level3">
+<h3 class="anchored" data-anchor-id="suis-une-structure-darticle-logique-et-cohérente">2. Suis une structure d’article logique et cohérente</h3>
+<ul>
+<li>Ton article est-il bien structuré avec une intro, un développement et une conclusion ?<br>
+</li>
+<li>Tes idées s’enchaînent-elles de façon fluide et logique ?</li>
+</ul>
+<p>Un plan clair et une progression cohérente des idées permettront au lecteur de bien suivre ton raisonnement du début à la fin.</p>
+</section>
+<section id="cite-tes-sources" class="level3">
+<h3 class="anchored" data-anchor-id="cite-tes-sources">3. Cite tes sources</h3>
+<ul>
+<li>As-tu cité les sources des chiffres, études et affirmations clés ?</li>
+<li>As-tu vérifié la fiabilité de tes sources ?</li>
+</ul>
+<p>Pour être crédible, appuie-toi sur des sources sérieuses et reconnues que tu cites explicitement. Évite les sources douteuses ou non vérifiées.</p>
+</section>
+<section id="illustre-avec-des-graphiques-schémas-images" class="level3">
+<h3 class="anchored" data-anchor-id="illustre-avec-des-graphiques-schémas-images">4. Illustre avec des graphiques, schémas, images</h3>
+<ul>
+<li>As-tu inséré des éléments visuels pertinents pour illustrer tes propos ?</li>
+<li>Tes visuels sont-ils clairs, lisibles et bien légendés ?</li>
+</ul>
+<p>Rien de tel que des graphiques et schémas pour présenter des données et concepts de façon parlante. Choisis-les judicieusement.</p>
+</section>
+<section id="fais-relire-ton-article" class="level3">
+<h3 class="anchored" data-anchor-id="fais-relire-ton-article">5. Fais relire ton article</h3>
+<ul>
+<li>As-tu fait relire ton article par au moins 2 personnes ?</li>
+<li>As-tu bien pris en compte leurs retours ?</li>
+</ul>
+<p>Avant publication, fais relire ton article par des personnes de confiance, si possible à la fois des experts et des néophytes. Leurs retours t’aideront à l’améliorer.</p>
+</section>
+</section>
+<section id="checklist-avant-publication" class="level2">
+<h2 class="anchored" data-anchor-id="checklist-avant-publication">Checklist avant publication</h2>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<ul class="task-list">
+<li><label><input type="checkbox">Ton article se concentre sur une idée principale</label></li>
+<li><label><input type="checkbox">Il est utile et intéressant pour ton audience</label></li>
+<li><label><input type="checkbox">L’intro accroche et donne envie de lire<br>
+</label></li>
+<li><label><input type="checkbox">Le langage est clair et accessible à tous</label></li>
+<li><label><input type="checkbox">Tu racontes une histoire, avec des exemples</label></li>
+<li><label><input type="checkbox">L’article suscite des émotions</label></li>
+<li><label><input type="checkbox">Tu as relu et raccourci au maximum</label></li>
+<li><label><input type="checkbox">L’orthographe et la grammaire sont correctes</label></li>
+<li><label><input type="checkbox">La structure est logique et fluide</label></li>
+<li><label><input type="checkbox">Les sources sont citées<br>
+</label></li>
+<li><label><input type="checkbox">Les visuels sont pertinents et lisibles</label></li>
+<li><label><input type="checkbox">Tu as fait relire l’article et intégré les retours</label></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>Félicitations d’avoir lu ce guide jusqu’au bout ! Tu as maintenant en main toutes les clés pour écrire des articles passionnants qui transmettent efficacement tes connaissances.</p>
+<p>N’oublie pas l’essentiel : choisis un sujet qui te tient à cœur, structure bien tes idées, écris avec clarté et sincérité. Tes lecteurs ne s’y tromperont pas.</p>
+<p>Alors lance-toi, écris, partage ! Le monde a besoin de ton savoir.</p>
+<p>Bonne rédaction !</p>
 <hr>
 <div class="article-btn">
-<p><a href="../blog/index.html">Plus d’article ici</a></p>
+<p><a href="index.qmd">Plus d’articles ici</a></p>
 </div>
 <div class="further-info">
 <div class="grid">
@@ -57,10 +181,7 @@ Une note :)
 <dl>
 <dt>À propos des auteurs</dt>
 <dd>
-<strong>Auteur1</strong> est …
-</dd>
-<dd>
-<strong>Auteur2</strong> est … :…
+Ményssa Cherifa-Luron, PhD est data scientist et formatrice freelance.
 </dd>
 </dl>
 </div>
@@ -68,16 +189,16 @@ Une note :)
 <dl>
 <dt>Copyright and licence</dt>
 <dd>
-© année, Auteur
+© 2024, Ményssa Cherifa-Luron
 </dd>
 </dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> Cet article est sous licence Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>.</p>
+<p><a href="http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" style="height:22px!important;vertical-align:text-bottom;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"></a> Cet article est sous licence Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0) <a href="http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>.</p>
 </div>
 <div class="g-col-12 g-col-md-6">
 <dl>
 <dt>Citer cet article :</dt>
 <dd>
-Auteur1, Auteur2 et al 2024. “Titre” DAMA, date. <a href="">URL</a>
+Ményssa Cherifa-Luron. “Guide de Rédaction d’un article aux petits oignons” DAMA, 23/05/2024. <a href="">URL</a>
 </dd>
 </dl>
 </div>
@@ -86,18 +207,13 @@ Auteur1, Auteur2 et al 2024. “Titre” DAMA, date. <a href="">URL</a>
 
 
 </section>
-</section>
-</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Retour au sommet</a> ]]></description>
-  <category>data</category>
-  <category>R</category>
-  <category>Data quality</category>
-  <category>Data analysis</category>
-  <category>Monitoring</category>
-  <guid>https://universdesdonnees.github.io/poo_en_python/blog/article_template.html</guid>
-  <pubDate>Wed, 15 Nov 2023 23:00:00 GMT</pubDate>
-  <media:content url="https://universdesdonnees.github.io/poo_en_python/blog" medium="image"/>
+  <category>rédaction</category>
+  <category>création de contenus</category>
+  <guid>https://universdesdonnees.github.io/poo_en_python/blog/posts/guide_redaction.html</guid>
+  <pubDate>Wed, 22 May 2024 22:00:00 GMT</pubDate>
+  <media:content url="https://universdesdonnees.github.io/poo_en_python/images/guide_redaction.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 </channel>
 </rss>
