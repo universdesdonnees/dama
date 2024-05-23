@@ -1,0 +1,26 @@
+include-in-header: 
+  - ../helpers/progress-bar.html
+  
+
+format: 
+    html:
+        toc: true
+        toc_float: false
+        toc-title: Table des matières
+        toc-location: left
+        code-copy: true
+        code-fold: false
+        code-link: true
+        code-overflow: scroll
+        code-summary: "Voir le code"
+        embed-resources: true
+        anchor-sections: true
+        smooth-scroll: true
+number-sections: true
+execute: 
+    echo: true
+    warning: false
+    message: false
+    fig.with: 9
+title-block-banner: "#fff"
+title-block-banner-color: "black"
