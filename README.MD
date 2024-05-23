@@ -5,13 +5,6 @@
 
 - **Mini-cours** : Retrouvez les derniers mini-cours que je poste régulièrement sur LinkedIn. Suivez-moi sur [LinkedIn](https://www.linkedin.com/in/menyssacherifaluron/) pour ne rien manquer !
 
-- **Cours** : Progressez en data science à votre rythme avec nos cours. Que vous soyez débutant, intermédiaire ou avancé, vous trouverez des exem
-
-
-## 🌟 Fonctionnalités
-
-- **Mini-cours** : Retrouvez les derniers mini-cours que je poste régulièrement sur LinkedIn. Suivez-moi sur [LinkedIn](https://www.linkedin.com/in/menyssacherifaluron/) pour ne rien manquer !
-
 - **Cours** : Progressez en data science à votre rythme avec nos cours. Que vous soyez débutant, intermédiaire ou avancé, vous trouverez des exemples concrets et des exercices adaptés pour maîtriser R, créer des visualisations époustouflantes, devenir un héros Python, gérer des bases de données avec SQL, développer des modèles prédictifs puissants avec le machine learning, et bien plus encore. Accédez aux cours [ici](cours/index.qmd).
 
 - **Blog** : Découvrez, apprenez et partagez à travers notre blog, un espace de vulgarisation scientifique autour de la data science. Vous y trouverez des articles de fond pour comprendre les concepts clés, des tutoriels pratiques pour monter en compétences, et des projets et retours d'expérience inspirants. Accédez au blog [ici](blog/index.qmd).
@@ -30,8 +23,7 @@ Rejoignez la communauté DAMA et faisons briller la data science accessible à t
 
 ## 🛠️ Construit avec
 
-- {{< fa brands python >}} Python
-- [Quarto](https://quarto.org/)
+[Quarto](https://quarto.org/)
 
 ## 👩‍💻 Auteur
 
