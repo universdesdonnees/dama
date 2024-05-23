@@ -1,0 +1,167 @@
+---
+title: "Guide de Rédaction d'un article aux petits oignons"
+description: |
+    Un guide complet pour écrire des articles de vulgarisation captivants et de qualité. Suis ces conseils étape par étape pour partager ton savoir de façon efficace.
+categories: 
+  - rédaction  
+  - création de contenus
+author: "Ményssa"
+date: today
+toc: true
+image: "../../images/guide_redaction.png"
+title-block-banner: "#fff"
+title-block-banner-color: "black" 
+image-alt: Guide de rédaction DAMA
+---
+
+Félicitations ! En lisant cet article, tu fais le premier pas pour devenir un·e excellent·e vulgarisateur·rice. Que tu souhaites partager tes connaissances en data science, en histoire ou en jardinage, les conseils qui suivent t'aideront à écrire des articles clairs, captivants et mémorables. 
+
+Shall we begin?
+
+## 7 conseils pour un article réussi
+
+### 1. Concentre-toi sur une idée principale
+
+- Ton article se focalise-t-il sur un seul message clé ?
+- Peux-tu résumer l'idée directrice en une phrase ?
+
+Construis ton article autour d'un concept central que tu veux absolument transmettre à ton lecteur. Évite de te disperser.
+
+::: {.callout-note appearance="simple" }
+Conseil : Résume ton idée principale en une phrase percutante. Ce sera le fil rouge de ton article.
+:::
+
+### 2. Pense à ce qui intéresse ton audience
+
+- Ton article répond-il à la question "En quoi est-ce utile/intéressant pour mes lecteurs ?" 
+- Apportes-tu de la valeur en répondant à leurs questions, en les éduquant ou en les divertissant ?
+
+Mets-toi à la place de tes lecteurs cibles. Ton article doit leur parler et leur apporter quelque chose de concret.
+
+### 3. Captive dès les premières lignes
+
+- Ton intro accroche-t-elle le lecteur efficacement ?
+- Donne-t-elle envie de lire la suite ?
+
+Soigne particulièrement ton introduction. Utilise une anecdote, pose une question, cite une stat qui interpelle... Sois créatif pour donner envie de poursuivre la lecture.
+
+### 4. Adopte un langage clair et accessible 
+
+- Ton vocabulaire est-il compréhensible par tous, sans jargon ?
+- Tes phrases sont-elles courtes et limpides ?
+- As-tu bien vulgarisé les notions techniques ?
+
+Ton objectif est de démocratiser ton sujet. Évite les termes abscons, explique les concepts, fais des analogies avec des choses connues de tous.
+
+### 5. Raconte une histoire
+
+- Ton article raconte-t-il une histoire avec un début, un milieu et une fin ?
+- Utilises-tu des exemples concrets et des anecdotes pour illustrer tes propos ?
+
+Les meilleurs articles sont ceux qui racontent une histoire et font vivre une expérience au lecteur. Rends ton sujet vivant et tangible.
+
+### 6. Fais naître des émotions
+
+- Ton article suscite-t-il des émotions (curiosité, surprise, amusement...) ?
+- Utilises-tu l'humour avec parcimonie et à-propos ?
+
+L'émotion permet de capter l'attention et de mieux mémoriser. Fais sourire, étonner ou réfléchir ton lecteur.
+
+### 7. Relis et raccourcis
+
+- As-tu relu ton article à voix haute pour vérifier qu'il est fluide et plaisant à lire ?
+- As-tu éliminé les longueurs et détails superflus (vise -10% à chaque relecture) ?
+
+Sois impitoyable lors de tes relectures. Chaque mot doit avoir son utilité. Supprime les fioritures, va à l'essentiel pour tenir ton lecteur en haleine jusqu'au bout.
+
+## 5 règles à respecter 
+
+### 1. Respecte les règles de base de l'orthographe et de la grammaire
+
+- As-tu relu attentivement ton article pour traquer les fautes ?
+- As-tu utilisé un correcteur orthographique et grammatical ?
+
+Une orthographe et une grammaire irréprochables sont indispensables pour assurer ta crédibilité. Fais très attention aux accords, conjugaisons, homophones, etc.
+
+### 2. Suis une structure d'article logique et cohérente
+
+- Ton article est-il bien structuré avec une intro, un développement et une conclusion ?  
+- Tes idées s'enchaînent-elles de façon fluide et logique ? 
+
+Un plan clair et une progression cohérente des idées permettront au lecteur de bien suivre ton raisonnement du début à la fin.
+
+### 3. Cite tes sources 
+
+- As-tu cité les sources des chiffres, études et affirmations clés ?
+- As-tu vérifié la fiabilité de tes sources ? 
+
+Pour être crédible, appuie-toi sur des sources sérieuses et reconnues que tu cites explicitement. Évite les sources douteuses ou non vérifiées.
+
+### 4. Illustre avec des graphiques, schémas, images
+
+- As-tu inséré des éléments visuels pertinents pour illustrer tes propos ?
+- Tes visuels sont-ils clairs, lisibles et bien légendés ?
+
+Rien de tel que des graphiques et schémas pour présenter des données et concepts de façon parlante. Choisis-les judicieusement.
+
+### 5. Fais relire ton article 
+
+- As-tu fait relire ton article par au moins 2 personnes ?
+- As-tu bien pris en compte leurs retours ?
+
+Avant publication, fais relire ton article par des personnes de confiance, si possible à la fois des experts et des néophytes. Leurs retours t'aideront à l'améliorer.
+
+## Checklist avant publication
+
+::: {.callout-note appearance="simple" }
+- [ ] Ton article se concentre sur une idée principale 
+- [ ] Il est utile et intéressant pour ton audience
+- [ ] L'intro accroche et donne envie de lire  
+- [ ] Le langage est clair et accessible à tous
+- [ ] Tu racontes une histoire, avec des exemples 
+- [ ] L'article suscite des émotions
+- [ ] Tu as relu et raccourci au maximum
+- [ ] L'orthographe et la grammaire sont correctes
+- [ ] La structure est logique et fluide 
+- [ ] Les sources sont citées  
+- [ ] Les visuels sont pertinents et lisibles
+- [ ] Tu as fait relire l'article et intégré les retours
+:::
+
+## Conclusion
+
+Félicitations d'avoir lu ce guide jusqu'au bout ! Tu as maintenant en main toutes les clés pour écrire des articles passionnants qui transmettent efficacement tes connaissances.  
+
+N'oublie pas l'essentiel : choisis un sujet qui te tient à cœur, structure bien tes idées, écris avec clarté et sincérité. Tes lecteurs ne s'y tromperont pas.
+
+Alors lance-toi, écris, partage ! Le monde a besoin de ton savoir. 
+
+Bonne rédaction !
+
+-----------------
+
+::: {.article-btn}
+[Plus d'articles ici](index.qmd)
+:::
+
+::: {.further-info}
+::: grid
+::: {.g-col-12 .g-col-md-12}
+À propos des auteurs
+: Ményssa Cherifa-Luron, PhD est data scientist et formatrice freelance.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+Copyright and licence
+: &copy; 2024, Ményssa Cherifa-Luron
+
+<a href="http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" style="height:22px!important;vertical-align:text-bottom;"/><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"/><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"/></a> Cet article est sous licence Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0) <a href="http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>.
+
+:::
+
+::: {.g-col-12 .g-col-md-6}
+Citer cet article :
+: Ményssa Cherifa-Luron. "Guide de Rédaction d'un article aux petits oignons" DAMA, 23/05/2024. [URL]()
+:::
+:::
+:::

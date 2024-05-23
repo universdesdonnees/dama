@@ -2,6 +2,8 @@
 search: false
 repo-actions: false
 listing:
+  contents: 
+  - posts
   sort: "date desc"
   type: grid
   categories: true

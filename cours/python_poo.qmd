@@ -657,7 +657,7 @@ La correction sera disponible prochainement ;)
 
 ::: {.g-col-12 .g-col-md-6}
 Copyright and licence
-: &copy; 2024, Ményssa Cherifa-Luron, PhD 
+: &copy; 2024, Ményssa Cherifa-Luron
 
 <a href="http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" style="height:22px!important;vertical-align:text-bottom;"/><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"/><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"/></a> Cet article est sous licence Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0) <a href="http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>.
 
@@ -665,7 +665,7 @@ Copyright and licence
 
 ::: {.g-col-12 .g-col-md-6}
 Citer ce cours :
-: Ményssa Cherifa-Luron, PhD. "Gentle introduction à la Programmation Orientée Objets en Python". DAMA, 23/05/2024. Disponible [ici]( https://universdesdonnees.github.io/dama/cours/python_poo.html)
+: Ményssa Cherifa-Luron. "Gentle introduction à la Programmation Orientée Objets en Python". DAMA, 23/05/2024. Disponible [ici]( https://universdesdonnees.github.io/dama/cours/python_poo.html)
 :::
 :::
 :::

@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Ményssa">
-<meta name="description" content="blabla à propos de bla et blabla">
+<meta name="author" content="Prénom Nom">
+<meta name="description" content="Description courte de ton article (150 caractères)">
 
-<title>DAMA - Super Titre</title>
+<title>DAMA - Titre</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -119,8 +119,8 @@ background: #fff;
 
 
 <link rel="stylesheet" href="../css/custom_style.css">
-<meta property="og:title" content="DAMA - Super Titre">
-<meta property="og:description" content="blabla à propos de bla et blabla">
+<meta property="og:title" content="DAMA - Titre">
+<meta property="og:description" content="Description courte de ton article (150 caractères)">
 <meta property="og:site_name" content="DAMA">
 </head>
 
@@ -184,18 +184,16 @@ background: #fff;
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Super Titre</h1>
+      <h1 class="title">Titre</h1>
                   <div>
         <div class="description">
-          <p>blabla à propos de bla et blabla</p>
+          <p>Description courte de ton article (150 caractères)</p>
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">data</div>
-                <div class="quarto-category">R</div>
-                <div class="quarto-category">Data quality</div>
-                <div class="quarto-category">Data analysis</div>
-                <div class="quarto-category">Monitoring</div>
+                <div class="quarto-category">catégorie 1</div>
+                <div class="quarto-category">catégorie 2</div>
+                <div class="quarto-category">catégorie 3</div>
               </div>
                   </div>
   </div>
@@ -206,14 +204,14 @@ background: #fff;
       <div>
       <div class="quarto-title-meta-heading">Auteur·rice</div>
       <div class="quarto-title-meta-contents">
-               <p>Ményssa </p>
+               <p>Prénom Nom </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Date de publication</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">16 novembre 2023</p>
+        <p class="date">23 mai 2024</p>
       </div>
     </div>
     
@@ -294,7 +292,7 @@ Une note :)
 © année, Auteur
 </dd>
 </dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> Cet article est sous licence Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>.</p>
+<p><a href="http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" style="height:22px!important;vertical-align:text-bottom;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"></a> Cet article est sous licence Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0) <a href="http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>.</p>
 </div>
 <div class="g-col-12 g-col-md-6">
 <dl>
@@ -394,7 +392,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/universdesdonnees\.github\.io\/poo_en_python\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
